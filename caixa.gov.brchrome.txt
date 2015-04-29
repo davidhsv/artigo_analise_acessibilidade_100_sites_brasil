@@ -1,0 +1,24 @@
+*** Begin accessibility audit results ***
+An accessibility audit found 
+Warnings:
+Warning: AX_TEXT_02 (Images should have an alt attribute) failed on the following elements (1 - 4 of 4):
+#itemDois > .content-item.visible-mobile > IMG
+#itemTres > .content-item.visible-mobile > IMG
+#itemQuatro > .content-item.visible-mobile > IMG
+#itemCinco > .content-item.visible-mobile > IMG
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_02--images-should-have-an-alt-attribute-unless-they-have-an-aria-role-of-presentation for more information.
+
+Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 39):
+#linkTurnOnAcc
+#linkTurnOffAcc
+#header-home > .header-content.noindex > .hotlinks.clearfix > .helper > LI > .highlight
+#header-home > .header-content.noindex > .hotlinks.clearfix > .languages > LI > A
+#header-home > .header-content.noindex > .hotlinks.clearfix > .languages > LI:nth-of-type(2) > A
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_color_01--text-elements-should-have-a-reasonable-contrast-ratio for more information.
+
+Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following element:
+#main-logo > .ir
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_image_01--meaningful-images-should-not-be-used-in-element-backgrounds for more information.
+
+
+*** End accessibility audit results ***

@@ -1,0 +1,19 @@
+*** Begin accessibility audit results ***
+An accessibility audit found 
+Errors:
+Error: AX_TEXT_01 (Controls and media elements should have labels) failed on the following element:
+#search > .user-menu-btn.icon-search
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_01--controls-and-media-elements-should-have-labels for more information.
+
+
+Warnings:
+Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 42):
+#main-menu-btn
+#main-menu > UL > LI:nth-of-type(19) > .social-nav > UL > LI > .fa.fa-facebook
+#main-menu > UL > LI:nth-of-type(19) > .social-nav > UL > LI:nth-of-type(2) > .fa.fa-twitter
+#main-menu > UL > LI:nth-of-type(19) > .social-nav > UL > LI:nth-of-type(3) > .fa.fa-google-plus
+#main-menu > UL > LI:nth-of-type(19) > .social-nav > UL > LI:nth-of-type(4) > .fa.fa-youtube
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_focus_01--these-elements-are-focusable-but-either-invisible-or-obscured-by-another-element for more information.
+
+
+*** End accessibility audit results ***

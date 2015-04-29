@@ -1,0 +1,1 @@
+{"status":404,"message":"Failed to load the address: http:\/\/parperfeito.com.br","globalStats":{"errorDensity":"155","warningDensity":"12","allDensity":"168","stdDev":"401"},"log":null}

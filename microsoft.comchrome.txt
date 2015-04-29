@@ -1,0 +1,36 @@
+ReferenceError: Can't find variable: $
+
+  http://www.microsoft.com/pt-br/default.aspx:3 in global code
+ReferenceError: Can't find variable: WTOptimize
+
+  http://www.microsoft.com/pt-br/default.aspx:121 in global code
+TypeError: undefined is not an object (evaluating 'window.picturePolyfill.resolveLast')
+
+  http://www.microsoft.com/pt-br/default.aspx:121 in global code
+TypeError: undefined is not an object (evaluating 'window.picturePolyfill.resolveLast')
+
+  http://www.microsoft.com/pt-br/default.aspx:121 in global code
+TypeError: undefined is not an object (evaluating 'window.picturePolyfill.resolveLast')
+
+  http://www.microsoft.com/pt-br/default.aspx:121 in global code
+*** Begin accessibility audit results ***
+An accessibility audit found 
+Warnings:
+Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 42):
+#f2833bf2-4c29-4a42-a757-4f7a87f5aced
+#slide-1 > .slide.heroitem.light-foreground > .media > A
+#slide-1 > .slide.slide-gradient.heroitem.light-foreground > .media > A
+#833bea59-eef2-4930-80f0-40363f35dbf5
+#4a148fd9-1ec7-4622-927e-c283a4953f69
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_focus_01--these-elements-are-focusable-but-either-invisible-or-obscured-by-another-element for more information.
+
+Warning: AX_TEXT_02 (Images should have an alt attribute) failed on the following elements (1 - 5 of 6):
+#ctl00_NonJsDropdown > .mscom-search-image.mscom-search-DropdownArrow
+body > .row-fluid.pagebody > .span.bp0-col-1-1.bp1-col-1-1.bp2-col-1-1.bp3-col-1-1.mscom-remove-margin-left.sortable-control > .CSPvNext > .top-link-bar.grid-container.mscom-grid-container.row-fluid > .span.bp0-col-1-1.bp1-col-5-1.bp2-col-5-1.bp3-col-5-1 > .CSPvNext > .row-fluid > .span > .mscom-link.top-link > .mscom-image.caret-icon
+body > .row-fluid.pagebody > .span.bp0-col-1-1.bp1-col-1-1.bp2-col-1-1.bp3-col-1-1.mscom-remove-margin-left.sortable-control > .CSPvNext > .top-link-bar.grid-container.mscom-grid-container.row-fluid > .span.bp0-col-1-1.bp1-col-5-1.bp2-col-5-1.bp3-col-5-1:nth-of-type(2) > .CSPvNext > .row-fluid > .span > .mscom-link.top-link > .mscom-image.caret-icon
+body > .row-fluid.pagebody > .span.bp0-col-1-1.bp1-col-1-1.bp2-col-1-1.bp3-col-1-1.mscom-remove-margin-left.sortable-control > .CSPvNext > .top-link-bar.grid-container.mscom-grid-container.row-fluid > .span.bp0-col-1-1.bp1-col-5-1.bp2-col-5-1.bp3-col-5-1:nth-of-type(3) > .CSPvNext > .row-fluid > .span > .mscom-link.top-link > .mscom-image.caret-icon
+body > .row-fluid.pagebody > .span.bp0-col-1-1.bp1-col-1-1.bp2-col-1-1.bp3-col-1-1.mscom-remove-margin-left.sortable-control > .CSPvNext > .top-link-bar.grid-container.mscom-grid-container.row-fluid > .span.bp0-col-1-1.bp1-col-5-1.bp2-col-5-1.bp3-col-5-1:nth-of-type(4) > .CSPvNext > .row-fluid > .span > .mscom-link.top-link > .mscom-image.caret-icon
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_02--images-should-have-an-alt-attribute-unless-they-have-an-aria-role-of-presentation for more information.
+
+
+*** End accessibility audit results ***
