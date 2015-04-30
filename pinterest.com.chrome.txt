@@ -1,0 +1,24 @@
+*** Begin accessibility audit results ***
+An accessibility audit found 
+Warnings:
+Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 4 of 4):
+body > .App.AppBase.Module.content_only > .appContent > .mainContainer > .HomePage.Module > .InlineSignup.Module.UnauthHomePage.wallStep > .inspiredSearchAboutTermsWrapper > .Button.Module.NavigateButton.borderless.hasText.homeUnauthTertiaryHorizontal.about
+body > .App.AppBase.Module.content_only > .appContent > .mainContainer > .HomePage.Module > .InlineSignup.Module.UnauthHomePage.wallStep > .inspiredSearchAboutTermsWrapper > .Button.Module.NavigateButton.borderless.hasText.homeUnauthTertiaryHorizontal.blog
+body > .App.AppBase.Module.content_only > .appContent > .mainContainer > .HomePage.Module > .InlineSignup.Module.UnauthHomePage.wallStep > .inspiredSearchAboutTermsWrapper > .Button.Module.NavigateButton.borderless.hasText.homeUnauthTertiaryHorizontal.business
+body > .App.AppBase.Module.content_only > .appContent > .mainContainer > .HomePage.Module > .InlineSignup.Module.UnauthHomePage.wallStep > .inspiredSearchAboutTermsWrapper > .Button.Module.NavigateButton.borderless.hasText.homeUnauthTertiaryHorizontal.termsPrivacy
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_focus_01--these-elements-are-focusable-but-either-invisible-or-obscured-by-another-element for more information.
+
+Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 25):
+body > .App.AppBase.Module.content_only > .appContent > .mainContainer > .HomePage.Module > .InlineSignup.Module.UnauthHomePage.wallStep > .inspiredSearchContentWrapper > .inspiredSearchDialog > .homeUnauthLogoWrapper > .homeUnauthLogo > SPAN
+body > .App.AppBase.Module.content_only > .appContent > .mainContainer > .HomePage.Module > .InlineSignup.Module.UnauthHomePage.wallStep > .inspiredSearchContentWrapper > .inspiredSearchDialog > .inspiredSearchPinCaption.centeredWithinWrapper > .title
+body > .App.AppBase.Module.content_only > .appContent > .mainContainer > .HomePage.Module > .InlineSignup.Module.UnauthHomePage.wallStep > .inspiredSearchContentWrapper > .inspiredSearchDialog > .inspiredSearchPinCaption.centeredWithinWrapper > .subtitle
+body > .App.AppBase.Module.content_only > .appContent > .mainContainer > .HomePage.Module > .InlineSignup.Module.UnauthHomePage.wallStep > .inspiredSearchContentWrapper > .inspiredSearchDialog > .inspiredSearchPinCaption.centeredWithinWrapper > .inspiredSearchRegistrationContainer.centeredWithinWrapper > .Module.SignupForm.homeSignupForm > .buttonWrapper > .registerButtons.styleLogin > .inspiredWallLogin.Login.LoginBase.Module.compact.register > .standardForm.standardForm--login.popupStyle > .socialLogin > .Button.Module.btn.hasText.large.rounded.unAuthFacebookConnect.registerLoginButton.unauthHomeRegisterButton.multiStepRedesign > .buttonText
+body > .App.AppBase.Module.content_only > .appContent > .mainContainer > .HomePage.Module > .InlineSignup.Module.UnauthHomePage.wallStep > .inspiredSearchContentWrapper > .inspiredSearchDialog > .inspiredSearchPinCaption.centeredWithinWrapper > .inspiredSearchRegistrationContainer.centeredWithinWrapper > .Module.SignupForm.homeSignupForm > .buttonWrapper > .registerButtons.styleLogin > .Module.UserRegister > .standardForm.darkWall > .inlineEmailForm > .namegroup > .step1.multiStep.mWebMultiStep.darkWall > .groupSeparatorWrapper > .groupSeparator > P
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_color_01--text-elements-should-have-a-reasonable-contrast-ratio for more information.
+
+Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following element:
+body > .App.AppBase.Module.content_only > .appContent > .mainContainer > .HomePage.Module > .InlineSignup.Module.UnauthHomePage.wallStep > .inspiredSearchContentWrapper > .inspiredSearchDialog > .inspiredSearchPinCaption.centeredWithinWrapper > .inspiredSearchRegistrationContainer.centeredWithinWrapper > .Module.SignupForm.homeSignupForm > .buttonWrapper > .registerButtons.styleLogin > .inspiredWallLogin.Login.LoginBase.Module.compact.register > .standardForm.standardForm--login.popupStyle > .socialLogin > .Button.Module.btn.hasText.large.rounded.unAuthFacebookConnect.registerLoginButton.unauthHomeRegisterButton.multiStepRedesign > EM
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_image_01--meaningful-images-should-not-be-used-in-element-backgrounds for more information.
+
+
+*** End accessibility audit results ***

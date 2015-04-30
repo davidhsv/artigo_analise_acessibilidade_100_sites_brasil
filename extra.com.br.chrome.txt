@@ -1,0 +1,42 @@
+*** Begin accessibility audit results ***
+An accessibility audit found 
+Errors:
+Error: AX_TEXT_01 (Controls and media elements should have labels) failed on the following elements (1 - 2 of 2):
+#sli_search_1
+#ctl00_Conteudo_PaginaSistemaArea1_ctl22_emailClienteNews
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_01--controls-and-media-elements-should-have-labels for more information.
+
+
+Warnings:
+Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 13):
+#sli_search_1
+#ctl00_Conteudo_PaginaSistemaArea1_ctl17_btnOK
+#ctl00_Conteudo_PaginaSistemaArea1_1702 > .banner-cont-auto > .box-banner > A
+#ctl00_Conteudo_PaginaSistemaArea1_1702 > .banner-cont-auto > .box-banner:nth-of-type(2) > A
+#ctl00_Conteudo_PaginaSistemaArea1_1702 > .banner-cont-auto > .box-banner:nth-of-type(3) > A
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_focus_01--these-elements-are-focusable-but-either-invisible-or-obscured-by-another-element for more information.
+
+Warning: AX_TEXT_02 (Images should have an alt attribute) failed on the following elements (1 - 5 of 10):
+#ctl00_Conteudo_PaginaSistemaArea1_1702 > .banner-cont-auto > .box-banner > A > IMG
+#ctl00_Conteudo_PaginaSistemaArea1_1702 > .banner-cont-auto > .box-banner:nth-of-type(2) > A > IMG
+#ctl00_Conteudo_PaginaSistemaArea1_1702 > .banner-cont-auto > .box-banner:nth-of-type(3) > A > IMG
+#ctl00_Conteudo_PaginaSistemaArea1_1603 > .banner-cont-auto > .box-banner > A > IMG
+#ctl00_Conteudo_PaginaSistemaArea1_1603 > .banner-cont-auto > .box-banner:nth-of-type(2) > A > IMG
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_02--images-should-have-an-alt-attribute-unless-they-have-an-aria-role-of-presentation for more information.
+
+Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 668):
+#ctl00_TopBar_TopBar1_divHeader > .topHeader > .wp > .logo
+#ctl00_TopBar_TopBar1_lblMenuSuperior > .headerMenu > .mn.alimentos-e-bebidas > .it-mn > B
+#ctl00_TopBar_TopBar1_lblMenuSuperior > .headerMenu > .mn.informatica-e-tecnologia > .it-mn > B
+#ctl00_TopBar_TopBar1_lblMenuSuperior > .headerMenu > .mn.casa-e-escritorio > .it-mn > B
+#ctl00_TopBar_TopBar1_lblMenuSuperior > .headerMenu > .mn.cultura-e-entretenimento > .it-mn > B
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_color_01--text-elements-should-have-a-reasonable-contrast-ratio for more information.
+
+Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 3 of 3):
+#ctl00_Conteudo_PaginaSistemaArea1_ctl17_btnOK
+#footer > .fArea3 > .container > .col.dev > .devices > .desktop > A > I
+#footer > .fArea3 > .container > .col.dev > .devices > .mobile > A > I
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_image_01--meaningful-images-should-not-be-used-in-element-backgrounds for more information.
+
+
+*** End accessibility audit results ***

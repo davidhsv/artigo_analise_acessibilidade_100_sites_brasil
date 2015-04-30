@@ -1,0 +1,35 @@
+*** Begin accessibility audit results ***
+An accessibility audit found 
+Errors:
+Error: AX_TEXT_01 (Controls and media elements should have labels) failed on the following element:
+#2583 > .search-weather-container > .box-search-weather > FORM > .box-input > .input-search-weather
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_01--controls-and-media-elements-should-have-labels for more information.
+
+
+Warnings:
+Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 19):
+#zaz-app-navbar > .nb__logo
+A
+#2583 > .default-weather-container.weather-container.visible > .weather-bottom > .box-weather > .links > A
+#7829711 > A
+#7829711 > A > .container-essentials.video > .news > .title > H2 > .hat.gray.hover-news.border-news
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_focus_01--these-elements-are-focusable-but-either-invisible-or-obscured-by-another-element for more information.
+
+Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 20):
+#zaz-nb-plugin-breakingNews > .trr-bnews > .trr-bnews__content-outside > .trr-bnews__link > .trr-bnews__content-inside > .trr-bnews__pill
+#21f2f518119750931240c1f60bd13c21mrs3RCRD > A > .container-essentials.news > .news > .title > H2 > .hat.hover-news.border-news
+#21f2f518119750931240c1f60bd13c21mrs3RCRD > A > .container-essentials.news > .news > .title > H3 > .text
+#21f2f518119750931240c1f60bd13c21mrs3RCRD > A > .container-essentials.news > .news > .card-footer > .share > .action-link > .share-text
+#2583 > .default-weather-container.weather-container.visible > .phrase
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_color_01--text-elements-should-have-a-reasonable-contrast-ratio for more information.
+
+Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 5 of 34):
+#nb-menu
+#sc-menu-arrow
+#zaz-nb-plugin-navbar-email > .mail24
+#zaz-app-navbar > .nb__logo
+#21f2f518119750931240c1f60bd13c21mrs3RCRD > A > .container-essentials.news > .news > .card-footer > .share > .action-link > .sprite-icons-card.arrow-share.web
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_image_01--meaningful-images-should-not-be-used-in-element-backgrounds for more information.
+
+
+*** End accessibility audit results ***

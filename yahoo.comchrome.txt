@@ -1,3 +1,0 @@
-*** Begin accessibility audit results ***
-An accessibility audit found 
-*** End accessibility audit results ***

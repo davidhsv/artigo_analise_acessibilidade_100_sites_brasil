@@ -1,0 +1,44 @@
+TypeError: undefined is not a constructor (evaluating 'b(window).on')
+
+  http://fazenda.gov.br/portal_javascripts/Portal%20MF%20Tema/jquery-cachekey4377.js:121
+*** Begin accessibility audit results ***
+An accessibility audit found 
+Errors:
+Error: AX_TEXT_01 (Controls and media elements should have labels) failed on the following elements (1 - 2 of 2):
+#sitios-ministerio
+#onde-encontro
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_01--controls-and-media-elements-should-have-labels for more information.
+
+
+Warnings:
+Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 34):
+#portal-header > .hiddenStructure > A
+#portal-header > .hiddenStructure > A:nth-of-type(2)
+#menu-servicos > .menuTitulo2ColunasUl > .menuTitulo2Colunas.even > A
+#menu-servicos > .menuTitulo2ColunasUl > .menuTitulo2Colunas:nth-of-type(2) > A
+#menu-servicos > .menuTitulo2ColunasUl > .menuTitulo2Colunas.even:nth-of-type(2) > A
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_focus_01--these-elements-are-focusable-but-either-invisible-or-obscured-by-another-element for more information.
+
+Warning: AX_TEXT_02 (Images should have an alt attribute) failed on the following elements (1 - 5 of 7):
+#barra-acessibilidade > .opcoesAtalhos > LI > A > IMG
+#barra-acessibilidade > .opcoesAtalhos > LI:nth-of-type(2) > A > IMG
+#barra-acessibilidade > .opcoesAtalhos > LI:nth-of-type(3) > A > IMG
+#barra-acessibilidade > .opcoesAtalhos > LI:nth-of-type(4) > A > IMG
+#barra-acessibilidade > .opcoesAtalhos > LI:nth-of-type(5) > A > IMG
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_02--images-should-have-an-alt-attribute-unless-they-have-an-aria-role-of-presentation for more information.
+
+Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 46):
+#barra-acessibilidade > .opcoesAtalhos > LI > A
+#portal-header > .hiddenStructure > A
+#portal-header > .hiddenStructure > A:nth-of-type(2)
+#tab-ouvidoria > A
+#tab-glossario > A
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_color_01--text-elements-should-have-a-reasonable-contrast-ratio for more information.
+
+Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 2 of 2):
+#wrap > .jcarousel-skin-tango > .jcarousel-container.jcarousel-container-horizontal > .jcarousel-prev.jcarousel-prev-horizontal.jcarousel-prev-disabled.jcarousel-prev-disabled-horizontal
+#wrap > .jcarousel-skin-tango > .jcarousel-container.jcarousel-container-horizontal > .jcarousel-next.jcarousel-next-horizontal
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_image_01--meaningful-images-should-not-be-used-in-element-backgrounds for more information.
+
+
+*** End accessibility audit results ***

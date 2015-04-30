@@ -1,0 +1,40 @@
+*** Begin accessibility audit results ***
+An accessibility audit found 
+Errors:
+Error: AX_TEXT_01 (Controls and media elements should have labels) failed on the following element:
+#busca
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_01--controls-and-media-elements-should-have-labels for more information.
+
+
+Warnings:
+Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 148):
+body > .navbar.navbar-inverse > .container-fluid.page-container > .navbar-header > .navbar-toggle.collapsed
+#busca
+body > .btn-assine-lateral > .assine-lateral > A
+body > .destaques > .bx-wrapper > .bx-viewport > .scroll-destaques > .first-scroll > .destaque.col-md-4.col-sm-4 > A
+body > .destaques > .bx-wrapper > .bx-viewport > .scroll-destaques > .first-scroll > .destaque.col-md-2.col-sm-2 > A
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_focus_01--these-elements-are-focusable-but-either-invisible-or-obscured-by-another-element for more information.
+
+Warning: AX_TEXT_02 (Images should have an alt attribute) failed on the following elements (1 - 2 of 2):
+body > .btn-assine-lateral > .assine-lateral > A > .capa-assine > IMG
+FOOTER > .main-container.page-container > .list-footer > .col-md-footer:nth-of-type(7) > .list-revista > LI > A > IMG
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_02--images-should-have-an-alt-attribute-unless-they-have-an-aria-role-of-presentation for more information.
+
+Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 34):
+body > .navbar.navbar-inverse > .container-fluid.page-container > .navbar-header > .navbar-toggle.collapsed > .sr-only
+body > .destaques > .bx-wrapper > .bx-viewport > .scroll-destaques > .first-scroll > .destaque.col-md-4.col-sm-4 > A > .titulo-destaque > SPAN
+body > .destaques > .bx-wrapper > .bx-viewport > .scroll-destaques > .first-scroll > .destaque.col-md-2.col-sm-2 > A > .titulo-destaque > SPAN
+body > .destaques > .bx-wrapper > .bx-viewport > .scroll-destaques > .first-scroll > .destaque.col-md-4.col-sm-4:nth-of-type(2) > A > .titulo-destaque > SPAN
+body > .destaques > .bx-wrapper > .bx-viewport > .scroll-destaques > .first-scroll > .destaque.col-md-2.col-sm-2:nth-of-type(2) > A > .titulo-destaque > SPAN
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_color_01--text-elements-should-have-a-reasonable-contrast-ratio for more information.
+
+Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 5 of 5):
+body > .navbar.navbar-inverse > .container-fluid.page-container > .navbar-header > .navbar-social-icons > .nova-barra > A > .mini-arvore
+#videos-prev
+#videos-next
+#apps-prev
+#apps-next
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_image_01--meaningful-images-should-not-be-used-in-element-backgrounds for more information.
+
+
+*** End accessibility audit results ***

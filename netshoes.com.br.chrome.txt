@@ -1,0 +1,1 @@
+Failed to load the page at http://netshoes.com.br. Status was: fail

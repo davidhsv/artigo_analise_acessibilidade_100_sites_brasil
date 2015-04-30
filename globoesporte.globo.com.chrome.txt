@@ -1,0 +1,33 @@
+*** Begin accessibility audit results ***
+An accessibility audit found 
+Errors:
+Error: AX_ARIA_04 (ARIA state and property values must be valid) failed on the following element:
+#ge-card-meutime-9e2a7dab-efcc-4a12-a911-ee800fdaa4fe > .gui-card-content > .gui-tab.ge-card-meutime-wrapper.clearfix > .ge-card-meutime-abas-times > .gui-tab-items > .gui-tab-item:nth-of-type(3)
+
+
+Warnings:
+Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 4 of 4):
+#header-produto > .opec-area.opec-mobile.opec-x60.grid-12 > .opec-internal > A
+#ge-card-classificacao-1831b337-bd30-4412-8703-4a74a35da5dd > .gui-card-content.ge-card-classificacao-mata-mata > .ge-card-classificacao-tabelas.nano.altura-mata-mata.has-scrollbar > .content > .chaves > .jogos:nth-of-type(5) > .jogo > .info-partida.confronto > A
+#card-lista-video-fd68e1c4-65be-46ac-af1a-b5353e8b844d > .gui-card-content.card-lista-videos > .nano.has-scrollbar > .content.destaque > .ge-card-lista-videos-item-wide-link
+#glb-corpo > A
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_focus_01--these-elements-are-focusable-but-either-invisible-or-obscured-by-another-element for more information.
+
+Warning: AX_TEXT_02 (Images should have an alt attribute) failed on the following elements (1 - 5 of 8):
+#glb-corpo > .ge-conteudo-principal > .row > .small-5.medium-5.large-5.columns > .gui-card.ge-card-melhores-momentos > .gui-card-content > .nano.has-scrollbar > .content > UL > .ge-card-melhores-momentos-principal > .ge-card-melhores-momentos-principal-link > .gui-image-full.gui-video-full > .ge-card-melhores-momentos-principal-foto
+#glb-corpo > .ge-conteudo-principal > .row > .small-5.medium-5.large-5.columns > .gui-card.ge-card-melhores-momentos > .gui-card-content > .nano.has-scrollbar > .content > UL > .ge-card-melhores-momentos-secundario > .ge-card-melhores-momentos-link > .gui-image-full.gui-video-full.ge-card-melhores-momentos-thumb > .ge-card-melhores-momentos-foto
+#glb-corpo > .ge-conteudo-principal > .row > .small-5.medium-5.large-5.columns > .gui-card.ge-card-melhores-momentos > .gui-card-content > .nano.has-scrollbar > .content > UL > .ge-card-melhores-momentos-secundario:nth-of-type(2) > .ge-card-melhores-momentos-link > .gui-image-full.gui-video-full.ge-card-melhores-momentos-thumb > .ge-card-melhores-momentos-foto
+#glb-corpo > .ge-conteudo-principal > .row > .small-5.medium-5.large-5.columns > .gui-card.ge-card-melhores-momentos > .gui-card-content > .nano.has-scrollbar > .content > UL > .ge-card-melhores-momentos-secundario:nth-of-type(3) > .ge-card-melhores-momentos-link > .gui-image-full.gui-video-full.ge-card-melhores-momentos-thumb > .ge-card-melhores-momentos-foto
+#glb-corpo > .ge-conteudo-principal > .row > .small-5.medium-5.large-5.columns > .gui-card.ge-card-melhores-momentos > .gui-card-content > .nano.has-scrollbar > .content > UL > .ge-card-melhores-momentos-secundario:nth-of-type(4) > .ge-card-melhores-momentos-link > .gui-image-full.gui-video-full.ge-card-melhores-momentos-thumb > .ge-card-melhores-momentos-foto
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_02--images-should-have-an-alt-attribute-unless-they-have-an-aria-role-of-presentation for more information.
+
+Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 1942):
+#menu-1-mundial-de-surfe > .menu-item-link > .menu-item-title
+#menu-1-sportv > .menu-item-link > .menu-item-title
+#menu-1-vai-e-vem > .menu-item-link > .menu-item-title
+#menu-addon > .widget-mosaico-header > .geui-abas-wrapper > .geui-abas > .geui-abas-item.ativo
+#menu-addon > .widget-mosaico-header > .geui-abas-wrapper > .geui-abas-content.ativo > .glb-ge-mosaico-list.serie-a > .glb-ge-mosaico-list-item > .escudo.serie-a-sprite.satletico_mg_30x30
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_color_01--text-elements-should-have-a-reasonable-contrast-ratio for more information.
+
+
+*** End accessibility audit results ***

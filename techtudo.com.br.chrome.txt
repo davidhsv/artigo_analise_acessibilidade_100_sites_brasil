@@ -1,0 +1,29 @@
+*** Begin accessibility audit results ***
+An accessibility audit found 
+Warnings:
+Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 26):
+#header-produto > .opec-area.opec-mobile.opec-x60.grid-12 > .opec-internal > A
+#conteudo > .container.area-3 > .area-3-a > .widget-home-ultimas > .plantao-conteudos.box.box-widget.box-widget-plantao > .snippet-plantao-item > A
+#conteudo > .container.area-3 > .area-3-a > .widget-home-ultimas > .plantao-conteudos.box.box-widget.box-widget-plantao > .snippet-plantao-item:nth-of-type(2) > A
+#conteudo > .container.area-3 > .area-3-a > .widget-home-ultimas > .plantao-conteudos.box.box-widget.box-widget-plantao > .snippet-plantao-item:nth-of-type(3) > A
+#conteudo > .container.area-3 > .area-3-a > .widget-home-ultimas > .plantao-conteudos.box.box-widget.box-widget-plantao > .snippet-plantao-item:nth-of-type(4) > A
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_focus_01--these-elements-are-focusable-but-either-invisible-or-obscured-by-another-element for more information.
+
+Warning: AX_TEXT_02 (Images should have an alt attribute) failed on the following elements (1 - 5 of 12):
+#conteudo > .container.area-3 > .area-3-a > .widget-home-ultimas > .plantao-conteudos.box.box-widget.box-widget-plantao > .snippet-plantao-item > A > FIGURE > IMG
+#conteudo > .container.area-3 > .area-3-a > .widget-home-ultimas > .plantao-conteudos.box.box-widget.box-widget-plantao > .snippet-plantao-item:nth-of-type(2) > A > FIGURE > IMG
+#conteudo > .container.area-3 > .area-3-a > .widget-home-ultimas > .plantao-conteudos.box.box-widget.box-widget-plantao > .snippet-plantao-item:nth-of-type(3) > A > FIGURE > IMG
+#conteudo > .container.area-3 > .area-3-a > .widget-home-ultimas > .plantao-conteudos.box.box-widget.box-widget-plantao > .snippet-plantao-item:nth-of-type(4) > A > FIGURE > IMG
+#conteudo > .container.area-3 > .area-3-a > .widget-home-ultimas > .plantao-conteudos.box.box-widget.box-widget-plantao > .snippet-plantao-item:nth-of-type(5) > A > FIGURE > IMG
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_02--images-should-have-an-alt-attribute-unless-they-have-an-aria-role-of-presentation for more information.
+
+Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 73):
+#barra-globocom > .barra-conteudo > .barra-itens > LI:nth-of-type(4) > .barra-item-gshow
+#menu-fonts > .open-sans
+#menu-fonts > .open-sans.open-sans-bold
+#menu-fonts > .roboto-slab
+#menu-fonts > .proximanova-semibold
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_color_01--text-elements-should-have-a-reasonable-contrast-ratio for more information.
+
+
+*** End accessibility audit results ***

@@ -8,7 +8,6 @@ import java.net.Authenticator;
 import java.net.PasswordAuthentication;
 import java.sql.Connection;
 import java.sql.DriverManager;
-import java.sql.ResultSet;
 import java.sql.SQLException;
 import java.sql.Statement;
 import java.util.Date;
@@ -21,10 +20,14 @@ import org.jsoup.nodes.Document;
 
 public class Crawler {
 
-	private static final String CHROME_SUFFIX = "chrome.txt";
+	private static final String SENIA = "notpass";
+	private static final String USERNAME = "dhsv";
+	private static final String PROXY_PORT = "9150";
+	private static final String PROXY_URL = "127.0.0.1";
+	private static final String CHROME_SUFFIX = ".chrome.txt";
 	private static final String USERAGENT = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.114 Safari/537.36";
 	private static final int TIMEOUT = 180000;
-	private static final String ARIA_SUFFIX = "aria.txt";
+	private static final String ARIA_SUFFIX = ".aria.txt";
 	private static final String TENON_SUFFIX = ".txt";
 	private static Pattern pattern = Pattern.compile("( aria-[^ ])|( role=)");
 
@@ -36,50 +39,55 @@ public class Crawler {
 	public static void main(String[] args) throws InterruptedException,
 			IOException {
 
-		final String authUser = "dhsv";
-		final String authPassword = "h4ck3rh4";
+//		final String authUser = USERNAME;
+//		final String authPassword = SENIA;
+//
+//		Authenticator.setDefault(new Authenticator() {
+//			public PasswordAuthentication getPasswordAuthentication() {
+//				return new PasswordAuthentication(authUser, authPassword
+//						.toCharArray());
+//			}
+//		});
 
-		Authenticator.setDefault(new Authenticator() {
-			public PasswordAuthentication getPasswordAuthentication() {
-				return new PasswordAuthentication(authUser, authPassword
-						.toCharArray());
-			}
-		});
-
-		System.setProperty("http.proxyHost", "recife.trt6.gov.br");
-		System.setProperty("http.proxyPort", "3128");
+//		System.setProperty("http.proxyHost", PROXY_URL);
+//		System.setProperty("http.proxyPort", PROXY_PORT);
+		System.setProperty("socksProxyHost", PROXY_URL);
+		System.setProperty("socksProxyPort", PROXY_PORT);
 
 		// curl -X POST -H Content-Type:application/x-www-form-urlencoded -H
 		// Cache-Control:no-cache -d
 		// 'url=http://google.com.br&key=0a8118b2fc68177c6ae2fd084120f0fc'
 		// http://tenon.io/api/
 		String[] sites = { 
-				"google.com.br", "facebook.com", "google.com",
-				"youtube.com", "uol.com.br", "folha.uol.com.br",
-				"esporte.uol.com.br", "noticias.uol.com.br",
-				"televisao.uol.com.br", "globo.com", "g1.globo.com",
-				"globoesporte.globo.com", "oglobo.globo.com", "ego.globo.com",
-				"yahoo.com", "mercadolivre.com.br", "wikipedia.org",
-				"twitter.com", "msn.com", "aliexpress.com", "abril.com.br",
-				"veja.abril.com.br", "exame.abril.com.br", "info.abril.com.br",
-				"vejasp.abril.com.br", "mdemulher.abril.com.br", "xvideos.com",
-				"ig.com.br", "baixaki.com.br", "odia.ig.com.br",
-				"linkedin.com", "terra.com.br", "olx.com.br", "instagram.com",
-				"megaoferta.net", "amazon.com", "wordpress.com",
-				"caixa.gov.br", "itau.com.br", 
-				"americanas.com.br",
-				"walmart.com.br", "microsoft.com", "netshoes.com.br",
-				"correios.com.br", "buscape.com.br", "megafilmeshd.net",
-				"r7.com", "bradesco.com.br",
-				"www.fazenda.sp.gov.br", "prefeitura.sp.gov.br",
-				"fazenda.gov.br", "receita.fazenda.gov.br",
-				"www.nfe.fazenda.gov.br", "tesouro.fazenda.gov.br", "ask.com",
+//				"google.com.br", "facebook.com", "google.com",
+//				"youtube.com", "uol.com.br", "folha.uol.com.br",
+//				"esporte.uol.com.br", "noticias.uol.com.br",
+//				"televisao.uol.com.br", "globo.com", "g1.globo.com",
+//				"globoesporte.globo.com", "oglobo.globo.com", "ego.globo.com",
+//				"yahoo.com", "mercadolivre.com.br", "wikipedia.org",
+//				"twitter.com", "msn.com", "aliexpress.com", "abril.com.br",
+//				"veja.abril.com.br", "exame.abril.com.br", "info.abril.com.br",
+//				"vejasp.abril.com.br", "mdemulher.abril.com.br", "xvideos.com",
+//				"ig.com.br", 
+//				"baixaki.com.br", "odia.ig.com.br",
+//				"linkedin.com", "terra.com.br", "olx.com.br", "instagram.com",
+//				"megaoferta.net", "amazon.com", "wordpress.com",
+//				"caixa.gov.br", "itau.com.br", 
+//				"americanas.com.br",
+//				"walmart.com.br", "microsoft.com", "netshoes.com.br",
+//				"correios.com.br", "buscape.com.br", "megafilmeshd.net",
+//				"r7.com", "bradesco.com.br",
+//				"www.fazenda.sp.gov.br", "prefeitura.sp.gov.br",
+//				"fazenda.gov.br", "receita.fazenda.gov.br",
+//				"www.nfe.fazenda.gov.br", "tesouro.fazenda.gov.br", "ask.com",
+//				
+//				"reclameaqui.com.br", "bing.com", "bb.com.br", "pinterest.com",
+//				"portaleducacao.com.br", "techtudo.com.br", "submarino.com.br",
+//				"paypal.com", "apple.com", "extra.com.br", "4shared.com",
+//				"estadao.com.br", "stackoverflow.com", "letras.mus.br",
+//				"vagalume.com.br", 
 				
-				"reclameaqui.com.br", "bing.com", "bb.com.br", "pinterest.com",
-				"portaleducacao.com.br", "techtudo.com.br", "submarino.com.br",
-				"paypal.com", "apple.com", "extra.com.br", "4shared.com",
-				"estadao.com.br", "stackoverflow.com", "letras.mus.br",
-				"vagalume.com.br", "ebay.com", "filmesonlinegratis.net",
+				"ebay.com", "filmesonlinegratis.net",
 				"clicrbs.com.br", "alibaba.com", "blogosfera.uol.com.br",
 				"tecmundo.com.br", "vivo.com.br",
 				"dropbox.com", "bol.uol.com.br", "whatsapp.com", "oi.com.br",
@@ -105,6 +113,8 @@ public class Crawler {
 		cookies.put("userTimeout", new Date().getTime() + "");
 
 		for (String site : sites) {
+			System.out.println(site);
+			System.out.println(new Date());
 			if (1 == 2)
 				adicionarCategorias(site);
 			
@@ -112,21 +122,33 @@ public class Crawler {
 				if (!new File(site + TENON_SUFFIX).exists()) {
 					tenonio(site);
 				}
-
-				if (!new File(site + ARIA_SUFFIX).exists()) {
-					aria(site);
-				}
-
-				if (!new File(site + CHROME_SUFFIX).exists()) {
-				chrome(site);
-				}
-
-				Thread.sleep(500);
 			} catch (Exception e) {
-				PrintWriter out = new PrintWriter(site + "DEUERRO.txt");
+				PrintWriter out = new PrintWriter(site + "DEUERROtenon.txt");
 				e.printStackTrace(out);
 				out.close();
 			}
+
+			try {
+			
+//				if (!new File(site + ARIA_SUFFIX).exists()) {
+					aria(site);
+//				}
+			} catch (Exception e) {
+				PrintWriter out = new PrintWriter(site + "DEUERROaria.txt");
+				e.printStackTrace(out);
+				out.close();
+			}
+			
+			try {
+				//if (!new File(site + CHROME_SUFFIX).exists()) {
+				chrome(site);
+				//}
+			} catch (Exception e) {
+				PrintWriter out = new PrintWriter(site + "DEUERROchrome.txt");
+				e.printStackTrace(out);
+				out.close();
+			}
+			
 
 		}
 
@@ -178,8 +200,13 @@ public class Crawler {
 
 		new File(site + CHROME_SUFFIX).createNewFile();
 
+		//C:/Users/dhsv/Desktop/phantomjs-2.0.0-windows/bin/phantomjs.exe C:/Users/dhsv/Documents/GitHub/accessibility-developer-tools/tools/runner/audit.js http://www.aliexpress.com
+		
 		ProcessBuilder pb = new ProcessBuilder(
 				"C:/Users/dhsv/Desktop/phantomjs-2.0.0-windows/bin/phantomjs.exe",
+				"--proxy=" + PROXY_URL + ":" + PROXY_PORT,
+//				"--proxy-auth=" + USERNAME + ":" + SENIA,
+				"--proxy-type=socks5",
 				"C:/Users/dhsv/Documents/GitHub/accessibility-developer-tools/tools/runner/audit.js",
 				"http://" + site);
 		pb.redirectOutput(new File(site + CHROME_SUFFIX));
@@ -205,6 +232,10 @@ public class Crawler {
 
 				.post();
 		String text = doc.text();
+		
+		if (!text.contains("\"status\":200")) {
+			return;
+		}
 
 		PrintWriter out = new PrintWriter(site + TENON_SUFFIX);
 		out.print(text);

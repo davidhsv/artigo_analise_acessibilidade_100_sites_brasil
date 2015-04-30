@@ -1,0 +1,1 @@
+select site_url from site where site_url not in (SELECT site_url FROM acessibilidade.violacao_diretriz inner join violacao group by site_url)

@@ -1,0 +1,19 @@
+*** Begin accessibility audit results ***
+An accessibility audit found 
+Errors:
+Error: AX_TEXT_01 (Controls and media elements should have labels) failed on the following element:
+#q
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_01--controls-and-media-elements-should-have-labels for more information.
+
+
+Warnings:
+Warning: AX_TEXT_02 (Images should have an alt attribute) failed on the following elements (1 - 5 of 41):
+#pic_11270257
+#pic_11309845
+#pic_11042005
+#pic_11200896
+#pic_7126227
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_02--images-should-have-an-alt-attribute-unless-they-have-an-aria-role-of-presentation for more information.
+
+
+*** End accessibility audit results ***

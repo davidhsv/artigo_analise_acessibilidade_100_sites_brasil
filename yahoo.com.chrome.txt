@@ -1,0 +1,34 @@
+*** Begin accessibility audit results ***
+An accessibility audit found 
+Warnings:
+Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 61):
+#default-p_30346000-bd > .live-nation-promo.cf > A
+html > .interest-wrap.d-ib > .interest-filter.rapidnofollow
+html > .interest-wrap.d-ib > .interest-filter.rapidnofollow
+html > .interest-wrap.d-ib > .interest-filter.rapidnofollow
+html > .interest-wrap.d-ib > .interest-filter.rapidnofollow
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_focus_01--these-elements-are-focusable-but-either-invisible-or-obscured-by-another-element for more information.
+
+Warning: AX_TEXT_02 (Images should have an alt attribute) failed on the following elements (1 - 2 of 2):
+#default-p_30345957-bd > .intl-selectorfull > .header-intl-icon
+#default-p_13923486-bd > .fpad-fallback.fpad > A > IMG
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_02--images-should-have-an-alt-attribute-unless-they-have-an-aria-role-of-presentation for more information.
+
+Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 27):
+#default-p_30345789-bd > .promoapp.pos-r.mt-xl > .d-ib.w-50.va-m > .promoapp-link.d-b.ta-c.mt-xs.mb-xs
+#yui_3_8_1_1_1430413022785_610 > .tn-header.pb-xs.pos-r.nav-btn > .tn-gifts.txt.d-ib.w-50.blur.btn-left
+#default-p_30346000-bd > .live-nation-promo.cf > A > .event-link.ell > .title.ell
+#default-p_30345826_a77-bd > .embed > .title.mb-l
+#default-p_30345980-bd > .templ.cf.katie-couric > .hdline.w-42 > .lt > .prlink > .summary.fz-l
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_color_01--text-elements-should-have-a-reasonable-contrast-ratio for more information.
+
+Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 5 of 62):
+#default-p_30345957-bd > .intl-selectorfull > .drop-arrow.drop-arrow-norm.img-sprite
+#home-icon
+#uh-more-link > .more-link > .drop-arrow.drop-arrow-norm.img-sprite
+#default-p_30345710_f7f-bd > .tab-label.fz-xs.accent.sign-in > .tab-icon.img-sprite
+#default-p_30345624_e18-bd > .tab-label.fz-xs.accent > .tab-icon.img-sprite
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_image_01--meaningful-images-should-not-be-used-in-element-backgrounds for more information.
+
+
+*** End accessibility audit results ***

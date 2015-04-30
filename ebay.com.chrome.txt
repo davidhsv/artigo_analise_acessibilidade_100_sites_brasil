@@ -1,0 +1,44 @@
+*** Begin accessibility audit results ***
+An accessibility audit found 
+Errors:
+Error: AX_ARIA_04 (ARIA state and property values must be valid) failed on the following elements (1 - 2 of 2):
+#gh-shop-a
+#gh-eb-Alerts > .gh-menu > .gh-control.ghn-b.gh-eb-li-a
+
+Error: AX_TEXT_01 (Controls and media elements should have labels) failed on the following elements (1 - 2 of 2):
+#dailyDeals > .pagination > .arrow.left-arrow
+#dailyDeals > .pagination > .arrow.right-arrow
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_01--controls-and-media-elements-should-have-labels for more information.
+
+
+Warnings:
+Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 84):
+#gh-gb
+#gh-hdn-stm
+#gh-eb-My > .gh-menu > .gh-acc-exp-a.gh-acc-a2.gh-control
+#billboardFragment > .connected-placements > .alpha-placement > .arrow.arrow-left
+#billboardFragment > .connected-placements > .alpha-placement > .arrow.arrow-right
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_focus_01--these-elements-are-focusable-but-either-invisible-or-obscured-by-another-element for more information.
+
+Warning: AX_TEXT_02 (Images should have an alt attribute) failed on the following element:
+IMG
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_02--images-should-have-an-alt-attribute-unless-they-have-an-aria-role-of-presentation for more information.
+
+Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 34):
+#dailyDeals > .deals.clr.clearfix > .ddcrd.daily-deal.first.load-first > .prom.prom140 > .gspr
+#dailyDeals > .deals.clr.clearfix > .ddcrd.daily-deal.load-first:nth-of-type(2) > .prom.prom140 > .gspr
+#dailyDeals > .deals.clr.clearfix > .ddcrd.daily-deal.load-first:nth-of-type(3) > .prom.prom140 > .gspr
+#dailyDeals > .deals.clr.clearfix > .ddcrd.daily-deal.load-first:nth-of-type(4) > .prom.prom140 > .gspr
+#dailyDeals > .deals.clr.clearfix > .ddcrd.daily-deal.load-first:nth-of-type(5) > .prom.prom140 > .gspr
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_color_01--text-elements-should-have-a-reasonable-contrast-ratio for more information.
+
+Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 5 of 81):
+#gh-shop-ei
+#gh-cart-i
+#billboardFragment > .connected-placements > .alpha-placement > .arrow.arrow-left > .arrow-image
+#billboardFragment > .connected-placements > .alpha-placement > .arrow.arrow-right > .arrow-image
+#billboardFragment > .connected-placements > .alpha-placement > .arrow.arrow-left:nth-of-type(2) > .arrow-image
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_image_01--meaningful-images-should-not-be-used-in-element-backgrounds for more information.
+
+
+*** End accessibility audit results ***

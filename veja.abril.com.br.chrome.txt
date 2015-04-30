@@ -1,0 +1,27 @@
+*** Begin accessibility audit results ***
+An accessibility audit found 
+Errors:
+Error: AX_TEXT_01 (Controls and media elements should have labels) failed on the following element:
+#search > .user-menu-btn.icon-search
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_01--controls-and-media-elements-should-have-labels for more information.
+
+
+Warnings:
+Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 22):
+#google_ads_iframe_/9287/veja/home_1
+#search > .form-control
+#ubber-content > .row.ubber-home > DIV:nth-of-type(2) > .home-box-border > .titulo-principal-border.bloco-bottom-border > A
+#ubber-content > .row.ubber-home > DIV:nth-of-type(2) > .home-box-border > .home-colunistas.clearfix > .list.slick-initialized.slick-slider > .slick-list.draggable > .slick-track > .item.ubber-home-chamada.colunista.slick-slide:nth-of-type(7) > .imagem > A
+#ubber-content > .row.ubber-home > DIV:nth-of-type(2) > .home-box-border > .home-colunistas.clearfix > .list.slick-initialized.slick-slider > .slick-list.draggable > .slick-track > .item.ubber-home-chamada.colunista.slick-slide:nth-of-type(15) > .imagem > A
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_focus_01--these-elements-are-focusable-but-either-invisible-or-obscured-by-another-element for more information.
+
+Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 119):
+#main-menu > UL > .has-submenu > .main-menu-sub > .main-menu-sub-title
+#main-menu > UL > .has-submenu:nth-of-type(2) > .main-menu-sub > .main-menu-sub-title
+#main-menu > UL > .has-submenu:nth-of-type(3) > .main-menu-sub > .main-menu-sub-title
+#main-menu > UL > .has-submenu:nth-of-type(4) > .main-menu-sub > .main-menu-sub-title
+#main-menu > UL > .has-submenu:nth-of-type(5) > .main-menu-sub > .main-menu-sub-title
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_color_01--text-elements-should-have-a-reasonable-contrast-ratio for more information.
+
+
+*** End accessibility audit results ***

@@ -1,0 +1,43 @@
+*** Begin accessibility audit results ***
+An accessibility audit found 
+Errors:
+Error: AX_TEXT_01 (Controls and media elements should have labels) failed on the following elements (1 - 2 of 2):
+#newsletterButtonExpand
+#EasyDropDown1A4385
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_01--controls-and-media-elements-should-have-labels for more information.
+
+
+Warnings:
+Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 4 of 4):
+#site-container > .page > FOOTER > .footer-links.clearfix > .links-department > .links-column-department:nth-of-type(2) > UL > .links-item > A
+#site-container > .page > FOOTER > .footer-links.clearfix > .links-department > .links-column-department:nth-of-type(2) > UL > .links-item:nth-of-type(2) > A
+#site-container > .page > FOOTER > .footer-links.clearfix > .links-department > .links-column-department:nth-of-type(3) > UL > .links-item > A
+#site-container > .page > FOOTER > .footer-links.clearfix > .links-department > .links-column-department:nth-of-type(3) > UL > .links-item:nth-of-type(2) > A
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_focus_01--these-elements-are-focusable-but-either-invisible-or-obscured-by-another-element for more information.
+
+Warning: AX_TEXT_02 (Images should have an alt attribute) failed on the following elements (1 - 5 of 5):
+#site-menu > UL > .menu-item.seasonal.last > DIV > .banner-item > IMG
+#main > .content > .main-content.clearfix > .tv-home.arrow-big.loading.owl-carousel.owl-theme > .owl-wrapper-outer > .owl-wrapper > .owl-item > .bannerLazy.x01.loaded > .banner-item > IMG
+#main > .content > .main-content.clearfix > .tv-home.arrow-big.loading.owl-carousel.owl-theme > .owl-wrapper-outer > .owl-wrapper > .owl-item:nth-of-type(2) > .bannerLazy.x02.loaded > .banner-item > IMG
+#main > .content > .main-content.clearfix > .tv-home.arrow-big.loading.owl-carousel.owl-theme > .owl-wrapper-outer > .owl-wrapper > .owl-item:nth-of-type(3) > .bannerLazy.x03.loaded > .banner-item > IMG
+#main > .content > .main-content.clearfix > .tv-home.arrow-big.loading.owl-carousel.owl-theme > .owl-wrapper-outer > .owl-wrapper > .owl-item:nth-of-type(4) > .bannerLazy.x04.loaded > .banner-item > IMG
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_02--images-should-have-an-alt-attribute-unless-they-have-an-aria-role-of-presentation for more information.
+
+Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 160):
+#site-topbar > .logo > .logo-link
+#site-topbar > .wraper-right-icons > .login > .wrapper > .color
+#topbar-signup-link
+#site-topbar > .wraper-right-icons > .topbar-search > .search-icon
+#site-topbar > .wraper-right-icons > .contact > .dropdown.clearfix > .dropdown-position > .body-dropdown.clearfix > .list > .item > A > .index
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_color_01--text-elements-should-have-a-reasonable-contrast-ratio for more information.
+
+Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 5 of 25):
+#site-topbar > .wraper-right-icons > .cart > .topbar-buttons.open-link.cart-link > .cart-icon
+#topbar-login-link > .icon
+#site-topbar > .wraper-right-icons > .contact > .topbar-buttons.button-link.contact-link > .contact-icon
+#main > .content > .main-content.clearfix > .tv-home.arrow-big.loading.owl-carousel.owl-theme > .owl-controls > .owl-buttons > .owl-prev
+#main > .content > .main-content.clearfix > .tv-home.arrow-big.loading.owl-carousel.owl-theme > .owl-controls > .owl-buttons > .owl-next
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_image_01--meaningful-images-should-not-be-used-in-element-backgrounds for more information.
+
+
+*** End accessibility audit results ***

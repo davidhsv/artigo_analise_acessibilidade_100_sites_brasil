@@ -1,0 +1,37 @@
+ReferenceError: Can't find variable: a
+
+  http://canaltech.com.br/noticia/games/assista-ao-novo-trailer-de-call-of-duty-black-ops-3/#noads:50 in global code
+TypeError: undefined is not a constructor (evaluating 'a.data.indexOf("api:")')
+
+  http://assets.ebz.io/ebzFormats/ebzformats.js?v=2.23.a9e443bb5aa32c2c32f446522f2bd7bfa56fd99a.20150429111610:4 in receiveMessage
+TypeError: undefined is not a constructor (evaluating 'a.data.indexOf("api:")')
+
+  http://assets.ebz.io/ebzFormats/ebzformats.js?v=2.23.a9e443bb5aa32c2c32f446522f2bd7bfa56fd99a.20150429111610:4 in receiveMessage
+TypeError: undefined is not a constructor (evaluating 'a.data.indexOf("api:")')
+
+  http://assets.ebz.io/ebzFormats/ebzformats.js?v=2.23.a9e443bb5aa32c2c32f446522f2bd7bfa56fd99a.20150429111610:4 in receiveMessage
+TypeError: undefined is not a constructor (evaluating 'a.data.indexOf("api:")')
+
+  http://assets.ebz.io/ebzFormats/ebzformats.js?v=2.23.a9e443bb5aa32c2c32f446522f2bd7bfa56fd99a.20150429111610:4 in receiveMessage
+*** Begin accessibility audit results ***
+An accessibility audit found 
+Warnings:
+Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following element:
+IFRAME
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_focus_01--these-elements-are-focusable-but-either-invisible-or-obscured-by-another-element for more information.
+
+Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 66):
+#subBar > .content.clear > H4 > .date
+#products > LI > A > .value > .plot
+#products > LI > A > .value > .rs
+#products > LI > A > .shop.shop0
+#products > LI:nth-of-type(2) > A > .value > .rs
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_color_01--text-elements-should-have-a-reasonable-contrast-ratio for more information.
+
+Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 2 of 2):
+#header > .content.clear > H1 > .aboutBtn
+#scroll > .icon
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_image_01--meaningful-images-should-not-be-used-in-element-backgrounds for more information.
+
+
+*** End accessibility audit results ***

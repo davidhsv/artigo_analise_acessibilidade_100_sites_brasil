@@ -1,0 +1,28 @@
+*** Begin accessibility audit results ***
+An accessibility audit found 
+Errors:
+Error: AX_TEXT_01 (Controls and media elements should have labels) failed on the following elements (1 - 2 of 2):
+#searchInput
+#searchLanguage
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_01--controls-and-media-elements-should-have-labels for more information.
+
+
+Warnings:
+Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 68):
+body > .langlist.langlist-tiny > A
+body > .langlist.langlist-tiny > A:nth-of-type(2)
+body > .langlist.langlist-tiny > A:nth-of-type(3)
+body > .langlist.langlist-tiny > A:nth-of-type(4)
+body > .langlist.langlist-tiny > A:nth-of-type(5)
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_focus_01--these-elements-are-focusable-but-either-invisible-or-obscured-by-another-element for more information.
+
+Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 5 of 6):
+body > .central-featured > .central-featured-logo
+body > .bookshelf-container > .bookshelf > .bookend
+body > .bookshelf-container:nth-of-type(2) > .bookshelf > .bookend
+body > .bookshelf-container:nth-of-type(3) > .bookshelf > .bookend
+body > .bookshelf-container:nth-of-type(4) > .bookshelf > .bookend
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_image_01--meaningful-images-should-not-be-used-in-element-backgrounds for more information.
+
+
+*** End accessibility audit results ***

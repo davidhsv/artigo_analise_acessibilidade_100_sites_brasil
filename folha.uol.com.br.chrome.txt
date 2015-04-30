@@ -1,0 +1,29 @@
+*** Begin accessibility audit results ***
+An accessibility audit found 
+Warnings:
+Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 40):
+body > .visually-hidden
+body > .visually-hidden:nth-of-type(2)
+#main > .row > .span4 > .box.painel_do_leitor > .item > A
+#colunistas > HEADER > A
+#colunistas > .unstyled > LI > A
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_focus_01--these-elements-are-focusable-but-either-invisible-or-obscured-by-another-element for more information.
+
+Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 139):
+#top > .row:nth-of-type(2) > .span16 > .top-inner.clearfix > .advertising.ad-228x94 > .label
+#main-menu > .nav > LI:nth-of-type(2) > .submenu > .container-2 > .container-1 > .col-2 > .submenu-nav > LI > STRONG
+#main-menu > .nav > LI:nth-of-type(3) > .submenu > .container-2 > .container-1 > .col-2 > .submenu-nav > LI > STRONG
+#main-menu > .nav > LI:nth-of-type(4) > .submenu > .container-2 > .container-1 > .col-1 > .submenu-nav > .relevant > A
+#main-menu > .nav > LI:nth-of-type(4) > .submenu > .container-2 > .container-1 > .col-2 > .submenu-nav > LI > STRONG
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_color_01--text-elements-should-have-a-reasonable-contrast-ratio for more information.
+
+Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 5 of 46):
+#barrauol > UL > .canal.buol_home-page > A > .icone-casa-barraUOL
+#top > .row:nth-of-type(2) > .span16 > .top-inner.clearfix > .logo-container > .today > .sprite.icon-clock
+#paywall-auth-header > A > .sprite.login
+#top > .row:nth-of-type(2) > .span16 > .top-inner.clearfix > .today-newspaper > .main-services > LI:nth-of-type(2) > .btn > .sprite.subscribe
+#top > .row:nth-of-type(2) > .span16 > .top-inner.clearfix > .today-newspaper > .main-services > LI:nth-of-type(3) > .btn > .sprite.support
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_image_01--meaningful-images-should-not-be-used-in-element-backgrounds for more information.
+
+
+*** End accessibility audit results ***

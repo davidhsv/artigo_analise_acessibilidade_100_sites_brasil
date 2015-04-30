@@ -1,0 +1,26 @@
+*** Begin accessibility audit results ***
+An accessibility audit found 
+Errors:
+Error: AX_ARIA_04 (ARIA state and property values must be valid) failed on the following element:
+#retweet-tweet-dialog > .RetweetDialog-modal.modal.draggable > .modal-content > .t1-form.tweet-form.condensed.RetweetDialog-tweetForm.isWithoutComment > .RetweetDialog-commentBox > .tweet-content > .tweet-box.rich-editor
+
+
+Warnings:
+Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following element:
+#doc > .topbar.js-topbar > .global-nav > .global-nav-inner > .container > .pull-right > .nav.secondary-nav.language-dropdown > .dropdown.js-language-dropdown > .dropdown-toggle.js-dropdown-toggle
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_focus_01--these-elements-are-focusable-but-either-invisible-or-obscured-by-another-element for more information.
+
+Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 71):
+#doc > .topbar.js-topbar > .global-nav > .global-nav-inner > .container > .nav.js-global-actions > .home > .nav-logo-link > .Icon.Icon--bird > .visuallyhidden
+#signin-dropdown > .signin-dialog-body > .t1-form.js-signin.signin > FIELDSET > .subchck > .t1-label.remember > SPAN
+#page-container > .BannersContainer > .Banner.eu-cookie-notice > .flex-module > .banner-row > .title > A
+#front-container > .front-card > .front-signin.js-front-signin > .t1-form.signin > .flex-table.password-signin > TBODY > TR > .flex-table-secondary > .submit.btn.primary-btn.flex-table-btn.js-submit
+#front-container > .front-card > .front-signin.js-front-signin > .t1-form.signin > .remember-forgot > .t1-label.remember > SPAN
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_color_01--text-elements-should-have-a-reasonable-contrast-ratio for more information.
+
+Warning: AX_ARIA_02 (aria-labelledby attributes should refer to an element which exists in the DOM) failed on the following element:
+#retweet-tweet-dialog > .RetweetDialog-modal.modal.draggable > .modal-content > .t1-form.tweet-form.condensed.RetweetDialog-tweetForm.isWithoutComment > .RetweetDialog-commentBox > .tweet-content > .tweet-box.rich-editor
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_aria_02--aria-labelledby-attributes-should-refer-to-an-element-which-exists-in-the-dom for more information.
+
+
+*** End accessibility audit results ***

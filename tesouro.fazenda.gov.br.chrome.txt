@@ -1,0 +1,46 @@
+*** Begin accessibility audit results ***
+An accessibility audit found 
+Errors:
+Error: AX_TEXT_01 (Controls and media elements should have labels) failed on the following element:
+#p_p_id_3_ > .portlet-body > .portlet-borderless-container > .portlet-body > .input_busca > .input_busca
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_01--controls-and-media-elements-should-have-labels for more information.
+
+
+Warnings:
+Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 11):
+#menu-icon
+#wrapper-barra-brasil > NAV > .list > .link-barra
+#wrapper-barra-brasil > NAV > .list > .link-barra:nth-of-type(2)
+#wrapper-barra-brasil > NAV > .list > .link-barra:nth-of-type(3)
+#wrapper-barra-brasil > NAV > .list > .link-barra:nth-of-type(4)
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_focus_01--these-elements-are-focusable-but-either-invisible-or-obscured-by-another-element for more information.
+
+Warning: AX_TEXT_02 (Images should have an alt attribute) failed on the following elements (1 - 4 of 4):
+#multiple-items-13879-carousel > .carousel-item.aui-carousel-item.aui-carousel-item-active > A > IMG
+#multiple-items-13879-carousel > .carousel-item.aui-carousel-item:nth-of-type(2) > A > IMG
+#multiple-items-13879-carousel > .carousel-item.aui-carousel-item:nth-of-type(3) > A > IMG
+#multiple-items-13879-carousel > .carousel-item.aui-carousel-item:nth-of-type(4) > A > IMG
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_02--images-should-have-an-alt-attribute-unless-they-have-an-aria-role-of-presentation for more information.
+
+Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 25):
+#div-acessibilidade > .font-dec
+#multiple-items-13879-carousel > .carousel-item.aui-carousel-item:nth-of-type(3) > A > .textos > .descricao
+#multiple-items-13879-carousel > .carousel-item.aui-carousel-item:nth-of-type(4) > A > .textos > .descricao
+#aui_3_4_0_1_206 > LI:nth-of-type(4) > .aui-carousel-menu-item.aui-carousel-menu-item.aui-carousel-menu-index
+#aui_3_4_0_1_206 > LI:nth-of-type(5) > .aui-carousel-menu-item.aui-carousel-menu-item.aui-carousel-menu-index
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_color_01--text-elements-should-have-a-reasonable-contrast-ratio for more information.
+
+Warning: AX_ARIA_04 (role=main should only appear on significant elements) failed on the following elements (1 - 3 of 3):
+#_118_INSTANCE_Qeeha2wwgZk4_main-content
+#_118_INSTANCE_NYA0tlHni0rP_main-content
+#_118_INSTANCE_GNVbW6K8W0ui_main-content
+
+Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 4 of 4):
+#menu-icon
+#aui_3_4_0_1_206 > LI > .aui-carousel-menu-item.aui-carousel-menu-pause
+#aui_3_4_0_1_206 > LI:nth-of-type(2) > .aui-carousel-menu-item.aui-carousel-menu-prev
+#aui_3_4_0_1_206 > LI:nth-of-type(7) > .aui-carousel-menu-item.aui-carousel-menu-next
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_image_01--meaningful-images-should-not-be-used-in-element-backgrounds for more information.
+
+
+*** End accessibility audit results ***

@@ -1,0 +1,37 @@
+*** Begin accessibility audit results ***
+An accessibility audit found 
+Warnings:
+Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 70):
+#J-main-container > .row.l-fs > .container > .col-fixed-m-36.col-xs-60.l-fs-main > .col-fixed-xs-11.sub-right-xs-11.hidden-m.hidden-l > .col-xs-60.m-rfqbar > .action
+#J-main-container > .row.l-fs > .container > .col-fixed-m-36.col-xs-60.l-fs-main > .col-xs-60.l-operate > .col-offset-fixed-xs-250px.l-operate-main > .col-xs-60.m-industry > .col-xs-30.item > .title
+#m-ws > .row.col-offset-fixed-m-12.col-offset-fixed-xs-0.list > .col-xs-60 > .col-offset-fixed-xs-3.col-offset-r-fixed-xs-3.product-wrap > .product-container > UL > LI:nth-of-type(10) > .item > .title
+#m-ws > .row.col-offset-fixed-m-12.col-offset-fixed-xs-0.list > .col-xs-60 > .col-offset-fixed-xs-3.col-offset-r-fixed-xs-3.product-wrap > .product-container > UL > LI:nth-of-type(16) > .item > .title
+#m-vs > .col-offset-fixed-m-12.col-offset-fixed-xs-0.list > .col-offset-fixed-xs-3.col-offset-r-fixed-xs-3.supplier-wrap > .supplier-container > UL > LI:nth-of-type(2) > .item.util-clearfix
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_focus_01--these-elements-are-focusable-but-either-invisible-or-obscured-by-another-element for more information.
+
+Warning: AX_TEXT_02 (Images should have an alt attribute) failed on the following elements (1 - 5 of 56):
+#m-banners > .wrap > .list > LI > A > .title
+#m-banners > .wrap > .list > LI:nth-of-type(2) > A > .title
+#m-banners > .wrap > .list > LI:nth-of-type(3) > A > .title
+#J-main-container > .row.l-fs > .container > .col-fixed-m-36.col-xs-60.l-fs-main > .col-xs-60.l-operate > .col-offset-fixed-xs-250px.l-operate-main > .col-xs-60.m-industry > .col-xs-30.item > IMG
+#m-ws > .row.col-offset-fixed-m-12.col-offset-fixed-xs-0.list > .col-xs-60 > .col-offset-fixed-xs-3.col-offset-r-fixed-xs-3.product-wrap > .product-container > UL > LI > .item > .title > IMG
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_02--images-should-have-an-alt-attribute-unless-they-have-an-aria-role-of-presentation for more information.
+
+Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 203):
+#header2012 > .ui-header-beacon-wrapper > .ui-beacon.notranslate.ui-beacon-loc-internal.util-clearfix > .ui-beacon-user > A
+#header2012 > .ui-header-beacon-wrapper > .ui-beacon.notranslate.ui-beacon-loc-internal.util-clearfix > .ui-beacon-user > A:nth-of-type(2)
+#header2012 > .ui-header-beacon-wrapper > .ui-beacon.notranslate.ui-beacon-loc-internal.util-clearfix > .ui-beacon-main.ui-beacon-nav > .ui-beacon-group.ui-beacon-item.ui-beacon-item-last > .ui-beacon-item-link
+#header2012 > .ui-header-main-wrapper > .ui-header-main.util-clearfix > .ui-header-action.util-clearfix > .ui-header-action-rfq
+#header2012 > .ui-header-main-wrapper > .ui-header-main.util-clearfix > .ui-header-action.util-clearfix > .ui-header-rfq-popup > .ui-button.ui-button-primary.ui-button-medium.ui-header-rfq-button
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_color_01--text-elements-should-have-a-reasonable-contrast-ratio for more information.
+
+Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 5 of 6):
+#home-searchbar > .ui-searchbar-body > FORM > .ui-searchbar-submit
+#m-vs > .col-offset-fixed-m-12.col-offset-fixed-xs-0.list > .prev.disabled > SPAN
+#m-vs > .col-offset-fixed-m-12.col-offset-fixed-xs-0.list > .next > SPAN
+#ui-footer > .ui-footer-sociality.util-clearfix > .ui-footer-col.atm > .atm-download
+#ui-footer > .ui-footer-seo > .ui-footer-seo-language > .global-site
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_image_01--meaningful-images-should-not-be-used-in-element-backgrounds for more information.
+
+
+*** End accessibility audit results ***

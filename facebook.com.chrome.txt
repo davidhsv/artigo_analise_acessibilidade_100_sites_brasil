@@ -1,0 +1,26 @@
+*** Begin accessibility audit results ***
+An accessibility audit found 
+Errors:
+Error: AX_ARIA_04 (ARIA state and property values must be valid) failed on the following elements (1 - 5 of 5):
+#u_0_1
+#u_0_3
+#u_0_5
+#u_0_8
+#u_0_a
+
+
+Warnings:
+Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 5):
+#blueBarNAXAnchor > DIV > .loggedout_menubar_container > .clearfix.loggedout_menubar > .lfloat._ohe > H1 > A > .fb_logo.img.sp_Z_xw_7FDtNv.sx_b6c073 > U
+#login_form > TABLE > TBODY > TR:nth-of-type(3) > .login_form_label_field > DIV > .uiInputLabel.clearfix.uiInputLabelLegacy > .uiInputLabelLabel
+#login_form > TABLE > TBODY > TR:nth-of-type(3) > .login_form_label_field:nth-of-type(2) > A
+#u_0_i
+#u_0_k
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_color_01--text-elements-should-have-a-reasonable-contrast-ratio for more information.
+
+Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following element:
+#loginbutton
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_image_01--meaningful-images-should-not-be-used-in-element-backgrounds for more information.
+
+
+*** End accessibility audit results ***

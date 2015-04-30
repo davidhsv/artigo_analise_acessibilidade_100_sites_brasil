@@ -1,0 +1,41 @@
+TypeError: Object is not a constructor (near '...})(jQuery);...')
+
+  http://ftp.megafilmeshd.net/wp-content/themes/thema-novo/js/scroll.js:75 in global code
+TypeError: undefined is not a constructor (evaluating '$(".video").colorbox({iframe:true, innerWidth:468, innerHeight:370, overlayClose:false})')
+
+  http://ftp.megafilmeshd.net/wp-content/themes/thema-novo/js/functions.js:18
+  https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js:2 in o
+  https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js:2 in fireWith
+  https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js:2 in ready
+  https://ajax.googleapis.com/ajax/libs/jquery/1.7/jquery.min.js:2 in B
+*** Begin accessibility audit results ***
+An accessibility audit found 
+Errors:
+Error: AX_TEXT_01 (Controls and media elements should have labels) failed on the following element:
+#subbox
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_01--controls-and-media-elements-should-have-labels for more information.
+
+
+Warnings:
+Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 31):
+#megafilmes > A
+#subbox
+#searchform > .enviar
+#lancamentos > A
+#series > A
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_focus_01--these-elements-are-focusable-but-either-invisible-or-obscured-by-another-element for more information.
+
+Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 30):
+#megafilmes > A
+#lancamentos > A > .nome-categoria-lancamento
+#series > A > .nome-categoria-serie
+#ultimos > A > .nome-categoria-red
+#acao > A > .nome-categoria-red
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_color_01--text-elements-should-have-a-reasonable-contrast-ratio for more information.
+
+Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following element:
+#searchform > .enviar
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_image_01--meaningful-images-should-not-be-used-in-element-backgrounds for more information.
+
+
+*** End accessibility audit results ***

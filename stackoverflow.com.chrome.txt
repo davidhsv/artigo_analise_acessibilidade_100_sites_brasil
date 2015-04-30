@@ -1,0 +1,28 @@
+ReferenceError: Can't find variable: StackExchange
+
+  http://stackoverflow.com/:27 in global code
+ReferenceError: Can't find variable: StackExchange
+
+  http://stackoverflow.com/:35 in global code
+ReferenceError: Can't find variable: StackExchange
+
+  http://stackoverflow.com/:214 in global code
+ReferenceError: Can't find variable: StackExchange
+
+  http://stackoverflow.com/:305 in global code
+ReferenceError: Can't find variable: StackExchange
+
+  http://stackoverflow.com/:3732 in global code
+*** Begin accessibility audit results ***
+An accessibility audit found 
+Warnings:
+Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 64):
+body > .topbar > .topbar-wrapper > .topbar-links > .links-container > .topbar-menu-links > .icon-help.js-help-button
+#footer-menu > .top-footer-links > A
+#footer-menu > .top-footer-links > A:nth-of-type(2)
+#footer-menu > .top-footer-links > A:nth-of-type(3)
+#footer-menu > .top-footer-links > A:nth-of-type(4)
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_focus_01--these-elements-are-focusable-but-either-invisible-or-obscured-by-another-element for more information.
+
+
+*** End accessibility audit results ***

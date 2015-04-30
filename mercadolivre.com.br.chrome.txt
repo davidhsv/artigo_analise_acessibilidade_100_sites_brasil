@@ -1,0 +1,46 @@
+*** Begin accessibility audit results ***
+An accessibility audit found 
+Errors:
+Error: AX_ARIA_04 (ARIA state and property values must be valid) failed on the following element:
+#query
+
+Error: AX_TEXT_01 (Controls and media elements should have labels) failed on the following element:
+#query
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_01--controls-and-media-elements-should-have-labels for more information.
+
+
+Warnings:
+Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 6):
+body > .ml-header > .ml-header-inner > A
+#fb-root > IFRAME
+body > .ml-footer > .ml-inner-footer > .ml-footer-legal > .ml-links > LI > A
+body > .ml-footer > .ml-inner-footer > .ml-footer-legal > .ml-links > LI:nth-of-type(2) > A
+body > .ml-footer > .ml-inner-footer > .ml-footer-legal > .ml-links > LI:nth-of-type(3) > A
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_focus_01--these-elements-are-focusable-but-either-invisible-or-obscured-by-another-element for more information.
+
+Warning: AX_TEXT_02 (Images should have an alt attribute) failed on the following elements (1 - 5 of 7):
+#categories > .explore-footer > IMG
+#main > .bg-noise-middle.information > .box-g1.hard-information > .box-g1-3 > .pay > .content > .image > A > .lazy
+#main > .bg-noise-middle.information > .box-g1.hard-information > .box-g1-3:nth-of-type(2) > .shipping > .content > .image > A > .lazy
+#main > .bg-noise-middle.information > .box-g1.hard-information > .box-g1-3:nth-of-type(3) > .secure > .content > .image > A > .lazy
+#linkMobileIOS > .lazy
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_02--images-should-have-an-alt-attribute-unless-they-have-an-aria-role-of-presentation for more information.
+
+Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 77):
+#register > A
+#login > .iframe-modal
+#account > .ch-hide > LI > A
+#logout
+#notiLink
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_color_01--text-elements-should-have-a-reasonable-contrast-ratio for more information.
+
+Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 5 of 19):
+#formSearch > .nav-search-btn.ml-search-btn > .nav-icon-search.ml-icon.ml-icon-search
+#convertionSlider > .slide.main-slide > .promo-container > .list-items.list-items-small.ch-carousel > .carousel-mask > LI > .item > IMG
+#convertionSlider > .slide.main-slide > .promo-container > .list-items.list-items-small.ch-carousel > .carousel-mask > LI:nth-of-type(2) > .item > IMG
+#categories > .explore-content > .ch-g1-5 > UL:nth-of-type(2) > LI > A > .icon.icon-official-store
+#main > .bg-noise-middle.information > .box-g1.hard-information > .box-g1-3 > .pay > .content > .payment-methods > .card.payments-small._visa-small
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_image_01--meaningful-images-should-not-be-used-in-element-backgrounds for more information.
+
+
+*** End accessibility audit results ***

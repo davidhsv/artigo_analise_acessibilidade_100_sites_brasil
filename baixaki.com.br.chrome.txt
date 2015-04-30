@@ -1,0 +1,42 @@
+*** Begin accessibility audit results ***
+An accessibility audit found 
+Errors:
+Error: AX_TEXT_01 (Controls and media elements should have labels) failed on the following element:
+#bxkHeader > .bxkHeadtop > .bxkbusca > .btnbusca
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_01--controls-and-media-elements-should-have-labels for more information.
+
+
+Warnings:
+Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 102):
+body > .w978:nth-of-type(6) > .box_gray.box_home.w306.papeis_home.mleft > .tit > A
+body > .w978:nth-of-type(6) > .box_gray.box_home.w306.papeis_home.mleft > .um > A
+body > .w978:nth-of-type(6) > .box_gray.box_home.w306.papeis_home.mleft > .dois > A
+body > .w978:nth-of-type(6) > .box_gray.box_home.w306.papeis_home.mleft > .tres > A
+#google_ads_iframe_/1010728/bxk_home_leaderboard_bottom_0
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_focus_01--these-elements-are-focusable-but-either-invisible-or-obscured-by-another-element for more information.
+
+Warning: AX_TEXT_02 (Images should have an alt attribute) failed on the following elements (1 - 5 of 106):
+#bxkHeader > .bxkHeadtop > .bxklogo > IMG
+#bxkHeader > .Bluebar > .Bluebarin > .header-menu.menu-left > .first.comsub > A > .arrow-white
+#bxkHeader > .Bluebar > .Bluebarin > .header-menu.menu-right > .comsub > A > .arrow-white
+#banner-slide > .bjqs-wrapper > .bjqs > .item_474.bjqs-slide > A > IMG
+#banner-slide > .bjqs-wrapper > .bjqs > .item_474.bjqs-slide:nth-of-type(2) > A > IMG
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_02--images-should-have-an-alt-attribute-unless-they-have-an-aria-role-of-presentation for more information.
+
+Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 165):
+#bxkHeader > .bxkHeadtop > .header-so > .active > A
+#bxkHeader > .Bluebar > .Bluebarin > .header-menu.menu-left > .first.comsub > A
+#bxkheadcats > .menucats > LI > A
+#bxkheadcats > .menucats > LI:nth-of-type(2) > A
+#bxkheadcats > .menucats > LI:nth-of-type(3) > A
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_color_01--text-elements-should-have-a-reasonable-contrast-ratio for more information.
+
+Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 4 of 4):
+#bxkHeader > .bxkHeadtop > .bxkbusca > .btnbusca > .lupa
+#bxkHeader > .Bluebar > .Bluebarin > .header-menu.menu-left > .first.comsub > A > .arrow-white
+#bxkHeader > .Bluebar > .Bluebarin > .header-menu.menu-right > .comsub > A > .arrow-white
+body > .w978:nth-of-type(6) > .box_gray.box_home.w306.papeis_home.mleft > .tit > .barsprites.dots
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_image_01--meaningful-images-should-not-be-used-in-element-backgrounds for more information.
+
+
+*** End accessibility audit results ***

@@ -1,0 +1,37 @@
+*** Begin accessibility audit results ***
+An accessibility audit found 
+Warnings:
+Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 14):
+#carlist2 > .carousel-eye > A
+#carlist4 > LI > A
+#carlist4 > LI:nth-of-type(2) > A
+#carlist4 > LI:nth-of-type(3) > A
+#D9F6A6B9-363E-4BA0-9524-FCCEA220EAC8 > .thumbs-itens > .ativo > A
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_focus_01--these-elements-are-focusable-but-either-invisible-or-obscured-by-another-element for more information.
+
+Warning: AX_TEXT_02 (Images should have an alt attribute) failed on the following elements (1 - 5 of 13):
+#D9F6A6B9-363E-4BA0-9524-FCCEA220EAC8 > .carrossel-options > .fotodestaque.ativo > .imagem > A > .lazy
+#D9F6A6B9-363E-4BA0-9524-FCCEA220EAC8 > .thumbs-itens > .ativo > A > .foto > .borda-foto > .lazy
+#D9F6A6B9-363E-4BA0-9524-FCCEA220EAC8 > .thumbs-itens > LI:nth-of-type(2) > A > .foto > .borda-foto > .lazy
+#D9F6A6B9-363E-4BA0-9524-FCCEA220EAC8 > .thumbs-itens > LI:nth-of-type(3) > A > .foto > .borda-foto > .lazy
+#D9F6A6B9-363E-4BA0-9524-FCCEA220EAC8 > .thumbs-itens > LI:nth-of-type(4) > A > .foto > .borda-foto > .lazy
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_02--images-should-have-an-alt-attribute-unless-they-have-an-aria-role-of-presentation for more information.
+
+Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 81):
+#carlist2 > .carousel-eye > A
+#carlist3 > LI > A > .thumb-text > .thumb-text-span
+#carlist3 > LI:nth-of-type(2) > A > .thumb-text > .thumb-text-span
+#carlist3 > LI:nth-of-type(3) > A > .thumb-text > .thumb-text-span
+#carlist3 > LI:nth-of-type(4) > A > .thumb-text > .thumb-text-span
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_color_01--text-elements-should-have-a-reasonable-contrast-ratio for more information.
+
+Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 5 of 15):
+#nav-menu > .container > .menu-hider > .only-resp > .tooglemenu
+#7A1AB75F-5A8B-491C-9419-72111228939E > .destaque > .destaque-seta > .destaque-seta-ponta
+#7A1AB75F-5A8B-491C-9419-72111228939E > .destaque > .destaque-lista > UL > LI > .marcador
+#7A1AB75F-5A8B-491C-9419-72111228939E > .destaque > .destaque-lista > UL > LI:nth-of-type(2) > .marcador
+#7A1AB75F-5A8B-491C-9419-72111228939E > .destaque > .destaque-lista > UL > LI:nth-of-type(3) > .marcador
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_image_01--meaningful-images-should-not-be-used-in-element-backgrounds for more information.
+
+
+*** End accessibility audit results ***

@@ -1,0 +1,50 @@
+TypeError: undefined is not an object (evaluating 'window.angular.version')
+
+  https://s.ytimg.com/yts/jsbin/www-en_US-vfl_D4YEN/common.js:956
+*** Begin accessibility audit results ***
+An accessibility audit found 
+Errors:
+Error: AX_TEXT_01 (Controls and media elements should have labels) failed on the following elements (1 - 5 of 7):
+#item-section-159684 > LI > .feed-item-container.browse-list-item-container.yt-section-hover-container.compact-shelf.shelf-item.branded-page-box.vve-check.clearfix > .feed-item-dismissable > .compact-shelf.yt-uix-shelfslider.yt-uix-shelfslider-at-head > .yt-uix-button.yt-uix-button-size-default.yt-uix-button-shelf-slider-pager.yt-uix-shelfslider-next
+#item-section-823812 > LI > .feed-item-container.browse-list-item-container.yt-section-hover-container.compact-shelf.shelf-item.branded-page-box.vve-check.clearfix > .feed-item-dismissable > .compact-shelf.yt-uix-shelfslider.yt-uix-shelfslider-at-head > .yt-uix-button.yt-uix-button-size-default.yt-uix-button-shelf-slider-pager.yt-uix-shelfslider-next
+#item-section-504956 > LI > .feed-item-container.browse-list-item-container.yt-section-hover-container.compact-shelf.shelf-item.branded-page-box.vve-check.clearfix > .feed-item-dismissable > .compact-shelf.yt-uix-shelfslider.yt-uix-shelfslider-at-head > .yt-uix-button.yt-uix-button-size-default.yt-uix-button-shelf-slider-pager.yt-uix-shelfslider-next
+#item-section-483120 > LI > .feed-item-container.browse-list-item-container.yt-section-hover-container.compact-shelf.shelf-item.branded-page-box.vve-check.clearfix > .feed-item-dismissable > .compact-shelf.yt-uix-shelfslider.yt-uix-shelfslider-at-head > .yt-uix-button.yt-uix-button-size-default.yt-uix-button-shelf-slider-pager.yt-uix-shelfslider-next
+#item-section-840093 > LI > .feed-item-container.browse-list-item-container.yt-section-hover-container.compact-shelf.shelf-item.branded-page-box.vve-check.clearfix > .feed-item-dismissable > .compact-shelf.yt-uix-shelfslider.yt-uix-shelfslider-at-head > .yt-uix-button.yt-uix-button-size-default.yt-uix-button-shelf-slider-pager.yt-uix-shelfslider-next
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_01--controls-and-media-elements-should-have-labels for more information.
+
+
+Warnings:
+Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 21):
+#a11y-skip-nav
+#player-api
+#item-section-957821 > LI > .feed-item-container.browse-list-item-container.yt-section-hover-container.lohp-newspaper-shelf.shelf-item.branded-page-box.clearfix > .lohp-shelf-content > .lohp-medium-shelves-container > .lohp-medium-shelf > .yt-lockup.yt-lockup-mini.yt-lockup-video.vve-check.clearfix > .yt-lockup-thumbnail.contains-addto > .yt-uix-button.yt-uix-button-size-small.yt-uix-button-default.yt-uix-button-empty.yt-uix-button-has-icon.no-icon-markup.addto-button.video-actions.spf-nolink.hide-until-delayloaded.addto-watch-later-button-sign-in.yt-uix-tooltip
+#item-section-957821 > LI > .feed-item-container.browse-list-item-container.yt-section-hover-container.lohp-newspaper-shelf.shelf-item.branded-page-box.clearfix > .lohp-shelf-content > .lohp-medium-shelves-container > .lohp-medium-shelf:nth-of-type(3) > .yt-lockup.yt-lockup-mini.yt-lockup-video.vve-check.clearfix > .yt-lockup-content > .yt-lockup-title > .yt-ui-ellipsis.yt-ui-ellipsis-2.yt-uix-sessionlink.spf-link
+#footer-logo > A
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_focus_01--these-elements-are-focusable-but-either-invisible-or-obscured-by-another-element for more information.
+
+Warning: AX_TEXT_02 (Images should have an alt attribute) failed on the following elements (1 - 5 of 7):
+#item-section-159684 > LI > .feed-item-container.browse-list-item-container.yt-section-hover-container.compact-shelf.shelf-item.branded-page-box.vve-check.clearfix > .feed-item-dismissable > .branded-page-module-title > .branded-page-module-title-link.yt-uix-sessionlink.spf-link.g-hovercard > .yt-lockup-thumbnail > .yt-thumb.video-thumb > IMG
+#item-section-823812 > LI > .feed-item-container.browse-list-item-container.yt-section-hover-container.compact-shelf.shelf-item.branded-page-box.vve-check.clearfix > .feed-item-dismissable > .branded-page-module-title > .branded-page-module-title-link.yt-uix-sessionlink.spf-link.g-hovercard > .yt-lockup-thumbnail > .yt-thumb.video-thumb > IMG
+#item-section-504956 > LI > .feed-item-container.browse-list-item-container.yt-section-hover-container.compact-shelf.shelf-item.branded-page-box.vve-check.clearfix > .feed-item-dismissable > .branded-page-module-title > .branded-page-module-title-link.yt-uix-sessionlink.spf-link.g-hovercard > .yt-lockup-thumbnail > .yt-thumb.video-thumb > IMG
+#item-section-483120 > LI > .feed-item-container.browse-list-item-container.yt-section-hover-container.compact-shelf.shelf-item.branded-page-box.vve-check.clearfix > .feed-item-dismissable > .branded-page-module-title > .branded-page-module-title-link.yt-uix-sessionlink.spf-link.g-hovercard > .yt-lockup-thumbnail > .yt-thumb.video-thumb > IMG
+#item-section-840093 > LI > .feed-item-container.browse-list-item-container.yt-section-hover-container.compact-shelf.shelf-item.branded-page-box.vve-check.clearfix > .feed-item-dismissable > .branded-page-module-title > .branded-page-module-title-link.yt-uix-sessionlink.spf-link.g-hovercard > .yt-lockup-thumbnail > .yt-thumb.video-thumb > IMG
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_02--images-should-have-an-alt-attribute-unless-they-have-an-aria-role-of-presentation for more information.
+
+Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 11):
+#ticker > .yt-alert-content > .yt-alert-message
+#ticker > .yt-alert-content > .yt-alert-message > A
+#search-btn > .yt-uix-button-content
+#yt-lang-alert-container > .yt-alert-content > .yt-alert-message
+#item-section-159684 > LI > .feed-item-container.browse-list-item-container.yt-section-hover-container.compact-shelf.shelf-item.branded-page-box.vve-check.clearfix > .feed-item-dismissable > .menu-container > .shelf-action-container > .shelf-subscription-button.yt-uix-button-subscription-container > .yt-subscription-button-subscriber-count-branded-horizontal
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_color_01--text-elements-should-have-a-reasonable-contrast-ratio for more information.
+
+Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 5 of 57):
+#ticker > .yt-alert-icon > .icon.master-sprite.yt-sprite
+#logo-container > .logo.masthead-logo-renderer-logo.yt-sprite
+#appbar-guide-button > .yt-uix-button-icon-wrapper > .yt-uix-button-icon.yt-uix-button-icon-appbar-guide.yt-sprite
+#yt-lang-alert-container > .yt-alert-icon > .icon.master-sprite.yt-sprite
+#item-section-159684 > LI > .feed-item-container.browse-list-item-container.yt-section-hover-container.compact-shelf.shelf-item.branded-page-box.vve-check.clearfix > .feed-item-dismissable > .compact-shelf.yt-uix-shelfslider.yt-uix-shelfslider-at-head > .yt-uix-button.yt-uix-button-size-default.yt-uix-button-shelf-slider-pager.yt-uix-shelfslider-next > .yt-uix-button-content > .yt-uix-shelfslider-next-arrow.yt-uix-tooltip.yt-sprite
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_image_01--meaningful-images-should-not-be-used-in-element-backgrounds for more information.
+
+
+*** End accessibility audit results ***

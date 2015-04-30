@@ -1,0 +1,44 @@
+*** Begin accessibility audit results ***
+An accessibility audit found 
+Errors:
+Error: AX_TEXT_01 (Controls and media elements should have labels) failed on the following elements (1 - 2 of 2):
+#header > HEADER > .container > .row:nth-of-type(2) > .busca > .search-form.col-xs-12.col-sm-12.col-md-3.col-lg-3 > FIELDSET > .icone-busca.hidden-xs.hidden-sm
+#mc_botao
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_01--controls-and-media-elements-should-have-labels for more information.
+
+
+Warnings:
+Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 69):
+#header > HEADER > .container > .row > .redesSociais.hidden-xs.hidden-sm.col-md-offset-9.col-md-3.col-lg-offset-9.col-lg-3 > UL > LI > A
+#header > HEADER > .container > .row > .redesSociais.hidden-xs.hidden-sm.col-md-offset-9.col-md-3.col-lg-offset-9.col-lg-3 > UL > LI:nth-of-type(2) > A
+#id11 > .image
+#id11 > .item-legend
+#calendar > .programs-list > .programs-list-row.clearfix > .item-2.program-item > .program-image
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_focus_01--these-elements-are-focusable-but-either-invisible-or-obscured-by-another-element for more information.
+
+Warning: AX_TEXT_02 (Images should have an alt attribute) failed on the following elements (1 - 5 of 5):
+#friends-activity > .friends-activity-wrapper > .friends-activity-list.clearfix > .friends-item.clearfix > .friend > .image > A > IMG
+#friends-activity > .friends-activity-wrapper > .friends-activity-list.clearfix > .friends-item.clearfix:nth-of-type(2) > .friend > .image > A > IMG
+#friends-activity > .friends-activity-wrapper > .friends-activity-list.clearfix > .friends-item.clearfix:nth-of-type(3) > .friend > .image > A > IMG
+#friends-activity > .friends-activity-wrapper > .friends-activity-list.clearfix > .friends-item.clearfix:nth-of-type(4) > .friend > .image > A > IMG
+#friends-activity > .friends-activity-wrapper > .friends-activity-list.clearfix > .friends-item.clearfix:nth-of-type(5) > .friend > .image > A > IMG
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_02--images-should-have-an-alt-attribute-unless-they-have-an-aria-role-of-presentation for more information.
+
+Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 275):
+#header > HEADER > .container > .row:nth-of-type(2) > .logotipo.col-xs-12.col-sm-12.col-md-4.col-lg-4 > H1 > A
+#header > HEADER > .container > .row:nth-of-type(2) > .logotipo.col-xs-12.col-sm-12.col-md-4.col-lg-4 > .cidades.hidden-xs.hidden-sm > .clicar
+#header > HEADER > .container > .row:nth-of-type(2) > .menuLateral.hidden-md.hidden-lg > NAV > H4
+#header > HEADER > .container > .row:nth-of-type(2) > .menuLateral.hidden-md.hidden-lg > NAV > UL > LI > A
+#header > HEADER > .container > .row:nth-of-type(2) > .menuLateral.hidden-md.hidden-lg > NAV > UL > LI:nth-of-type(2) > A
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_color_01--text-elements-should-have-a-reasonable-contrast-ratio for more information.
+
+Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 5 of 34):
+#featured-nav > .prev
+#featured-nav > .next
+#friends-activity > .friends-activity-wrapper > .friends-activity-list.clearfix > .friends-item.clearfix > .friend > .image > A > .author-mask
+#friends-activity > .friends-activity-wrapper > .friends-activity-list.clearfix > .friends-item.clearfix > .text > .arrow
+#friends-activity > .friends-activity-wrapper > .friends-activity-list.clearfix > .friends-item.clearfix:nth-of-type(2) > .friend > .image > A > .author-mask
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_image_01--meaningful-images-should-not-be-used-in-element-backgrounds for more information.
+
+
+*** End accessibility audit results ***

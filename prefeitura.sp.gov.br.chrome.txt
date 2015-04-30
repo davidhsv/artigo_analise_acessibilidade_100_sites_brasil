@@ -1,0 +1,55 @@
+Error: Load timeout for modules: backbone,jquery/jquery-cookie,ajax/header,hbs!views/template/secretarias_unnormalized2,hbs,hbs!views/template/subprefeituras_unnormalized3,hbs!views/template/orgaos_unnormalized4,views/secao,views/tweets,views/regiao,views/videos-youtube
+http://requirejs.org/docs/errors.html#timeout
+
+  http://www.capital.sp.gov.br/portal/js/libs/require.js:32 in onError
+  http://www.capital.sp.gov.br/portal/js/libs/require.js:15 in A
+  http://www.capital.sp.gov.br/portal/js/libs/require.js:17 in T
+  http://www.capital.sp.gov.br/portal/js/libs/require.js:17
+TypeError: undefined is not an object (evaluating 'resultado[21]')
+
+  undefined:982
+*** Begin accessibility audit results ***
+An accessibility audit found 
+Errors:
+Error: AX_TEXT_01 (Controls and media elements should have labels) failed on the following elements (1 - 4 of 4):
+#buscaGeral
+#global_search
+#externos > .dash-header > .e-fechar
+#lista-orgaos
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_01--controls-and-media-elements-should-have-labels for more information.
+
+
+Warnings:
+Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 30):
+#externos > A
+#com-sub-banner > .bx-wrapper > .bx-viewport > .banner > LI:nth-of-type(3) > A
+#com-sub-banner > .bx-wrapper > .bx-viewport > .banner > LI:nth-of-type(3) > DIV > A
+#com-sub-banner > .bx-wrapper > .bx-controls.bx-has-pager > .bx-pager.bx-default-pager > .bx-pager-item > .bx-pager-link
+#com-sub-banner > .bx-wrapper > .bx-controls.bx-has-pager > .bx-pager.bx-default-pager > .bx-pager-item:nth-of-type(2) > .bx-pager-link
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_focus_01--these-elements-are-focusable-but-either-invisible-or-obscured-by-another-element for more information.
+
+Warning: AX_TEXT_02 (Images should have an alt attribute) failed on the following elements (1 - 4 of 4):
+#com-sub-banner > .bx-wrapper > .bx-viewport > .banner > LI:nth-of-type(3) > A > IMG
+#mapas > A > IMG
+body > .full-preto > .container.full_block > .four.columns.bloco2.app-list > UL > LI > .app-icone.app-iphone > IMG
+body > .full-preto > .container.full_block > .four.columns.bloco2.app-list > UL > LI:nth-of-type(2) > .app-icone.app-android > IMG
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_02--images-should-have-an-alt-attribute-unless-they-have-an-aria-role-of-presentation for more information.
+
+Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 75):
+#acesso > .four.columns.bold.em09
+#trnsp
+#logo > A
+#busca > FIELDSET > LABEL
+#externos > .dash-header
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_color_01--text-elements-should-have-a-reasonable-contrast-ratio for more information.
+
+Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 5 of 17):
+#atend156 > A
+#global_search
+#servicos-externos > .ex-clima > .dash-border > .tempo-g.nb
+#servicos-externos > .ex-clima > .dash-border > .tempestade > SPAN > .raio
+#servicos-externos > .ex-publico > .dash-border > .dash-img
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_image_01--meaningful-images-should-not-be-used-in-element-backgrounds for more information.
+
+
+*** End accessibility audit results ***

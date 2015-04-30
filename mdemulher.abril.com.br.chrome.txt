@@ -1,0 +1,37 @@
+*** Begin accessibility audit results ***
+An accessibility audit found 
+Warnings:
+Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 134):
+body > .element-invisible.element-focusable
+#google_ads_iframe_/9287/mdemulher/home_0
+body > .pink-menu > .menus > .menu-brand-header > .menu-6021.first > A
+body > .pink-menu > .menus > .menu-brand-header > .menu-6026 > A
+body > .pink-menu > .menus > .menu-brand-header > .menu-6031 > A
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_focus_01--these-elements-are-focusable-but-either-invisible-or-obscured-by-another-element for more information.
+
+Warning: AX_TEXT_02 (Images should have an alt attribute) failed on the following elements (1 - 5 of 20):
+#abr_RMContainer > A > IMG
+#closeButton_1829206294 > IMG
+#mdm-bottom > .inside > .panel-pane.pane-block.pane-opa-block-feeds-last-feeds.feeds-processed > .content-infinity-feed.ng-scope > .template > .ng-scope > .cards > .cards-items > .masonry-brick.ng-scope.loaded.news.small.horizontal-image > .content.ng-scope > .image-container > A > IMG
+#mdm-bottom > .inside > .panel-pane.pane-block.pane-opa-block-feeds-last-feeds.feeds-processed > .content-infinity-feed.ng-scope > .template > .ng-scope > .cards > .cards-items > .masonry-brick.ng-scope.loaded.news.small.horizontal-image:nth-of-type(2) > .content.ng-scope > .image-container > A > IMG
+#mdm-bottom > .inside > .panel-pane.pane-block.pane-opa-block-feeds-last-feeds.feeds-processed > .content-infinity-feed.ng-scope > .template > .ng-scope > .cards > .cards-items > .masonry-brick.ng-scope.loaded.sign > .content.ng-scope > A > IMG
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_02--images-should-have-an-alt-attribute-unless-they-have-an-aria-role-of-presentation for more information.
+
+Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 50):
+body > .element-invisible.element-focusable
+body > .pink-menu > .menus > .menu-brand-header > .menu-6021.first > A
+body > .pink-menu > .menus > .menu-brand-header > .menu-6026 > A
+body > .pink-menu > .menus > .menu-brand-header > .menu-6031 > A
+body > .pink-menu > .menus > .menu-brand-header > .menu-6036 > A
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_color_01--text-elements-should-have-a-reasonable-contrast-ratio for more information.
+
+Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 5 of 14):
+#mdm-bottom > .inside > .panel-pane.pane-block.pane-opa-block-feeds-last-feeds.feeds-processed > .content-infinity-feed.ng-scope > .template > .ng-scope > .cards > .cards-items > .masonry-brick.ng-scope.loaded.news.small.horizontal-image > .content.ng-scope > .social > .social-initial > LI > .arrow.icon
+#mdm-bottom > .inside > .panel-pane.pane-block.pane-opa-block-feeds-last-feeds.feeds-processed > .content-infinity-feed.ng-scope > .template > .ng-scope > .cards > .cards-items > .masonry-brick.ng-scope.loaded.news.small.horizontal-image > .content.ng-scope > .social > .social-initial > LI:nth-of-type(3) > .message.icon
+#mdm-bottom > .inside > .panel-pane.pane-block.pane-opa-block-feeds-last-feeds.feeds-processed > .content-infinity-feed.ng-scope > .template > .ng-scope > .cards > .cards-items > .masonry-brick.ng-scope.loaded.news.small.horizontal-image:nth-of-type(2) > .content.ng-scope > .social > .social-initial > LI > .arrow.icon
+#mdm-bottom > .inside > .panel-pane.pane-block.pane-opa-block-feeds-last-feeds.feeds-processed > .content-infinity-feed.ng-scope > .template > .ng-scope > .cards > .cards-items > .masonry-brick.ng-scope.loaded.news.small.horizontal-image:nth-of-type(2) > .content.ng-scope > .social > .social-initial > LI:nth-of-type(3) > .message.icon
+#mdm-bottom > .inside > .panel-pane.pane-block.pane-opa-block-feeds-last-feeds.feeds-processed > .content-infinity-feed.ng-scope > .template > .ng-scope > .cards > .cards-items > .masonry-brick.ng-scope.loaded.news.small.horizontal-image:nth-of-type(3) > .content.ng-scope > .social > .social-initial > LI > .arrow.icon
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_image_01--meaningful-images-should-not-be-used-in-element-backgrounds for more information.
+
+
+*** End accessibility audit results ***

@@ -1,0 +1,7 @@
+TypeError: undefined is not a constructor (evaluating 'this.callbackSuccess()')
+
+  http://adv.r7.com//script?href=http://www.r7.com/:15 in setAdContentsBySlotForSync
+  http://adv.r7.com//script?href=http://www.r7.com/:15 in setAdContentsBySlotForSync
+*** Begin accessibility audit results ***
+An accessibility audit found 
+*** End accessibility audit results ***
