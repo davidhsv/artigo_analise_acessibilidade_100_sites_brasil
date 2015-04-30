@@ -1,0 +1,34 @@
+*** Begin accessibility audit results ***
+An accessibility audit found 
+Errors:
+Error: AX_TEXT_01 (Controls and media elements should have labels) failed on the following elements (1 - 5 of 8):
+MAIN > .row:nth-of-type(3) > .cards.expansible > .toggle
+MAIN > .row:nth-of-type(4) > .cards.expansible > .toggle
+MAIN > .row:nth-of-type(6) > .cards.expansible > .toggle
+MAIN > .row:nth-of-type(7) > .cards.expansible > .toggle
+MAIN > .row:nth-of-type(8) > .cards.expansible > .toggle
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_01--controls-and-media-elements-should-have-labels for more information.
+
+
+Warnings:
+Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 4 of 4):
+#logo > A
+#resbarrauol-header > .resbarrauol-container > .resbarrauol-section > .resbarrauol-logo
+#survey-box > .close
+body > .main-footer > .wrapper:nth-of-type(2) > DIV > .footer-main-links > UL > LI > .logo
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_focus_01--these-elements-are-focusable-but-either-invisible-or-obscured-by-another-element for more information.
+
+Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 78):
+#main_search > DIV > BUTTON
+#teams_class_selector > LI:nth-of-type(2) > A
+#teams_class_selector > LI:nth-of-type(3) > A
+#top_content > .block-highlight > .highlights.mobile.carousel > .main-highlight > .highlight.article > FIGCAPTION > DIV > A > .item-headline
+#top_content > .block-highlight > .highlights.mobile.carousel > .main-highlight > .highlight.article > FIGCAPTION > DIV > .related.related-1 > .article > A
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_color_01--text-elements-should-have-a-reasonable-contrast-ratio for more information.
+
+Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following element:
+#survey-box > .close
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_image_01--meaningful-images-should-not-be-used-in-element-backgrounds for more information.
+
+
+*** End accessibility audit results ***

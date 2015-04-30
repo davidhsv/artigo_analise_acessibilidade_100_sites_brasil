@@ -1,0 +1,16 @@
+*** Begin accessibility audit results ***
+An accessibility audit found 
+Errors:
+Error: AX_TEXT_01 (Controls and media elements should have labels) failed on the following element:
+#recaptcha_response_field
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_01--controls-and-media-elements-should-have-labels for more information.
+
+
+Warnings:
+Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 2 of 2):
+#cf-error-details > .cf-wrapper.cf-header.cf-error-overview > .cf-subheadline
+#cf-error-details > .cf-wrapper.cf-header.cf-error-overview > .cf-subheadline > SPAN
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_color_01--text-elements-should-have-a-reasonable-contrast-ratio for more information.
+
+
+*** End accessibility audit results ***

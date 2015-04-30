@@ -1,0 +1,53 @@
+*** Begin accessibility audit results ***
+An accessibility audit found 
+Errors:
+Error: AX_ARIA_04 (ARIA state and property values must be valid) failed on the following element:
+#newsletter_modal
+
+Error: AX_TEXT_01 (Controls and media elements should have labels) failed on the following elements (1 - 4 of 4):
+body > .siteheader > .navbar.navbar-default.navbar-fixed-top.visible-xs > .navbar-toggle.pull-left
+#hoteis > .twitter-typeahead > .form-control.typeahead.tt-hint
+#pacotes > .twitter-typeahead > .form-control.typeahead.tt-hint
+#newsletter-state
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_01--controls-and-media-elements-should-have-labels for more information.
+
+
+Warnings:
+Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 20):
+#hoteis > .twitter-typeahead > .form-control.typeahead.tt-hint
+#pacotes > .twitter-typeahead > .form-control.typeahead.tt-hint
+body > .sitefooter > .footer > .container > .row > .col-sm-3.col-xs-6 > .list-unstyled.firstItem > LI > A
+body > .sitefooter > .footer > .container > .row > .col-sm-3.col-xs-6 > .list-unstyled.firstItem > LI:nth-of-type(2) > A
+body > .sitefooter > .footer > .container > .row > .col-sm-3.col-xs-6 > .list-unstyled.firstItem > LI:nth-of-type(3) > A
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_focus_01--these-elements-are-focusable-but-either-invisible-or-obscured-by-another-element for more information.
+
+Warning: AX_TEXT_02 (Images should have an alt attribute) failed on the following elements (1 - 5 of 7):
+html > IMG
+IMG:nth-of-type(3)
+IMG:nth-of-type(4)
+IMG:nth-of-type(5)
+IMG:nth-of-type(6)
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_02--images-should-have-an-alt-attribute-unless-they-have-an-aria-role-of-presentation for more information.
+
+Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 222):
+body > .siteheader > .navmenu.navmenu-default.navmenu-fixed-left.offcanvas-xs > .nav.navmenu-nav > .container > .row > .col-md-2.col-sm-3 > .brand.hu-link-tag-manager > .sr-only
+body > .siteheader > .navmenu.navmenu-default.navmenu-fixed-left.offcanvas-xs > .nav.navmenu-nav > .container > .row > .col-md-2.col-md-push-8.col-sm-2.col-sm-push-7 > ESI:REMOVE > .user-profile.unlogged > .login-link > .login-user-notification
+body > .siteheader > .navmenu.navmenu-default.navmenu-fixed-left.offcanvas-xs > .nav.navmenu-nav > .sub-nav.sub-nav-destinations.hidden-xs.opened > .container > .sub-nav-regions.sub-nav__inner > .menu-label > .hidden-sm
+body > .siteheader > .navmenu.navmenu-default.navmenu-fixed-left.offcanvas-xs > .nav.navmenu-nav > .sub-nav.sub-nav-destinations.hidden-xs.opened > .container > .sub-nav-regions.sub-nav__inner > .menu-label.label-divisor > .hidden-sm
+body > .siteheader > .navmenu.navmenu-default.navmenu-fixed-left.offcanvas-xs > .nav.navmenu-nav > .sub-nav.sub-nav-destinations.hidden-xs.opened > .container > .sub-nav-regions.sub-nav__inner > .menu-label.label-divisor:nth-of-type(2) > .hidden-sm
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_color_01--text-elements-should-have-a-reasonable-contrast-ratio for more information.
+
+Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 5 of 6):
+body > .sitemain > .home > .box.premios > .container > .list-unstyled.row.alg-c > .col-md-2.col-sm-4.col-xs-6 > A > .premio-midia-sprit.icon_gptw
+body > .sitemain > .home > .box.premios > .container > .list-unstyled.row.alg-c > .col-md-2.col-sm-4.col-xs-6:nth-of-type(2) > .premio-midia-sprit.icon_epoca_ra
+body > .sitemain > .home > .box.premios > .container > .list-unstyled.row.alg-c > .col-md-2.col-sm-4.col-xs-6:nth-of-type(3) > A > .premio-midia-sprit.icon_consciente
+body > .sitemain > .home > .box.premios > .container > .list-unstyled.row.alg-c > .col-md-2.col-sm-4.col-xs-6:nth-of-type(4) > .premio-midia-sprit.icon_merco
+body > .sitemain > .home > .box.premios > .container > .list-unstyled.row.alg-c > .col-md-2.col-sm-4.col-xs-6:nth-of-type(5) > A > .premio-midia-sprit.icon_top
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_image_01--meaningful-images-should-not-be-used-in-element-backgrounds for more information.
+
+Warning: AX_ARIA_02 (aria-labelledby attributes should refer to an element which exists in the DOM) failed on the following element:
+#newsletter_modal
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_aria_02--aria-labelledby-attributes-should-refer-to-an-element-which-exists-in-the-dom for more information.
+
+
+*** End accessibility audit results ***

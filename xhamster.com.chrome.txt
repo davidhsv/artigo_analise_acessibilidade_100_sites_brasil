@@ -1,0 +1,43 @@
+*** Begin accessibility audit results ***
+An accessibility audit found 
+Errors:
+Error: AX_TEXT_01 (Controls and media elements should have labels) failed on the following element:
+#search > .w100 > TBODY > TR > TD:nth-of-type(3) > .submit
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_01--controls-and-media-elements-should-have-labels for more information.
+
+
+Warnings:
+Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 36):
+#vPromo > .boxC > .video:nth-of-type(2) > .hRotator
+#vPromo > .boxC > .video:nth-of-type(5) > .hRotator
+#content > TBODY > TR > .w100 > .w100:nth-of-type(2) > TBODY > TR > TD > .box.boxTL > .boxC.videoList.clearfix > .video:nth-of-type(2) > .hRotator
+#content > TBODY > TR > .w100 > .w100:nth-of-type(2) > TBODY > TR > TD > .box.boxTL > .boxC.videoList.clearfix > .video:nth-of-type(3) > .hRotator
+#content > TBODY > TR > .w100 > .w100:nth-of-type(2) > TBODY > TR > TD > .box.boxTL > .boxC.videoList.clearfix > .video:nth-of-type(7) > .hRotator
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_focus_01--these-elements-are-focusable-but-either-invisible-or-obscured-by-another-element for more information.
+
+Warning: AX_TEXT_02 (Images should have an alt attribute) failed on the following elements (1 - 5 of 46):
+#2295855
+#4056763
+#2939260
+#4425113
+#1592759
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_02--images-should-have-an-alt-attribute-unless-they-have-an-aria-role-of-presentation for more information.
+
+Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 104):
+#search > .w100 > TBODY > TR > TD:nth-of-type(2) > .select > SPAN
+#search > .w100 > TBODY > TR > TD:nth-of-type(2) > .select > .list > .sel
+#search > .w100 > TBODY > TR > TD:nth-of-type(2) > .select > .list > A:nth-of-type(2)
+#search > .w100 > TBODY > TR > TD:nth-of-type(2) > .select > .list > A:nth-of-type(3)
+#search > .w100 > TBODY > TR > TD:nth-of-type(2) > .select > .list > A:nth-of-type(4)
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_color_01--text-elements-should-have-a-reasonable-contrast-ratio for more information.
+
+Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 5 of 32):
+#search > .w100 > TBODY > TR > TD:nth-of-type(2) > .select > .icon.iconSearchDown
+#search > .w100 > TBODY > TR > TD:nth-of-type(3) > .submit
+#menuLogin > TBODY > TR > TD:nth-of-type(2) > SPAN
+#header > TBODY > TR:nth-of-type(2) > TD > .w100 > TBODY > TR > TD:nth-of-type(3) > .menuLang > .langBox > .def > .iconL.iconFlag_pt.flag
+#header > TBODY > TR:nth-of-type(2) > TD > .w100 > TBODY > TR > TD:nth-of-type(3) > .menuLang > .langBox > .def > .iconL.iconSearchDown
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_image_01--meaningful-images-should-not-be-used-in-element-backgrounds for more information.
+
+
+*** End accessibility audit results ***

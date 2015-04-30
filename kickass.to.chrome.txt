@@ -1,0 +1,29 @@
+*** Begin accessibility audit results ***
+An accessibility audit found 
+Warnings:
+Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 16):
+#translate_link
+body > .lightgrey > UL > LI:nth-of-type(2) > .lower
+body > .lightgrey > UL > LI:nth-of-type(3) > A
+body > .lightgrey > UL > .lower > A
+body > .lightgrey > UL > LI:nth-of-type(5) > A
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_focus_01--these-elements-are-focusable-but-either-invisible-or-obscured-by-another-element for more information.
+
+Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 325):
+#searchTool > .ajaxLink > .ka
+#searchTool > BUTTON > .ka
+#tagcloud > .tag2
+#tagcloud > .tag2:nth-of-type(2)
+#tagcloud > .tag3
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_color_01--text-elements-should-have-a-reasonable-contrast-ratio for more information.
+
+Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 5 of 90):
+#logo
+#wrapperInner > .mainpart > .doublecelltable > TBODY > TR > TD > H2 > .rsssign
+#wrapperInner > .mainpart > .doublecelltable > TBODY > TR > TD > DIV > .data > TBODY > .odd > TD > .iaconbox.floatright > .icomment.icommentjs.icon16 > SPAN
+#wrapperInner > .mainpart > .doublecelltable > TBODY > TR > TD > DIV > .data > TBODY > .odd > TD > .iaconbox.floatright > .istill.icon16 > SPAN
+#wrapperInner > .mainpart > .doublecelltable > TBODY > TR > TD > DIV > .data > TBODY > .even > TD > .iaconbox.floatright > .icomment.icommentjs.icon16 > SPAN
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_image_01--meaningful-images-should-not-be-used-in-element-backgrounds for more information.
+
+
+*** End accessibility audit results ***

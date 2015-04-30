@@ -1,0 +1,64 @@
+TypeError: undefined is not a constructor (evaluating 'new YT.Player('boxVideoContainerRedes', {
+			height: 260,
+			width: 460,
+			videoId: videoId,
+			playerVars: {
+    			html5:1
+			}
+		})')
+
+  http://www.vivo.com.br/portalweb/appmanager/env/web#:2856 in rodarVideoRedes
+  http://www.vivo.com.br/portalweb/appmanager/env/web#:2990 in complete
+  http://www.vivo.com.br/portalweb/framework/skins/portalvivo/js/jquery-1.5.2.min.js:16 in resolveWith
+  http://www.vivo.com.br/portalweb/framework/skins/portalvivo/js/jquery-1.5.2.min.js:16 in v
+  http://www.vivo.com.br/portalweb/framework/skins/portalvivo/js/jquery-1.5.2.min.js:16 in onreadystatechange
+TypeError: null is not an object (evaluating 'document.getElementById("iframe2ViaContaFixa").height = val[0] + "px"')
+
+  http://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA:7 in listenForRedimensionaIframe
+TypeError: null is not an object (evaluating 'document.getElementById("iframe2ViaContaFixa").height = val[0] + "px"')
+
+  http://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA:7 in listenForRedimensionaIframe
+*** Begin accessibility audit results ***
+An accessibility audit found 
+Errors:
+Error: AX_TEXT_01 (Controls and media elements should have labels) failed on the following elements (1 - 2 of 2):
+#numero
+#campoRegional
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_01--controls-and-media-elements-should-have-labels for more information.
+
+
+Warnings:
+Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 111):
+#menuFocoParaVoce
+#menuEmpresasFoco
+#menuFocoParaOperadoras
+#menuFocoAVivo
+#header > .top > .box_menu_topo > .header_content_1 > .logo_rev > A
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_focus_01--these-elements-are-focusable-but-either-invisible-or-obscured-by-another-element for more information.
+
+Warning: AX_TEXT_02 (Images should have an alt attribute) failed on the following elements (1 - 5 of 30):
+#banner_videos > LI > IMG
+#banner_videos > LI:nth-of-type(2) > IMG
+#banner_videos > LI:nth-of-type(3) > IMG
+#banner_videos > LI:nth-of-type(4) > IMG
+#banner_videos > LI:nth-of-type(5) > IMG
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_02--images-should-have-an-alt-attribute-unless-they-have-an-aria-role-of-presentation for more information.
+
+Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 138):
+#menuEmpresasFoco
+#empPrincipalBook > SPAN
+#EmpPrincipalSolucoesBook > SPAN
+#menuFocoParaOperadoras
+#menuFocoAVivo
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_color_01--text-elements-should-have-a-reasonable-contrast-ratio for more information.
+
+Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 5 of 50):
+#vcPrincipalBook > .marca_menu_left
+#vcPrincipalBook > .marca_menu_right
+#header > .top > .box_menu_topo > .header_content > .regional_header > .drop_rg > .ic_rg
+#estado
+#pesquisaVivoButton
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_image_01--meaningful-images-should-not-be-used-in-element-backgrounds for more information.
+
+
+*** End accessibility audit results ***

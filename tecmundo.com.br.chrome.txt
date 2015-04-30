@@ -1,0 +1,32 @@
+*** Begin accessibility audit results ***
+An accessibility audit found 
+Errors:
+Error: AX_TEXT_01 (Controls and media elements should have labels) failed on the following element:
+#nzn-js-search-toggle
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_01--controls-and-media-elements-should-have-labels for more information.
+
+
+Warnings:
+Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 16):
+#nzn-js-partner1-wrapper > .nzn-mosaic.nzn-mosaic-model5.nzn-mosaic-meg > .nzn-mosaic-item > .nzn-mosaic-news > A
+#nzn-js-partner1-wrapper > .nzn-mosaic.nzn-mosaic-model5.nzn-mosaic-meg > .nzn-mosaic-item:nth-of-type(2) > .nzn-mosaic-news > A
+#nzn-js-partner1-wrapper > .nzn-mosaic.nzn-mosaic-model5.nzn-mosaic-meg > .nzn-mosaic-item:nth-of-type(3) > .nzn-mosaic-news > A
+#nzn-js-partner1-wrapper > .nzn-mosaic.nzn-mosaic-model5.nzn-mosaic-meg > .nzn-mosaic-item:nth-of-type(4) > .nzn-mosaic-news > A
+#nzn-js-mosaic1-wrapper > .nzn-mosaic.nzn-mosaic-model1 > .nzn-mosaic-item > .nzn-mosaic-news > A
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_focus_01--these-elements-are-focusable-but-either-invisible-or-obscured-by-another-element for more information.
+
+Warning: AX_TEXT_02 (Images should have an alt attribute) failed on the following elements (1 - 2 of 2):
+#nzn-js-navbar > .uk-navbar-brand.uk-margin-remove.nzn-navbar-item > A > IMG
+#nzn-js-container > .nzn-page-home > .nzn-footer-wrapper > .nzn-footer-group > .uk-container.uk-container-center > A > IMG
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_02--images-should-have-an-alt-attribute-unless-they-have-an-aria-role-of-presentation for more information.
+
+Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 71):
+#nzn-js-navbar > .uk-navbar-nav.uk-hidden-small.nzn-navbar-item > .nzn-navbar-item-fixed > A
+#nzn-js-navbar > .uk-navbar-nav.uk-hidden-small.nzn-navbar-item > .nzn-navbar-item-fixed:nth-of-type(2) > A
+#nzn-js-navbar > .uk-navbar-nav.uk-hidden-small.nzn-navbar-item > .nzn-navbar-item-fixed:nth-of-type(3) > A
+#nzn-js-navbar > .uk-navbar-nav.uk-hidden-small.nzn-navbar-item > .nzn-navbar-item-fixed:nth-of-type(4) > A
+#nzn-js-navbar > .uk-navbar-nav.uk-hidden-small.nzn-navbar-item > .nzn-navbar-item-fixed.uk-hidden-medium > A
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_color_01--text-elements-should-have-a-reasonable-contrast-ratio for more information.
+
+
+*** End accessibility audit results ***

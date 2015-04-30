@@ -1,0 +1,29 @@
+*** Begin accessibility audit results ***
+An accessibility audit found 
+Warnings:
+Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 15):
+body > .bottom > .wrapper.nocontent > .body > .nav.nav-whatsapp > NAV > UL > LI > A
+body > .bottom > .wrapper.nocontent > .body > .nav.nav-whatsapp > NAV > UL > LI:nth-of-type(2) > A
+body > .bottom > .wrapper.nocontent > .body > .nav.nav-whatsapp > NAV > UL > LI:nth-of-type(3) > A
+body > .bottom > .wrapper.nocontent > .body > .nav.nav-whatsapp > NAV > UL > LI:nth-of-type(4) > A
+body > .bottom > .wrapper.nocontent > .body > .nav.nav-whatsapp > NAV > UL > LI:nth-of-type(5) > A
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_focus_01--these-elements-are-focusable-but-either-invisible-or-obscured-by-another-element for more information.
+
+Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 25):
+NOSCRIPT
+body > .top.nocontent > .hero > .action > A
+#lng
+#lng > .dropdown
+#select
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_color_01--text-elements-should-have-a-reasonable-contrast-ratio for more information.
+
+Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 5 of 13):
+#lng > .icon
+#pl1 > .iphone
+#pl1r
+#pl2 > .bb
+#pl2r
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_image_01--meaningful-images-should-not-be-used-in-element-backgrounds for more information.
+
+
+*** End accessibility audit results ***

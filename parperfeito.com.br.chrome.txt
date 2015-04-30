@@ -1,0 +1,37 @@
+*** Begin accessibility audit results ***
+An accessibility audit found 
+Errors:
+Error: AX_TEXT_01 (Controls and media elements should have labels) failed on the following elements (1 - 3 of 3):
+#gender-desgender-reg
+#country-reg
+#state-reg
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_01--controls-and-media-elements-should-have-labels for more information.
+
+
+Warnings:
+Warning: AX_TEXT_02 (Images should have an alt attribute) failed on the following elements (1 - 5 of 49):
+#mlt_pic_content > DIV > .mlt_pic_content > UL > LI > .mlt_user_slider > IMG
+#mlt_pic_content > DIV > .mlt_pic_content > UL > LI:nth-of-type(2) > .mlt_user_slider > IMG
+#mlt_pic_content > DIV > .mlt_pic_content > UL > LI:nth-of-type(3) > .mlt_user_slider > IMG
+#mlt_pic_content > DIV > .mlt_pic_content > UL > LI:nth-of-type(4) > .mlt_user_slider > IMG
+#mlt_pic_content > DIV > .mlt_pic_content > UL > LI:nth-of-type(5) > .mlt_user_slider > IMG
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_02--images-should-have-an-alt-attribute-unless-they-have-an-aria-role-of-presentation for more information.
+
+Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 79):
+#header > .mlt_regHeader > .mlt_login_form > FORM > .mlt_forgot_pass > LABEL
+#header > .mlt_regHeader > .mlt_login_form > FORM > .login_sep
+#header > .mlt_regHeader > .mlt_login_form > FORM > .mlt_forgot_pass:nth-of-type(2) > A
+#reg-step-1 > .mlt_main_content > .mlt_content_form > .mlt_box_form > .mlt_reg1_gender > LABEL
+#reg-step-1 > .mlt_main_content > .mlt_content_form > .mlt_box_form > .mlt_reg1_country > LABEL
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_color_01--text-elements-should-have-a-reasonable-contrast-ratio for more information.
+
+Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 5 of 11):
+#reg-step-1 > .mlt_text_online > .mlt_arrow_up > SPAN
+#reg-step-1 > .mlt_maplink_content > .mlt_content_group > .mlt_ohter_group > .sep_logos_prod
+#reg-step-1 > .mlt_maplink_content > .mlt_content_group > .mlt_ohter_group > .other-group-logos > .other-match
+#reg-step-1 > .mlt_maplink_content > .mlt_content_group > .mlt_ohter_group > .other-group-logos > .other-divi
+#reg-step-1 > .mlt_maplink_content > .mlt_content_group > .mlt_ohter_group > .other-group-logos > .other-genc
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_image_01--meaningful-images-should-not-be-used-in-element-backgrounds for more information.
+
+
+*** End accessibility audit results ***
