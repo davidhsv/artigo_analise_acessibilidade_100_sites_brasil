@@ -59,33 +59,33 @@ public class Crawler {
 		// 'url=http://google.com.br&key=0a8118b2fc68177c6ae2fd084120f0fc'
 		// http://tenon.io/api/
 		String[] sites = { 
-//				"google.com.br", "facebook.com", "google.com",
-//				"youtube.com", "uol.com.br", "folha.uol.com.br",
-//				"esporte.uol.com.br", "noticias.uol.com.br",
-//				"televisao.uol.com.br", "globo.com", "g1.globo.com",
-//				"globoesporte.globo.com", "oglobo.globo.com", "ego.globo.com",
-//				"yahoo.com", "mercadolivre.com.br", "wikipedia.org",
-//				"twitter.com", "msn.com", "aliexpress.com", "abril.com.br",
-//				"veja.abril.com.br", "exame.abril.com.br", "info.abril.com.br",
-//				"vejasp.abril.com.br", "mdemulher.abril.com.br", "xvideos.com",
-//				"ig.com.br", 
-//				"baixaki.com.br", "odia.ig.com.br",
-//				"linkedin.com", "terra.com.br", "olx.com.br", "instagram.com",
-//				"megaoferta.net", "amazon.com", "wordpress.com",
-//				"caixa.gov.br", "itau.com.br", 
-//				"americanas.com.br",
-//				"walmart.com.br", "microsoft.com", "netshoes.com.br",
-//				"correios.com.br", "buscape.com.br", "megafilmeshd.net",
-//				"r7.com", "bradesco.com.br",
-//				"www.fazenda.sp.gov.br", "prefeitura.sp.gov.br",
-//				"fazenda.gov.br", "receita.fazenda.gov.br",
-//				"www.nfe.fazenda.gov.br", "tesouro.fazenda.gov.br", "ask.com",
-//				
-//				"reclameaqui.com.br", "bing.com", "bb.com.br", "pinterest.com",
-//				"portaleducacao.com.br", "techtudo.com.br", "submarino.com.br",
-//				"paypal.com", "apple.com", "extra.com.br", "4shared.com",
-//				"estadao.com.br", "stackoverflow.com", "letras.mus.br",
-//				"vagalume.com.br", 
+				"google.com.br", "facebook.com", "google.com",
+				"youtube.com", "uol.com.br", "folha.uol.com.br",
+				"esporte.uol.com.br", "noticias.uol.com.br",
+				"televisao.uol.com.br", "globo.com", "g1.globo.com",
+				"globoesporte.globo.com", "oglobo.globo.com", "ego.globo.com",
+				"yahoo.com", "mercadolivre.com.br", "wikipedia.org",
+				"twitter.com", "msn.com", "aliexpress.com", "abril.com.br",
+				"veja.abril.com.br", "exame.abril.com.br", "info.abril.com.br",
+				"vejasp.abril.com.br", "mdemulher.abril.com.br", "xvideos.com",
+				"ig.com.br", 
+				"baixaki.com.br", "odia.ig.com.br",
+				"linkedin.com", "terra.com.br", "olx.com.br", "instagram.com",
+				"megaoferta.net", "amazon.com", "wordpress.com",
+				"caixa.gov.br", "itau.com.br", 
+				"americanas.com.br",
+				"walmart.com.br", "microsoft.com", "netshoes.com.br",
+				"correios.com.br", "buscape.com.br", "megafilmeshd.net",
+				"r7.com", "bradesco.com.br",
+				"www.fazenda.sp.gov.br", "prefeitura.sp.gov.br",
+				"fazenda.gov.br", "receita.fazenda.gov.br",
+				"www.nfe.fazenda.gov.br", "tesouro.fazenda.gov.br", "ask.com",
+				
+				"reclameaqui.com.br", "bing.com", "bb.com.br", "pinterest.com",
+				"portaleducacao.com.br", "techtudo.com.br", "submarino.com.br",
+				"paypal.com", "apple.com", "extra.com.br", "4shared.com",
+				"estadao.com.br", "stackoverflow.com", "letras.mus.br",
+				"vagalume.com.br", 
 				
 				"ebay.com", "filmesonlinegratis.net",
 				"clicrbs.com.br", "alibaba.com", "blogosfera.uol.com.br",
@@ -95,6 +95,7 @@ public class Crawler {
 				"magazineluiza.com.br", 
 				"decolar.com", "imdb.com",
 				"slideshare.net", "xhamster.com", "casasbahia.com.br",
+				
 				"livrariasaraiva.com.br", "pontofrio.com.br",
 				"parperfeito.com.br", 
 				"santander.com.br",
@@ -102,7 +103,8 @@ public class Crawler {
 				"hotelurbano.com.br", "espn.uol.com.br",
 				 "pagseguro.uol.com.br"
 				, "badoo.com"
-				,"jusbrasil.com.br"};
+				,"jusbrasil.com.br"
+				};
 
 		Map<String, String> cookies = new HashMap<String, String>();
 		cookies.put("tenonDemo", "T2QlHCr9JlqmMKvbJ");
@@ -130,9 +132,9 @@ public class Crawler {
 
 			try {
 			
-//				if (!new File(site + ARIA_SUFFIX).exists()) {
+				if (!new File(site + ARIA_SUFFIX).exists()) {
 					aria(site);
-//				}
+				}
 			} catch (Exception e) {
 				PrintWriter out = new PrintWriter(site + "DEUERROaria.txt");
 				e.printStackTrace(out);
@@ -140,9 +142,9 @@ public class Crawler {
 			}
 			
 			try {
-				//if (!new File(site + CHROME_SUFFIX).exists()) {
-				chrome(site);
-				//}
+				if (!new File(site + CHROME_SUFFIX).exists()) {
+					chrome(site);
+				}
 			} catch (Exception e) {
 				PrintWriter out = new PrintWriter(site + "DEUERROchrome.txt");
 				e.printStackTrace(out);
