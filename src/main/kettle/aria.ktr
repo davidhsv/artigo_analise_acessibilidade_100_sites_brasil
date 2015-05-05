@@ -129,7 +129,7 @@
         <name2/>
       </key>
       <value>
-        <name>usa_aria</name>
+        <name>atributos_aria</name>
         <rename>aria</rename>
         <update>Y</update>
       </value>
@@ -238,7 +238,7 @@
     <fields>
       <field>
         <name>aria</name>
-        <type>String</type>
+        <type>Integer</type>
         <format/>
         <currency/>
         <decimal/>
