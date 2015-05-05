@@ -2,18 +2,49 @@
 An accessibility audit found 
 Errors:
 Error: AX_TEXT_01 (Controls and media elements should have labels) failed on the following element:
-#q
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_01--controls-and-media-elements-should-have-labels for more information.
+#search-box
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_01 for more information.
 
 
 Warnings:
 Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following element:
-#LOTCCFrameThu Apr 30 2015 16:01:14 GMT-0300 (Hora oficial do Brasil)
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_focus_01--these-elements-are-focusable-but-either-invisible-or-obscured-by-another-element for more information.
+#LOTCCFrameMon May 04 2015 23:45:19 GMT-0300 (BRT)
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_focus_01 for more information.
 
-Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following element:
-#qbox > .qbox > .logo
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_image_01--meaningful-images-should-not-be-used-in-element-backgrounds for more information.
+Warning: AX_HTML_01 (The web page should have the content's human language indicated in the markup) failed on the following element:
+html
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_html_01 for more information.
+
+Warning: AX_TEXT_02 (Images should have an alt attribute) failed on the following elements (1 - 4 of 4):
+body > .page-wrapper.clr.dib.posR > .bot-content.dib > .editors-picks > .editor-picks-results > .editor-picks-container > .editor-picks-content > .editor-img > IMG
+body > .page-wrapper.clr.dib.posR > .bot-content.dib > .editors-picks > .editor-picks-results > DIV:nth-of-type(2) > .editor-picks-content > .editor-img > IMG
+body > .page-wrapper.clr.dib.posR > .bot-content.dib > .editors-picks > .editor-picks-results > DIV:nth-of-type(3) > .editor-picks-content > .editor-img > IMG
+DIV > IMG
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_02 for more information.
+
+Warning: AX_TEXT_04 (The purpose of each link should be clear from the link text) failed on the following elements (1 - 4 of 4):
+body > .page-wrapper.clr.dib.posR > .bot-content.dib > .editors-picks > .editor-picks-results > .editor-picks-container > .editor-picks-content > .editor-img
+body > .page-wrapper.clr.dib.posR > .bot-content.dib > .editors-picks > .editor-picks-results > DIV:nth-of-type(2) > .editor-picks-content > .editor-img
+body > .page-wrapper.clr.dib.posR > .bot-content.dib > .editors-picks > .editor-picks-results > DIV:nth-of-type(3) > .editor-picks-content > .editor-img
+#footer-left-nav > LI > A
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_04 for more information.
+
+Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 68):
+body > .page-wrapper.clr.dib.posR > .header > .top-navbar.mod-top.dib.posR > .navbar-body.dib > .nav.dib > .top-nav-list.db > .top-nav-item > .top-nav-item-link
+body > .page-wrapper.clr.dib.posR > .header > .top-navbar.mod-top.dib.posR > .navbar-body.dib > .nav.dib > .top-nav-list.db > LI:nth-of-type(2) > .top-nav-item-link
+body > .page-wrapper.clr.dib.posR > .header > .top-navbar.mod-top.dib.posR > .navbar-body.dib > .nav.dib > .top-nav-list.db > LI:nth-of-type(3) > .top-nav-item-link
+body > .page-wrapper.clr.dib.posR > .header > .top-navbar.mod-top.dib.posR > .navbar-body.dib > .nav.dib > .top-nav-list.db > LI:nth-of-type(4) > .top-nav-item-link
+body > .page-wrapper.clr.dib.posR > .header > .top-navbar.mod-top.dib.posR > .navbar-body.dib > .nav.dib > .top-nav-list.db > LI:nth-of-type(5) > .top-nav-item-link
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_color_01 for more information.
+
+Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 2 of 2):
+body > .page-wrapper.clr.dib.posR > .header > .top-navbar.mod-top.dib.posR > .navbar-body.dib > .nav.dib > .top-nav-list.db > .top-nav-item.more-top-link > .arrow
+body > .page-wrapper.clr.dib.posR > .header > .searchBlock.posA > .searchBoxContainer.dib.posR > .sb-logo.posA
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_image_01 for more information.
+
+Warning: AX_TITLE_01 (The web page should have a title that describes topic or purpose) failed on the following element:
+html
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_title_01 for more information.
 
 
 *** End accessibility audit results ***

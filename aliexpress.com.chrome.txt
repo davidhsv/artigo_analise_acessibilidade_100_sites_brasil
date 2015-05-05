@@ -1,29 +1,61 @@
 *** Begin accessibility audit results ***
 An accessibility audit found 
-Warnings:
-Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 17):
+Errors:
+Error: AX_TEXT_01 (Controls and media elements should have labels) failed on the following elements (1 - 2 of 2):
 #search-key
-#key-visual-main > .ui-banner-slider-wrap > .ui-banner-slider-container > .ui-banner-slider-slider > LI:nth-of-type(4) > A
+#alert-subscribe-form > .alert-subscribe-input
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_01 for more information.
+
+
+Warnings:
+Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 8):
+#nav-global > .ng-item.ng-mobile > A
+#link-goto-globalsite
+#key-visual-main > .ui-banner-slider-wrap > .ui-banner-slider-container > .ui-banner-slider-slider > LI:nth-of-type(2) > A
 body > .index-page > .today-deal.container > .container-inner > .title > .view-more
-#j-industry-floor-women > .container-inner.clearfix > .rec-industry-list.col-lg-20.col-md-24.col-sm-40 > .clearfix.rec-bottom-products > LI > A
-#j-industry-floor-men > .container-inner.clearfix > .rec-industry-list.col-lg-20.col-md-24.col-sm-40 > .clearfix.rec-bottom-products > LI > A
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_focus_01--these-elements-are-focusable-but-either-invisible-or-obscured-by-another-element for more information.
+body > .index-page > .user-helper-footer > .container > .col-sm-15.col-md-15.col-lg-12 > .f-link-list > LI > A
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_focus_01 for more information.
 
-Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 252):
-#nav-global > .ng-item.ng-bp > A
-#nav-global > .ng-item.ng-help.ng-sub > .ng-sub-title
-#nav-global > .ng-item.ng-help.ng-sub > .ng-sub-list > LI > .ng-help-link
-#nav-global > .ng-item.ng-help.ng-sub > .ng-sub-list > LI:nth-of-type(2) > A
-#nav-global > .ng-item.ng-bp:nth-of-type(2) > A
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_color_01--text-elements-should-have-a-reasonable-contrast-ratio for more information.
+Warning: AX_HTML_01 (The web page should have the content's human language indicated in the markup) failed on the following elements (1 - 2 of 2):
+html
+html
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_html_01 for more information.
 
-Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 5 of 33):
-#switcher-info > .ship-to > .css_flag.css_nl
+Warning: AX_TEXT_02 (Images should have an alt attribute) failed on the following elements (1 - 5 of 8):
+body > .index-page > .today-deal.container > .container-inner > .container-main.clearfix > .row-box.main-product-box.col-lg-15.col-md-20.col-sm-30 > .main-product-show > A > .pro-img > IMG
+body > .index-page > .today-deal.container > .container-inner > .container-main.clearfix > DIV:nth-of-type(2) > .product-list-show > LI > A > .pro-img > IMG
+body > .index-page > .today-deal.container > .container-inner > .container-main.clearfix > DIV:nth-of-type(2) > .product-list-show > LI:nth-of-type(2) > A > .pro-img > IMG
+body > .index-page > .today-deal.container > .container-inner > .container-main.clearfix > DIV:nth-of-type(2) > .product-list-show > LI:nth-of-type(3) > A > .pro-img > IMG
+body > .index-page > .container.channel-container > .channel-box.clearfix > .channel-item.channel-col-1.col-md-15.col-sm-15.col-lg-15 > .channel-item-inner > A > IMG
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_02 for more information.
+
+Warning: AX_TEXT_04 (The purpose of each link should be clear from the link text) failed on the following elements (1 - 5 of 23):
+#nav-global > .ng-item.ng-switcher > .switcher-sub.notranslate > .switcher-site > .site-list.nofold > SPAN:nth-of-type(3) > A
+#nav-user-account > .user-account-main > .flyout-user-signIn > .flyout-signIn-type > .nus-icon.nus-facebook
+#key-visual-main > .ui-banner-slider-wrap > .ui-banner-slider-container > .ui-banner-slider-slider > LI > A
+#key-visual-main > .ui-banner-slider-wrap > .ui-banner-slider-container > .ui-banner-slider-slider > LI:nth-of-type(2) > A
+#key-visual-main > .ui-banner-slider-wrap > .ui-banner-slider-container > .ui-banner-slider-slider > LI:nth-of-type(3) > A
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_04 for more information.
+
+Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 42):
+#nav-global > .ng-item.ng-switcher > .switcher-sub.notranslate > .switcher-common > .switcher-btn.item.util-clearfix > .ui-button.ui-button-primary.go-contiune-btn
+#nav-global > .ng-item.ng-switcher > .switcher-sub.notranslate > .switcher-site > .site-list.nofold > SPAN:nth-of-type(2) > .disabled
+#nav-cart-num
+#nav-user-account > .user-account-info > .user-account-inner.hidden-sm > .account-unsigned > A
+#nav-user-account > .user-account-main > .flyout-user-signIn > P:nth-of-type(2) > .sign-btn
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_color_01 for more information.
+
+Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 5 of 31):
+#switcher-info > .ship-to > .css_flag.css_br
 #form-searchbar > .searchbar-operate-box > .search-button
 body > .index-page > .site-server-box > .container > .site-item > .icon.i-great
-body > .index-page > .site-server-box > .container > .site-item:nth-of-type(2) > .icon.i-delivery
-body > .index-page > .site-server-box > .container > .site-item:nth-of-type(3) > .icon.i-payment
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_image_01--meaningful-images-should-not-be-used-in-element-backgrounds for more information.
+body > .index-page > .site-server-box > .container > DIV:nth-of-type(2) > .icon.i-delivery
+body > .index-page > .site-server-box > .container > DIV:nth-of-type(3) > .icon.i-payment
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_image_01 for more information.
+
+Warning: AX_TITLE_01 (The web page should have a title that describes topic or purpose) failed on the following element:
+html
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_title_01 for more information.
 
 
 *** End accessibility audit results ***

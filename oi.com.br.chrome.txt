@@ -4,43 +4,61 @@ TypeError: null is not an object (evaluating 'uf.toLowerCase')
 *** Begin accessibility audit results ***
 An accessibility audit found 
 Errors:
-Error: AX_TEXT_01 (Controls and media elements should have labels) failed on the following element:
-#q
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_01--controls-and-media-elements-should-have-labels for more information.
+Error: AX_TEXT_01 (Controls and media elements should have labels) failed on the following elements (1 - 2 of 2):
+#Ecom_User_ID
+#Ecom_Password2
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_01 for more information.
+
+Error: AX_ARIA_10 (This element has an unsupported ARIA attribute) failed on the following elements (1 - 2 of 2):
+#fb_xdm_frame_http
+#fb_xdm_frame_https
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_aria_10 for more information.
 
 
 Warnings:
-Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 102):
-body > .headprincipal > .limite.firstc.clearfix > .firstc > .firstc > .logo > A
-#trocaEstado
-#q
-#fr > .iptLupa.sembt
-#minimenuopt > .firstc > .firstc > .firstc.lastc > UL > .active.firstc > A
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_focus_01--these-elements-are-focusable-but-either-invisible-or-obscured-by-another-element for more information.
+Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 6):
+#Ecom_User_ID
+#Ecom_Password2
+#Ecom_Password
+FORM > .btAcessar.sembt
+FORM > .links > A
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_focus_01 for more information.
 
-Warning: AX_TEXT_02 (Images should have an alt attribute) failed on the following elements (1 - 5 of 28):
-body > .headprincipal > .limite.firstc.clearfix > .firstc > .firstc > .logo > A > IMG
-#NovoSidebarHome > SECTION > .dp6_track.dpseis > IMG
-IMG
-IMG:nth-of-type(2)
-IMG:nth-of-type(3)
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_02--images-should-have-an-alt-attribute-unless-they-have-an-aria-role-of-presentation for more information.
+Warning: AX_HTML_01 (The web page should have the content's human language indicated in the markup) failed on the following elements (1 - 4 of 4):
+html
+html
+html
+html
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_html_01 for more information.
+
+Warning: AX_TEXT_04 (The purpose of each link should be clear from the link text) failed on the following elements (1 - 5 of 22):
+body > .headprincipal > .limite.firstc.clearfix > .firstc > .firstc > .logo > A
+body > .menuprincipal > .limite.firstc > .firstc > .firstc > .mn-main.firstc.lastc > LI > A
+body > .menuprincipal > .limite.firstc > .firstc > .firstc > .mn-main.firstc.lastc > LI:nth-of-type(2) > A
+body > .menuprincipal > .limite.firstc > .firstc > .firstc > .mn-main.firstc.lastc > LI:nth-of-type(2) > .sm > .bg-sm.firstc > .banner
+body > .menuprincipal > .limite.firstc > .firstc > .firstc > .mn-main.firstc.lastc > LI:nth-of-type(3) > A
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_04 for more information.
 
 Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 13):
-#featured-wrapper > .transition-bullets > LI
-#featured-wrapper > .transition-bullets > LI:nth-of-type(2)
 #featured-wrapper > .transition-bullets > .active
+#featured-wrapper > .transition-bullets > LI:nth-of-type(2)
+#featured-wrapper > .transition-bullets > LI:nth-of-type(3)
 #featured-wrapper > .transition-bullets > LI:nth-of-type(4)
 #featured-wrapper > .transition-bullets > LI:nth-of-type(5)
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_color_01--text-elements-should-have-a-reasonable-contrast-ratio for more information.
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_color_01 for more information.
 
-Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 5 of 18):
-#minimenuopt > .firstc > .firstc > .firstc.lastc > UL > .active.firstc > A > .indicator
-#icon-tv-hd
-#icon-banda-larga
-#icon-conta-total
-#icon-pos-pago
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_image_01--meaningful-images-should-not-be-used-in-element-backgrounds for more information.
+Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 2 of 2):
+#Ecom_User_ID
+#Ecom_Password2
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_image_01 for more information.
+
+Warning: AX_FOCUS_03 (Avoid positive integer values for tabIndex) failed on the following elements (1 - 5 of 5):
+#trocaEstado
+#Ecom_User_ID
+#Ecom_Password2
+#Ecom_Password
+FORM > .btAcessar.sembt
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_focus_03 for more information.
 
 
 *** End accessibility audit results ***

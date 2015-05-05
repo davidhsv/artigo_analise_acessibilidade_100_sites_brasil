@@ -1,32 +1,62 @@
 *** Begin accessibility audit results ***
 An accessibility audit found 
 Errors:
-Error: AX_TEXT_01 (Controls and media elements should have labels) failed on the following element:
+Error: AX_TEXT_01 (Controls and media elements should have labels) failed on the following elements (1 - 2 of 2):
 #busca
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_01--controls-and-media-elements-should-have-labels for more information.
+#produto
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_01 for more information.
+
+Error: AX_HTML_02 (An element's ID must be unique in the DOM) failed on the following elements (1 - 2 of 2):
+#minicupom
+#minicupom
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_html_02 for more information.
+
+Error: AX_ARIA_10 (This element has an unsupported ARIA attribute) failed on the following elements (1 - 2 of 2):
+#fb_xdm_frame_http
+#fb_xdm_frame_https
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_aria_10 for more information.
 
 
 Warnings:
-Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 148):
+Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 172):
 body > .navbar.navbar-inverse > .container-fluid.page-container > .navbar-header > .navbar-toggle.collapsed
-#busca
-body > .btn-assine-lateral > .assine-lateral > A
-body > .destaques > .bx-wrapper > .bx-viewport > .scroll-destaques > .first-scroll > .destaque.col-md-4.col-sm-4 > A
-body > .destaques > .bx-wrapper > .bx-viewport > .scroll-destaques > .first-scroll > .destaque.col-md-2.col-sm-2 > A
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_focus_01--these-elements-are-focusable-but-either-invisible-or-obscured-by-another-element for more information.
+body > .navbar.navbar-inverse > .container-fluid.page-container > .navbar-header > .navbar-brand
+body > .navbar.navbar-inverse > .container-fluid.page-container > .navbar-header > .navbar-social-icons > .social-header > A
+body > .navbar.navbar-inverse > .container-fluid.page-container > .navbar-header > .navbar-social-icons > DIV:nth-of-type(2) > A
+body > .navbar.navbar-inverse > .container-fluid.page-container > .navbar-header > .navbar-social-icons > DIV:nth-of-type(3) > A
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_focus_01 for more information.
 
-Warning: AX_TEXT_02 (Images should have an alt attribute) failed on the following elements (1 - 2 of 2):
+Warning: AX_HTML_01 (The web page should have the content's human language indicated in the markup) failed on the following elements (1 - 5 of 10):
+html
+html
+html
+html
+html
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_html_01 for more information.
+
+Warning: AX_TEXT_02 (Images should have an alt attribute) failed on the following elements (1 - 5 of 9):
+#dclk_overlay_975872004 > DIV > IMG
+#dclk_overlay_975872004 > DIV:nth-of-type(2) > A > IMG
 body > .btn-assine-lateral > .assine-lateral > A > .capa-assine > IMG
-FOOTER > .main-container.page-container > .list-footer > .col-md-footer:nth-of-type(7) > .list-revista > LI > A > IMG
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_02--images-should-have-an-alt-attribute-unless-they-have-an-aria-role-of-presentation for more information.
+#barra_300x250 > .bd > UL > LI > .imgMarcador > A > IMG
+#barra_300x250 > .bd > UL > LI:nth-of-type(2) > .imgMarcador > A > IMG
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_02 for more information.
 
-Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 34):
+Warning: AX_TEXT_04 (The purpose of each link should be clear from the link text) failed on the following elements (1 - 5 of 63):
+#dclk_overlay_975872004 > DIV:nth-of-type(2) > A
+body > .navbar.navbar-inverse > .container-fluid.page-container > .navbar-header > .navbar-brand
+body > .navbar.navbar-inverse > .container-fluid.page-container > .navbar-header > .navbar-social-icons > .social-header > A
+body > .navbar.navbar-inverse > .container-fluid.page-container > .navbar-header > .navbar-social-icons > DIV:nth-of-type(2) > A
+body > .navbar.navbar-inverse > .container-fluid.page-container > .navbar-header > .navbar-social-icons > DIV:nth-of-type(3) > A
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_04 for more information.
+
+Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 48):
 body > .navbar.navbar-inverse > .container-fluid.page-container > .navbar-header > .navbar-toggle.collapsed > .sr-only
 body > .destaques > .bx-wrapper > .bx-viewport > .scroll-destaques > .first-scroll > .destaque.col-md-4.col-sm-4 > A > .titulo-destaque > SPAN
 body > .destaques > .bx-wrapper > .bx-viewport > .scroll-destaques > .first-scroll > .destaque.col-md-2.col-sm-2 > A > .titulo-destaque > SPAN
-body > .destaques > .bx-wrapper > .bx-viewport > .scroll-destaques > .first-scroll > .destaque.col-md-4.col-sm-4:nth-of-type(2) > A > .titulo-destaque > SPAN
-body > .destaques > .bx-wrapper > .bx-viewport > .scroll-destaques > .first-scroll > .destaque.col-md-2.col-sm-2:nth-of-type(2) > A > .titulo-destaque > SPAN
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_color_01--text-elements-should-have-a-reasonable-contrast-ratio for more information.
+body > .destaques > .bx-wrapper > .bx-viewport > .scroll-destaques > .first-scroll > DIV:nth-of-type(3) > A > .titulo-destaque > SPAN
+body > .destaques > .bx-wrapper > .bx-viewport > .scroll-destaques > .first-scroll > DIV:nth-of-type(4) > A > .titulo-destaque > SPAN
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_color_01 for more information.
 
 Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 5 of 5):
 body > .navbar.navbar-inverse > .container-fluid.page-container > .navbar-header > .navbar-social-icons > .nova-barra > A > .mini-arvore
@@ -34,7 +64,15 @@ body > .navbar.navbar-inverse > .container-fluid.page-container > .navbar-header
 #videos-next
 #apps-prev
 #apps-next
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_image_01--meaningful-images-should-not-be-used-in-element-backgrounds for more information.
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_image_01 for more information.
+
+Warning: AX_TITLE_01 (The web page should have a title that describes topic or purpose) failed on the following elements (1 - 5 of 6):
+html
+html
+html
+html
+html
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_title_01 for more information.
 
 
 *** End accessibility audit results ***

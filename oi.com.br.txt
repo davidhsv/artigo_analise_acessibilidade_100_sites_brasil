@@ -1,0 +1,2210 @@
+{
+"apiErrors": [],
+"documentSize": 95905,
+"globalStats": {
+"errorDensity": "155",
+"warningDensity": "12",
+"allDensity": "167",
+"stdDev": "400"
+},
+"message": "success",
+"request": {
+"certainty": "0",
+"docID": "6C2A73A9-959D-2C67-A329-6B32C5CD88F2",
+"importance": "1",
+"key": "null",
+"level": "AAA",
+"priority": "0",
+"projectID": "DEFAULT_PROJECT",
+"ref": "0",
+"reportID": "d8655fc8-02ed-424c-ed4c-90340e101d1e",
+"responseID": "d2a3fc2d1feca25d94b6c9f6ecbb0cce",
+"uaString": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.114 Safari/537.36",
+"url": "http://www.oi.com.br/oi/oi-pra-voce",
+"viewport": {
+"height": 768,
+"width": 1024
+},
+"fragment": "0",
+"store": "0"
+},
+"responseExecTime": "13.76",
+"responseTime": "2015-05-04T18:24:59.296Z",
+"resultSet": [
+{
+"bpID": 1,
+"certainty": 100,
+"errorDescription": "All images must have an alt attribute. Not supplying an alt attribute will mean that users who cannot see the image will not understand what the image conveys. ",
+"errorSnippet": "<img src=\"/ArquivosEstaticos/oi/images/logo-header.png\">",
+"errorTitle": "Image missing alt attribute",
+"position": {
+"column": 73,
+"line": 1116
+},
+"priority": 96,
+"ref": "null",
+"resultTitle": "Provide alt attributes for IMG elements",
+"signature": "129112af303d4a69e7216be195f80c56",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 1.1.1 Non-text Content"
+],
+"tID": 9,
+"xpath": "/html/body/header[1]/div[1]/div[1]/div[1]/h1[1]/a[1]/img[1]"
+},
+{
+"bpID": 1,
+"certainty": 100,
+"errorDescription": "All images must have an alt attribute. Not supplying an alt attribute will mean that users who cannot see the image will not understand what the image conveys. ",
+"errorSnippet": "<img src=\"/ArquivosEstaticos/oi/oi-pra-voce/images/sidebar001.jpg\">",
+"errorTitle": "Image missing alt attribute",
+"position": {
+"column": 11,
+"line": 2954
+},
+"priority": 96,
+"ref": "null",
+"resultTitle": "Provide alt attributes for IMG elements",
+"signature": "e431c39455ac438ade3772a31e115573",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 1.1.1 Non-text Content"
+],
+"tID": 9,
+"xpath": "/html/body/div[4]/div[1]/table[1]/tr[1]/td[1]/table[1]/tr[1]/td[1]/div[1]/div[1]/div[1]/div[1]/aside[1]/section[1]/a[1]/img[1]"
+},
+{
+"bpID": 1,
+"certainty": 100,
+"errorDescription": "All images must have an alt attribute. Not supplying an alt attribute will mean that users who cannot see the image will not understand what the image conveys. ",
+"errorSnippet": "<img src=\"//cm.g.doubleclick.net/pixel?google_nid=netmng&amp;google_cm&amp;google_sc&amp;google_hm=b2k0Y3JnaWIyajN5cg==&amp;vid=oi4crgib2j3yr\" width=\"1\" height=\"1\">",
+"errorTitle": "Image missing alt attribute",
+"position": "",
+"priority": 96,
+"ref": "null",
+"resultTitle": "Provide alt attributes for IMG elements",
+"signature": "58021dc3f8a14102c6d3c0ffc46b196e",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 1.1.1 Non-text Content"
+],
+"tID": 9,
+"xpath": "/html/body/img[1]"
+},
+{
+"bpID": 1,
+"certainty": 100,
+"errorDescription": "All images must have an alt attribute. Not supplying an alt attribute will mean that users who cannot see the image will not understand what the image conveys. ",
+"errorSnippet": "<img src=\"http://ads.yahoo.com/pixel?id=1608362&amp;t=2&amp;piggyback=http%3A%2F%2Fads.yahoo.com%2Fpixel%3Fid%3D1424157%26t%3D2%26piggyback%3Dhttp%253A%252F%252Fads.yahoo.com%252Fcms%252Fv1%253Fesig%253D1%257E3d75f791a40b551f00d77db6f3923c87fc",
+"errorTitle": "Image missing alt attribute",
+"position": "",
+"priority": 96,
+"ref": "null",
+"resultTitle": "Provide alt attributes for IMG elements",
+"signature": "0c25843f955db8f2820975094b5cedf5",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 1.1.1 Non-text Content"
+],
+"tID": 9,
+"xpath": "/html/body/img[2]"
+},
+{
+"bpID": 1,
+"certainty": 100,
+"errorDescription": "All images must have an alt attribute. Not supplying an alt attribute will mean that users who cannot see the image will not understand what the image conveys. ",
+"errorSnippet": "<img src=\"//bh.contextweb.com/bh/rtset?do=add&amp;pid=534889&amp;ev=oi4crgib2j3yr\" width=\"1\" height=\"1\">",
+"errorTitle": "Image missing alt attribute",
+"position": "",
+"priority": 96,
+"ref": "null",
+"resultTitle": "Provide alt attributes for IMG elements",
+"signature": "eaaec0f27901c81fb44f0c69a2f969d6",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 1.1.1 Non-text Content"
+],
+"tID": 9,
+"xpath": "/html/body/img[3]"
+},
+{
+"bpID": 1,
+"certainty": 100,
+"errorDescription": "All images must have an alt attribute. Not supplying an alt attribute will mean that users who cannot see the image will not understand what the image conveys. ",
+"errorSnippet": "<img src=\"//image2.pubmatic.com/AdServer/Pug?vcode=bz0yJnR5cGU9MSZjb2RlPTIxMTQmdGw9NDMyMDA=&amp;piggybackCookie=oi4crgib2j3yr\" width=\"1\" height=\"1\">",
+"errorTitle": "Image missing alt attribute",
+"position": "",
+"priority": 96,
+"ref": "null",
+"resultTitle": "Provide alt attributes for IMG elements",
+"signature": "69194653ada3acd519d414bb3af9594f",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 1.1.1 Non-text Content"
+],
+"tID": 9,
+"xpath": "/html/body/img[4]"
+},
+{
+"bpID": 1,
+"certainty": 100,
+"errorDescription": "All images must have an alt attribute. Not supplying an alt attribute will mean that users who cannot see the image will not understand what the image conveys. ",
+"errorSnippet": "<img src=\"http://ib.adnxs.com/pxj?bidder=72&amp;seg=188087&amp;action=setuid('oi4crgib2j3yr')\" width=\"1\" height=\"1\">",
+"errorTitle": "Image missing alt attribute",
+"position": "",
+"priority": 96,
+"ref": "null",
+"resultTitle": "Provide alt attributes for IMG elements",
+"signature": "1b58c8110f58f457437767f1efc78797",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 1.1.1 Non-text Content"
+],
+"tID": 9,
+"xpath": "/html/body/img[5]"
+},
+{
+"bpID": 1,
+"certainty": 100,
+"errorDescription": "All images must have an alt attribute. Not supplying an alt attribute will mean that users who cannot see the image will not understand what the image conveys. ",
+"errorSnippet": "<img src=\"http://loadm.exelator.com/load/?p=204&amp;g=330&amp;buid=oi4crgib2j3yr&amp;j=0\" width=\"1\" height=\"1\">",
+"errorTitle": "Image missing alt attribute",
+"position": "",
+"priority": 96,
+"ref": "null",
+"resultTitle": "Provide alt attributes for IMG elements",
+"signature": "855c813687bd2a2ccf5c9bb924aea17a",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 1.1.1 Non-text Content"
+],
+"tID": 9,
+"xpath": "/html/body/img[6]"
+},
+{
+"bpID": 1,
+"certainty": 100,
+"errorDescription": "All images must have an alt attribute. Not supplying an alt attribute will mean that users who cannot see the image will not understand what the image conveys. ",
+"errorSnippet": "<img src=\"http://tags.bluekai.com/site/13209?id=oi4crgib2j3yr\" width=\"1\" height=\"1\">",
+"errorTitle": "Image missing alt attribute",
+"position": "",
+"priority": 96,
+"ref": "null",
+"resultTitle": "Provide alt attributes for IMG elements",
+"signature": "43d6a7f98dc016a5cf636ecafcc158f9",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 1.1.1 Non-text Content"
+],
+"tID": 9,
+"xpath": "/html/body/img[7]"
+},
+{
+"bpID": 1,
+"certainty": 100,
+"errorDescription": "All images must have an alt attribute. Not supplying an alt attribute will mean that users who cannot see the image will not understand what the image conveys. ",
+"errorSnippet": "<img src=\"http://r.nexac.com/e/getdata.xgi?dt=br&amp;pkey=qwev28rtmnx28&amp;ru=http%3A%2F%2Fdlxdata.netmng.com%2F%3Fna_da%3D%3Cna_da%3E\" width=\"1\" height=\"1\">",
+"errorTitle": "Image missing alt attribute",
+"position": "",
+"priority": 96,
+"ref": "null",
+"resultTitle": "Provide alt attributes for IMG elements",
+"signature": "bb8d9158bba7d7af6070005abe125c73",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 1.1.1 Non-text Content"
+],
+"tID": 9,
+"xpath": "/html/body/img[8]"
+},
+{
+"bpID": 1,
+"certainty": 100,
+"errorDescription": "All images must have an alt attribute. Not supplying an alt attribute will mean that users who cannot see the image will not understand what the image conveys. ",
+"errorSnippet": "<img src=\"//dis.criteo.com/pump/match.aspx?c=10&amp;uid=oi4crgib2j3yr\" width=\"1\" height=\"1\">",
+"errorTitle": "Image missing alt attribute",
+"position": "",
+"priority": 96,
+"ref": "null",
+"resultTitle": "Provide alt attributes for IMG elements",
+"signature": "78fae01311d414494dc29a086382277d",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 1.1.1 Non-text Content"
+],
+"tID": 9,
+"xpath": "/html/body/img[9]"
+},
+{
+"bpID": 1,
+"certainty": 100,
+"errorDescription": "All images must have an alt attribute. Not supplying an alt attribute will mean that users who cannot see the image will not understand what the image conveys. ",
+"errorSnippet": "<img src=\"http://ce.lijit.com/merge?pid=15&amp;3pid=oi4crgib2j3yr&amp;cb=1430763891\" width=\"1\" height=\"1\">",
+"errorTitle": "Image missing alt attribute",
+"position": "",
+"priority": 96,
+"ref": "null",
+"resultTitle": "Provide alt attributes for IMG elements",
+"signature": "8ea849cbaa844a2cc5c8af6325b92593",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 1.1.1 Non-text Content"
+],
+"tID": 9,
+"xpath": "/html/body/img[10]"
+},
+{
+"bpID": 1,
+"certainty": 100,
+"errorDescription": "All images must have an alt attribute. Not supplying an alt attribute will mean that users who cannot see the image will not understand what the image conveys. ",
+"errorSnippet": "<img src=\"//ums.adtechus.com/mapuser?providerid=1024;userid=oi4crgib2j3yr\" width=\"1\" height=\"1\">",
+"errorTitle": "Image missing alt attribute",
+"position": "",
+"priority": 96,
+"ref": "null",
+"resultTitle": "Provide alt attributes for IMG elements",
+"signature": "69c85b01ff83fa1910a5e6cdb9f5ca40",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 1.1.1 Non-text Content"
+],
+"tID": 9,
+"xpath": "/html/body/img[11]"
+},
+{
+"bpID": 1,
+"certainty": 100,
+"errorDescription": "All images must have an alt attribute. Not supplying an alt attribute will mean that users who cannot see the image will not understand what the image conveys. ",
+"errorSnippet": "<img src=\"//x.bidswitch.net/sync?dsp_id=14&amp;user_id=oi4crgib2j3yr&amp;expires=30\" width=\"1\" height=\"1\">",
+"errorTitle": "Image missing alt attribute",
+"position": "",
+"priority": 96,
+"ref": "null",
+"resultTitle": "Provide alt attributes for IMG elements",
+"signature": "c56e42b9d97ac18489396c2656ee10d9",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 1.1.1 Non-text Content"
+],
+"tID": 9,
+"xpath": "/html/body/img[12]"
+},
+{
+"bpID": 1,
+"certainty": 100,
+"errorDescription": "All images must have an alt attribute. Not supplying an alt attribute will mean that users who cannot see the image will not understand what the image conveys. ",
+"errorSnippet": "<img src=\"//us-u.openx.net/w/1.0/sd?id=537072967&amp;val=oi4crgib2j3yr\" width=\"1\" height=\"1\">",
+"errorTitle": "Image missing alt attribute",
+"position": "",
+"priority": 96,
+"ref": "null",
+"resultTitle": "Provide alt attributes for IMG elements",
+"signature": "7cc0b913c949049713cace8440ba71c0",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 1.1.1 Non-text Content"
+],
+"tID": 9,
+"xpath": "/html/body/img[13]"
+},
+{
+"bpID": 1,
+"certainty": 100,
+"errorDescription": "All images must have an alt attribute. Not supplying an alt attribute will mean that users who cannot see the image will not understand what the image conveys. ",
+"errorSnippet": "<img src=\"http://tapestry.tapad.com/tapestry/1?ta_partner_id=1265&amp;ta_partner_did=oi4crgib2j3yr&amp;ta_redirect=http%3A%2F%2Ftapad2waycm-atl.netmng.com%2F%3Fid%3D%24%7BIDS%3Akey%7D\" width=\"1\" height=\"1\">",
+"errorTitle": "Image missing alt attribute",
+"position": "",
+"priority": 96,
+"ref": "null",
+"resultTitle": "Provide alt attributes for IMG elements",
+"signature": "9e3db07ca11da14b0afbd6dc5561e25e",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 1.1.1 Non-text Content"
+],
+"tID": 9,
+"xpath": "/html/body/img[14]"
+},
+{
+"bpID": 4,
+"certainty": 100,
+"errorDescription": "Justified text causes readability problems for users with learning disabilities, such as Dyslexia.",
+"errorSnippet": "<span style=\"vertical-align: bottom; width: 220px; height: 215px; \"><iframe name=\"f36c94c68c\" width=\"220px\" height=\"215px\" frameborder=\"0\" allowtransparency=\"true\" allowfullscreen=\"true\" scrolling=\"no\" title=\"fb:like_box Facebook Social Plugin\" ",
+"errorTitle": "Justified text found",
+"position": "",
+"priority": 92,
+"ref": "null",
+"resultTitle": "Avoid the use of justified text",
+"signature": "dd4b6f85e547efe73322ff6fc71e8dd5",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 1.4.8 Visual Presentation"
+],
+"tID": 36,
+"xpath": "/html/body/div[4]/div[1]/table[1]/tr[1]/td[1]/table[1]/tr[1]/td[1]/div[1]/div[1]/div[1]/div[1]/aside[1]/section[3]/div[1]/span[1]"
+},
+{
+"bpID": 4,
+"certainty": 100,
+"errorDescription": "Justified text causes readability problems for users with learning disabilities, such as Dyslexia.",
+"errorSnippet": "<iframe name=\"f36c94c68c\" width=\"220px\" height=\"215px\" frameborder=\"0\" allowtransparency=\"true\" allowfullscreen=\"true\" scrolling=\"no\" title=\"fb:like_box Facebook Social Plugin\" style=\"border-top-style: none; border-right-style: none; border-bottom-sty",
+"errorTitle": "Justified text found",
+"position": "",
+"priority": 92,
+"ref": "null",
+"resultTitle": "Avoid the use of justified text",
+"signature": "9195570a74dbe1efd99b4d5a3729318e",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 1.4.8 Visual Presentation"
+],
+"tID": 36,
+"xpath": "/html/body/div[4]/div[1]/table[1]/tr[1]/td[1]/table[1]/tr[1]/td[1]/div[1]/div[1]/div[1]/div[1]/aside[1]/section[3]/div[1]/span[1]/iframe[1]"
+},
+{
+"bpID": 28,
+"certainty": 100,
+"errorDescription": "This heading element has no text within it. Headings are an important wayfinding and page-level navigation mechanism for screen reader users and each heading should provide clear and informative text.",
+"errorSnippet": "<h1 class=\"logo\"><a href=\"http://www.oi.com.br/\" title=\"Oi\"><img src=\"/ArquivosEstaticos/oi/images/logo-header.png\"></a></h1>",
+"errorTitle": "Blank heading element found",
+"position": {
+"column": 21,
+"line": 2888
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Structure content appropriately through headings",
+"signature": "40df3a9d95720327b2eb2f43d9ffd731",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 1.3.1 Info and Relationships"
+],
+"tID": 81,
+"xpath": "/html/body/header[1]/div[1]/div[1]/div[1]/h1[1]"
+},
+{
+"bpID": 49,
+"certainty": 100,
+"errorDescription": "Provide a label for all controls. This allows all users to understand the type of information expected in the field.",
+"errorSnippet": "<input type=\"text\" id=\"q\" name=\"q\" autocomplete=\"off\" value=\"Busca\" class=\"ipt iptText\">",
+"errorTitle": "Form element has no label",
+"position": {
+"column": 6,
+"line": 559
+},
+"priority": 90,
+"ref": "null",
+"resultTitle": "Provide explicit labels for form fields",
+"signature": "fb1a8a926493e6749b53bb082d30a6e5",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 1.1.1 Non-text Content",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 1.3.1 Info and Relationships",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 3.3.2 Labels or Instructions",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.2 Name, Role, Value"
+],
+"tID": 38,
+"xpath": "/html/body/header[1]/div[1]/div[2]/div[1]/div[2]/form[1]/input[1]"
+},
+{
+"bpID": 53,
+"certainty": 100,
+"errorDescription": "Frames must have titles which describe the content or purpose in the frame.",
+"errorSnippet": "<iframe src=\"https://minha.oi.com.br/ArquivosEstaticos/MinhaOi/HeaderLogin/index.html?dominio=www.oi.com.br\" style=\"background: none;\" allowtransparency=\"true\" scrolling=\"no\" frameborder=\"0\" width=\"366\" height=\"48\" id=\"login-minhaoi\"></iframe>",
+"errorTitle": "Frames do not have titles",
+"position": {
+"column": 5,
+"line": 542
+},
+"priority": 90,
+"ref": "null",
+"resultTitle": "Provide clear, informative titles for all Frames and I-Frames",
+"signature": "ab4b278568ca1e97a02b84622a86d629",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.1 Bypass Blocks"
+],
+"tID": 13,
+"xpath": "/html/body/header[1]/div[1]/div[2]/div[1]/div[1]/iframe[1]"
+},
+{
+"bpID": 53,
+"certainty": 100,
+"errorDescription": "Frames must have titles which describe the content or purpose in the frame.",
+"errorSnippet": "<iframe src=\"//nan.netmng.com/piggybacks/fb/\" width=\"1\" height=\"1\" frameborder=\"0\"></iframe>",
+"errorTitle": "Frames do not have titles",
+"position": "",
+"priority": 90,
+"ref": "null",
+"resultTitle": "Provide clear, informative titles for all Frames and I-Frames",
+"signature": "3a159880df1f23e682cf97d702e47463",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.1 Bypass Blocks"
+],
+"tID": 13,
+"xpath": "/html/body/iframe[1]"
+},
+{
+"bpID": 53,
+"certainty": 80,
+"errorDescription": "This frame has the exact same title attribute value as another. Unless the content within these frames serve the same purpose, they should each have distinct titles.",
+"errorSnippet": "<iframe name=\"fb_xdm_frame_http\" frameborder=\"0\" allowtransparency=\"true\" allowfullscreen=\"true\" scrolling=\"no\" id=\"fb_xdm_frame_http\" aria-hidden=\"true\" title=\"Facebook Cross Domain Communication Frame\" tabindex=\"-1\" style=\"border-top-style: none; bo",
+"errorTitle": "Frames have duplicate titles",
+"position": "",
+"priority": 90,
+"ref": "null",
+"resultTitle": "Provide clear, informative titles for all Frames and I-Frames",
+"signature": "2e664f06ed5da2e75b1b821e12fe5ebb",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.1 Bypass Blocks"
+],
+"tID": 89,
+"xpath": "/html/body/div[4]/div[1]/table[1]/tr[1]/td[1]/table[1]/tr[1]/td[1]/div[1]/div[1]/div[1]/div[1]/aside[1]/div[2]/div[2]/div[1]/iframe[1]"
+},
+{
+"bpID": 53,
+"certainty": 80,
+"errorDescription": "This frame has the exact same title attribute value as another. Unless the content within these frames serve the same purpose, they should each have distinct titles.",
+"errorSnippet": "<iframe name=\"fb_xdm_frame_https\" frameborder=\"0\" allowtransparency=\"true\" allowfullscreen=\"true\" scrolling=\"no\" id=\"fb_xdm_frame_https\" aria-hidden=\"true\" title=\"Facebook Cross Domain Communication Frame\" tabindex=\"-1\" style=\"border-top-style: none; ",
+"errorTitle": "Frames have duplicate titles",
+"position": "",
+"priority": 90,
+"ref": "null",
+"resultTitle": "Provide clear, informative titles for all Frames and I-Frames",
+"signature": "26695859fd2d882122371f873f8f1e68",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.1 Bypass Blocks"
+],
+"tID": 89,
+"xpath": "/html/body/div[4]/div[1]/table[1]/tr[1]/td[1]/table[1]/tr[1]/td[1]/div[1]/div[1]/div[1]/div[1]/aside[1]/div[2]/div[2]/div[1]/iframe[2]"
+},
+{
+"bpID": 59,
+"certainty": 80,
+"errorDescription": "Spacer images should not be used to provide margin, padding, borders, or sizing/ positioning of content. Use CSS instead",
+"errorSnippet": "<img src=\"/portal/images/misc/spacer.gif\" width=\"100\" height=\"1\" border=\"0\" alt=\"\">",
+"errorTitle": "Spacer image found",
+"position": {
+"column": 25,
+"line": 3221
+},
+"priority": 85,
+"ref": "null",
+"resultTitle": "Avoid the use of spacer images",
+"signature": "156ce5e42d7aef53afcc37f17c231ddd",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 1.1.1 Non-text Content"
+],
+"tID": 29,
+"xpath": "/html/body/div[4]/div[1]/table[1]/tr[2]/td[1]/img[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "Link found which contains no text. Because Accessibility APIs use a link's text do determine its accessible name, this link will have no name and will not be announced by assistive technologies.",
+"errorSnippet": "<a href=\"http://www.oi.com.br/\" title=\"Oi\"><img src=\"/ArquivosEstaticos/oi/images/logo-header.png\"></a>",
+"errorTitle": "Blank link text found",
+"position": {
+"column": 10,
+"line": 1415
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "703a8f6e46a04cb773f3482f4769af69",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 57,
+"xpath": "/html/body/header[1]/div[1]/div[1]/div[1]/h1[1]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "Link found which contains no text. Because Accessibility APIs use a link's text do determine its accessible name, this link will have no name and will not be announced by assistive technologies.",
+"errorSnippet": "<a class=\"dp6_track dpseis\" title=\"Sidebar, Samsung S6\" href=\"/oi/oi-pra-voce/planos-servicos/oi-movel/aparelhos/conheca-os-aparelhos/samsung-s6\">\n <img src=\"/ArquivosEstaticos/oi/oi-pra-voce/images/sidebar001.jpg\">\n ",
+"errorTitle": "Blank link text found",
+"position": {
+"column": 21,
+"line": 3097
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "0aaa90f110b2b8153bb1be2f487fb101",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 57,
+"xpath": "/html/body/div[4]/div[1]/table[1]/tr[1]/td[1]/table[1]/tr[1]/td[1]/div[1]/div[1]/div[1]/div[1]/aside[1]/section[1]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "This link has a title attribute that is identical to the text inside the link. This may lead to unnecessary verbosity for assistive technologies and provides no user benefit.",
+"errorSnippet": "<a href=\"/oi/oi-pra-voce\" title=\"Oi Pra Você\">Oi Pra Você<span class=\"indicator\"></span></a>",
+"errorTitle": "Link text with identical title",
+"position": {
+"column": 10,
+"line": 1427
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "e63a85b0f7755b602ed0c7e57ae88130",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 79,
+"xpath": "/html/body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/nav[1]/ul[1]/li[1]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "This link has a title attribute that is identical to the text inside the link. This may lead to unnecessary verbosity for assistive technologies and provides no user benefit.",
+"errorSnippet": "<a href=\"/oi/oi-pra-empresas\" title=\"Oi pra Empresas\">Oi pra Empresas</a>",
+"errorTitle": "Link text with identical title",
+"position": {
+"column": 9,
+"line": 1444
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "25b8887eb6867ea1e77cf975908df266",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 79,
+"xpath": "/html/body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/nav[1]/ul[1]/li[2]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "This link has a title attribute that is identical to the text inside the link. This may lead to unnecessary verbosity for assistive technologies and provides no user benefit.",
+"errorSnippet": "<a href=\"/oi/sobre-a-oi\" title=\"Sobre a Oi\">Sobre a Oi</a>",
+"errorTitle": "Link text with identical title",
+"position": {
+"column": 10,
+"line": 1461
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "044d9ac46b4a17ad1c03aef55013b2a1",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 79,
+"xpath": "/html/body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/nav[1]/ul[1]/li[3]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "This link has a title attribute that is identical to the text inside the link. This may lead to unnecessary verbosity for assistive technologies and provides no user benefit.",
+"errorSnippet": "<a href=\"http://ri.oi.com.br\" title=\"Investidores | Investors\">Investidores | Investors</a>",
+"errorTitle": "Link text with identical title",
+"position": {
+"column": 10,
+"line": 1473
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "dba329da89d1b7c87741e3708580779f",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 79,
+"xpath": "/html/body/header[1]/div[2]/div[1]/div[1]/div[1]/div[1]/nav[1]/ul[1]/li[4]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "This link has a title attribute that is identical to the text inside the link. This may lead to unnecessary verbosity for assistive technologies and provides no user benefit.",
+"errorSnippet": "<a href=\"/oi/oi-pra-voce/oi-para-comprar\" title=\"Oi Pra Comprar\" target=\"_self\"> Oi Pra Comprar </a>",
+"errorTitle": "Link text with identical title",
+"position": {
+"column": 10,
+"line": 1485
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "3369f35e5d09e8d91c4b93cb3067c0b8",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 79,
+"xpath": "/html/body/header[1]/div[2]/div[1]/div[2]/div[1]/div[1]/nav[1]/ul[1]/li[1]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "This link has a title attribute that is identical to the text inside the link. This may lead to unnecessary verbosity for assistive technologies and provides no user benefit.",
+"errorSnippet": "<a href=\"/oi/oi-pra-voce/14\" title=\"DDD DDI 14\" target=\"_self\"> DDD DDI 14 </a>",
+"errorTitle": "Link text with identical title",
+"position": {
+"column": 10,
+"line": 1497
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "2953e4b2b5c20fe88a4dc46d986d87f0",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 79,
+"xpath": "/html/body/header[1]/div[2]/div[1]/div[2]/div[1]/div[1]/nav[1]/ul[1]/li[2]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "This link has a title attribute that is identical to the text inside the link. This may lead to unnecessary verbosity for assistive technologies and provides no user benefit.",
+"errorSnippet": "<a href=\"/oi/oi-pra-voce/31\" title=\"DDD DDI 31\" target=\"_self\"> DDD DDI 31 </a>",
+"errorTitle": "Link text with identical title",
+"position": {
+"column": 10,
+"line": 1508
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "0eb47bb564c9d9075f42675aded456ac",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 79,
+"xpath": "/html/body/header[1]/div[2]/div[1]/div[2]/div[1]/div[1]/nav[1]/ul[1]/li[3]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "This link has a title attribute that is identical to the text inside the link. This may lead to unnecessary verbosity for assistive technologies and provides no user benefit.",
+"errorSnippet": "<a href=\"/oi/oi-pra-voce/planos-servicos/oi-pontos\" title=\"Oi Pontos\" target=\"_self\"> Oi Pontos </a>",
+"errorTitle": "Link text with identical title",
+"position": {
+"column": 10,
+"line": 1521
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "a778c77e8b6e9698f0d952f50ff02af1",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 79,
+"xpath": "/html/body/header[1]/div[2]/div[1]/div[2]/div[1]/div[1]/nav[1]/ul[1]/li[4]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "This link has a title attribute that is identical to the text inside the link. This may lead to unnecessary verbosity for assistive technologies and provides no user benefit.",
+"errorSnippet": "<a href=\"/oi/oi-pra-voce/planos-servicos/oi-pre-paid-kit\" title=\"Visitor\" target=\"_self\"> Visitor <span class=\"flag\"></span></a>",
+"errorTitle": "Link text with identical title",
+"position": {
+"column": 10,
+"line": 1533
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "ffb1f799bdec1c0544bdad0d09b42c8b",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 79,
+"xpath": "/html/body/header[1]/div[2]/div[1]/div[2]/div[1]/div[1]/nav[1]/ul[1]/li[5]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "This link has a title attribute that is identical to the text inside the link. This may lead to unnecessary verbosity for assistive technologies and provides no user benefit.",
+"errorSnippet": "<a href=\"/oi/oi-pra-voce/planos-servicos\" title=\"Planos e Serviços\"><img class=\"\" src=\"/ArquivosEstaticos/oi/images/menus/menu-2013/planos-e-servicos/m-m-5.gif\" imgdefault=\"/ArquivosEstaticos/oi/images/menus/menu-2013/planos-e-servicos/m-m-5.gif",
+"errorTitle": "Link text with identical title",
+"position": {
+"column": 10,
+"line": 1545
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "e99e3ce166cd17d757b54e3b555713a2",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 79,
+"xpath": "/html/body/div[3]/div[1]/div[1]/div[1]/ul[1]/li[1]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "This link has a title attribute that is identical to the text inside the link. This may lead to unnecessary verbosity for assistive technologies and provides no user benefit.",
+"errorSnippet": "<a href=\"/oi/oi-pra-voce/loja-online\" title=\"Loja Online\"><img class=\"\" src=\"/ArquivosEstaticos/oi/images/menus/menu-2013/loja-online/m-m-1.gif\" imgdefault=\"/ArquivosEstaticos/oi/images/menus/menu-2013/loja-online/m-m-1.gif\" imghover=\"/ArquivosE",
+"errorTitle": "Link text with identical title",
+"position": {
+"column": 10,
+"line": 2067
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "0d20e1cf7bec7c3fdafdfd4d682cf27f",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 79,
+"xpath": "/html/body/div[3]/div[1]/div[1]/div[1]/ul[1]/li[2]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "This link has a title attribute that is identical to the text inside the link. This may lead to unnecessary verbosity for assistive technologies and provides no user benefit.",
+"errorSnippet": "<a href=\"/oi/oi-pra-voce/atendimento\" title=\"Atendimento\"><img class=\"\" src=\"/ArquivosEstaticos/oi/images/menus/menu-2013/atendimento/m-m-2.gif\" imgdefault=\"/ArquivosEstaticos/oi/images/menus/menu-2013/atendimento/m-m-2.gif\" imghover=\"/ArquivosE",
+"errorTitle": "Link text with identical title",
+"position": {
+"column": 10,
+"line": 2369
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "a78cca419250ae006759b49d96502490",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 79,
+"xpath": "/html/body/div[3]/div[1]/div[1]/div[1]/ul[1]/li[3]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "This link has a title attribute that is identical to the text inside the link. This may lead to unnecessary verbosity for assistive technologies and provides no user benefit.",
+"errorSnippet": "<a href=\"/oi/oi-pra-voce/minha-oi/conheca\" title=\"Minha Oi\"><img class=\"\" src=\"/ArquivosEstaticos/oi/images/menus/menu-2013/minha-oi/m-m-3.gif\" imgdefault=\"/ArquivosEstaticos/oi/images/menus/menu-2013/minha-oi/m-m-3.gif\" imghover=\"/ArquivosEstat",
+"errorTitle": "Link text with identical title",
+"position": {
+"column": 33,
+"line": 2764
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "f5a2abc54b500c3eceacf3494b0efa90",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 79,
+"xpath": "/html/body/div[3]/div[1]/div[1]/div[1]/ul[1]/li[4]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "This link has a title attribute that is identical to the text inside the link. This may lead to unnecessary verbosity for assistive technologies and provides no user benefit.",
+"errorSnippet": "<a href=\"javascript:function();\" title=\"Recarregue Agora\"><img class=\"\" src=\"/ArquivosEstaticos/oi/images/menus/menu-2013/recarregue-agora/m-m-6.gif\" imgdefault=\"/ArquivosEstaticos/oi/images/menus/menu-2013/recarregue-agora/m-m-6.gif\" imghover=\"",
+"errorTitle": "Link text with identical title",
+"position": {
+"column": 21,
+"line": 3028
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "ade2646f757a04359c2864cfafac4a03",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 79,
+"xpath": "/html/body/div[3]/div[1]/div[1]/div[1]/ul[1]/li[5]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "This link has a title attribute that is identical to the text inside the link. This may lead to unnecessary verbosity for assistive technologies and provides no user benefit.",
+"errorSnippet": "<a href=\"https://login.oi.com.br/nidp/idff/sso?id=sso&amp;sid=6&amp;option=credential&amp;sid=6\" onclick=\"_gaq.push(['_trackEvent', 'Home Page Lateral Direita - R1', 'Elemento MOi', 'Login']);\" title=\"Acesse agora\" class=\"hoverBt\">Acess",
+"errorTitle": "Link text with identical title",
+"position": {
+"column": 21,
+"line": 3091
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "452047d067a088d3522bffee9114b0bd",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 79,
+"xpath": "/html/body/div[4]/div[1]/table[1]/tr[1]/td[1]/table[1]/tr[1]/td[1]/div[1]/div[1]/div[1]/div[1]/aside[1]/div[1]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "This link has a title attribute that is identical to the text inside the link. This may lead to unnecessary verbosity for assistive technologies and provides no user benefit.",
+"errorSnippet": "<a href=\"https://login.oi.com.br/nidp/idff/sso?id=sso&amp;sid=6&amp;option=credential&amp;sid=6\" onclick=\"_gaq.push(['_trackEvent', 'Home Page Lateral Direita - R1', 'Elemento MOi', 'Login']);\" title=\"Acesse agora\" class=\"bt\">Acesse ago",
+"errorTitle": "Link text with identical title",
+"position": {
+"column": 21,
+"line": 3094
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "f2218810a598565739477b9564e7a303",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 79,
+"xpath": "/html/body/div[4]/div[1]/table[1]/tr[1]/td[1]/table[1]/tr[1]/td[1]/div[1]/div[1]/div[1]/div[1]/aside[1]/div[1]/a[2]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "This link has a title attribute that is identical to the text inside the link. This may lead to unnecessary verbosity for assistive technologies and provides no user benefit.",
+"errorSnippet": "<a title=\"Telefone Móvel\" href=\"/oi/oi-pra-voce/oi-movel/planos/conheca-os-planos\">Telefone Móvel</a>",
+"errorTitle": "Link text with identical title",
+"position": {
+"column": 21,
+"line": 3118
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "693b152f3edd7771c27c8723345cbcd6",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 79,
+"xpath": "/html/body/div[5]/div[1]/div[1]/div[1]/div[1]/nav[1]/ul[1]/li[1]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "This link has a title attribute that is identical to the text inside the link. This may lead to unnecessary verbosity for assistive technologies and provides no user benefit.",
+"errorSnippet": "<a title=\"Telefone Fixo\" href=\"/oi/oi-pra-voce/oi-fixo/planos/conheca-os-planos\">Telefone Fixo</a>",
+"errorTitle": "Link text with identical title",
+"position": {
+"column": 21,
+"line": 3127
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "7dda5078f6c91f6c0f636026544ef632",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 79,
+"xpath": "/html/body/div[5]/div[1]/div[1]/div[1]/div[1]/nav[1]/ul[1]/li[2]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "This link has a title attribute that is identical to the text inside the link. This may lead to unnecessary verbosity for assistive technologies and provides no user benefit.",
+"errorSnippet": "<a title=\"Banda Larga\" href=\"/oi/oi-pra-voce/planos-servicos/internet/internet-pra-casa/oi-velox-banda-larga\">Banda Larga</a>",
+"errorTitle": "Link text with identical title",
+"position": {
+"column": 21,
+"line": 3130
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "79831ad009dff0bad3decb9c946eee50",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 79,
+"xpath": "/html/body/div[5]/div[1]/div[1]/div[1]/div[1]/nav[1]/ul[1]/li[3]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "This link has a title attribute that is identical to the text inside the link. This may lead to unnecessary verbosity for assistive technologies and provides no user benefit.",
+"errorSnippet": "<a title=\"Plano de Dados\" href=\"/oi/oi-pra-voce/internet/planos/oi-dados-pro-seu-oi-movel/\">Plano de Dados</a>",
+"errorTitle": "Link text with identical title",
+"position": {
+"column": 21,
+"line": 3136
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "89a7116dd32f65952c2a03ecf0353751",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 79,
+"xpath": "/html/body/div[5]/div[1]/div[1]/div[1]/div[1]/nav[1]/ul[1]/li[5]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "This link has a title attribute that is identical to the text inside the link. This may lead to unnecessary verbosity for assistive technologies and provides no user benefit.",
+"errorSnippet": "<a title=\"Pacote com Fixo, Móvel, DDD e Internet\" href=\"/oi/oi-pra-voce/oi-conta-total/planos/conheca-os-planos/\">Pacote com Fixo, Móvel, DDD e Internet</a>",
+"errorTitle": "Link text with identical title",
+"position": {
+"column": 21,
+"line": 3139
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "09e2cd68ed40288c3caeda00aa7414fc",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 79,
+"xpath": "/html/body/div[5]/div[1]/div[1]/div[1]/div[1]/nav[1]/ul[1]/li[6]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "This link has a title attribute that is identical to the text inside the link. This may lead to unnecessary verbosity for assistive technologies and provides no user benefit.",
+"errorSnippet": "<a title=\"TV por assinatura\" href=\"/oi/oi-pra-voce/oi-tv\">TV por assinatura</a>",
+"errorTitle": "Link text with identical title",
+"position": {
+"column": 21,
+"line": 3142
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "617a35012b26cd6ae055326ae4d6b37f",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 79,
+"xpath": "/html/body/div[5]/div[1]/div[1]/div[1]/div[1]/nav[1]/ul[1]/li[7]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "This link has a title attribute that is identical to the text inside the link. This may lead to unnecessary verbosity for assistive technologies and provides no user benefit.",
+"errorSnippet": "<a title=\"Longa Distância\" href=\"/oi/oi-pra-voce/31/\">Longa Distância</a>",
+"errorTitle": "Link text with identical title",
+"position": {
+"column": 21,
+"line": 3145
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "11333278f77797065f5e0c5191b2985f",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 79,
+"xpath": "/html/body/div[5]/div[1]/div[1]/div[1]/div[1]/nav[1]/ul[1]/li[8]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "This link has a title attribute that is identical to the text inside the link. This may lead to unnecessary verbosity for assistive technologies and provides no user benefit.",
+"errorSnippet": "<a title=\"Cartão de crédito Oi\" href=\"/oi/oi-pra-voce/cartao-de-credito-oi\">Cartão de crédito Oi</a>",
+"errorTitle": "Link text with identical title",
+"position": {
+"column": 21,
+"line": 3148
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "666eff62f2727c6990a60a4d31a9a4e1",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 79,
+"xpath": "/html/body/div[5]/div[1]/div[1]/div[1]/div[1]/nav[1]/ul[1]/li[9]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "This link has a title attribute that is identical to the text inside the link. This may lead to unnecessary verbosity for assistive technologies and provides no user benefit.",
+"errorSnippet": "<a title=\"Oi Carteira\" href=\"/oi/oi-pra-voce/oi-para-comprar/oi-carteira\">Oi Carteira</a>",
+"errorTitle": "Link text with identical title",
+"position": {
+"column": 21,
+"line": 3151
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "7c1899e4016f18e6ffb8bb4b01190a35",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 79,
+"xpath": "/html/body/div[5]/div[1]/div[1]/div[1]/div[1]/nav[1]/ul[1]/li[10]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "This link has a title attribute that is identical to the text inside the link. This may lead to unnecessary verbosity for assistive technologies and provides no user benefit.",
+"errorSnippet": "<a title=\"Oi Pré-pago\" href=\"/oi/oi-pra-voce/oi-movel/planos/oi-cartao/\">Oi Pré-pago</a>",
+"errorTitle": "Link text with identical title",
+"position": {
+"column": 21,
+"line": 3154
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "330fabbbe5fb347de32e9089c6030762",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 79,
+"xpath": "/html/body/div[5]/div[1]/div[1]/div[1]/div[1]/nav[2]/ul[1]/li[1]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "This link has a title attribute that is identical to the text inside the link. This may lead to unnecessary verbosity for assistive technologies and provides no user benefit.",
+"errorSnippet": "<a title=\"Oi Controle\" href=\"/oi/oi-pra-voce/oi-movel/planos/oi-controle/\">Oi Controle</a>",
+"errorTitle": "Link text with identical title",
+"position": {
+"column": 21,
+"line": 3157
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "4c2ac46538acc8de9821893e61611567",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 79,
+"xpath": "/html/body/div[5]/div[1]/div[1]/div[1]/div[1]/nav[2]/ul[1]/li[2]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "This link has a title attribute that is identical to the text inside the link. This may lead to unnecessary verbosity for assistive technologies and provides no user benefit.",
+"errorSnippet": "<a title=\"Oi Conta\" href=\"/oi/oi-pra-voce/oi-movel/planos/#!plano/oi-conta\">Oi Conta</a>",
+"errorTitle": "Link text with identical title",
+"position": {
+"column": 21,
+"line": 3160
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "b5ca932170474f1a4c1cacd06e0cb53c",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 79,
+"xpath": "/html/body/div[5]/div[1]/div[1]/div[1]/div[1]/nav[2]/ul[1]/li[3]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "This link has a title attribute that is identical to the text inside the link. This may lead to unnecessary verbosity for assistive technologies and provides no user benefit.",
+"errorSnippet": "<a title=\"Internet no seu Oi\" href=\"/oi/oi-pra-voce/internet/planos/oi-dados-pro-seu-oi-movel/\">Internet no seu Oi</a>",
+"errorTitle": "Link text with identical title",
+"position": {
+"column": 21,
+"line": 3163
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "b5ee65cc051edb8442ff518cb25072fe",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 79,
+"xpath": "/html/body/div[5]/div[1]/div[1]/div[1]/div[1]/nav[2]/ul[1]/li[4]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "This link has a title attribute that is identical to the text inside the link. This may lead to unnecessary verbosity for assistive technologies and provides no user benefit.",
+"errorSnippet": "<a title=\"Oi Indica\" href=\"/oi/oi-pra-voce/oi-movel/servicos/oi-indica-conheca-o-programa/\">Oi Indica</a>",
+"errorTitle": "Link text with identical title",
+"position": {
+"column": 21,
+"line": 3171
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "5d20fac5f4256a0c68682357610df9a6",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 79,
+"xpath": "/html/body/div[5]/div[1]/div[1]/div[1]/div[1]/nav[2]/ul[1]/li[5]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "This link has a title attribute that is identical to the text inside the link. This may lead to unnecessary verbosity for assistive technologies and provides no user benefit.",
+"errorSnippet": "<a title=\"Oi Pontos\" href=\"/oi/oi-pra-voce/oi-pontos/\">Oi Pontos</a>",
+"errorTitle": "Link text with identical title",
+"position": {
+"column": 21,
+"line": 3174
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "4c5005848fef67e7bf240206c92387e0",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 79,
+"xpath": "/html/body/div[5]/div[1]/div[1]/div[1]/div[1]/nav[2]/ul[1]/li[6]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "This link has a title attribute that is identical to the text inside the link. This may lead to unnecessary verbosity for assistive technologies and provides no user benefit.",
+"errorSnippet": "<a title=\"Aparelhos\" href=\"/oi/oi-pra-voce/oi-movel/aparelhos/conheca-os-aparelhos\">Aparelhos</a>",
+"errorTitle": "Link text with identical title",
+"position": {
+"column": 11,
+"line": 3177
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "6de8b2ceaa1c7b09614ce6a3b108a3a9",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 79,
+"xpath": "/html/body/div[5]/div[1]/div[1]/div[1]/div[1]/nav[2]/ul[1]/li[7]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "This link has a title attribute that is identical to the text inside the link. This may lead to unnecessary verbosity for assistive technologies and provides no user benefit.",
+"errorSnippet": "<a title=\"Internet pro seu Oi Pré-pago e Oi Controle\" href=\"/oi/oi-pra-voce/internet-movel/internet-celular-pre\">Internet pro seu Oi Pré-pago e Oi Controle</a>",
+"errorTitle": "Link text with identical title",
+"position": {
+"column": 21,
+"line": 3183
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "161d9f4424438f644ad1227196f345db",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 79,
+"xpath": "/html/body/div[5]/div[1]/div[1]/div[1]/div[1]/nav[2]/ul[1]/li[9]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "This link has a title attribute that is identical to the text inside the link. This may lead to unnecessary verbosity for assistive technologies and provides no user benefit.",
+"errorSnippet": "<a title=\"Recarregue seu Oi\" href=\"/oi/oi-pra-voce/planos-servicos/oi-movel/recarga\">Recarregue seu Oi</a>",
+"errorTitle": "Link text with identical title",
+"position": {
+"column": 21,
+"line": 3192
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "9b58bfecfac0f3dcfec7cccd3e044cff",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 79,
+"xpath": "/html/body/div[5]/div[1]/div[1]/div[1]/div[1]/nav[3]/ul[1]/li[2]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "This link has a title attribute that is identical to the text inside the link. This may lead to unnecessary verbosity for assistive technologies and provides no user benefit.",
+"errorSnippet": "<a title=\"Pacotes de Voz pro Oi Pré-pago e Oi Controle\" href=\"/oi/oi-pra-voce/oi-movel/servicos/servicos-oi-cartao/pacotes-de-voz\">Pacotes de Voz pro Oi Pré-pago e Oi Controle</a>",
+"errorTitle": "Link text with identical title",
+"position": {
+"column": 21,
+"line": 3195
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "0aa74dc67e06a718d771650278d83ec4",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 79,
+"xpath": "/html/body/div[5]/div[1]/div[1]/div[1]/div[1]/nav[3]/ul[1]/li[3]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "This link has a title attribute that is identical to the text inside the link. This may lead to unnecessary verbosity for assistive technologies and provides no user benefit.",
+"errorSnippet": "<a title=\"Roaming Internacional\" href=\"/oi/oi-pra-voce/oi-movel/servicos/servicos-pro-seu-oi-movel/roaming-internacional/\">Roaming Internacional</a>",
+"errorTitle": "Link text with identical title",
+"position": {
+"column": 21,
+"line": 3198
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "73cad64e55643480c6f17bdfaa13db3e",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 79,
+"xpath": "/html/body/div[5]/div[1]/div[1]/div[1]/div[1]/nav[3]/ul[1]/li[4]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "This link has a title attribute that is identical to the text inside the link. This may lead to unnecessary verbosity for assistive technologies and provides no user benefit.",
+"errorSnippet": "<a title=\"Identificador de chamadas pro Oi Fixo\" href=\"/oi/oi-pra-voce/oi-fixo/servicos/servicos-pro-seu-oi-fixo/identificador-de-chamadas/\">Identificador de chamadas pro Oi Fixo</a>",
+"errorTitle": "Link text with identical title",
+"position": {
+"column": 25,
+"line": 3200
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "4dc6fb6e11462a2ea359d5b2a3c9551e",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 79,
+"xpath": "/html/body/div[5]/div[1]/div[1]/div[1]/div[1]/nav[3]/ul[1]/li[5]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "This link has a title attribute that is identical to the text inside the link. This may lead to unnecessary verbosity for assistive technologies and provides no user benefit.",
+"errorSnippet": "<a title=\"Caixa Postal Oi Fixo\" href=\"/oi/oi-pra-voce/oi-fixo/servicos/servicos-pro-seu-oi-fixo/caixa-postal/\">Caixa Postal Oi Fixo</a>",
+"errorTitle": "Link text with identical title",
+"position": {
+"column": 21,
+"line": 3202
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "2b4a091ea2b6548a70d8ce26962de4a0",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 79,
+"xpath": "/html/body/div[5]/div[1]/div[1]/div[1]/div[1]/nav[3]/ul[1]/li[6]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "This link has a title attribute that is identical to the text inside the link. This may lead to unnecessary verbosity for assistive technologies and provides no user benefit.",
+"errorSnippet": "<a title=\"Portabilidade\" href=\"/oi/oi-pra-voce/oi-movel/servicos/portabilidade/\">Portabilidade</a>",
+"errorTitle": "Link text with identical title",
+"position": {
+"column": 21,
+"line": 3208
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "2f96b93802d1bdcea6c2aa114b82a785",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 79,
+"xpath": "/html/body/div[5]/div[1]/div[1]/div[1]/div[1]/nav[3]/ul[1]/li[8]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "This link has a title attribute that is identical to the text inside the link. This may lead to unnecessary verbosity for assistive technologies and provides no user benefit.",
+"errorSnippet": "<a title=\"Envie um Torpedo Web\" href=\"/oi/oi-pra-voce/oi-torpedo-web/\">Envie um Torpedo Web</a>",
+"errorTitle": "Link text with identical title",
+"position": {
+"column": 21,
+"line": 3211
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "2d4255348211365f49b5e72c7b7fd242",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 79,
+"xpath": "/html/body/div[5]/div[1]/div[1]/div[1]/div[1]/nav[3]/ul[1]/li[9]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "This link has a title attribute that is identical to the text inside the link. This may lead to unnecessary verbosity for assistive technologies and provides no user benefit.",
+"errorSnippet": "<a title=\"Saldo de Consumo\" href=\"http://faq.oi.com.br/como-faco-para-consultar-o-saldo-e-a-validade-dos-creditos-do-meu-pre-pago\" target=\"_blank\">Saldo de Consumo</a>",
+"errorTitle": "Link text with identical title",
+"position": {
+"column": 25,
+"line": 3227
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "e8982d3e3458451ee669d916c3b61e11",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 79,
+"xpath": "/html/body/div[5]/div[1]/div[1]/div[1]/div[1]/nav[4]/ul[1]/li[2]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "This link has a title attribute that is identical to the text inside the link. This may lead to unnecessary verbosity for assistive technologies and provides no user benefit.",
+"errorSnippet": "<a title=\"2ª via de conta\" href=\"http://faq.oi.com.br/como-consigo-tirar-a-2-via-da-minha-conta\" target=\"_blank\">2ª via de conta</a>",
+"errorTitle": "Link text with identical title",
+"position": {
+"column": 25,
+"line": 3232
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "6a46eb1a530a244bd3b5c571970d7d2a",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 79,
+"xpath": "/html/body/div[5]/div[1]/div[1]/div[1]/div[1]/nav[4]/ul[1]/li[3]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "This link has a title attribute that is identical to the text inside the link. This may lead to unnecessary verbosity for assistive technologies and provides no user benefit.",
+"errorSnippet": "<a title=\"Bloqueio por perda ou roubo\" href=\"http://faq.oi.com.br/como-bloqueio-meu-numero-por-perda-ou-roubo\" target=\"_blank\">Bloqueio por perda ou roubo</a>",
+"errorTitle": "Link text with identical title",
+"position": {
+"column": 25,
+"line": 3237
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "55b95984c4319552fd6f0c53ca030370",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 79,
+"xpath": "/html/body/div[5]/div[1]/div[1]/div[1]/div[1]/nav[4]/ul[1]/li[4]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "This link has a title attribute that is identical to the text inside the link. This may lead to unnecessary verbosity for assistive technologies and provides no user benefit.",
+"errorSnippet": "<a title=\"Ativação e desativação de serviços\" href=\"http://faq.oi.com.br/como-ativo-desativo-servicos-no-meu-celular\" target=\"_blank\">Ativação e desativação de serviços</a>",
+"errorTitle": "Link text with identical title",
+"position": {
+"column": 25,
+"line": 3242
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "961e6b1079e3f87d78fcc7a5d81bc698",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 79,
+"xpath": "/html/body/div[5]/div[1]/div[1]/div[1]/div[1]/nav[4]/ul[1]/li[5]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "This link has a title attribute that is identical to the text inside the link. This may lead to unnecessary verbosity for assistive technologies and provides no user benefit.",
+"errorSnippet": "<a title=\"Alteração da data de vencimento\" href=\"http://faq.oi.com.br/como-altero-a-data-de-vencimento-da-minha-conta-na-minha-oi\" target=\"_blank\">Alteração da data de vencimento</a>",
+"errorTitle": "Link text with identical title",
+"position": {
+"column": 21,
+"line": 3249
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "6fd99e4bbc1f4db43a618088feaf70eb",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 79,
+"xpath": "/html/body/div[5]/div[1]/div[1]/div[1]/div[1]/nav[4]/ul[1]/li[6]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "This link has a title attribute that is identical to the text inside the link. This may lead to unnecessary verbosity for assistive technologies and provides no user benefit.",
+"errorSnippet": "<a title=\"Alteração de endereço de cobrança\" href=\"http://faq.oi.com.br/como-faco-para-alterar-o-endereco-de-recebimento-da-fatura-na-minha\" target=\"_blank\">Alteração de endereço de cobrança</a>",
+"errorTitle": "Link text with identical title",
+"position": {
+"column": 21,
+"line": 3252
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "60e9e12945b7c206a629aecb78048a9e",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 79,
+"xpath": "/html/body/div[5]/div[1]/div[1]/div[1]/div[1]/nav[4]/ul[1]/li[7]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "This link has a title attribute that is identical to the text inside the link. This may lead to unnecessary verbosity for assistive technologies and provides no user benefit.",
+"errorSnippet": "<a title=\"Fatura Oi Paggo\" href=\"https://www.paggo.com.br/freeddom/web/holder/oi/login.do\" target=\"_blank\">Fatura Oi Paggo</a>",
+"errorTitle": "Link text with identical title",
+"position": {
+"column": 21,
+"line": 3255
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "791cca81b88a95300caba5807511b480",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 79,
+"xpath": "/html/body/div[5]/div[1]/div[1]/div[1]/div[1]/nav[4]/ul[1]/li[8]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "This link has a title attribute that is identical to the text inside the link. This may lead to unnecessary verbosity for assistive technologies and provides no user benefit.",
+"errorSnippet": "<a title=\"Fale com a Oi\" href=\"/oi/oi-pra-voce/atendimento#nao-encontrou\">Fale com a Oi</a>",
+"errorTitle": "Link text with identical title",
+"position": {
+"column": 21,
+"line": 3258
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "5482a949a47c9c5985bb0b86e02f9d44",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 79,
+"xpath": "/html/body/div[5]/div[1]/div[1]/div[1]/div[1]/nav[4]/ul[1]/li[9]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "This link has a title attribute that is identical to the text inside the link. This may lead to unnecessary verbosity for assistive technologies and provides no user benefit.",
+"errorSnippet": "<a href=\"http://antivirus.oi.com.br/instalar\" title=\"Instalar Oi Antivírus\" target=\"_blank\">Instalar Oi Antivírus</a>",
+"errorTitle": "Link text with identical title",
+"position": "",
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "7fc159832a9cd24bb564475af8471172",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 79,
+"xpath": "/html/body/div[5]/div[1]/div[1]/div[1]/div[1]/nav[4]/ul[1]/li[11]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "This link has a title attribute that is identical to the text inside the link. This may lead to unnecessary verbosity for assistive technologies and provides no user benefit.",
+"errorSnippet": "<a href=\"http://faq.oi.com.br/faq-list/\" title=\"Perguntas Frequentes\" target=\"_blank\">Perguntas Frequentes</a>",
+"errorTitle": "Link text with identical title",
+"position": "",
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "6f420c13dec8adffedfec4e34728097d",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 79,
+"xpath": "/html/body/div[5]/div[1]/div[1]/div[1]/div[1]/nav[4]/ul[1]/li[12]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "This link has a title attribute that is identical to the text inside the link. This may lead to unnecessary verbosity for assistive technologies and provides no user benefit.",
+"errorSnippet": "<a title=\"Trabalhe na Oi\" href=\"/oi/sobre-a-oi/gente/\">Trabalhe na Oi</a>",
+"errorTitle": "Link text with identical title",
+"position": "",
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "253281c9248f84c122cc64625d3ec2f5",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 79,
+"xpath": "/html/body/div[5]/div[1]/div[1]/div[1]/div[1]/nav[5]/ul[1]/li[1]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "This link has a title attribute that is identical to the text inside the link. This may lead to unnecessary verbosity for assistive technologies and provides no user benefit.",
+"errorSnippet": "<a class=\"lojas_atend_pref\" title=\"Lojas de Atendimento Presencial\" href=\"/ArquivosEstaticos/oi/oi-pra-voce/atendimento/pdf/atendimento-presencial-null.pdf\" target=\"_blank\">Lojas de Atendimento Presencial</a>",
+"errorTitle": "Link text with identical title",
+"position": "",
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "f5768355b628364d53c1edf0326b1341",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 79,
+"xpath": "/html/body/div[5]/div[1]/div[1]/div[1]/div[1]/nav[5]/ul[1]/li[2]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "This link has a title attribute that is identical to the text inside the link. This may lead to unnecessary verbosity for assistive technologies and provides no user benefit.",
+"errorSnippet": "<a title=\"Sala de imprensa\" href=\"/oi/sobre-a-oi/sala-de-imprensa/\">Sala de imprensa</a>",
+"errorTitle": "Link text with identical title",
+"position": "",
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "19a12d36d19962b25e23c9b34f52a776",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 79,
+"xpath": "/html/body/div[5]/div[1]/div[1]/div[1]/div[1]/nav[5]/ul[1]/li[3]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "This link has a title attribute that is identical to the text inside the link. This may lead to unnecessary verbosity for assistive technologies and provides no user benefit.",
+"errorSnippet": "<a title=\"Regulamentação\" href=\"/oi/sobre-a-oi/regulamentacao/\">Regulamentação</a>",
+"errorTitle": "Link text with identical title",
+"position": "",
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "2aad713a8d1ee17c7f51a21bf73f5438",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 79,
+"xpath": "/html/body/div[5]/div[1]/div[1]/div[1]/div[1]/nav[5]/ul[1]/li[4]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "This link has a title attribute that is identical to the text inside the link. This may lead to unnecessary verbosity for assistive technologies and provides no user benefit.",
+"errorSnippet": "<a title=\"Sustentabilidade\" href=\"/oi/sobre-a-oi/empresa/sustentabilidade/politica-de-sustentabilidade\">Sustentabilidade</a>",
+"errorTitle": "Link text with identical title",
+"position": "",
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "212b79b8863172198833402211caafcd",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 79,
+"xpath": "/html/body/div[5]/div[1]/div[1]/div[1]/div[1]/nav[5]/ul[1]/li[5]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "This link has a title attribute that is identical to the text inside the link. This may lead to unnecessary verbosity for assistive technologies and provides no user benefit.",
+"errorSnippet": "<a title=\"Conselho de usuários\" href=\"/oi/sobre-a-oi/regulamentacao/informacoes/conselho-de-usuarios/conselho-de-usuarios-regionais\">Conselho de usuários</a>",
+"errorTitle": "Link text with identical title",
+"position": "",
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "e1fa8c6ef296cd2a268ccfcbf4e2f817",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 79,
+"xpath": "/html/body/div[5]/div[1]/div[1]/div[1]/div[1]/nav[5]/ul[1]/li[6]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "This link has a title attribute that is identical to the text inside the link. This may lead to unnecessary verbosity for assistive technologies and provides no user benefit.",
+"errorSnippet": "<a title=\"Visiting Brazil\" href=\"/oi/oi-pra-voce/planos-servicos/oi-pre-paid-kit\">Visiting Brazil</a>",
+"errorTitle": "Link text with identical title",
+"position": "",
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "77c65880ba2c66a5402812f73579aee9",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 79,
+"xpath": "/html/body/div[5]/div[1]/div[1]/div[1]/div[1]/nav[5]/ul[1]/li[7]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "This link has a title attribute that is identical to the text inside the link. This may lead to unnecessary verbosity for assistive technologies and provides no user benefit.",
+"errorSnippet": "<a title=\"Denuncie crimes na internet\" href=\"/oi/sobre-a-oi/empresa/informacoes/denuncie-crimes-na-internet/\">Denuncie crimes na internet</a>",
+"errorTitle": "Link text with identical title",
+"position": "",
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "f411af3335c2e495f15680c1c239d000",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 79,
+"xpath": "/html/body/div[5]/div[1]/div[1]/div[1]/div[1]/nav[5]/ul[1]/li[8]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "This link has a title attribute that is identical to the text inside the link. This may lead to unnecessary verbosity for assistive technologies and provides no user benefit.",
+"errorSnippet": "<a title=\"Regras SAC\" href=\"/oi/sobre-a-oi/regulamentacao/regras-sac/principais-regras\">Regras SAC</a>",
+"errorTitle": "Link text with identical title",
+"position": "",
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "bf0c4fbc9dab58c4349d058b2dc76336",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 79,
+"xpath": "/html/body/div[5]/div[1]/div[1]/div[1]/div[1]/nav[5]/ul[1]/li[9]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "This link has a title attribute that is identical to the text inside the link. This may lead to unnecessary verbosity for assistive technologies and provides no user benefit.",
+"errorSnippet": "<a title=\"Código de Defesa do Consumidor\" href=\"/ArquivosEstaticos/oi/docs/pdf/sobre_oi/6046 Livreto Codigo_web.pdf\" target=\"_blank\">Código de Defesa do Consumidor</a>",
+"errorTitle": "Link text with identical title",
+"position": "",
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "29fb97caf31578ef07dfc8e929ab9de7",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 79,
+"xpath": "/html/body/div[5]/div[1]/div[1]/div[1]/div[1]/nav[5]/ul[1]/li[10]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "This link has a title attribute that is identical to the text inside the link. This may lead to unnecessary verbosity for assistive technologies and provides no user benefit.",
+"errorSnippet": "<a title=\"PROCON-RJ\" href=\"http://www.procon.rj.gov.br/\" target=\"_blank\">PROCON-RJ</a>",
+"errorTitle": "Link text with identical title",
+"position": "",
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "bdcd3ec9585f7ee3266eb007afde8530",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 79,
+"xpath": "/html/body/div[5]/div[1]/div[1]/div[1]/div[1]/nav[5]/ul[1]/li[11]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "This link has a title attribute that is identical to the text inside the link. This may lead to unnecessary verbosity for assistive technologies and provides no user benefit.",
+"errorSnippet": "<a title=\"Política de Privacidade\" href=\"/oi/sobre-a-oi/empresa/informacoes/politica-de-privacidade/\">Política de Privacidade</a>",
+"errorTitle": "Link text with identical title",
+"position": "",
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "b870c27a42a431a74e8a81ba7edc5fcd",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 79,
+"xpath": "/html/body/div[5]/div[1]/div[1]/div[1]/div[1]/nav[5]/ul[1]/li[12]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "This link has a title attribute that is identical to the text inside the link. This may lead to unnecessary verbosity for assistive technologies and provides no user benefit.",
+"errorSnippet": "<a href=\"/oi/sobre-a-oi/empresa/informacoes/9-digito\" title=\"9º dígito\">9º dígito</a>",
+"errorTitle": "Link text with identical title",
+"position": "",
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "ab831e188bc2903c02581e24b016d5b2",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 79,
+"xpath": "/html/body/div[5]/div[1]/div[1]/div[1]/div[1]/nav[5]/ul[1]/li[13]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "This link has a title attribute that is identical to the text inside the link. This may lead to unnecessary verbosity for assistive technologies and provides no user benefit.",
+"errorSnippet": "<a title=\"Oi Futuro\" href=\"http://www.oifuturo.org.br/\" target=\"_blank\">\n <img src=\"/ArquivosEstaticos/oi/images/icooifuturo.gif\" alt=\"Oi Futuro\">\n </a>",
+"errorTitle": "Link text with identical title",
+"position": "",
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "d9dc798a8f40d2449b443768f1c61459",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 79,
+"xpath": "/html/body/div[5]/div[1]/div[1]/div[1]/div[1]/nav[6]/ul[1]/li[1]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "This link has a title attribute that is identical to the text inside the link. This may lead to unnecessary verbosity for assistive technologies and provides no user benefit.",
+"errorSnippet": "<a title=\"Mundo Oi\" href=\"http://mundooi.oi.com.br/\" target=\"_blank\">\n <img src=\"/ArquivosEstaticos/oi/images/icomundooi2.png\" alt=\"Mundo Oi\">\n </a>",
+"errorTitle": "Link text with identical title",
+"position": "",
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "97e28a08de2b4692b90a47088c5ac974",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 79,
+"xpath": "/html/body/div[5]/div[1]/div[1]/div[1]/div[1]/nav[6]/ul[1]/li[2]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "This link has a title attribute that is identical to the text inside the link. This may lead to unnecessary verbosity for assistive technologies and provides no user benefit.",
+"errorSnippet": "<a title=\"Oi FM\" href=\"http://www.oifm.com.br/\" target=\"_blank\">\n <img src=\"/ArquivosEstaticos/oi/images/icooifm.gif\" alt=\"Oi FM\">\n </a>",
+"errorTitle": "Link text with identical title",
+"position": "",
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "5ceb493050241e19438c1fae24c317e5",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 79,
+"xpath": "/html/body/div[5]/div[1]/div[1]/div[1]/div[1]/nav[6]/ul[1]/li[3]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "This link has a title attribute that is identical to the text inside the link. This may lead to unnecessary verbosity for assistive technologies and provides no user benefit.",
+"errorSnippet": "<a title=\"Oi Rdio\" href=\"http://www.oirdio.com.br\" target=\"_blank\">\n <img src=\"/ArquivosEstaticos/oi/images/Rdiofooter.png\" alt=\"Oi Rdio\">\n </a>",
+"errorTitle": "Link text with identical title",
+"position": "",
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "a178a5378d6c4be4982a90928a91c51c",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 79,
+"xpath": "/html/body/div[5]/div[1]/div[1]/div[1]/div[1]/nav[6]/ul[1]/li[4]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "This link has a title attribute that is identical to the text inside the link. This may lead to unnecessary verbosity for assistive technologies and provides no user benefit.",
+"errorSnippet": "<a title=\"Diversão &amp; Downloads\" href=\"http://loja.oi.com.br/portal\" target=\"_blank\">\n <img src=\"/ArquivosEstaticos/oi/images/logo-oi-diversao-download.png\" alt=\"Diversão &amp; Downloads\">\n ",
+"errorTitle": "Link text with identical title",
+"position": "",
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "d6ecf586554490024a65129e1b2823b6",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 79,
+"xpath": "/html/body/div[5]/div[1]/div[1]/div[1]/div[1]/nav[6]/ul[1]/li[5]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "This link has a title attribute that is identical to the text inside the link. This may lead to unnecessary verbosity for assistive technologies and provides no user benefit.",
+"errorSnippet": "<a title=\"Facebook\" href=\"https://www.facebook.com/OiOficial\" target=\"_blank\">Facebook</a>",
+"errorTitle": "Link text with identical title",
+"position": "",
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "bc679a7c0b92b1d9dcee96b88c8466ec",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 79,
+"xpath": "/html/body/div[5]/div[1]/div[1]/div[1]/div[1]/nav[6]/ul[2]/li[1]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "This link has a title attribute that is identical to the text inside the link. This may lead to unnecessary verbosity for assistive technologies and provides no user benefit.",
+"errorSnippet": "<a title=\"Twitter\" href=\"http://www.twitter.com/digaoi\" target=\"_blank\">Twitter</a>",
+"errorTitle": "Link text with identical title",
+"position": "",
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "0a36bdec7a492350ca43f71c73a8b41b",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 79,
+"xpath": "/html/body/div[5]/div[1]/div[1]/div[1]/div[1]/nav[6]/ul[2]/li[2]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "This link has a title attribute that is identical to the text inside the link. This may lead to unnecessary verbosity for assistive technologies and provides no user benefit.",
+"errorSnippet": "<a title=\"Google+\" href=\"https://plus.google.com/u/0/+Oi/posts\" target=\"_blank\">Google+</a>",
+"errorTitle": "Link text with identical title",
+"position": "",
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "e5c8673c625b5d1ce4acbb419589b4dc",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 79,
+"xpath": "/html/body/div[5]/div[1]/div[1]/div[1]/div[1]/nav[6]/ul[2]/li[3]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "This link has a title attribute that is identical to the text inside the link. This may lead to unnecessary verbosity for assistive technologies and provides no user benefit.",
+"errorSnippet": "<a title=\"YouTube\" href=\"http://www.youtube.com/oi\" target=\"_blank\">YouTube</a>",
+"errorTitle": "Link text with identical title",
+"position": "",
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "8af7c47615dd0f32df4ff88e4c1522cb",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 79,
+"xpath": "/html/body/div[5]/div[1]/div[1]/div[1]/div[1]/nav[6]/ul[2]/li[4]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "This link has a title attribute that is identical to the text inside the link. This may lead to unnecessary verbosity for assistive technologies and provides no user benefit.",
+"errorSnippet": "<a title=\"Oi.com.br\" href=\"http://www.oi.com.br/\">Oi.com.br</a>",
+"errorTitle": "Link text with identical title",
+"position": "",
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "5ef51af30ad6a49c3775b8e6b6754770",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 79,
+"xpath": "/html/body/div[5]/div[1]/footer[1]/div[1]/p[1]/strong[1]/a[1]"
+},
+{
+"bpID": 118,
+"certainty": 100,
+"errorDescription": "Language of the document has not been set. Set the language of the document by adding the 'lang' attribute on the <html> element using an ISO 639-1 language code",
+"errorSnippet": "<html><head style=\"\"><script type=\"text/javascript\" async=\"\" src=\"http://br-oi.netmng.com/?async=1&amp;aid=2260\" style=\"\"></script><script id=\"facebook-jssdk\" src=\"//connect.facebook.net/pt_BR/all.js#xfbml=1&amp;appId=2",
+"errorTitle": "Language not set",
+"position": {
+"column": 1,
+"line": 13
+},
+"priority": 77,
+"ref": "null",
+"resultTitle": "Identify the primary language used in the document",
+"signature": "44a94237c000e850648a666c8f85d30d",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 3.1.1 Language of Page"
+],
+"tID": 3,
+"xpath": "/html"
+},
+{
+"bpID": 125,
+"certainty": 100,
+"errorDescription": "Tables should not contain sub-tables",
+"errorSnippet": "<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width=\"100%\" height=\"100%\">\n\n\n <tbody><tr>\n \n\n <td width=\"100%\" valign=\"top\" align=\"left\">\n \n\n <table cellspacing=\"0\" cellpadding=\"0\" border=\"0\" width=\"100%\">\n ",
+"errorTitle": "Do not nest tables within tables",
+"position": {
+"column": 1,
+"line": 2658
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Avoid nested data tables",
+"signature": "2cfb6b913568746dce2ceca26198caba",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 1.3.1 Info and Relationships",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 1.3.2 Meaningful Sequence"
+],
+"tID": 46,
+"xpath": "/html/body/div[4]/div[1]/table[1]"
+},
+{
+"bpID": 128,
+"certainty": 80,
+"errorDescription": "Tables should not be used to lay out content that is not tabular data.",
+"errorSnippet": "<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width=\"100%\" height=\"100%\">\n\n\n <tbody><tr>\n \n\n <td width=\"100%\" valign=\"top\" align=\"left\">\n \n\n <table cellspacing=\"0\" cellpadding=\"0\" border=\"0\" width=\"100%\">\n ",
+"errorTitle": "Avoid using tables to lay out content which is not data",
+"position": {
+"column": 1,
+"line": 2658
+},
+"priority": 90,
+"ref": "null",
+"resultTitle": "Avoid using tables to lay out content which is not data",
+"signature": "3f80a9bee199ebbde790d90b66fa8f3f",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 1.3.1 Info and Relationships",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.2 Name, Role, Value"
+],
+"tID": 47,
+"xpath": "/html/body/div[4]/div[1]/table[1]"
+},
+{
+"bpID": 128,
+"certainty": 80,
+"errorDescription": "Tables should not be used to lay out content that is not tabular data.",
+"errorSnippet": "<table cellspacing=\"0\" cellpadding=\"0\" border=\"0\" width=\"100%\">\n <tbody><tr>\n <td>\n\n \n\t\t\t \n \n \n\t\n\t \n\t \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\t<div class=\"firstc\">\n\n\n\n<div class=\"firstc\">\n\n\n\n\n\n\n\n\n\n\t<!-- R",
+"errorTitle": "Avoid using tables to lay out content which is not data",
+"position": {
+"column": 7,
+"line": 2667
+},
+"priority": 90,
+"ref": "null",
+"resultTitle": "Avoid using tables to lay out content which is not data",
+"signature": "6b73eebacfa8338232f5a0dae6f2e686",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 1.3.1 Info and Relationships",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.2 Name, Role, Value"
+],
+"tID": 47,
+"xpath": "/html/body/div[4]/div[1]/table[1]/tr[1]/td[1]/table[1]"
+},
+{
+"bpID": 131,
+"certainty": 60,
+"errorDescription": "This table does not contain any TH elements. If this table is used for layout, replace it with a proper layout controlled with CSS. If that's not possible, add role=\"presentation\" to the table.",
+"errorSnippet": "<table border=\"0\" cellspacing=\"0\" cellpadding=\"0\" width=\"100%\" height=\"100%\">\n\n\n <tbody><tr>\n \n\n <td width=\"100%\" valign=\"top\" align=\"left\">\n \n\n <table cellspacing=\"0\" cellpadding=\"0\" border=\"0\" width=\"100%\">\n ",
+"errorTitle": "Headers not identified for table",
+"position": {
+"column": 1,
+"line": 2658
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Provide headers for all data tables",
+"signature": "fc974a24d80662664095d4a124add584",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 1.3.1 Info and Relationships"
+],
+"tID": 34,
+"xpath": "/html/body/div[4]/div[1]/table[1]"
+},
+{
+"bpID": 131,
+"certainty": 60,
+"errorDescription": "This table does not contain any TH elements. If this table is used for layout, replace it with a proper layout controlled with CSS. If that's not possible, add role=\"presentation\" to the table.",
+"errorSnippet": "<table cellspacing=\"0\" cellpadding=\"0\" border=\"0\" width=\"100%\">\n <tbody><tr>\n <td>\n\n \n\t\t\t \n \n \n\t\n\t \n\t \n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\t\t<div class=\"firstc\">\n\n\n\n<div class=\"firstc\">\n\n\n\n\n\n\n\n\n\n\t<!-- R",
+"errorTitle": "Headers not identified for table",
+"position": {
+"column": 7,
+"line": 2667
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Provide headers for all data tables",
+"signature": "781e293ae51930f629fb267a3c8a3357",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 1.3.1 Info and Relationships"
+],
+"tID": 34,
+"xpath": "/html/body/div[4]/div[1]/table[1]/tr[1]/td[1]/table[1]"
+}
+],
+"resultSummary": {
+"density": {
+"allDensity": 113,
+"errorDensity": 111,
+"warningDensity": 2
+},
+"issues": {
+"totalErrors": 104,
+"totalIssues": 106,
+"totalWarnings": 2
+},
+"issuesByLevel": {
+"A": {
+"count": 104,
+"pct": 98.11
+},
+"AA": {
+"count": 0,
+"pct": 0
+},
+"AAA": {
+"count": 77,
+"pct": 72.64
+}
+},
+"tests": {
+"failing": 13,
+"passing": 49,
+"total": 62
+}
+},
+"sourceHash": "c47ee6737f6fd441ff78bf9469f8deed",
+"status": 200,
+"clientScriptErrors": [
+{
+"message": "TypeError: 'null' is not an object (evaluating 'uf.toLowerCase')",
+"stacktrace": [
+{
+"file": "http://www.oi.com.br/ArquivosEstaticos/Institucional/js/modal_regionalizacao.js",
+"line": 579,
+"function": "nkdRegionalizarUF"
+},
+{
+"file": "http://www.oi.com.br/oi/oi-pra-voce",
+"line": 2914,
+"function": ""
+}
+]
+},
+{
+"message": "TypeError: 'null' is not an object (evaluating '$(\".escolhacidade h6\").html().length')",
+"stacktrace": [
+{
+"file": "http://www.oi.com.br/oi/oi-pra-voce",
+"line": 3325,
+"function": ""
+},
+{
+"file": "http://www.oi.com.br/oi/oi-pra-voce",
+"line": 3381,
+"function": ""
+}
+]
+},
+{
+"message": "TypeError: 'null' is not an object (evaluating '$(\".escolhacidade h6\").html().split')",
+"stacktrace": [
+{
+"file": "http://www.oi.com.br/ArquivosEstaticos/oi/scripts/functions.js?1",
+"line": 1072,
+"function": ""
+},
+{
+"file": "http://www.oi.com.br/ArquivosEstaticos/oi/scripts/jquery.js",
+"line": 16,
+"function": ""
+},
+{
+"file": "http://www.oi.com.br/ArquivosEstaticos/oi/scripts/jquery.js",
+"line": 16,
+"function": ""
+},
+{
+"file": "http://www.oi.com.br/ArquivosEstaticos/oi/scripts/jquery.js",
+"line": 16,
+"function": ""
+}
+]
+},
+{
+"message": "TypeError: 'undefined' is not a function (evaluating 'Date.now.bind(Date)')",
+"stacktrace": [
+{
+"file": "https://static.xx.fbcdn.net/rsrc.php/v2/yU/r/z6nqGDVeyae.js",
+"line": 30,
+"function": ""
+},
+{
+"file": "https://static.xx.fbcdn.net/rsrc.php/v2/yU/r/z6nqGDVeyae.js",
+"line": 30,
+"function": ""
+}
+]
+}
+],
+"log": null
+}

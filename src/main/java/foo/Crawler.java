@@ -51,8 +51,8 @@ public class Crawler {
 
 //		System.setProperty("http.proxyHost", PROXY_URL);
 //		System.setProperty("http.proxyPort", PROXY_PORT);
-		System.setProperty("socksProxyHost", PROXY_URL);
-		System.setProperty("socksProxyPort", PROXY_PORT);
+//		System.setProperty("socksProxyHost", PROXY_URL);
+//		System.setProperty("socksProxyPort", PROXY_PORT);
 
 		// curl -X POST -H Content-Type:application/x-www-form-urlencoded -H
 		// Cache-Control:no-cache -d
@@ -91,7 +91,7 @@ public class Crawler {
 				"clicrbs.com.br", "alibaba.com", "blogosfera.uol.com.br",
 				"tecmundo.com.br", "vivo.com.br",
 				"dropbox.com", "bol.uol.com.br", "whatsapp.com", "oi.com.br",
-				"booking.com", "clickjogos.com.br", "kickass.to",
+				"booking.com", "clickjogos.com.br",
 				"magazineluiza.com.br", 
 				"decolar.com", "imdb.com",
 				"slideshare.net", "xhamster.com", "casasbahia.com.br",
@@ -115,13 +115,13 @@ public class Crawler {
 		cookies.put("userTimeout", new Date().getTime() + "");
 
 		for (String site : sites) {
-			System.out.println(site);
 			System.out.println(new Date());
 			if (1 == 2)
 				adicionarCategorias(site);
 			
 			try {
 				if (!new File(site + TENON_SUFFIX).exists()) {
+					System.out.println("tenon - " + site);
 					tenonio(site);
 				}
 			} catch (Exception e) {
@@ -132,9 +132,10 @@ public class Crawler {
 
 			try {
 			
-				if (!new File(site + ARIA_SUFFIX).exists()) {
+				//if (!new File(site + ARIA_SUFFIX).exists()) {
+					System.out.println("aria -" + site);
 					aria(site);
-				}
+				//}
 			} catch (Exception e) {
 				PrintWriter out = new PrintWriter(site + "DEUERROaria.txt");
 				e.printStackTrace(out);
@@ -142,9 +143,10 @@ public class Crawler {
 			}
 			
 			try {
-				if (!new File(site + CHROME_SUFFIX).exists()) {
+				//if (!new File(site + CHROME_SUFFIX).exists()) {
+					System.out.println("chrome - " + site);
 					chrome(site);
-				}
+				//}
 			} catch (Exception e) {
 				PrintWriter out = new PrintWriter(site + "DEUERROchrome.txt");
 				e.printStackTrace(out);
@@ -205,11 +207,12 @@ public class Crawler {
 		//C:/Users/dhsv/Desktop/phantomjs-2.0.0-windows/bin/phantomjs.exe C:/Users/dhsv/Documents/GitHub/accessibility-developer-tools/tools/runner/audit.js http://www.aliexpress.com
 		
 		ProcessBuilder pb = new ProcessBuilder(
-				"C:/Users/dhsv/Desktop/phantomjs-2.0.0-windows/bin/phantomjs.exe",
-				"--proxy=" + PROXY_URL + ":" + PROXY_PORT,
+				"/Users/Demo/Desktop/TRT/phantom/bin/phantomjs",
+				"--ignore-ssl-errors=true",
+//				"--proxy=" + PROXY_URL + ":" + PROXY_PORT,
 //				"--proxy-auth=" + USERNAME + ":" + SENIA,
-				"--proxy-type=socks5",
-				"C:/Users/dhsv/Documents/GitHub/accessibility-developer-tools/tools/runner/audit.js",
+//				"--proxy-type=socks5",
+				"/Users/Demo/Desktop/TRT/git_codigos_fontes/accessibility-developer-tools/tools/runner/audit.js",
 				"http://" + site);
 		pb.redirectOutput(new File(site + CHROME_SUFFIX));
 		pb.redirectError(new File(site + CHROME_SUFFIX));
@@ -218,12 +221,27 @@ public class Crawler {
 	}
 
 	private static void aria(String site) throws IOException,
-			FileNotFoundException {
-		Document doc = Jsoup.connect("http://" + site).timeout(TIMEOUT)
-				.userAgent(USERAGENT).get();
-		PrintWriter out = new PrintWriter(site + ARIA_SUFFIX);
-		out.print(pattern.matcher(doc.toString()).find());
-		out.close();
+			Exception {
+//		Document doc = Jsoup.connect("http://" + site).timeout(TIMEOUT)
+//				.userAgent(USERAGENT).get();
+//		PrintWriter out = new PrintWriter(site + ARIA_SUFFIX);
+//		out.print(pattern.matcher(doc.toString()).find());
+//		out.close();
+		
+		new File(site + ARIA_SUFFIX).createNewFile();
+
+		ProcessBuilder pb = new ProcessBuilder(
+				"/Users/Demo/Desktop/TRT/phantom/bin/phantomjs",
+				"--ignore-ssl-errors=true",
+//				"--proxy=" + PROXY_URL + ":" + PROXY_PORT,
+//				"--proxy-auth=" + USERNAME + ":" + SENIA,
+//				"--proxy-type=socks5",
+				"/Users/Demo/Desktop/TRT/git_codigos_fontes/has-aria-tags/tools/runner/audit.js",
+				"http://" + site);
+		pb.redirectOutput(new File(site + ARIA_SUFFIX));
+		pb.redirectError(new File(site + ARIA_SUFFIX));
+		Process p = pb.start();
+		p.waitFor();
 	}
 
 	private static void tenonio(String site) throws IOException,

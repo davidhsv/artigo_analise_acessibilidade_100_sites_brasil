@@ -7,37 +7,71 @@ Errors:
 Error: AX_ARIA_04 (ARIA state and property values must be valid) failed on the following elements (1 - 2 of 2):
 body > .wrapper-main > .wrapper-top > .wrapper-header > .content-header > .container-header > .locker-full > .laterals > .middle-header.container-info-header > .bottom-info-header > .container-bottom-header > .search-header.header-search-container > .ui-autocomplete.ui-menu.ui-widget.ui-widget-content.ui-corner-all
 body > .wrapper-main > .wrapper-top > .wrapper-header > .content-header > .container-header-scroll > .locker-full > .laterals > .content-header-scroll.adjustment > .middle-header-scroll > .search-header-scroll > .search-header.header-search-container.floatable > .ui-autocomplete.ui-menu.ui-widget.ui-widget-content.ui-corner-all
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_aria_04 for more information.
 
-Error: AX_TEXT_01 (Controls and media elements should have labels) failed on the following elements (1 - 2 of 2):
+Error: AX_TEXT_01 (Controls and media elements should have labels) failed on the following elements (1 - 4 of 4):
 #inpHeaderSearch
 body > .wrapper-main > .wrapper-footer > .locker-full > .laterals > .container-lu-explain > .container-content-lu-explain > .container-bottom-lu-explain > .middle-bottom-lu-explain > .content-right-lu-explain > .need-know-lu-explain > .input-need-know
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_01--controls-and-media-elements-should-have-labels for more information.
+#footer_name_weba
+#footer_email_weba
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_01 for more information.
+
+Error: AX_ARIA_02 (ARIA attributes which refer to other elements by ID should refer to elements which exist in the DOM) failed on the following elements (1 - 2 of 2):
+body > .wrapper-main > .wrapper-top > .wrapper-header > .content-header > .container-header > .locker-full > .laterals > .middle-header.container-info-header > .bottom-info-header > .container-bottom-header > .search-header.header-search-container > .ui-autocomplete.ui-menu.ui-widget.ui-widget-content.ui-corner-all
+body > .wrapper-main > .wrapper-top > .wrapper-header > .content-header > .container-header-scroll > .locker-full > .laterals > .content-header-scroll.adjustment > .middle-header-scroll > .search-header-scroll > .search-header.header-search-container.floatable > .ui-autocomplete.ui-menu.ui-widget.ui-widget-content.ui-corner-all
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_aria_02 for more information.
+
+Error: AX_ARIA_08 (Elements with ARIA roles must ensure required owned elements are present) failed on the following elements (1 - 2 of 2):
+body > .wrapper-main > .wrapper-top > .wrapper-header > .content-header > .container-header > .locker-full > .laterals > .middle-header.container-info-header > .bottom-info-header > .container-bottom-header > .search-header.header-search-container > .ui-autocomplete.ui-menu.ui-widget.ui-widget-content.ui-corner-all
+body > .wrapper-main > .wrapper-top > .wrapper-header > .content-header > .container-header-scroll > .locker-full > .laterals > .content-header-scroll.adjustment > .middle-header-scroll > .search-header-scroll > .search-header.header-search-container.floatable > .ui-autocomplete.ui-menu.ui-widget.ui-widget-content.ui-corner-all
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_aria_08 for more information.
+
+Error: AX_ARIA_10 (This element has an unsupported ARIA attribute) failed on the following elements (1 - 2 of 2):
+#google_ads_div_v2_home_destaque_ad_container > .ml-banner-full.ml-banner-temp > .ml-banner-locker > .ml-banner-locker-laterals > .ml-banner-main-container > .ml-banner-main-container-center > .ml-banner-rotator.rs-carousel.rs-carousel-horizontal.rs-carousel-items-1
+#service-slide
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_aria_10 for more information.
 
 
 Warnings:
-Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 27):
+Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 29):
 body > .wrapper-main > .wrapper-top > .wrapper-header > .content-header > .container-header > .locker-full > .laterals > .container-checkout > A
 body > .wrapper-main > .wrapper-top > .wrapper-header > .content-header > .container-header > .locker-full > .laterals > .accessibility-buttom-header
 body > .wrapper-main > .wrapper-top > .wrapper-header > .content-header > .container-header > .locker-full > .laterals > .container-your-access.container-access > .access-header > .btn-order.btn-mgl.btn-blue-top.middle-xx.font-eleven.color-white.font-bold
 body > .wrapper-main > .wrapper-top > .wrapper-header > .content-header > .container-header > .locker-full > .laterals > .container-your-access.container-access > .access-header > .btn-user-space.btn-mgl.btn-blue-top.middle-xx.font-eleven.color-white.font-bold
 body > .wrapper-main > .wrapper-top > .wrapper-header > .content-header > .container-header > .locker-full > .laterals > .middle-header.container-info-header > .top-info-header > .info-right-header.support-header
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_focus_01--these-elements-are-focusable-but-either-invisible-or-obscured-by-another-element for more information.
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_focus_01 for more information.
 
-Warning: AX_TEXT_02 (Images should have an alt attribute) failed on the following elements (1 - 5 of 11):
+Warning: AX_HTML_01 (The web page should have the content's human language indicated in the markup) failed on the following elements (1 - 5 of 8):
+html
+html
+html
+html
+html
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_html_01 for more information.
+
+Warning: AX_TEXT_02 (Images should have an alt attribute) failed on the following elements (1 - 5 of 12):
 body > .wrapper-main > .wrapper-top > .wrapper-dart > .bg-three-dart.bg- > .locker-full > .laterals > DIV > DIV > .ml-imframebox.ml-iframebox-click-ready > IMG
 body > .wrapper-main > .wrapper-top > .wrapper-dart > .bg-three-dart.bg- > .locker-full > .laterals > DIV > DIV:nth-of-type(2) > A > IMG
+#google_ads_div_v2_home_destaque_ad_container > .ml-banner-full.ml-banner-temp > .ml-banner-locker > .ml-banner-locker-laterals > .ml-banner-main-container > .ml-banner-main-container-center > .ml-banner-rotator.rs-carousel.rs-carousel-horizontal.rs-carousel-items-1 > .rs-carousel-mask > .rs-carousel-runner > .rs-carousel-item.ml-br-theme.ml-br-theme-01 > .ml-br-main-link > .ml-banner-centralizer > .ml-br-product-info-container > .ml-br-product-info-container-top > .ml-br-product-info-stamps > IMG
 body > .wrapper-main > .wrapper-footer > .locker-full > .laterals > .container-lu-explain > .container-content-lu-explain > .container-middle-lu-explain > .right-right-lu-explain > .container-right-lu-explain > .box-itens-lu-explain > UL > LI > .ml-imframebox.ml-iframebox-click-ready > .img-list-lu-explain > IMG
 body > .wrapper-main > .wrapper-footer > .locker-full > .laterals > .container-lu-explain > .container-content-lu-explain > .container-middle-lu-explain > .right-right-lu-explain > .container-right-lu-explain > .box-itens-lu-explain > UL > LI:nth-of-type(2) > .ml-imframebox.ml-iframebox-click-ready > .img-list-lu-explain > IMG
-body > .wrapper-main > .wrapper-footer > .locker-full > .laterals > .container-lu-explain > .container-content-lu-explain > .container-middle-lu-explain > .right-right-lu-explain > .container-right-lu-explain > .box-itens-lu-explain > UL > LI:nth-of-type(3) > .ml-imframebox.ml-iframebox-click-ready > .img-list-lu-explain > IMG
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_02--images-should-have-an-alt-attribute-unless-they-have-an-aria-role-of-presentation for more information.
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_02 for more information.
 
-Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 339):
+Warning: AX_TEXT_04 (The purpose of each link should be clear from the link text) failed on the following elements (1 - 5 of 26):
+body > .wrapper-main > .wrapper-top > .wrapper-dart > .bg-three-dart.bg- > .locker-full > .laterals > DIV > DIV > .ml-imframebox.ml-iframebox-click-ready
+body > .wrapper-main > .wrapper-top > .wrapper-dart > .bg-three-dart.bg- > .locker-full > .laterals > DIV > DIV:nth-of-type(2) > A
+#google_ads_div_v2_home_destaque_ad_container > .ml-banner-full.ml-banner-temp > .ml-banner-locker > .ml-banner-locker-laterals > .ml-banner-main-container > .ml-banner-main-container-center > .ml-banner-rotator.rs-carousel.rs-carousel-horizontal.rs-carousel-items-1 > .rs-carousel-mask > .rs-carousel-runner > .rs-carousel-item.ml-br-theme.ml-br-theme-02 > .ml-br-main-container > .ml-br-floating-link
+#google_ads_div_v2_home_destaque_ad_container > .ml-banner-full.ml-banner-temp > .ml-banner-locker > .ml-banner-locker-laterals > .ml-banner-main-container > .ml-banner-main-container-center > .ml-banner-rotator.rs-carousel.rs-carousel-horizontal.rs-carousel-items-1 > .rs-carousel-mask > .rs-carousel-runner > LI:nth-of-type(3) > .ml-br-main-container > .ml-br-floating-link
+#google_ads_div_v2_home_destaque_ad_container > .ml-banner-full.ml-banner-temp > .ml-banner-locker > .ml-banner-locker-laterals > .ml-banner-main-container > .ml-banner-main-container-center > .ml-banner-rotator.rs-carousel.rs-carousel-horizontal.rs-carousel-items-1 > .rs-carousel-mask > .rs-carousel-runner > LI:nth-of-type(4) > .ml-br-main-container > .ml-br-floating-link
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_04 for more information.
+
+Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 340):
 body > .wrapper-main > .wrapper-top > .wrapper-header > .content-header > .container-header > .locker-full > .laterals > .img-lu-header.sprite-top-footer
 body > .wrapper-main > .wrapper-top > .wrapper-header > .content-header > .container-header > .locker-full > .laterals > .container-checkout > A > .content-checkout > .top-checkout > SMALL
 body > .wrapper-main > .wrapper-top > .wrapper-header > .content-header > .container-header > .locker-full > .laterals > .container-checkout > A > .content-checkout > .bottom-checkout > .right-checkout > .qtd-checkout
 body > .wrapper-main > .wrapper-top > .wrapper-header > .content-header > .container-header > .locker-full > .laterals > .container-checkout > .container-popup-checkout-full > .bg-popup-checkout-full > .content-popup-checkout-full > .warning-popup-checkout-full
 body > .wrapper-main > .wrapper-top > .wrapper-header > .content-header > .container-header > .locker-full > .laterals > .container-checkout > .container-popup-checkout-full > .bg-popup-checkout-full > .bg-wishlist-checkout-full > .top-wishlist-checkout-full > .subtotal-checkout-full > SMALL
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_color_01--text-elements-should-have-a-reasonable-contrast-ratio for more information.
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_color_01 for more information.
 
 Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 5 of 16):
 body > .wrapper-main > .wrapper-top > .wrapper-header > .content-header > .container-header > .locker-full > .laterals > .container-checkout > A > .content-checkout > .bottom-checkout > .arrow-down-header.arrow-home > .icon-checkout-header.sprite-top-footer
@@ -45,7 +79,15 @@ body > .wrapper-main > .wrapper-top > .wrapper-menu > .nav-content-nav-header > 
 #google_ads_div_v2_home_destaque_ad_container > .ml-banner-full.ml-banner-temp > .ml-banner-locker > .ml-banner-locker-laterals > .ml-banner-main-container > .ml-banner-main-container-center > .ml-banner-rotator.rs-carousel.rs-carousel-horizontal.rs-carousel-items-1 > .rs-carousel-mask > .ml-banner-rotator-footer > .rs-carousel-pagination > .ml-banner-rotator-play-pause-btn-container > .ml-banner-rotator-play-pause-btn
 body > .wrapper-main > .wrapper-middle.central-wrapper > .wrapper-content > .content-pre-content-options > .centralizer-fast-register > .top-pre-content > .news-pre-content > .icon-contact-letter
 body > .wrapper-main > .wrapper-middle.central-wrapper > .wrapper-content > .container-other-services-ml > .locker-full > .container-ml-vc > .content-ml-vc > .box-ml-vc > .img-boy-ml-vc.sprite-basic
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_image_01--meaningful-images-should-not-be-used-in-element-backgrounds for more information.
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_image_01 for more information.
+
+Warning: AX_TITLE_01 (The web page should have a title that describes topic or purpose) failed on the following elements (1 - 5 of 7):
+html
+html
+html
+html
+html
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_title_01 for more information.
 
 
 *** End accessibility audit results ***

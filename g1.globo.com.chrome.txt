@@ -1,39 +1,70 @@
 *** Begin accessibility audit results ***
 An accessibility audit found 
 Errors:
-Error: AX_TEXT_01 (Controls and media elements should have labels) failed on the following element:
+Error: AX_TEXT_01 (Controls and media elements should have labels) failed on the following elements (1 - 2 of 2):
 #nome_do_produto
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_01--controls-and-media-elements-should-have-labels for more information.
+#produto
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_01 for more information.
+
+Error: AX_HTML_02 (An element's ID must be unique in the DOM) failed on the following elements (1 - 5 of 32):
+#label-centro-oeste
+#label-centro-oeste
+#frmBuscaScroll
+#frmBuscaScroll
+#logo-programa-videos-triplo
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_html_02 for more information.
 
 
 Warnings:
-Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 4 of 4):
+Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 8):
 #header-produto > .opec-area.opec-mobile.opec-x60.grid-12 > .opec-internal > A
 #glb-area-4-direita > .widget.agrupamento-mosaico.maisvistas > .widget-titulo > A
-#glb-area-4-direita > .widget.agrupamento-mosaico.maisvistas:nth-of-type(2) > .widget-titulo > A
-#produtos-conteudo-28952840 > LI:nth-of-type(2) > A
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_focus_01--these-elements-are-focusable-but-either-invisible-or-obscured-by-another-element for more information.
+#glb-area-4-direita > DIV:nth-of-type(4) > .widget-titulo > A
+#produtos-conteudo-29057720 > LI > A
+#seg_1_parceiro > .widget-group > .widget-partner-logo > A
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_focus_01 for more information.
 
-Warning: AX_TEXT_02 (Images should have an alt attribute) failed on the following elements (1 - 2 of 2):
+Warning: AX_HTML_01 (The web page should have the content's human language indicated in the markup) failed on the following elements (1 - 3 of 3):
+html
+html
+html
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_html_01 for more information.
+
+Warning: AX_TEXT_02 (Images should have an alt attribute) failed on the following elements (1 - 3 of 3):
 #glb-area-4-direita > .video-abas-triplo > .conteudo > .videos > .active > .widget.widget-video.hentry > .chamada.chamada-principal > .video.player > .wm-poster-wrapper > .wm-poster-inner-wrapper > .wm-poster-image
-#produtos-conteudo-28952840 > LI:nth-of-type(2) > A > .foto
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_02--images-should-have-an-alt-attribute-unless-they-have-an-aria-role-of-presentation for more information.
+#produtos-conteudo-29057720 > LI > A > .foto
+#seg_1_parceiro > .widget-group > .widget-partner-logo > A > IMG
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_02 for more information.
 
-Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 19):
+Warning: AX_TEXT_04 (The purpose of each link should be clear from the link text) failed on the following elements (1 - 5 of 88):
+#barra-globocom > .barra-conteudo > .barra-logo.no-show.small
+#barra-globocom > .barra-conteudo > .barra-logo.no-show.large
+#barra-globocom > .barra-conteudo > .barra-itens > LI:nth-of-type(3) > .barra-item-esportes.no-show.large
+#barra-globocom > .barra-conteudo > .barra-itens > LI:nth-of-type(6) > .barra-item-famosos-etc.no-show.large
+#login-popin-close
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_04 for more information.
+
+Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 48):
 #barra-globocom > .barra-conteudo > .barra-itens > LI:nth-of-type(4) > .barra-item-gshow
 #menu-fonts > .open-sans
 #menu-fonts > .open-sans.open-sans-bold
 #menu-fonts > .roboto-slab
 #menu-fonts > .proximanova-semibold
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_color_01--text-elements-should-have-a-reasonable-contrast-ratio for more information.
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_color_01 for more information.
 
-Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 5 of 254):
-#glb-corpo > .glb-conteudo > .glb-bloco > .glb-grid-8 > .glb-bloco > .glb-grid-4.glb-primeiro > .glb-area > .destaque.destaque-secundario.hentry:nth-of-type(2) > .chamada.chamada-principal > .foto.esquerda.l140 > .canto-ce
-#glb-corpo > .glb-conteudo > .glb-bloco > .glb-grid-8 > .glb-bloco > .glb-grid-4.glb-primeiro > .glb-area > .destaque.destaque-secundario.hentry:nth-of-type(2) > .chamada.chamada-principal > .foto.esquerda.l140 > .canto-cd
-#glb-corpo > .glb-conteudo > .glb-bloco > .glb-grid-8 > .glb-bloco > .glb-grid-4.glb-primeiro > .glb-area > .destaque.destaque-secundario.hentry:nth-of-type(2) > .chamada.chamada-principal > .foto.esquerda.l140 > .canto-re
-#glb-corpo > .glb-conteudo > .glb-bloco > .glb-grid-8 > .glb-bloco > .glb-grid-4.glb-primeiro > .glb-area > .destaque.destaque-secundario.hentry:nth-of-type(2) > .chamada.chamada-principal > .foto.esquerda.l140 > .canto-rd
-#glb-corpo > .glb-conteudo > .glb-bloco > .glb-grid-8 > .glb-bloco > .glb-grid-4.glb-primeiro > .glb-area > .destaque.destaque-secundario.hentry:nth-of-type(5) > .chamada.chamada-principal > .foto.esquerda.l140 > .canto-ce
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_image_01--meaningful-images-should-not-be-used-in-element-backgrounds for more information.
+Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 5 of 267):
+#glb-corpo > .glb-conteudo > .glb-bloco > .glb-grid-8 > .glb-bloco > .glb-grid-4.glb-primeiro > .glb-area > DIV:nth-of-type(3) > .chamada.chamada-principal > .foto.esquerda.l140 > .canto-ce
+#glb-corpo > .glb-conteudo > .glb-bloco > .glb-grid-8 > .glb-bloco > .glb-grid-4.glb-primeiro > .glb-area > DIV:nth-of-type(3) > .chamada.chamada-principal > .foto.esquerda.l140 > .canto-cd
+#glb-corpo > .glb-conteudo > .glb-bloco > .glb-grid-8 > .glb-bloco > .glb-grid-4.glb-primeiro > .glb-area > DIV:nth-of-type(3) > .chamada.chamada-principal > .foto.esquerda.l140 > .canto-re
+#glb-corpo > .glb-conteudo > .glb-bloco > .glb-grid-8 > .glb-bloco > .glb-grid-4.glb-primeiro > .glb-area > DIV:nth-of-type(3) > .chamada.chamada-principal > .foto.esquerda.l140 > .canto-rd
+#glb-corpo > .glb-conteudo > .glb-bloco > .glb-grid-8 > .glb-bloco > .glb-grid-4.glb-primeiro > .glb-area > DIV:nth-of-type(5) > .chamada.chamada-principal > .foto.esquerda.l140 > .canto-ce
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_image_01 for more information.
+
+Warning: AX_TITLE_01 (The web page should have a title that describes topic or purpose) failed on the following elements (1 - 3 of 3):
+html
+html
+html
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_title_01 for more information.
 
 
 *** End accessibility audit results ***

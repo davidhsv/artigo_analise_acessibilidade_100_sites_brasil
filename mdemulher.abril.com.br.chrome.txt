@@ -1,37 +1,64 @@
+TypeError: null is not an object (evaluating '/Version.([\d.]+)/.exec(a)[1]')
+
+  http://s2.adform.net/Banners/scripts/rmb/Adform.RMB.js?bv=465:30
 *** Begin accessibility audit results ***
 An accessibility audit found 
 Warnings:
-Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 134):
+Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 50):
 body > .element-invisible.element-focusable
 #google_ads_iframe_/9287/mdemulher/home_0
-body > .pink-menu > .menus > .menu-brand-header > .menu-6021.first > A
-body > .pink-menu > .menus > .menu-brand-header > .menu-6026 > A
-body > .pink-menu > .menus > .menu-brand-header > .menu-6031 > A
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_focus_01--these-elements-are-focusable-but-either-invisible-or-obscured-by-another-element for more information.
+DIV > A
+#carousel-home > .flex-viewport > .slides > LI:nth-of-type(4) > .views-field.views-field-field-item-carosel-image > .field-content > A
+#carousel-home > .flex-viewport > .slides > LI:nth-of-type(5) > .views-field.views-field-field-item-carosel-image > .field-content > A
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_focus_01 for more information.
+
+Warning: AX_HTML_01 (The web page should have the content's human language indicated in the markup) failed on the following elements (1 - 5 of 9):
+html
+html
+html
+html
+html
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_html_01 for more information.
 
 Warning: AX_TEXT_02 (Images should have an alt attribute) failed on the following elements (1 - 5 of 20):
-#abr_RMContainer > A > IMG
-#closeButton_1829206294 > IMG
+IMG
+DIV > A > IMG
 #mdm-bottom > .inside > .panel-pane.pane-block.pane-opa-block-feeds-last-feeds.feeds-processed > .content-infinity-feed.ng-scope > .template > .ng-scope > .cards > .cards-items > .masonry-brick.ng-scope.loaded.news.small.horizontal-image > .content.ng-scope > .image-container > A > IMG
-#mdm-bottom > .inside > .panel-pane.pane-block.pane-opa-block-feeds-last-feeds.feeds-processed > .content-infinity-feed.ng-scope > .template > .ng-scope > .cards > .cards-items > .masonry-brick.ng-scope.loaded.news.small.horizontal-image:nth-of-type(2) > .content.ng-scope > .image-container > A > IMG
+#mdm-bottom > .inside > .panel-pane.pane-block.pane-opa-block-feeds-last-feeds.feeds-processed > .content-infinity-feed.ng-scope > .template > .ng-scope > .cards > .cards-items > LI:nth-of-type(2) > .content.ng-scope > .image-container > A > IMG
 #mdm-bottom > .inside > .panel-pane.pane-block.pane-opa-block-feeds-last-feeds.feeds-processed > .content-infinity-feed.ng-scope > .template > .ng-scope > .cards > .cards-items > .masonry-brick.ng-scope.loaded.sign > .content.ng-scope > A > IMG
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_02--images-should-have-an-alt-attribute-unless-they-have-an-aria-role-of-presentation for more information.
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_02 for more information.
 
-Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 50):
+Warning: AX_TEXT_04 (The purpose of each link should be clear from the link text) failed on the following elements (1 - 5 of 64):
+body > .pink-menu > .menus > .assine > .edition > A
+DIV > A
+#main-content
+#carousel-home > .flex-viewport > .slides > .clone > .views-field.views-field-field-item-carosel-image > .field-content > A
+#carousel-home > .flex-viewport > .slides > LI:nth-of-type(2) > .views-field.views-field-field-item-carosel-image > .field-content > A
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_04 for more information.
+
+Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 65):
 body > .element-invisible.element-focusable
 body > .pink-menu > .menus > .menu-brand-header > .menu-6021.first > A
 body > .pink-menu > .menus > .menu-brand-header > .menu-6026 > A
 body > .pink-menu > .menus > .menu-brand-header > .menu-6031 > A
 body > .pink-menu > .menus > .menu-brand-header > .menu-6036 > A
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_color_01--text-elements-should-have-a-reasonable-contrast-ratio for more information.
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_color_01 for more information.
 
-Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 5 of 14):
+Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 5 of 30):
 #mdm-bottom > .inside > .panel-pane.pane-block.pane-opa-block-feeds-last-feeds.feeds-processed > .content-infinity-feed.ng-scope > .template > .ng-scope > .cards > .cards-items > .masonry-brick.ng-scope.loaded.news.small.horizontal-image > .content.ng-scope > .social > .social-initial > LI > .arrow.icon
 #mdm-bottom > .inside > .panel-pane.pane-block.pane-opa-block-feeds-last-feeds.feeds-processed > .content-infinity-feed.ng-scope > .template > .ng-scope > .cards > .cards-items > .masonry-brick.ng-scope.loaded.news.small.horizontal-image > .content.ng-scope > .social > .social-initial > LI:nth-of-type(3) > .message.icon
-#mdm-bottom > .inside > .panel-pane.pane-block.pane-opa-block-feeds-last-feeds.feeds-processed > .content-infinity-feed.ng-scope > .template > .ng-scope > .cards > .cards-items > .masonry-brick.ng-scope.loaded.news.small.horizontal-image:nth-of-type(2) > .content.ng-scope > .social > .social-initial > LI > .arrow.icon
-#mdm-bottom > .inside > .panel-pane.pane-block.pane-opa-block-feeds-last-feeds.feeds-processed > .content-infinity-feed.ng-scope > .template > .ng-scope > .cards > .cards-items > .masonry-brick.ng-scope.loaded.news.small.horizontal-image:nth-of-type(2) > .content.ng-scope > .social > .social-initial > LI:nth-of-type(3) > .message.icon
-#mdm-bottom > .inside > .panel-pane.pane-block.pane-opa-block-feeds-last-feeds.feeds-processed > .content-infinity-feed.ng-scope > .template > .ng-scope > .cards > .cards-items > .masonry-brick.ng-scope.loaded.news.small.horizontal-image:nth-of-type(3) > .content.ng-scope > .social > .social-initial > LI > .arrow.icon
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_image_01--meaningful-images-should-not-be-used-in-element-backgrounds for more information.
+#u_0_0 > .pluginConnectButton > .pluginButton.pluginButtonSmall.pluginButtonInline.pluginConnectButtonDisconnected > DIV > .pluginButtonContainer > .pluginButtonImage > BUTTON > .pluginButtonIcon.img.sp_plugin-button.sx_plugin-button_favblue
+#b > I
+#mdm-bottom > .inside > .panel-pane.pane-block.pane-opa-block-feeds-last-feeds.feeds-processed > .content-infinity-feed.ng-scope > .template > .ng-scope > .cards > .cards-items > LI:nth-of-type(2) > .content.ng-scope > .social > .social-initial > LI > .arrow.icon
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_image_01 for more information.
+
+Warning: AX_TITLE_01 (The web page should have a title that describes topic or purpose) failed on the following elements (1 - 5 of 8):
+html
+html
+html
+html
+html
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_title_01 for more information.
 
 
 *** End accessibility audit results ***

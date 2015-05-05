@@ -1,0 +1,67 @@
+*** Begin accessibility audit results ***
+An accessibility audit found 
+Errors:
+Error: AX_TEXT_01 (Controls and media elements should have labels) failed on the following element:
+#a-header > .a-content-header > .header-control > .h-search > .ginput > FORM > .input-search.placeholder.busca-fontcolor
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_01 for more information.
+
+
+Warnings:
+Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 428):
+body > .app-oas.oas-ready.oas-hidden > A
+#a-header > .a-top-header > .abaSoub > A
+#a-header > .a-content-header > .header-control > A
+#a-header > .a-content-header > .header-control > .h-cart > .cart-itens > .ci-itens-lnk
+#a-header > .a-bottom-header > .a-menu-sanzonal > .ams-item > .a-menu-header > .abh-menu-header > .mh-list.list-depts > .mh-item.afr-arw > .a-subnivel > .a-snl-opts > .a-title
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_focus_01 for more information.
+
+Warning: AX_HTML_01 (The web page should have the content's human language indicated in the markup) failed on the following elements (1 - 5 of 6):
+html
+html
+html
+html
+html
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_html_01 for more information.
+
+Warning: AX_TEXT_02 (Images should have an alt attribute) failed on the following elements (1 - 5 of 95):
+body > .grid-control > .banner-principal > .banner > .app-oas.oas-ready > .app-banner.banner-featured.banner-ready > .banner-container > .app-slide.slide-ready > .slide-container > .slide-items-wrapper > .slide-items > .full-width > A > IMG
+body > .grid-control > .banner-principal > .banner > .app-oas.oas-ready > .app-banner.banner-featured.banner-ready > .banner-container > .app-slide.slide-ready > .slide-container > .slide-items-wrapper > .slide-items > DIV:nth-of-type(12) > A > IMG
+body > .grid-control > .banner-principal > .banner > .app-oas.oas-ready > .app-banner.banner-featured.banner-ready > .banner-container > .app-slide.slide-ready > .slide-container > .slide-items-wrapper > .slide-items > DIV:nth-of-type(16) > A > IMG
+#mais-vendidos_hidelink > .neemurc-arrow > IMG
+#contentproduct_120500202 > .neemurc-carousel-item-rating.rating_120500202 > A > IMG
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_02 for more information.
+
+Warning: AX_TEXT_04 (The purpose of each link should be clear from the link text) failed on the following elements (1 - 5 of 246):
+body > .app-oas.oas-ready.oas-hidden > A
+#a-header > .a-top-header > .banner-top-header > .app-oas.oas-ready > A
+#a-header > .a-bottom-header > .a-menu-sanzonal > .ams-item > .a-menu-header > .abh-menu-header > .mh-list.list-depts > .mh-item.afr-arw > .a-subnivel > .banner-snl-item > .app-oas.oas-ready > A
+#a-header > .a-bottom-header > .a-menu-sanzonal > .ams-item > .a-menu-header > .abh-menu-header > .mh-list.list-depts > LI:nth-of-type(2) > .a-subnivel.two-columns > .banner-snl-item > .app-oas.oas-ready > A
+#a-header > .a-bottom-header > .a-menu-sanzonal > .ams-item > .a-menu-header > .abh-menu-header > .mh-list.list-depts > LI:nth-of-type(3) > .a-subnivel.two-columns > .banner-snl-item > .app-oas.oas-ready > A
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_04 for more information.
+
+Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 43):
+#a-header > .a-content-header > .header-control > A > .spt-logo.h-logo
+#a-header > .a-bottom-header > .a-menu-sanzonal > .ams-item > .a-menu-header > .abh-menu-header > .mh-list.list-depts > .mh-item.afr-arw > .pooler > .new-tag
+#a-header > .a-bottom-header > .a-menu-sanzonal > .ams-item > .a-menu-header > .abh-menu-header > .mh-list.list-bottom > .mh-item.afr-arw > .a-subnivel.all-depts > .hd-pure-g > DIV:nth-of-type(3) > .a-snl-sub > LI:nth-of-type(3) > A > .new-tag
+#a-header > .a-bottom-header > .a-menu-sanzonal > LI:nth-of-type(2) > A
+#a-header > .a-bottom-header > .a-menu-sanzonal > LI:nth-of-type(3) > A
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_color_01 for more information.
+
+Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 5 of 61):
+#a-header > .a-top-header > .abaSoub > A > .abaBig > .logoMini
+#a-header > .a-top-header > .abaSoub > A > .abaBig > .seta
+#a-header > .a-top-header > .abaSoub > .abaSmall
+#a-header > .a-content-header > .header-control > .h-cart > .cart-itens > .ci-itens-lnk > .spt-cesta
+#a-header > .a-content-header > .header-control > .h-cart > .cart-itens > .ci-itens-lnk > .ci-itens-wp > .ci-total > .spt-seta
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_image_01 for more information.
+
+Warning: AX_TITLE_01 (The web page should have a title that describes topic or purpose) failed on the following elements (1 - 5 of 6):
+html
+html
+html
+html
+html
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_title_01 for more information.
+
+
+*** End accessibility audit results ***

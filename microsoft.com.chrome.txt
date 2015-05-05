@@ -1,29 +1,80 @@
 *** Begin accessibility audit results ***
 An accessibility audit found 
+Errors:
+Error: AX_ARIA_09 (Elements with ARIA roles must be in the correct scope) failed on the following elements (1 - 5 of 346):
+#menuDropContent0-subContent5
+#menuDropContent0-subContent2
+#menuDropContent0-subContent3
+#menuDropContent0-subContent4
+#menuDropContent0-subContent11
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_aria_09 for more information.
+
+Error: AX_HTML_02 (An element's ID must be unique in the DOM) failed on the following elements (1 - 5 of 789):
+#Layer_1
+#Layer_1
+#subContent1
+#967A45CB-1A23-46F0-B88B-2111691F4D95
+#967A45CB-1A23-46F0-B88B-2111691F4D95
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_html_02 for more information.
+
+Error: AX_ARIA_08 (Elements with ARIA roles must ensure required owned elements are present) failed on the following elements (1 - 4 of 4):
+#menuDrop0
+#menuDrop2
+#menuDrop3
+#menuDrop5
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_aria_08 for more information.
+
+Error: AX_ARIA_10 (This element has an unsupported ARIA attribute) failed on the following elements (1 - 5 of 6):
+#hpfeb15-hero-slideshow > .prev-next.light-foreground > .prev > .icon-left
+#hpfeb15-hero-slideshow > .prev-next.light-foreground > .next > .icon-right
+body > .row-fluid.pagebody > .span.bp0-col-1-1.bp1-col-1-1.bp2-col-1-1.bp3-col-1-1.mscom-remove-margin-left.sortable-control > .CSPvNext > DIV:nth-of-type(8) > .span.bp0-col-1-0.bp1-col-1-0.bp2-col-1-0.bp3-col-1-0 > .CSPvNext > .row-fluid > .hp-large-carousel.hp-news.bp0-col-1-1.bp1-col-1-1.bp2-col-1-1.bp3-col-1-1.span > .slideshow.slideshow-hero.hero > .navigation.international > .grid-container.show > .active > .bi-hidetext
+body > .row-fluid.pagebody > .span.bp0-col-1-1.bp1-col-1-1.bp2-col-1-1.bp3-col-1-1.mscom-remove-margin-left.sortable-control > .CSPvNext > DIV:nth-of-type(8) > .span.bp0-col-1-0.bp1-col-1-0.bp2-col-1-0.bp3-col-1-0 > .CSPvNext > .row-fluid > .hp-large-carousel.hp-news.bp0-col-1-1.bp1-col-1-1.bp2-col-1-1.bp3-col-1-1.span > .slideshow.slideshow-hero.hero > .navigation.international > .grid-container.show > A:nth-of-type(2) > .bi-hidetext
+body > .row-fluid.pagebody > .span.bp0-col-1-1.bp1-col-1-1.bp2-col-1-1.bp3-col-1-1.mscom-remove-margin-left.sortable-control > .CSPvNext > DIV:nth-of-type(8) > .span.bp0-col-1-0.bp1-col-1-0.bp2-col-1-0.bp3-col-1-0 > .CSPvNext > .row-fluid > .hp-large-carousel.hp-news.bp0-col-1-1.bp1-col-1-1.bp2-col-1-1.bp3-col-1-1.span > .slideshow.slideshow-hero.hero > .prev-next.light-foreground.show > .prev > .icon-left
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_aria_10 for more information.
+
+
 Warnings:
-Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 44):
+Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 41):
 #hpfeb15-hero-slideshow > .prev-next.light-foreground > .prev
 #hpfeb15-hero-slideshow > .prev-next.light-foreground > .next
 #833bea59-eef2-4930-80f0-40363f35dbf5
 #4a148fd9-1ec7-4622-927e-c283a4953f69
-#49b1a34b-00bf-46e8-bb27-4b41faabd53c
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_focus_01--these-elements-are-focusable-but-either-invisible-or-obscured-by-another-element for more information.
+#048f01b6-287a-49e8-b9ae-97b9602a240f
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_focus_01 for more information.
+
+Warning: AX_HTML_01 (The web page should have the content's human language indicated in the markup) failed on the following elements (1 - 2 of 2):
+html
+html
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_html_01 for more information.
 
 Warning: AX_TEXT_02 (Images should have an alt attribute) failed on the following elements (1 - 5 of 6):
 body > .row-fluid.pagebody > .span.bp0-col-1-1.bp1-col-1-1.bp2-col-1-1.bp3-col-1-1.mscom-remove-margin-left.sortable-control > .CSPvNext > .top-link-bar.grid-container.mscom-grid-container.row-fluid > .span.bp0-col-1-1.bp1-col-5-1.bp2-col-5-1.bp3-col-5-1 > .CSPvNext > .row-fluid > .span > .mscom-link.top-link > .mscom-image.caret-icon
-body > .row-fluid.pagebody > .span.bp0-col-1-1.bp1-col-1-1.bp2-col-1-1.bp3-col-1-1.mscom-remove-margin-left.sortable-control > .CSPvNext > .top-link-bar.grid-container.mscom-grid-container.row-fluid > .span.bp0-col-1-1.bp1-col-5-1.bp2-col-5-1.bp3-col-5-1:nth-of-type(2) > .CSPvNext > .row-fluid > .span > .mscom-link.top-link > .mscom-image.caret-icon
-body > .row-fluid.pagebody > .span.bp0-col-1-1.bp1-col-1-1.bp2-col-1-1.bp3-col-1-1.mscom-remove-margin-left.sortable-control > .CSPvNext > .top-link-bar.grid-container.mscom-grid-container.row-fluid > .span.bp0-col-1-1.bp1-col-5-1.bp2-col-5-1.bp3-col-5-1:nth-of-type(3) > .CSPvNext > .row-fluid > .span > .mscom-link.top-link > .mscom-image.caret-icon
-body > .row-fluid.pagebody > .span.bp0-col-1-1.bp1-col-1-1.bp2-col-1-1.bp3-col-1-1.mscom-remove-margin-left.sortable-control > .CSPvNext > .top-link-bar.grid-container.mscom-grid-container.row-fluid > .span.bp0-col-1-1.bp1-col-5-1.bp2-col-5-1.bp3-col-5-1:nth-of-type(4) > .CSPvNext > .row-fluid > .span > .mscom-link.top-link > .mscom-image.caret-icon
-body > .row-fluid.pagebody > .span.bp0-col-1-1.bp1-col-1-1.bp2-col-1-1.bp3-col-1-1.mscom-remove-margin-left.sortable-control > .CSPvNext > .top-link-bar.grid-container.mscom-grid-container.row-fluid > .span.bp0-col-1-1.bp1-col-5-1.bp2-col-5-1.bp3-col-5-1:nth-of-type(5) > .CSPvNext > .row-fluid > .span > .mscom-link.top-link > .mscom-image.caret-icon
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_02--images-should-have-an-alt-attribute-unless-they-have-an-aria-role-of-presentation for more information.
+body > .row-fluid.pagebody > .span.bp0-col-1-1.bp1-col-1-1.bp2-col-1-1.bp3-col-1-1.mscom-remove-margin-left.sortable-control > .CSPvNext > .top-link-bar.grid-container.mscom-grid-container.row-fluid > DIV:nth-of-type(2) > .CSPvNext > .row-fluid > .span > .mscom-link.top-link > .mscom-image.caret-icon
+body > .row-fluid.pagebody > .span.bp0-col-1-1.bp1-col-1-1.bp2-col-1-1.bp3-col-1-1.mscom-remove-margin-left.sortable-control > .CSPvNext > .top-link-bar.grid-container.mscom-grid-container.row-fluid > DIV:nth-of-type(3) > .CSPvNext > .row-fluid > .span > .mscom-link.top-link > .mscom-image.caret-icon
+body > .row-fluid.pagebody > .span.bp0-col-1-1.bp1-col-1-1.bp2-col-1-1.bp3-col-1-1.mscom-remove-margin-left.sortable-control > .CSPvNext > .top-link-bar.grid-container.mscom-grid-container.row-fluid > DIV:nth-of-type(4) > .CSPvNext > .row-fluid > .span > .mscom-link.top-link > .mscom-image.caret-icon
+body > .row-fluid.pagebody > .span.bp0-col-1-1.bp1-col-1-1.bp2-col-1-1.bp3-col-1-1.mscom-remove-margin-left.sortable-control > .CSPvNext > .top-link-bar.grid-container.mscom-grid-container.row-fluid > DIV:nth-of-type(5) > .CSPvNext > .row-fluid > .span > .mscom-link.top-link > .mscom-image.caret-icon
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_02 for more information.
 
-Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 21):
+Warning: AX_TEXT_04 (The purpose of each link should be clear from the link text) failed on the following elements (1 - 5 of 10):
+#8471b248-f90c-4075-a2cb-1327a8270f7e
+#f2833bf2-4c29-4a42-a757-4f7a87f5aced
+#E126630F-A45F-4262-8E8C-1F855EB45231
+#ctl00_NonJsDropdown
+#3c6ac116-b239-3873-df9c-734698ed852f
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_04 for more information.
+
+Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 13):
 #slide-1 > .slide.heroitem.light-foreground > .text > .text-container > .box > .img-textbox.hero-textbox > .box-title > .box-title
 #slide-1 > .slide.heroitem.light-foreground > .text > .text-container > .box > .img-textbox.hero-textbox > .box-actions.box-description > .mscom-link
-#slide-1 > .slide.heroitem.light-foreground > .text > .text-container > .box > .img-textbox.hero-textbox > .box-actions.box-description:nth-of-type(2) > .mscom-link
+#slide-1 > .slide.heroitem.light-foreground > .text > .text-container > .box > .img-textbox.hero-textbox > LI:nth-of-type(3) > .mscom-link
 #hpfeb15-hero-slideshow > .prev-next.light-foreground > .prev > .screen-reader-text
 #hpfeb15-hero-slideshow > .prev-next.light-foreground > .next > .screen-reader-text
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_color_01--text-elements-should-have-a-reasonable-contrast-ratio for more information.
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_color_01 for more information.
+
+Warning: AX_TITLE_01 (The web page should have a title that describes topic or purpose) failed on the following elements (1 - 2 of 2):
+html
+html
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_title_01 for more information.
 
 
 *** End accessibility audit results ***

@@ -3,10 +3,22 @@ An accessibility audit found
 Errors:
 Error: AX_ARIA_04 (ARIA state and property values must be valid) failed on the following element:
 #query
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_aria_04 for more information.
 
 Error: AX_TEXT_01 (Controls and media elements should have labels) failed on the following element:
 #query
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_01--controls-and-media-elements-should-have-labels for more information.
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_01 for more information.
+
+Error: AX_ARIA_02 (ARIA attributes which refer to other elements by ID should refer to elements which exist in the DOM) failed on the following element:
+#query
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_aria_02 for more information.
+
+Error: AX_ARIA_10 (This element has an unsupported ARIA attribute) failed on the following elements (1 - 4 of 4):
+#query
+#freemiumSellLayer
+#fb_xdm_frame_http
+#fb_xdm_frame_https
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_aria_10 for more information.
 
 
 Warnings:
@@ -16,23 +28,39 @@ body > .ml-header > .ml-header-inner > A
 body > .ml-footer > .ml-inner-footer > .ml-footer-legal > .ml-links > LI > A
 body > .ml-footer > .ml-inner-footer > .ml-footer-legal > .ml-links > LI:nth-of-type(2) > A
 body > .ml-footer > .ml-inner-footer > .ml-footer-legal > .ml-links > LI:nth-of-type(3) > A
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_focus_01--these-elements-are-focusable-but-either-invisible-or-obscured-by-another-element for more information.
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_focus_01 for more information.
+
+Warning: AX_HTML_01 (The web page should have the content's human language indicated in the markup) failed on the following elements (1 - 5 of 5):
+html
+html
+html
+html
+html
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_html_01 for more information.
 
 Warning: AX_TEXT_02 (Images should have an alt attribute) failed on the following elements (1 - 5 of 7):
 #categories > .explore-footer > IMG
 #main > .bg-noise-middle.information > .box-g1.hard-information > .box-g1-3 > .pay > .content > .image > A > .lazy
-#main > .bg-noise-middle.information > .box-g1.hard-information > .box-g1-3:nth-of-type(2) > .shipping > .content > .image > A > .lazy
-#main > .bg-noise-middle.information > .box-g1.hard-information > .box-g1-3:nth-of-type(3) > .secure > .content > .image > A > .lazy
+#main > .bg-noise-middle.information > .box-g1.hard-information > DIV:nth-of-type(2) > .shipping > .content > .image > A > .lazy
+#main > .bg-noise-middle.information > .box-g1.hard-information > DIV:nth-of-type(3) > .secure > .content > .image > A > .lazy
 #linkMobileIOS > .lazy
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_02--images-should-have-an-alt-attribute-unless-they-have-an-aria-role-of-presentation for more information.
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_02 for more information.
 
-Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 77):
+Warning: AX_TEXT_04 (The purpose of each link should be clear from the link text) failed on the following elements (1 - 5 of 5):
+#account > A
+#notification > .notification.ch-hide > .notification-content > .header > .iframe-modal.ml-icon.ch-icon-cog
+#convertionSlider > .slide.main-slide > .promo-container > .default-slide
+#main > .bg-noise-middle.information > .box-g1.hard-information > .box-g1-3 > .pay > .content > .payment-methods
+#ch-layer-6 > .ch-close
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_04 for more information.
+
+Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 76):
 #register > A
 #login > .iframe-modal
 #account > .ch-hide > LI > A
 #logout
 #notiLink
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_color_01--text-elements-should-have-a-reasonable-contrast-ratio for more information.
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_color_01 for more information.
 
 Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 5 of 19):
 #formSearch > .nav-search-btn.ml-search-btn > .nav-icon-search.ml-icon.ml-icon-search
@@ -40,7 +68,13 @@ Warning: AX_IMAGE_01 (Meaningful images should not be used in element background
 #convertionSlider > .slide.main-slide > .promo-container > .list-items.list-items-small.ch-carousel > .carousel-mask > LI:nth-of-type(2) > .item > IMG
 #categories > .explore-content > .ch-g1-5 > UL:nth-of-type(2) > LI > A > .icon.icon-official-store
 #main > .bg-noise-middle.information > .box-g1.hard-information > .box-g1-3 > .pay > .content > .payment-methods > .card.payments-small._visa-small
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_image_01--meaningful-images-should-not-be-used-in-element-backgrounds for more information.
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_image_01 for more information.
+
+Warning: AX_TITLE_01 (The web page should have a title that describes topic or purpose) failed on the following elements (1 - 3 of 3):
+html
+html
+html
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_title_01 for more information.
 
 
 *** End accessibility audit results ***

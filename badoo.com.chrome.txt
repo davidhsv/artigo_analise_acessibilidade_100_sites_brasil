@@ -1,29 +1,48 @@
 *** Begin accessibility audit results ***
 An accessibility audit found 
+Errors:
+Error: AX_HTML_02 (An element's ID must be unique in the DOM) failed on the following elements (1 - 2 of 2):
+#location_field2
+#location_field2
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_html_02 for more information.
+
+Error: AX_ARIA_10 (This element has an unsupported ARIA attribute) failed on the following element:
+body > .citysel > .dropdown-link.lang-selector
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_aria_10 for more information.
+
+
 Warnings:
-Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 30):
-#join > .btn.btn--grey
-#homepage-form-header > .center > .homepage-col:nth-of-type(2) > .right.sign-form.sign-form--light.js-homepage-top-form > DIV > .sign-form__external > .btn.btn--lg.btn--blue.btn--fb > .b-link.js-fbsession
+Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 29):
 #male1
 #female1
 #registration > .sign-form.sign-form--light > DIV > .sign-form__external > .btn.btn--lg.btn--blue.btn--fb > .b-link.js-fbsession
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_focus_01--these-elements-are-focusable-but-either-invisible-or-obscured-by-another-element for more information.
+#first_name2
+#registration > .sign-form.sign-form--light > DIV > .no_autoloader.form.js-signup > DIV:nth-of-type(2) > .form__field.form__field-justify > .field-justify__cell.js-no > .select.select--day.js-signup-day > .select-label.placeholder
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_focus_01 for more information.
 
-Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 69):
+Warning: AX_TEXT_04 (The purpose of each link should be clear from the link text) failed on the following elements (1 - 5 of 36):
+#join > .btn.btn--green.submit-buttons__signup > .b-link.btn-scroll
+#homepage-form-header > .center > .homepage-col > .homepage-text > A
+#homepage-form-header > .center > .homepage-col > .mobile-platforms > .btn.btn--multiline.btn--black > .ico.ico--white.ico--ios > .b-link
+#homepage-form-header > .center > .homepage-col > .mobile-platforms > DIV:nth-of-type(2) > .ico.ico--white.ico--android > .b-link
+#homepage-form-header > .center > .homepage-col > .mobile-platforms > DIV:nth-of-type(3) > .ico.ico--white.ico--winstore > .b-link
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_04 for more information.
+
+Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 44):
 #join > .btn.btn--green.submit-buttons__signup > .btn-txt
 #homepage-form-header > .center > .homepage-col > .mobile-platforms > .btn.btn--multiline.btn--black > .btn-txt
-#homepage-form-header > .center > .homepage-col > .mobile-platforms > .btn.btn--multiline.btn--black:nth-of-type(2) > .btn-txt
-#homepage-form-header > .center > .homepage-col > .mobile-platforms > .btn.btn--multiline.btn--black:nth-of-type(3) > .btn-txt
-#homepage-form-header > .center > .homepage-col:nth-of-type(2) > .right.sign-form.sign-form--light.js-homepage-top-form > DIV > .sign-form__external > .btn.btn--lg.btn--blue.btn--fb > .btn-txt
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_color_01--text-elements-should-have-a-reasonable-contrast-ratio for more information.
+#homepage-form-header > .center > .homepage-col > .mobile-platforms > DIV:nth-of-type(2) > .btn-txt
+#homepage-form-header > .center > .homepage-col > .mobile-platforms > DIV:nth-of-type(3) > .btn-txt
+#homepage-form-header > .center > DIV:nth-of-type(2) > .right.sign-form.sign-form--light.js-homepage-top-form > DIV > .sign-form__external > .btn.btn--lg.btn--blue.btn--fb > .btn-txt
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_color_01 for more information.
 
 Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 5 of 34):
 body > .header > .center > .logo
 #homepage-form-header > .center > .homepage-col > .mobile-platforms > .btn.btn--multiline.btn--black > .ico.ico--white.ico--ios
-#homepage-form-header > .center > .homepage-col > .mobile-platforms > .btn.btn--multiline.btn--black:nth-of-type(2) > .ico.ico--white.ico--android
-#homepage-form-header > .center > .homepage-col > .mobile-platforms > .btn.btn--multiline.btn--black:nth-of-type(3) > .ico.ico--white.ico--winstore
+#homepage-form-header > .center > .homepage-col > .mobile-platforms > DIV:nth-of-type(2) > .ico.ico--white.ico--android
+#homepage-form-header > .center > .homepage-col > .mobile-platforms > DIV:nth-of-type(3) > .ico.ico--white.ico--winstore
 #homepage-form-header > .center > .homepage-col > .mobile-platforms > .btn.btn--black.btn--ico.tooltip-wrap > .ico.ico--white.ico--sm.ico--ellipsis
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_image_01--meaningful-images-should-not-be-used-in-element-backgrounds for more information.
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_image_01 for more information.
 
 
 *** End accessibility audit results ***

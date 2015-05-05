@@ -1,37 +1,72 @@
-ReferenceError: Can't find variable: a
-
-  http://canaltech.com.br/noticia/games/assista-ao-novo-trailer-de-call-of-duty-black-ops-3/#noads:50 in global code
-TypeError: undefined is not a constructor (evaluating 'a.data.indexOf("api:")')
-
-  http://assets.ebz.io/ebzFormats/ebzformats.js?v=2.23.a9e443bb5aa32c2c32f446522f2bd7bfa56fd99a.20150429111610:4 in receiveMessage
-TypeError: undefined is not a constructor (evaluating 'a.data.indexOf("api:")')
-
-  http://assets.ebz.io/ebzFormats/ebzformats.js?v=2.23.a9e443bb5aa32c2c32f446522f2bd7bfa56fd99a.20150429111610:4 in receiveMessage
-TypeError: undefined is not a constructor (evaluating 'a.data.indexOf("api:")')
-
-  http://assets.ebz.io/ebzFormats/ebzformats.js?v=2.23.a9e443bb5aa32c2c32f446522f2bd7bfa56fd99a.20150429111610:4 in receiveMessage
-TypeError: undefined is not a constructor (evaluating 'a.data.indexOf("api:")')
-
-  http://assets.ebz.io/ebzFormats/ebzformats.js?v=2.23.a9e443bb5aa32c2c32f446522f2bd7bfa56fd99a.20150429111610:4 in receiveMessage
 *** Begin accessibility audit results ***
 An accessibility audit found 
-Warnings:
-Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following element:
-IFRAME
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_focus_01--these-elements-are-focusable-but-either-invisible-or-obscured-by-another-element for more information.
+Errors:
+Error: AX_ARIA_04 (ARIA state and property values must be valid) failed on the following element:
+#u_0_2 > .post > .clearfix > .clearfix.rfloat._ohf > DIV:nth-of-type(2) > .uiSelector.inlineBlock.fbCommentAfterLoginButton.uiSelectorNormal > .uiToggle.wrap > .uiSelectorButton.uiButton
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_aria_04 for more information.
 
-Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 66):
+Error: AX_TEXT_01 (Controls and media elements should have labels) failed on the following element:
+#submenu > .center > FORM > INPUT
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_01 for more information.
+
+Error: AX_ARIA_10 (This element has an unsupported ARIA attribute) failed on the following elements (1 - 2 of 2):
+#fb_xdm_frame_http
+#fb_xdm_frame_https
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_aria_10 for more information.
+
+
+Warnings:
+Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 175):
+IFRAME
+#r7-partner-bar-logo > A
+#r7-item-r7tv > A
+#r7-item-noticias > A
+#r7-item-entretenimento > A
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_focus_01 for more information.
+
+Warning: AX_HTML_01 (The web page should have the content's human language indicated in the markup) failed on the following elements (1 - 5 of 6):
+html
+html
+html
+html
+html
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_html_01 for more information.
+
+Warning: AX_TEXT_02 (Images should have an alt attribute) failed on the following elements (1 - 5 of 5):
+#principal > .oferta > A > .image
+#principal > DIV:nth-of-type(2) > A > .image
+#principal > DIV:nth-of-type(3) > A > .image
+#principal > DIV:nth-of-type(4) > A > .image
+#principal > DIV:nth-of-type(5) > A > .image
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_02 for more information.
+
+Warning: AX_TEXT_04 (The purpose of each link should be clear from the link text) failed on the following elements (1 - 5 of 45):
+#count
+#float-social > .middle > .addthis_toolbox.addthis_default_style > .addthis_button
+#float-social > .middle > .network
+#content > .infoBar > .download
+#content > .block.right > .gallery > .gray-container > .images > A
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_04 for more information.
+
+Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 216):
 #subBar > .content.clear > H4 > .date
 #products > LI > A > .value > .plot
 #products > LI > A > .value > .rs
 #products > LI > A > .shop.shop0
 #products > LI:nth-of-type(2) > A > .value > .rs
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_color_01--text-elements-should-have-a-reasonable-contrast-ratio for more information.
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_color_01 for more information.
 
-Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 2 of 2):
+Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 5 of 30):
 #header > .content.clear > H1 > .aboutBtn
 #scroll > .icon
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_image_01--meaningful-images-should-not-be-used-in-element-backgrounds for more information.
+#submenu > .left
+#submenu > .center > UL > LI:nth-of-type(2) > .listagens > .down-arrow
+#submenu > .center > FORM > .fields > .select > .element > .label > .down-arrow
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_image_01 for more information.
+
+Warning: AX_TITLE_01 (The web page should have a title that describes topic or purpose) failed on the following element:
+html
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_title_01 for more information.
 
 
 *** End accessibility audit results ***

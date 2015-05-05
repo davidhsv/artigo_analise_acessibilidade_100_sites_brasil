@@ -1,29 +1,66 @@
 *** Begin accessibility audit results ***
 An accessibility audit found 
-Warnings:
-Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 40):
-body > .visually-hidden
-body > .visually-hidden:nth-of-type(2)
-#main > .row > .span4 > .box.painel_do_leitor > .item > A
-#colunistas > HEADER > A
-#colunistas > .unstyled > LI > A
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_focus_01--these-elements-are-focusable-but-either-invisible-or-obscured-by-another-element for more information.
+Errors:
+Error: AX_TEXT_01 (Controls and media elements should have labels) failed on the following elements (1 - 2 of 2):
+#main > .row > .span4 > .box.newsletter.no-border > FORM > FIELDSET > .form-group > .input-text
+#produto
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_01 for more information.
 
-Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 139):
-#top > .row:nth-of-type(2) > .span16 > .top-inner.clearfix > .advertising.ad-228x94 > .label
+
+Warnings:
+Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 48):
+body > .visually-hidden
+A:nth-of-type(2)
+#main > .row > .span8 > .row > DIV:nth-of-type(2) > .box.ilustrada > .item > A
+ tagName:A id:
+#colunistas > .unstyled > LI > A
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_focus_01 for more information.
+
+Warning: AX_HTML_01 (The web page should have the content's human language indicated in the markup) failed on the following elements (1 - 5 of 9):
+html
+html
+html
+html
+html
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_html_01 for more information.
+
+Warning: AX_TEXT_02 (Images should have an alt attribute) failed on the following elements (1 - 3 of 3):
+DIV > A > IMG
+DIV > A > IMG
+DIV > A > IMG
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_02 for more information.
+
+Warning: AX_TEXT_04 (The purpose of each link should be clear from the link text) failed on the following elements (1 - 5 of 69):
+#barrauol > UL > .logouol > A
+#barrauol > UL > .canal.buol_home-page > A
+#top > DIV:nth-of-type(2) > .span16 > .top-inner.clearfix > .today-newspaper > .cover > A
+#top > DIV:nth-of-type(2) > .span16 > .top-inner.clearfix > .advertising.ad-228x94 > A
+#ticker > .control-btn > .sprite.icon-prev
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_04 for more information.
+
+Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 147):
+#top > DIV:nth-of-type(2) > .span16 > .top-inner.clearfix > .advertising.ad-228x94 > .label
 #main-menu > .nav > LI:nth-of-type(2) > .submenu > .container-2 > .container-1 > .col-2 > .submenu-nav > LI > STRONG
 #main-menu > .nav > LI:nth-of-type(3) > .submenu > .container-2 > .container-1 > .col-2 > .submenu-nav > LI > STRONG
 #main-menu > .nav > LI:nth-of-type(4) > .submenu > .container-2 > .container-1 > .col-1 > .submenu-nav > .relevant > A
 #main-menu > .nav > LI:nth-of-type(4) > .submenu > .container-2 > .container-1 > .col-2 > .submenu-nav > LI > STRONG
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_color_01--text-elements-should-have-a-reasonable-contrast-ratio for more information.
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_color_01 for more information.
 
-Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 5 of 46):
+Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 5 of 49):
 #barrauol > UL > .canal.buol_home-page > A > .icone-casa-barraUOL
-#top > .row:nth-of-type(2) > .span16 > .top-inner.clearfix > .logo-container > .today > .sprite.icon-clock
-#paywall-auth-header > A > .sprite.login
-#top > .row:nth-of-type(2) > .span16 > .top-inner.clearfix > .today-newspaper > .main-services > LI:nth-of-type(2) > .btn > .sprite.subscribe
-#top > .row:nth-of-type(2) > .span16 > .top-inner.clearfix > .today-newspaper > .main-services > LI:nth-of-type(3) > .btn > .sprite.support
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_image_01--meaningful-images-should-not-be-used-in-element-backgrounds for more information.
+#top > DIV:nth-of-type(2) > .span16 > .top-inner.clearfix > .logo-container > .today > .sprite.icon-clock
+#top > DIV:nth-of-type(2) > .span16 > .top-inner.clearfix > .today-newspaper > .main-services > LI:nth-of-type(2) > .btn > .sprite.subscribe
+#top > DIV:nth-of-type(2) > .span16 > .top-inner.clearfix > .today-newspaper > .main-services > LI:nth-of-type(3) > .btn > .sprite.support
+#top > DIV:nth-of-type(2) > .span16 > .top-inner.clearfix > .today-newspaper > .main-services > LI:nth-of-type(4) > .btn > .sprite.icon-list
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_image_01 for more information.
+
+Warning: AX_TITLE_01 (The web page should have a title that describes topic or purpose) failed on the following elements (1 - 5 of 8):
+html
+html
+html
+html
+html
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_title_01 for more information.
 
 
 *** End accessibility audit results ***

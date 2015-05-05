@@ -118,6 +118,468 @@
   <hop> <from>Insert &#x2f; Update 2 2 2</from><to>Execute SQL script</to><enabled>Y</enabled> </hop>
   </order>
   <step>
+    <name>Chrome -&#x3e; WCAG</name>
+    <type>ValueMapper</type>
+    <description/>
+    <distribute>N</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+    <field_to_use>AXzis</field_to_use>
+    <target_field>diretriz</target_field>
+    <non_match_default/>
+    <fields>
+      <field>
+        <source_value>AX_TEXT_01</source_value>
+        <target_value>1.1.1 Non-text Content</target_value>
+      </field>
+      <field>
+        <source_value>AX_TEXT_02</source_value>
+        <target_value>1.1.1 Non-text Content</target_value>
+      </field>
+      <field>
+        <source_value>AX_IMAGE_01</source_value>
+        <target_value>1.1.1 Non-text Content</target_value>
+      </field>
+      <field>
+        <source_value>AX_VIDEO_01</source_value>
+        <target_value>1.2.2 Captions &#x28;Prerecorded&#x29;</target_value>
+      </field>
+      <field>
+        <source_value>AX_COLOR_01</source_value>
+        <target_value>1.4.3 Contrast &#x28;Minimum&#x29;</target_value>
+      </field>
+      <field>
+        <source_value>AX_FOCUS_02</source_value>
+        <target_value>2.1.1 Keyboard</target_value>
+      </field>
+      <field>
+        <source_value>AX_TITLE_01</source_value>
+        <target_value>2.4.2 Page Titled</target_value>
+      </field>
+      <field>
+        <source_value>AX_TEXT_04</source_value>
+        <target_value>2.4.4 Link Purpose &#x28;In Context&#x29;</target_value>
+      </field>
+      <field>
+        <source_value>AX_FOCUS_01</source_value>
+        <target_value>2.4.7 Focus Visible</target_value>
+      </field>
+      <field>
+        <source_value>AX_HTML_01</source_value>
+        <target_value>3.1.1 Language of Page</target_value>
+      </field>
+      <field>
+        <source_value>AX_HTML_02</source_value>
+        <target_value>4.1.1 Parsing</target_value>
+      </field>
+    </fields>
+     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>186</xloc>
+      <yloc>136</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
+    <name>Execute SQL script</name>
+    <type>ExecSQL</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+    <connection>acessibilidadee</connection>
+    <execute_each_row>Y</execute_each_row>
+    <single_statement>N</single_statement>
+    <replace_variables>N</replace_variables>
+    <quoteString>N</quoteString>
+    <sql>UPDATE violacao_diretriz set nivel &#x3d; &#x27;Level A&#x27; where diretriz like &#x27;1.1.1&#x25;&#x27;&#x3b;&#xd;&#xa;UPDATE violacao_diretriz set nivel &#x3d; &#x27;Level A&#x27; where diretriz like &#x27;1.2.2&#x25;&#x27;&#x3b;&#xd;&#xa;UPDATE violacao_diretriz set nivel &#x3d; &#x27;Level AA&#x27; where diretriz like &#x27;1.4.3&#x25;&#x27;&#x3b;&#xd;&#xa;UPDATE violacao_diretriz set nivel &#x3d; &#x27;Level A&#x27; where diretriz like &#x27;2.1.1&#x25;&#x27;&#x3b;&#xd;&#xa;UPDATE violacao_diretriz set nivel &#x3d; &#x27;Level A&#x27; where diretriz like &#x27;2.4.2&#x25;&#x27;&#x3b;&#xd;&#xa;UPDATE violacao_diretriz set nivel &#x3d; &#x27;Level A&#x27; where diretriz like &#x27;2.4.4&#x25;&#x27;&#x3b;&#xd;&#xa;UPDATE violacao_diretriz set nivel &#x3d; &#x27;Level AA&#x27; where diretriz like &#x27;2.4.7&#x25;&#x27;&#x3b;&#xd;&#xa;UPDATE violacao_diretriz set nivel &#x3d; &#x27;Level A&#x27; where diretriz like &#x27;3.1.1&#x25;&#x27;&#x3b;&#xd;&#xa;UPDATE violacao_diretriz set nivel &#x3d; &#x27;Level A&#x27; where diretriz like &#x27;4.1.1&#x25;&#x27;&#x3b;</sql>
+    <set_params>N</set_params>
+    <insert_field/>
+    <update_field/>
+    <delete_field/>
+    <read_field/>
+    <arguments>
+    </arguments>
+     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>1061</xloc>
+      <yloc>322</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
+    <name>Filter rows</name>
+    <type>FilterRows</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+<send_true_to>Generate random value</send_true_to>
+<send_false_to/>
+    <compare>
+<condition>
+ <negated>N</negated>
+ <leftvalue>texto_bruto</leftvalue>
+ <function>CONTAINS</function>
+ <rightvalue/>
+ <value><name>constant</name><type>String</type><text>AX_</text><length>-1</length><precision>-1</precision><isnull>N</isnull><mask/></value> </condition>
+    </compare>
+     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>129</xloc>
+      <yloc>41</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
+    <name>Generate random value</name>
+    <type>RandomValue</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+    <fields>
+      <field>
+        <name>UUID</name>
+        <type>random uuid</type>
+      </field>
+    </fields>
+     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>233</xloc>
+      <yloc>40</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
+    <name>Insert &#x2f; Update 2</name>
+    <type>InsertUpdate</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+    <connection>acessibilidadee</connection>
+    <commit>100</commit>
+    <update_bypassed>N</update_bypassed>
+    <lookup>
+      <schema/>
+      <table>violacao</table>
+      <key>
+        <name>UUID</name>
+        <field>ID</field>
+        <condition>&#x3d;</condition>
+        <name2/>
+      </key>
+      <value>
+        <name>detalhes</name>
+        <rename>AXzis</rename>
+        <update>Y</update>
+      </value>
+      <value>
+        <name>certeza</name>
+        <rename>certeza</rename>
+        <update>Y</update>
+      </value>
+      <value>
+        <name>prioridade</name>
+        <rename>prioridade</rename>
+        <update>Y</update>
+      </value>
+      <value>
+        <name>ID</name>
+        <rename>UUID</rename>
+        <update>Y</update>
+      </value>
+      <value>
+        <name>site_url</name>
+        <rename>_URL_SITE</rename>
+        <update>Y</update>
+      </value>
+    </lookup>
+     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>583</xloc>
+      <yloc>321</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
+    <name>Insert &#x2f; Update 2 2</name>
+    <type>InsertUpdate</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+    <connection>acessibilidadee</connection>
+    <commit>100</commit>
+    <update_bypassed>N</update_bypassed>
+    <lookup>
+      <schema/>
+      <table>violacao_diretriz</table>
+      <key>
+        <name>UUID</name>
+        <field>id_violacao</field>
+        <condition>&#x3d;</condition>
+        <name2/>
+      </key>
+      <value>
+        <name>diretriz</name>
+        <rename>diretriz</rename>
+        <update>Y</update>
+      </value>
+      <value>
+        <name>id_violacao</name>
+        <rename>UUID</rename>
+        <update>Y</update>
+      </value>
+      <value>
+        <name>nivel</name>
+        <rename>nivel</rename>
+        <update>Y</update>
+      </value>
+      <value>
+        <name>documento</name>
+        <rename>documento</rename>
+        <update>N</update>
+      </value>
+    </lookup>
+     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>719</xloc>
+      <yloc>317</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
+    <name>Insert &#x2f; Update 2 2 2</name>
+    <type>InsertUpdate</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+    <connection>acessibilidadee</connection>
+    <commit>100</commit>
+    <update_bypassed>N</update_bypassed>
+    <lookup>
+      <schema/>
+      <table>violacao_diretriz</table>
+      <key>
+        <name>UUID</name>
+        <field>id_violacao</field>
+        <condition>&#x3d;</condition>
+        <name2/>
+      </key>
+      <value>
+        <name>diretriz</name>
+        <rename>diretriz___</rename>
+        <update>Y</update>
+      </value>
+      <value>
+        <name>id_violacao</name>
+        <rename>UUID</rename>
+        <update>Y</update>
+      </value>
+      <value>
+        <name>nivel</name>
+        <rename>nivel</rename>
+        <update>Y</update>
+      </value>
+      <value>
+        <name>documento</name>
+        <rename>documento</rename>
+        <update>N</update>
+      </value>
+    </lookup>
+     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>938</xloc>
+      <yloc>106</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
+    <name>Insert &#x2f; Update 2 3</name>
+    <type>InsertUpdate</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+    <connection>acessibilidadee</connection>
+    <commit>100</commit>
+    <update_bypassed>N</update_bypassed>
+    <lookup>
+      <schema/>
+      <table>violacao</table>
+      <key>
+        <name>UUID</name>
+        <field>ID</field>
+        <condition>&#x3d;</condition>
+        <name2/>
+      </key>
+      <value>
+        <name>detalhes</name>
+        <rename>AXzis</rename>
+        <update>Y</update>
+      </value>
+      <value>
+        <name>certeza</name>
+        <rename>certeza</rename>
+        <update>Y</update>
+      </value>
+      <value>
+        <name>prioridade</name>
+        <rename>prioridade</rename>
+        <update>Y</update>
+      </value>
+      <value>
+        <name>ID</name>
+        <rename>UUID</rename>
+        <update>Y</update>
+      </value>
+      <value>
+        <name>site_url</name>
+        <rename>_URL_SITE</rename>
+        <update>Y</update>
+      </value>
+    </lookup>
+     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>794</xloc>
+      <yloc>84</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
+    <name>Regex Evaluation</name>
+    <type>RegexEval</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+    <script><![CDATA[.*(AX_[^ ]*).*]]></script>    <matcher>texto_bruto</matcher>
+    <resultfieldname>result</resultfieldname>
+    <usevar>N</usevar>
+    <allowcapturegroups>Y</allowcapturegroups>
+    <replacefields>Y</replacefields>
+    <canoneq>N</canoneq>
+    <caseinsensitive>N</caseinsensitive>
+    <comment>N</comment>
+    <dotall>N</dotall>
+    <multiline>N</multiline>
+    <unicode>N</unicode>
+    <unix>N</unix>
+    <fields>
+      <field>
+        <name>AXzis</name>
+        <type>String</type>
+        <format/>
+        <group/>
+        <decimal/>
+        <length>-1</length>
+        <precision>-1</precision>
+        <nullif/>
+        <ifnull/>
+        <trimtype>none</trimtype>
+      </field>
+    </fields>
+     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>459</xloc>
+      <yloc>48</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
+    <name>Regex Evaluation 2</name>
+    <type>RegexEval</type>
+    <description/>
+    <distribute>Y</distribute>
+    <custom_distribution/>
+    <copies>1</copies>
+         <partitioning>
+           <method>none</method>
+           <schema_name/>
+           </partitioning>
+    <script><![CDATA[.*?([^/]*)\.chrome\.txt]]></script>    <matcher>nome_arquivo</matcher>
+    <resultfieldname>result</resultfieldname>
+    <usevar>Y</usevar>
+    <allowcapturegroups>Y</allowcapturegroups>
+    <replacefields>N</replacefields>
+    <canoneq>N</canoneq>
+    <caseinsensitive>N</caseinsensitive>
+    <comment>N</comment>
+    <dotall>N</dotall>
+    <multiline>N</multiline>
+    <unicode>N</unicode>
+    <unix>N</unix>
+    <fields>
+      <field>
+        <name>_URL_SITE</name>
+        <type>String</type>
+        <format/>
+        <group>1</group>
+        <decimal/>
+        <length>-1</length>
+        <precision>-1</precision>
+        <nullif/>
+        <ifnull/>
+        <trimtype>none</trimtype>
+      </field>
+    </fields>
+     <cluster_schema/>
+ <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
+      <xloc>329</xloc>
+      <yloc>36</yloc>
+      <draw>Y</draw>
+      </GUI>
+    </step>
+
+  <step>
     <name>Text file input</name>
     <type>TextFileInput</type>
     <description/>
@@ -151,12 +613,17 @@
     <rownum>N</rownum>
     <rownumByFile>N</rownumByFile>
     <rownum_field/>
-    <format>DOS</format>
+    <format>mixed</format>
     <encoding/>
     <add_to_result_filenames>Y</add_to_result_filenames>
     <file>
-      <name>C&#x3a;&#x5c;Users&#x5c;dhsv&#x5c;Desktop&#x5c;workspace_&#x5c;teste&#x5c;</name>
+      <name>&#x2f;Users&#x2f;Demo&#x2f;Desktop&#x2f;TRT&#x2f;artigosource&#x2f;</name>
       <filemask>.&#x2a;chrome&#x5c;.txt</filemask>
+      <exclude_filemask/>
+      <file_required>N</file_required>
+      <include_subfolders>N</include_subfolders>
+      <name/>
+      <filemask/>
       <exclude_filemask/>
       <file_required>N</file_required>
       <include_subfolders>N</include_subfolders>
@@ -226,8 +693,8 @@
     </step>
 
   <step>
-    <name>Filter rows</name>
-    <type>FilterRows</type>
+    <name>adicionar Level default</name>
+    <type>Constant</type>
     <description/>
     <distribute>Y</distribute>
     <custom_distribution/>
@@ -236,94 +703,24 @@
            <method>none</method>
            <schema_name/>
            </partitioning>
-<send_true_to>Generate random value</send_true_to>
-<send_false_to/>
-    <compare>
-<condition>
- <negated>N</negated>
- <leftvalue>texto_bruto</leftvalue>
- <function>CONTAINS</function>
- <rightvalue/>
- <value><name>constant</name><type>String</type><text>AX_</text><length>-1</length><precision>-1</precision><isnull>N</isnull><mask/></value> </condition>
-    </compare>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>129</xloc>
-      <yloc>41</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>Regex Evaluation</name>
-    <type>RegexEval</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-    <script><![CDATA[.*(AX_[^ ]*).*]]></script>    <matcher>texto_bruto</matcher>
-    <resultfieldname>result</resultfieldname>
-    <usevar>N</usevar>
-    <allowcapturegroups>Y</allowcapturegroups>
-    <replacefields>Y</replacefields>
-    <canoneq>N</canoneq>
-    <caseinsensitive>N</caseinsensitive>
-    <comment>N</comment>
-    <dotall>N</dotall>
-    <multiline>N</multiline>
-    <unicode>N</unicode>
-    <unix>N</unix>
     <fields>
       <field>
-        <name>AXzis</name>
+        <name>nivel</name>
         <type>String</type>
         <format/>
-        <group/>
+        <currency/>
         <decimal/>
+        <group/>
+        <nullif>Inexistente</nullif>
         <length>-1</length>
         <precision>-1</precision>
-        <nullif/>
-        <ifnull/>
-        <trimtype>none</trimtype>
+        <set_empty_string>N</set_empty_string>
       </field>
     </fields>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>459</xloc>
-      <yloc>48</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>aria or WCAG</name>
-    <type>FilterRows</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-<send_true_to>adicionar Level default</send_true_to>
-<send_false_to>adicionar diretriz aria</send_false_to>
-    <compare>
-<condition>
- <negated>N</negated>
- <leftvalue>diretriz</leftvalue>
- <function>IS NOT NULL</function>
- <rightvalue/>
- <value><name>constant</name><type>String</type><text>aria</text><length>-1</length><precision>-1</precision><isnull>N</isnull><mask/></value> </condition>
-    </compare>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>27</xloc>
-      <yloc>205</yloc>
+      <xloc>289</xloc>
+      <yloc>320</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -467,8 +864,8 @@
     </step>
 
   <step>
-    <name>adicionar Level default</name>
-    <type>Constant</type>
+    <name>aria or WCAG</name>
+    <type>FilterRows</type>
     <description/>
     <distribute>Y</distribute>
     <custom_distribution/>
@@ -477,412 +874,20 @@
            <method>none</method>
            <schema_name/>
            </partitioning>
-    <fields>
-      <field>
-        <name>nivel</name>
-        <type>String</type>
-        <format/>
-        <currency/>
-        <decimal/>
-        <group/>
-        <nullif>Inexistente</nullif>
-        <length>-1</length>
-        <precision>-1</precision>
-        <set_empty_string>N</set_empty_string>
-      </field>
-    </fields>
+<send_true_to>adicionar Level default</send_true_to>
+<send_false_to>adicionar diretriz aria</send_false_to>
+    <compare>
+<condition>
+ <negated>N</negated>
+ <leftvalue>diretriz</leftvalue>
+ <function>IS NOT NULL</function>
+ <rightvalue/>
+ <value><name>constant</name><type>String</type><text>aria</text><length>-1</length><precision>-1</precision><isnull>N</isnull><mask/></value> </condition>
+    </compare>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>289</xloc>
-      <yloc>320</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>Chrome -&#x3e; WCAG</name>
-    <type>ValueMapper</type>
-    <description/>
-    <distribute>N</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-    <field_to_use>AXzis</field_to_use>
-    <target_field>diretriz</target_field>
-    <non_match_default/>
-    <fields>
-      <field>
-        <source_value>AX_TEXT_01</source_value>
-        <target_value>1.1.1 Non-text Content</target_value>
-      </field>
-      <field>
-        <source_value>AX_TEXT_02</source_value>
-        <target_value>1.1.1 Non-text Content</target_value>
-      </field>
-      <field>
-        <source_value>AX_IMAGE_01</source_value>
-        <target_value>1.1.1 Non-text Content</target_value>
-      </field>
-      <field>
-        <source_value>AX_VIDEO_01</source_value>
-        <target_value>1.2.2 Captions &#x28;Prerecorded&#x29;</target_value>
-      </field>
-      <field>
-        <source_value>AX_COLOR_01</source_value>
-        <target_value>1.4.3 Contrast &#x28;Minimum&#x29;</target_value>
-      </field>
-      <field>
-        <source_value>AX_FOCUS_02</source_value>
-        <target_value>2.1.1 Keyboard</target_value>
-      </field>
-      <field>
-        <source_value>AX_TITLE_01</source_value>
-        <target_value>2.4.2 Page Titled</target_value>
-      </field>
-      <field>
-        <source_value>AX_TEXT_04</source_value>
-        <target_value>2.4.4 Link Purpose &#x28;In Context&#x29;</target_value>
-      </field>
-      <field>
-        <source_value>AX_FOCUS_01</source_value>
-        <target_value>2.4.7 Focus Visible</target_value>
-      </field>
-      <field>
-        <source_value>AX_HTML_01</source_value>
-        <target_value>3.1.1 Language of Page</target_value>
-      </field>
-      <field>
-        <source_value>AX_HTML_02</source_value>
-        <target_value>4.1.1 Parsing</target_value>
-      </field>
-    </fields>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>186</xloc>
-      <yloc>136</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>Insert &#x2f; Update 2</name>
-    <type>InsertUpdate</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-    <connection>acessibilidadee</connection>
-    <commit>100</commit>
-    <update_bypassed>N</update_bypassed>
-    <lookup>
-      <schema/>
-      <table>violacao</table>
-      <key>
-        <name>UUID</name>
-        <field>ID</field>
-        <condition>&#x3d;</condition>
-        <name2/>
-      </key>
-      <value>
-        <name>detalhes</name>
-        <rename>AXzis</rename>
-        <update>Y</update>
-      </value>
-      <value>
-        <name>certeza</name>
-        <rename>certeza</rename>
-        <update>Y</update>
-      </value>
-      <value>
-        <name>prioridade</name>
-        <rename>prioridade</rename>
-        <update>Y</update>
-      </value>
-      <value>
-        <name>ID</name>
-        <rename>UUID</rename>
-        <update>Y</update>
-      </value>
-      <value>
-        <name>site_url</name>
-        <rename>_URL_SITE</rename>
-        <update>Y</update>
-      </value>
-    </lookup>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>583</xloc>
-      <yloc>321</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>Generate random value</name>
-    <type>RandomValue</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-    <fields>
-      <field>
-        <name>UUID</name>
-        <type>random uuid</type>
-      </field>
-    </fields>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>233</xloc>
-      <yloc>40</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>Regex Evaluation 2</name>
-    <type>RegexEval</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-    <script><![CDATA[C:\\Users\\dhsv\\Desktop\\workspace_\\teste\\(.*)\.txt]]></script>    <matcher>nome_arquivo</matcher>
-    <resultfieldname>result</resultfieldname>
-    <usevar>Y</usevar>
-    <allowcapturegroups>Y</allowcapturegroups>
-    <replacefields>N</replacefields>
-    <canoneq>N</canoneq>
-    <caseinsensitive>N</caseinsensitive>
-    <comment>N</comment>
-    <dotall>N</dotall>
-    <multiline>N</multiline>
-    <unicode>N</unicode>
-    <unix>N</unix>
-    <fields>
-      <field>
-        <name>_URL_SITE</name>
-        <type>String</type>
-        <format/>
-        <group>1</group>
-        <decimal/>
-        <length>-1</length>
-        <precision>-1</precision>
-        <nullif/>
-        <ifnull/>
-        <trimtype>none</trimtype>
-      </field>
-    </fields>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>329</xloc>
-      <yloc>36</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>Insert &#x2f; Update 2 2</name>
-    <type>InsertUpdate</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-    <connection>acessibilidadee</connection>
-    <commit>100</commit>
-    <update_bypassed>N</update_bypassed>
-    <lookup>
-      <schema/>
-      <table>violacao_diretriz</table>
-      <key>
-        <name>UUID</name>
-        <field>id_violacao</field>
-        <condition>&#x3d;</condition>
-        <name2/>
-      </key>
-      <value>
-        <name>diretriz</name>
-        <rename>diretriz</rename>
-        <update>Y</update>
-      </value>
-      <value>
-        <name>id_violacao</name>
-        <rename>UUID</rename>
-        <update>Y</update>
-      </value>
-      <value>
-        <name>nivel</name>
-        <rename>nivel</rename>
-        <update>Y</update>
-      </value>
-      <value>
-        <name>documento</name>
-        <rename>documento</rename>
-        <update>N</update>
-      </value>
-    </lookup>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>719</xloc>
-      <yloc>317</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>Insert &#x2f; Update 2 3</name>
-    <type>InsertUpdate</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-    <connection>acessibilidadee</connection>
-    <commit>100</commit>
-    <update_bypassed>N</update_bypassed>
-    <lookup>
-      <schema/>
-      <table>violacao</table>
-      <key>
-        <name>UUID</name>
-        <field>ID</field>
-        <condition>&#x3d;</condition>
-        <name2/>
-      </key>
-      <value>
-        <name>detalhes</name>
-        <rename>AXzis</rename>
-        <update>Y</update>
-      </value>
-      <value>
-        <name>certeza</name>
-        <rename>certeza</rename>
-        <update>Y</update>
-      </value>
-      <value>
-        <name>prioridade</name>
-        <rename>prioridade</rename>
-        <update>Y</update>
-      </value>
-      <value>
-        <name>ID</name>
-        <rename>UUID</rename>
-        <update>Y</update>
-      </value>
-      <value>
-        <name>site_url</name>
-        <rename>_URL_SITE</rename>
-        <update>Y</update>
-      </value>
-    </lookup>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>794</xloc>
-      <yloc>84</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>Insert &#x2f; Update 2 2 2</name>
-    <type>InsertUpdate</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-    <connection>acessibilidadee</connection>
-    <commit>100</commit>
-    <update_bypassed>N</update_bypassed>
-    <lookup>
-      <schema/>
-      <table>violacao_diretriz</table>
-      <key>
-        <name>UUID</name>
-        <field>id_violacao</field>
-        <condition>&#x3d;</condition>
-        <name2/>
-      </key>
-      <value>
-        <name>diretriz</name>
-        <rename>diretriz___</rename>
-        <update>Y</update>
-      </value>
-      <value>
-        <name>id_violacao</name>
-        <rename>UUID</rename>
-        <update>Y</update>
-      </value>
-      <value>
-        <name>nivel</name>
-        <rename>nivel</rename>
-        <update>Y</update>
-      </value>
-      <value>
-        <name>documento</name>
-        <rename>documento</rename>
-        <update>N</update>
-      </value>
-    </lookup>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>938</xloc>
-      <yloc>106</yloc>
-      <draw>Y</draw>
-      </GUI>
-    </step>
-
-  <step>
-    <name>Execute SQL script</name>
-    <type>ExecSQL</type>
-    <description/>
-    <distribute>Y</distribute>
-    <custom_distribution/>
-    <copies>1</copies>
-         <partitioning>
-           <method>none</method>
-           <schema_name/>
-           </partitioning>
-    <connection>acessibilidadee</connection>
-    <execute_each_row>Y</execute_each_row>
-    <single_statement>N</single_statement>
-    <replace_variables>N</replace_variables>
-    <quoteString>N</quoteString>
-    <sql>UPDATE violacao_diretriz set nivel &#x3d; &#x27;Level A&#x27; where diretriz like &#x27;1.1.1&#x25;&#x27;&#x3b;&#xd;&#xa;UPDATE violacao_diretriz set nivel &#x3d; &#x27;Level A&#x27; where diretriz like &#x27;1.2.2&#x25;&#x27;&#x3b;&#xd;&#xa;UPDATE violacao_diretriz set nivel &#x3d; &#x27;Level AA&#x27; where diretriz like &#x27;1.4.3&#x25;&#x27;&#x3b;&#xd;&#xa;UPDATE violacao_diretriz set nivel &#x3d; &#x27;Level A&#x27; where diretriz like &#x27;2.1.1&#x25;&#x27;&#x3b;&#xd;&#xa;UPDATE violacao_diretriz set nivel &#x3d; &#x27;Level A&#x27; where diretriz like &#x27;2.4.2&#x25;&#x27;&#x3b;&#xd;&#xa;UPDATE violacao_diretriz set nivel &#x3d; &#x27;Level A&#x27; where diretriz like &#x27;2.4.4&#x25;&#x27;&#x3b;&#xd;&#xa;UPDATE violacao_diretriz set nivel &#x3d; &#x27;Level AA&#x27; where diretriz like &#x27;2.4.7&#x25;&#x27;&#x3b;&#xd;&#xa;UPDATE violacao_diretriz set nivel &#x3d; &#x27;Level A&#x27; where diretriz like &#x27;3.1.1&#x25;&#x27;&#x3b;&#xd;&#xa;UPDATE violacao_diretriz set nivel &#x3d; &#x27;Level A&#x27; where diretriz like &#x27;4.1.1&#x25;&#x27;&#x3b;</sql>
-    <set_params>N</set_params>
-    <insert_field/>
-    <update_field/>
-    <delete_field/>
-    <read_field/>
-    <arguments>
-    </arguments>
-     <cluster_schema/>
- <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>1061</xloc>
-      <yloc>322</yloc>
+      <xloc>54</xloc>
+      <yloc>205</yloc>
       <draw>Y</draw>
       </GUI>
     </step>

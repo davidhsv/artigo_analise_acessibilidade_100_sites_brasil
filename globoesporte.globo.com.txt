@@ -1,0 +1,3794 @@
+{
+"apiErrors": [],
+"documentSize": 476997,
+"globalStats": {
+"errorDensity": "155",
+"warningDensity": "12",
+"allDensity": "167",
+"stdDev": "399"
+},
+"message": "success",
+"request": {
+"certainty": "0",
+"docID": "F8125803-783C-F4EE-6952-B06D45FEED02",
+"importance": "1",
+"key": "null",
+"level": "AAA",
+"priority": "0",
+"projectID": "DEFAULT_PROJECT",
+"ref": "0",
+"reportID": "920f930e-af0d-4d8e-becd-40835e9384c3",
+"responseID": "e81aa45ee9a144c3a8a2f69d724d0e0c",
+"uaString": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.114 Safari/537.36",
+"url": "http://globoesporte.globo.com/ce/futebol/campeonato-cearense/noticia/2015/05/mp-ce-vai-investigar-briga-de-torcidas-no-castelao-em-final-do-cearense.html",
+"viewport": {
+"height": 768,
+"width": 1024
+},
+"fragment": "0",
+"store": "0"
+},
+"responseExecTime": "21.16",
+"responseTime": "2015-05-04T19:43:37.346Z",
+"resultSet": [
+{
+"bpID": 1,
+"certainty": 100,
+"errorDescription": "All images must have an alt attribute. Not supplying an alt attribute will mean that users who cannot see the image will not understand what the image conveys. ",
+"errorSnippet": "<img class=\"wm-poster-image\" src=\"http://s04.video.glbimg.com/x360/4152783.jpg\" style=\"width: 480px; height: 360px; margin-left: 0px; margin-top: 0px; visibility: visible; \">",
+"errorTitle": "Image missing alt attribute",
+"position": {
+"column": 9,
+"line": 2990
+},
+"priority": 96,
+"ref": "null",
+"resultTitle": "Provide alt attributes for IMG elements",
+"signature": "d5d9fec0b2c22597d598e8cf233feeb3",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 1.1.1 Non-text Content"
+],
+"tID": 9,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[4]/div[1]/div[1]/div[2]/div[1]/div[1]/img[1]"
+},
+{
+"bpID": 49,
+"certainty": 100,
+"errorDescription": "Provide a label for all controls. This allows all users to understand the type of information expected in the field.",
+"errorSnippet": "<input type=\"url\" value=\"http://glo.bo/1GVHel2?utm_source=link&amp;utm_medium=share-bar-desktop&amp;utm_campaign=share-bar\" class=\"share-link-input\" title=\"Link para compartilhar\" readonly=\"\">",
+"errorTitle": "Form element has no label",
+"position": {
+"column": 1,
+"line": 3084
+},
+"priority": 90,
+"ref": "null",
+"resultTitle": "Provide explicit labels for form fields",
+"signature": "d69b0b9336254e387790284a5bb4e056",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 1.1.1 Non-text Content",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 1.3.1 Info and Relationships",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 3.3.2 Labels or Instructions",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.2 Name, Role, Value"
+],
+"tID": 38,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[6]/div[5]/input[1]"
+},
+{
+"bpID": 49,
+"certainty": 100,
+"errorDescription": "Provide a label for all controls. This allows all users to understand the type of information expected in the field.",
+"errorSnippet": "<input type=\"text\" placeholder=\"Escreva um comentário...\" class=\"glbComentarios-formulario-texto-inicial\">",
+"errorTitle": "Form element has no label",
+"position": {
+"column": 1,
+"line": 3148
+},
+"priority": 90,
+"ref": "null",
+"resultTitle": "Provide explicit labels for form fields",
+"signature": "a1db679ecd5e863dc952c7240ccee7be",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 1.1.1 Non-text Content",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 1.3.1 Info and Relationships",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 3.3.2 Labels or Instructions",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.2 Name, Role, Value"
+],
+"tID": 38,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[3]/div[1]/div[1]/div[1]/input[1]"
+},
+{
+"bpID": 49,
+"certainty": 100,
+"errorDescription": "Labels exist to inform the user of what is expected in a specific form field. This label is empty and therefore some users are likely to be unable to use the form.",
+"errorSnippet": "<label for=\"search-input-top\" class=\"glass-container\"><div class=\"glass\"><div class=\"iglass css3pie\"></div></div></label>",
+"errorTitle": "Empty label found",
+"position": {
+"column": 0,
+"line": 2951
+},
+"priority": 90,
+"ref": "null",
+"resultTitle": "Provide explicit labels for form fields",
+"signature": "13fa5be54bc5d31ac079589e4425d99d",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 1.1.1 Non-text Content",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 1.3.1 Info and Relationships",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 3.3.2 Labels or Instructions",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.2 Name, Role, Value"
+],
+"tID": 71,
+"xpath": "/html/body/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/header[1]/div[4]/div[1]/div[1]/div[1]/div[3]/div[1]/form[1]/label[1]"
+},
+{
+"bpID": 53,
+"certainty": 100,
+"errorDescription": "Frames must have titles which describe the content or purpose in the frame.",
+"errorSnippet": "<iframe src=\"about:blank\" style=\"height: 0px; width: 0px; visibility: hidden; border-top-style: none; border-right-style: none; border-bottom-style: none; border-left-style: none; border-width: initial; border-color: initial; \">This frame prevents ",
+"errorTitle": "Frames do not have titles",
+"position": "",
+"priority": 90,
+"ref": "null",
+"resultTitle": "Provide clear, informative titles for all Frames and I-Frames",
+"signature": "3a159880df1f23e682cf97d702e47463",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.1 Bypass Blocks"
+],
+"tID": 13,
+"xpath": "/html/body/iframe[1]"
+},
+{
+"bpID": 53,
+"certainty": 80,
+"errorDescription": "This frame has the exact same title attribute value as another. Unless the content within these frames serve the same purpose, they should each have distinct titles.",
+"errorSnippet": "<iframe name=\"fb_xdm_frame_http\" frameborder=\"0\" allowtransparency=\"true\" allowfullscreen=\"true\" scrolling=\"no\" id=\"fb_xdm_frame_http\" aria-hidden=\"true\" title=\"Facebook Cross Domain Communication Frame\" tabindex=\"-1\" style=\"border-top-style: none; bo",
+"errorTitle": "Frames have duplicate titles",
+"position": "",
+"priority": 90,
+"ref": "null",
+"resultTitle": "Provide clear, informative titles for all Frames and I-Frames",
+"signature": "b2dfb016ebd28861cb4bcfabf18fc057",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.1 Bypass Blocks"
+],
+"tID": 89,
+"xpath": "/html/body/div[8]/div[1]/div[1]/iframe[1]"
+},
+{
+"bpID": 53,
+"certainty": 80,
+"errorDescription": "This frame has the exact same title attribute value as another. Unless the content within these frames serve the same purpose, they should each have distinct titles.",
+"errorSnippet": "<iframe name=\"fb_xdm_frame_https\" frameborder=\"0\" allowtransparency=\"true\" allowfullscreen=\"true\" scrolling=\"no\" id=\"fb_xdm_frame_https\" aria-hidden=\"true\" title=\"Facebook Cross Domain Communication Frame\" tabindex=\"-1\" style=\"border-top-style: none; ",
+"errorTitle": "Frames have duplicate titles",
+"position": "",
+"priority": 90,
+"ref": "null",
+"resultTitle": "Provide clear, informative titles for all Frames and I-Frames",
+"signature": "5f8b806b6edc4d4cc57e13ed2052ac21",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.1 Bypass Blocks"
+],
+"tID": 89,
+"xpath": "/html/body/div[8]/div[1]/div[1]/iframe[2]"
+},
+{
+"bpID": 88,
+"certainty": 100,
+"errorDescription": "In order for this object to be fully accessible, add the 'wmode' parameter and set its value to \"window\"",
+"errorSnippet": "<object classid=\"clsid:d27cdb6e-ae6d-11cf-96b8-444553540000\" codebase=\"http://fpdownloadocument.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=9,0,0,0\" width=\"300\" height=\"250\"><param name=\"movie\" value=\"http://ads.img.globo.com/Rea",
+"errorTitle": "Object not embedded accessibly",
+"position": "",
+"priority": 100,
+"ref": "null",
+"resultTitle": "When embedding Flash content, ensure the 'wmode' parameter is set to \"window\"",
+"signature": "ec4a4751052bed4222f083c9e161e082",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.2 Name, Role, Value"
+],
+"tID": 5,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[2]/div[3]/div[1]/div[1]/div[1]/object[1]"
+},
+{
+"bpID": 88,
+"certainty": 100,
+"errorDescription": "In order for this object to be fully accessible, add the 'wmode' parameter and set its value to \"window\"",
+"errorSnippet": "<embed wmode=\"transparent\" src=\"http://ads.img.globo.com/RealMedia/ads/Creatives/tvverdesmares/tvm_s03_001_cetv1_110501/cetv_retangulo_300x250.swf/1356729187\" flashvars=\"lnk=http://ads.globo.com/RealMedia/ads/click_lx.ads/aftvmge/ce/futebol/campeonato",
+"errorTitle": "Object not embedded accessibly",
+"position": "",
+"priority": 100,
+"ref": "null",
+"resultTitle": "When embedding Flash content, ensure the 'wmode' parameter is set to \"window\"",
+"signature": "2ccf79c7b6c7bfbb005e259c132e49dd",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.2 Name, Role, Value"
+],
+"tID": 5,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[2]/div[3]/div[1]/div[1]/div[1]/object[1]/embed[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "Link found which contains no text. Because Accessibility APIs use a link's text do determine its accessible name, this link will have no name and will not be announced by assistive technologies.",
+"errorSnippet": "<a target=\"_top\" data-analytics-context=\"Link Home\" class=\"barra-logo no-show small\" title=\"globo.com\" href=\"http://globo.com\"><svg xmlns=\"http://www.w3.org/2000/svg\" xlink=\"http://www.w3.org/1999/xlink\" viewBox=\"-1 0 75 17\"><path d=\"M60.4",
+"errorTitle": "Blank link text found",
+"position": {
+"column": 5,
+"line": 2859
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "13d1b49ef0654a25f32680c3cd6109b9",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 57,
+"xpath": "/html/body/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/header[1]/div[1]/div[1]/div[1]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "Link found which contains no text. Because Accessibility APIs use a link's text do determine its accessible name, this link will have no name and will not be announced by assistive technologies.",
+"errorSnippet": "<a href=\"http://ads.globo.com/RealMedia/ads/click_lx.ads/aftvmge/ce/futebol/campeonatocearence/materias/821167482/Right/default/empty.gif/61367162425656487939554143543743\" target=\"_top\"><img src=\"http://ads.globo.com/RealMedia/ads/Creatives/defa",
+"errorTitle": "Blank link text found",
+"position": {
+"column": 25,
+"line": 5618
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "f3cbb2342533b23f932353b024aaf5b1",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 57,
+"xpath": "/html/body/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/header[1]/div[4]/div[1]/div[1]/div[1]/div[3]/div[3]/div[1]/div[1]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "Link found which contains no text. Because Accessibility APIs use a link's text do determine its accessible name, this link will have no name and will not be announced by assistive technologies.",
+"errorSnippet": "<a href=\"http://ads.globo.com/RealMedia/ads/click_lx.ads/aftvmge/ce/futebol/campeonatocearence/materias/381118963/Frame1/default/empty.gif/61367162425656487939554143543743\" target=\"_top\"><img src=\"http://ads.globo.com/RealMedia/ads/Creatives/def",
+"errorTitle": "Blank link text found",
+"position": {
+"column": 25,
+"line": 5621
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "5be42030ebd9a8730a37219ccc42dc2c",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 57,
+"xpath": "/html/body/div[2]/div[2]/div[1]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "Link found which contains no text. Because Accessibility APIs use a link's text do determine its accessible name, this link will have no name and will not be announced by assistive technologies.",
+"errorSnippet": "<a href=\"http://ads.globo.com/RealMedia/ads/click_lx.ads/aftvmge/ce/futebol/campeonatocearence/materias/126304782/Position4/default/empty.gif/61367162425656487939554143543743\" target=\"_top\"><img src=\"http://ads.globo.com/RealMedia/ads/Creatives/",
+"errorTitle": "Blank link text found",
+"position": {
+"column": 25,
+"line": 5805
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "5da93eef435c7139d84e30b6e1952580",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 57,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[5]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "Link found which contains no text. Because Accessibility APIs use a link's text do determine its accessible name, this link will have no name and will not be announced by assistive technologies.",
+"errorSnippet": "<a href=\"http://ads.globo.com/RealMedia/ads/click_lx.ads/aftvmge/ce/futebol/campeonatocearence/materias/1578992421/Right2/default/empty.gif/61367162425656487939554143543743\" target=\"_top\"><img src=\"http://ads.globo.com/RealMedia/ads/Creatives/de",
+"errorTitle": "Blank link text found",
+"position": {
+"column": 25,
+"line": 6026
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "6b49586d2a0e293c7230466dd4d65b31",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 57,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[2]/div[1]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "Link found which contains no text. Because Accessibility APIs use a link's text do determine its accessible name, this link will have no name and will not be announced by assistive technologies.",
+"errorSnippet": "<a href=\"http://ads.globo.com/RealMedia/ads/click_lx.ads/aftvmge/ce/futebol/campeonatocearence/materias/1603769995/x90/default/empty.gif/61367162425656487939554143543743\" target=\"_top\"><img src=\"http://ads.globo.com/RealMedia/ads/Creatives/defau",
+"errorTitle": "Blank link text found",
+"position": {
+"column": 30,
+"line": 7522
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "c028cc18f36b825515d6c690675626a4",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 57,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[2]/div[4]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "Link found which contains no text. Because Accessibility APIs use a link's text do determine its accessible name, this link will have no name and will not be announced by assistive technologies.",
+"errorSnippet": "<a href=\"http://ads.globo.com/RealMedia/ads/click_lx.ads/aftvmge/ce/futebol/campeonatocearence/materias/167672281/Position3/default/empty.gif/61367162425656487939554143543743\" target=\"_top\"><img src=\"http://ads.globo.com/RealMedia/ads/Creatives/",
+"errorTitle": "Blank link text found",
+"position": {
+"column": 25,
+"line": 7535
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "ce0a3c79b60d720d6d9d0da401030892",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 57,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[2]/div[5]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "This link has a title attribute that is identical to the text inside the link. This may lead to unnecessary verbosity for assistive technologies and provides no user benefit.",
+"errorSnippet": "<a href=\"http://globoesporte.globo.com/ce/futebol/campeonato-cearense/noticia/2015/05/barbarie-vista-do-campo-imagens-da-invasao-que-ofuscou-festa-no-castelao.html#jogo-ceara-2-x-2-fortaleza---03/05/2015-16%3A00\" title=\"Barbárie vista do campo: imagen",
+"errorTitle": "Link text with identical title",
+"position": {
+"column": 17,
+"line": 7413
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "24a5a499d64bee3f2766d3b74017c6a0",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 79,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[2]/div[2]/div[1]/ul[1]/li[4]/div[2]/ul[1]/li[1]/ul[1]/li[1]/div[1]/div[2]/h3[1]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "This link has a title attribute that is identical to the text inside the link. This may lead to unnecessary verbosity for assistive technologies and provides no user benefit.",
+"errorSnippet": "<a href=\"http://globoesporte.globo.com/ce/futebol/campeonato-cearense/noticia/2015/05/policia-pede-imagens-de-cameras-do-castelao-para-identificar-vandalos.html#jogo-ceara-2-x-2-fortaleza---03/05/2015-16%3A00\" title=\"Polícia pede imagens de câmeras do",
+"errorTitle": "Link text with identical title",
+"position": {
+"column": 17,
+"line": 7435
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "ab2d13f09040faba1108b7711a9ca81e",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 79,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[2]/div[2]/div[1]/ul[1]/li[4]/div[2]/ul[1]/li[1]/ul[1]/li[2]/div[1]/div[2]/h3[1]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "This link has a title attribute that is identical to the text inside the link. This may lead to unnecessary verbosity for assistive technologies and provides no user benefit.",
+"errorSnippet": "<a href=\"http://globoesporte.globo.com/futebol/times/ceara/noticia/2015/05/sem-folego-ceara-se-ve-no-olho-do-furacao-de-titulo-e-briga-generalizada.html#jogo-ceara-2-x-2-fortaleza---03/05/2015-16%3A00\" title=\"Sem fôlego: Ceará se vê no olho do furacão",
+"errorTitle": "Link text with identical title",
+"position": {
+"column": 30,
+"line": 7462
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "df7c407ae01df65e427c0b59054c2b7c",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 79,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[2]/div[2]/div[1]/ul[1]/li[4]/div[2]/ul[1]/li[2]/ul[1]/li[1]/div[1]/div[2]/h3[1]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "This link has a title attribute that is identical to the text inside the link. This may lead to unnecessary verbosity for assistive technologies and provides no user benefit.",
+"errorSnippet": "<a href=\"http://globoesporte.globo.com/ce/futebol/campeonato-cearense/noticia/2015/05/em-jogo-historico-mas-com-confusao-fortaleza-para-ceara-e-e-campeao.html#jogo-ceara-2-x-2-fortaleza---03/05/2015-16%3A00\" title=\"Em jogo histórico, mas com confusão,",
+"errorTitle": "Link text with identical title",
+"position": {
+"column": 30,
+"line": 7482
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "ef39336b3dae0d3b67d751257e9489d2",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 79,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[2]/div[2]/div[1]/ul[1]/li[4]/div[2]/ul[1]/li[2]/ul[1]/li[2]/div[1]/div[2]/h3[1]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "This link has a title attribute that is identical to the text inside the link. This may lead to unnecessary verbosity for assistive technologies and provides no user benefit.",
+"errorSnippet": "<a href=\"http://globoesporte.globo.com/ce/futebol/campeonato-cearense/noticia/2015/05/penta-estadual-ou-fim-da-seca-ceara-e-fortaleza-tem-reencontro-definitivo.html#jogo-ceara-2-x-2-fortaleza---03/05/2015-16%3A00\" title=\"Penta estadual ou fim da seca?",
+"errorTitle": "Link text with identical title",
+"position": {
+"column": 30,
+"line": 7502
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "f067b159fdf59709ab7860aea0d18c4e",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 79,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[2]/div[2]/div[1]/ul[1]/li[4]/div[2]/ul[1]/li[2]/ul[1]/li[3]/div[1]/div[2]/h3[1]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "This link has a title attribute that is identical to the text inside the link. This may lead to unnecessary verbosity for assistive technologies and provides no user benefit.",
+"errorSnippet": "<a class=\"logo\" href=\"//www.globo.com/\" title=\"globo.com\"><strong>globo.com</strong></a>",
+"errorTitle": "Link text with identical title",
+"position": {
+"column": 30,
+"line": 7632
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "5a3eda2ec5767b4ad7871a551be5572d",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 79,
+"xpath": "/html/body/div[2]/footer[1]/div[1]/div[1]/div[1]/ul[1]/li[1]/a[1]"
+},
+{
+"bpID": 113,
+"certainty": 100,
+"errorDescription": "This link's href attribute does not conform to RFC1630 which defines the proper construction of URIs. The behavior, in certain scenarios, may not match the intended behavior.",
+"errorSnippet": "<a href=\"#\" class=\"barra-item-servico no-show small\">E-MAIL<span></span></a>",
+"errorTitle": "Link uses invalid hypertext reference",
+"position": {
+"column": 0,
+"line": 2964
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Utilize the A element for links, and provide a valid hypertext reference",
+"signature": "aebb275cea4b6b4c2b066daeae032b00",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.2 Name, Role, Value"
+],
+"tID": 31,
+"xpath": "/html/body/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/header[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[3]/a[1]"
+},
+{
+"bpID": 113,
+"certainty": 100,
+"errorDescription": "This link's href attribute does not conform to RFC1630 which defines the proper construction of URIs. The behavior, in certain scenarios, may not match the intended behavior.",
+"errorSnippet": "<a target=\"_top\" href=\"#\" accesskey=\"e\" class=\"barra-item-servico barra-botao-entrar barra-base-btn\" id=\"barra-item-login\"><div class=\"no-show small\">ENTRAR <span class=\"arrow no-show small\">›</span></div><div class=\"no-s",
+"errorTitle": "Link uses invalid hypertext reference",
+"position": {
+"column": 0,
+"line": 2979
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Utilize the A element for links, and provide a valid hypertext reference",
+"signature": "9f9f2358c686c4b698afac101c006ca8",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.2 Name, Role, Value"
+],
+"tID": 31,
+"xpath": "/html/body/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/header[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[4]/a[1]"
+},
+{
+"bpID": 113,
+"certainty": 100,
+"errorDescription": "This link's href attribute does not conform to RFC1630 which defines the proper construction of URIs. The behavior, in certain scenarios, may not match the intended behavior.",
+"errorSnippet": "<a href=\"#\" class=\"inativo\">Anterior</a>",
+"errorTitle": "Link uses invalid hypertext reference",
+"position": {
+"column": 25,
+"line": 7396
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Utilize the A element for links, and provide a valid hypertext reference",
+"signature": "57d75971dde47a44df96982840b2c376",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.2 Name, Role, Value"
+],
+"tID": 31,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[2]/div[2]/div[1]/ul[1]/li[4]/div[2]/div[1]/a[1]"
+},
+{
+"bpID": 113,
+"certainty": 100,
+"errorDescription": "This link's href attribute does not conform to RFC1630 which defines the proper construction of URIs. The behavior, in certain scenarios, may not match the intended behavior.",
+"errorSnippet": "<a href=\"#\" class=\"inativo\">Proximo</a>",
+"errorTitle": "Link uses invalid hypertext reference",
+"position": {
+"column": 25,
+"line": 7515
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Utilize the A element for links, and provide a valid hypertext reference",
+"signature": "3eba9a3fc5a8372d8c83836e78339f3c",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.2 Name, Role, Value"
+],
+"tID": 31,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[2]/div[2]/div[1]/ul[1]/li[4]/div[2]/div[2]/a[1]"
+},
+{
+"bpID": 177,
+"certainty": 100,
+"errorDescription": "Don't use the accesskey attribute",
+"errorSnippet": "<a target=\"_top\" href=\"http://g1.globo.com\" accesskey=\"n\" class=\"barra-item-noticias\">g1</a>",
+"errorTitle": "Avoid Accesskey",
+"position": {
+"column": 5,
+"line": 2894
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Avoid the use of ACCESSKEY attribute",
+"signature": "4d15e70f0de709a98ddaa6e9d6d48bc5",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.1.1 Keyboard",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.1.2 No Keyboard Trap"
+],
+"tID": 59,
+"xpath": "/html/body/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/header[1]/div[1]/div[1]/div[1]/ul[1]/li[1]/a[1]"
+},
+{
+"bpID": 177,
+"certainty": 100,
+"errorDescription": "Don't use the accesskey attribute",
+"errorSnippet": "<a target=\"_top\" href=\"http://globoesporte.globo.com\" accesskey=\"e\" class=\"barra-item-esportes no-show small\">globoesporte</a>",
+"errorTitle": "Avoid Accesskey",
+"position": {
+"column": 5,
+"line": 2909
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Avoid the use of ACCESSKEY attribute",
+"signature": "e9cecf72ce592e769e71cd10af5e0f99",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.1.1 Keyboard",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.1.2 No Keyboard Trap"
+],
+"tID": 59,
+"xpath": "/html/body/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/header[1]/div[1]/div[1]/div[1]/ul[1]/li[2]/a[1]"
+},
+{
+"bpID": 177,
+"certainty": 100,
+"errorDescription": "Don't use the accesskey attribute",
+"errorSnippet": "<a target=\"_top\" href=\"http://gshow.globo.com\" accesskey=\"i\" class=\"barra-item-gshow\">gshow</a>",
+"errorTitle": "Avoid Accesskey",
+"position": {
+"column": 0,
+"line": 2951
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Avoid the use of ACCESSKEY attribute",
+"signature": "f014be843607d408fe4c4f4ec6480da9",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.1.1 Keyboard",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.1.2 No Keyboard Trap"
+],
+"tID": 59,
+"xpath": "/html/body/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/header[1]/div[1]/div[1]/div[1]/ul[1]/li[4]/a[1]"
+},
+{
+"bpID": 177,
+"certainty": 100,
+"errorDescription": "Don't use the accesskey attribute",
+"errorSnippet": "<a target=\"_top\" href=\"http://famosos.globo.com\" accesskey=\"t\" class=\"barra-item-famosos-etc no-show small\">famosos &amp; etc</a>",
+"errorTitle": "Avoid Accesskey",
+"position": {
+"column": 0,
+"line": 2951
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Avoid the use of ACCESSKEY attribute",
+"signature": "3b463e8da7951e5fe344550cb62974e2",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.1.1 Keyboard",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.1.2 No Keyboard Trap"
+],
+"tID": 59,
+"xpath": "/html/body/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/header[1]/div[1]/div[1]/div[1]/ul[1]/li[5]/a[1]"
+},
+{
+"bpID": 177,
+"certainty": 100,
+"errorDescription": "Don't use the accesskey attribute",
+"errorSnippet": "<a target=\"_top\" href=\"http://video.globo.com\" accesskey=\"v\" class=\"barra-item-videos\">vídeos</a>",
+"errorTitle": "Avoid Accesskey",
+"position": {
+"column": 406,
+"line": 2956
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Avoid the use of ACCESSKEY attribute",
+"signature": "9fa3e187c56d8f1b46eb84534351d659",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.1.1 Keyboard",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.1.2 No Keyboard Trap"
+],
+"tID": 59,
+"xpath": "/html/body/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/header[1]/div[1]/div[1]/div[1]/ul[1]/li[7]/a[1]"
+},
+{
+"bpID": 177,
+"certainty": 100,
+"errorDescription": "Don't use the accesskey attribute",
+"errorSnippet": "<a target=\"_top\" href=\"http://assine.globo.com/globocom/index.jsp?origemId=148\" accesskey=\"a\" class=\"barra-item-servico no-show small\">ASSINE JÁ</a>",
+"errorTitle": "Avoid Accesskey",
+"position": {
+"column": 13,
+"line": 2959
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Avoid the use of ACCESSKEY attribute",
+"signature": "43882f4896e3fc8cea5e267ddc5ddb40",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.1.1 Keyboard",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.1.2 No Keyboard Trap"
+],
+"tID": 59,
+"xpath": "/html/body/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/header[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[1]/a[1]"
+},
+{
+"bpID": 177,
+"certainty": 100,
+"errorDescription": "Don't use the accesskey attribute",
+"errorSnippet": "<a target=\"_top\" href=\"https://meuperfil.globo.com/\" accesskey=\"n\" class=\"barra-item-servico no-show small\">CENTRAL</a>",
+"errorTitle": "Avoid Accesskey",
+"position": {
+"column": 0,
+"line": 2964
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Avoid the use of ACCESSKEY attribute",
+"signature": "1f1c8d7867a89ab1146f25fe8a21b9cf",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.1.1 Keyboard",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.1.2 No Keyboard Trap"
+],
+"tID": 59,
+"xpath": "/html/body/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/header[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[2]/a[1]"
+},
+{
+"bpID": 177,
+"certainty": 100,
+"errorDescription": "Don't use the accesskey attribute",
+"errorSnippet": "<a target=\"_top\" href=\"#\" accesskey=\"e\" class=\"barra-item-servico barra-botao-entrar barra-base-btn\" id=\"barra-item-login\"><div class=\"no-show small\">ENTRAR <span class=\"arrow no-show small\">›</span></div><div class=\"no-s",
+"errorTitle": "Avoid Accesskey",
+"position": {
+"column": 0,
+"line": 2979
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Avoid the use of ACCESSKEY attribute",
+"signature": "498253b825fbca535c2b65c49b2e88d9",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.1.1 Keyboard",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.1.2 No Keyboard Trap"
+],
+"tID": 59,
+"xpath": "/html/body/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/header[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[4]/a[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<li class=\"menu-item \" id=\"menu-3-primeira-pagina\">\n\n <a href=\"http://globoesporte.globo.com/futebol/futebol-internacional/\" class=\"menu-item-link\">\n <span class=\"menu-item-title\">primeira página</span>\n </a>\n\n ",
+"errorTitle": "Duplicate ID found",
+"position": {
+"column": 0,
+"line": 118
+},
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "acdf1d99db525f9d7a548f54378cd10a",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[1]/div[1]/div[1]/ul[1]/li[3]/ul[1]/li[9]/ul[1]/li[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<li class=\"menu-item \" id=\"menu-2-primeira-pagina\">\n\n <a href=\"http://sportv.globo.com/site/combate/\" class=\"menu-item-link\">\n <span class=\"menu-item-title\">primeira página</span>\n </a>\n\n \n</li>",
+"errorTitle": "Duplicate ID found",
+"position": {
+"column": 1,
+"line": 347
+},
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "ee38acf04d7c564e29aa60111afbfdf3",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[1]/div[1]/div[1]/ul[1]/li[4]/ul[1]/li[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<li class=\"menu-item \" id=\"menu-2-primeira-pagina\">\n\n <a href=\"http://globoesporte.globo.com/motor/formula-1/\" class=\"menu-item-link\">\n <span class=\"menu-item-title\">primeira página</span>\n </a>\n\n \n</li>",
+"errorTitle": "Duplicate ID found",
+"position": {
+"column": 1,
+"line": 398
+},
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "5ed985b817c93f12a5342925b9f69b2f",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[1]/div[1]/div[1]/ul[1]/li[5]/ul[1]/li[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<li class=\"menu-item \" id=\"menu-3-primeira-pagina\">\n\n <a href=\"http://globoesporte.globo.com/basquete/\" class=\"menu-item-link\">\n <span class=\"menu-item-title\">primeira página</span>\n </a>\n\n \n</li>",
+"errorTitle": "Duplicate ID found",
+"position": {
+"column": 1,
+"line": 551
+},
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "4868aca8718d291876d1fbdc46e6c3b5",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[1]/div[1]/div[1]/ul[1]/li[7]/ul[1]/li[5]/ul[1]/li[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<form id=\"frmBuscaScroll\" action=\"#\"><input id=\"search-input-floating\" type=\"text\" name=\"q\" placeholder=\"BUSCAR\" class=\"search\" style=\"\"><label for=\"search-input-floating\" class=\"glass-container\"><div class=\"glass\"><div class=\"",
+"errorTitle": "Duplicate ID found",
+"position": {
+"column": 0,
+"line": 2951
+},
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "997cbd378c5f49dc52ec875894fdd1bb",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/header[1]/div[3]/div[1]/div[1]/div[3]/div[1]/form[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<form id=\"frmBuscaScroll\" action=\"#\"><input id=\"search-input-top\" type=\"text\" name=\"q\" placeholder=\"BUSCAR\" class=\"search\" style=\"\"><label for=\"search-input-top\" class=\"glass-container\"><div class=\"glass\"><div class=\"iglass css",
+"errorTitle": "Duplicate ID found",
+"position": {
+"column": 0,
+"line": 2951
+},
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "d4f83d2267f706a5f2032b59ba31cd51",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[1]/div[1]/div[1]/div[1]/div[1]/header[1]/div[4]/div[1]/div[1]/div[1]/div[3]/div[1]/form[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<li id=\"comentario-46111994\" itemscopeitemtype=\"http://schema.org/UserComments\" data-comentario-qtd_replies=\"5\" data-comentario-id=\"comentario-46111994\" data-interatividade-id=\"32740043\" data-usuario-id=\"usuario-48524896\" data-usuario-sexo=\"\" data-usu",
+"errorTitle": "Duplicate ID found",
+"position": {
+"column": 21,
+"line": 7547
+},
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "86830dec1ac29c8d90920af4b064090f",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[4]/ul[1]/li[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<button type=\"button\" class=\"glbComentarios-btn btn-share glbComentarios-bt-facebook\" id=\"glbComentarios-bt-facebook-46111994\" title=\"Compartilhe no Facebook\"><span>Facebook</span></button>",
+"errorTitle": "Duplicate ID found",
+"position": {
+"column": 13,
+"line": 3120
+},
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "26a296e740fb81bfc2991c66e7c7f17b",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[4]/ul[1]/li[1]/div[1]/div[2]/div[4]/button[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<li id=\"comentario-46117890\" itemscopeitemtype=\"http://schema.org/UserComments\" data-comentario-qtd_replies=\"\" data-comentario-id=\"comentario-46117890\" data-interatividade-id=\"32745056\" data-usuario-id=\"usuario-54363952\" data-usuario-sexo=\"\" data-usua",
+"errorTitle": "Duplicate ID found",
+"position": {
+"column": 21,
+"line": 7567
+},
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "acbea2c4115131e7c11cf9145f12d81b",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[4]/ul[1]/li[1]/div[4]/ul[1]/li[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<button type=\"button\" class=\"glbComentarios-btn btn-share glbComentarios-bt-facebook\" id=\"glbComentarios-bt-facebook-46117890\" title=\"Compartilhe no Facebook\"><span>Facebook</span></button>",
+"errorTitle": "Duplicate ID found",
+"position": {
+"column": 13,
+"line": 3250
+},
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "fe8d5f79592d94183f1a1b6336ded783",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[4]/ul[1]/li[1]/div[4]/ul[1]/li[1]/div[1]/div[2]/div[4]/button[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<li id=\"comentario-46119998\" itemscopeitemtype=\"http://schema.org/UserComments\" data-comentario-qtd_replies=\"\" data-comentario-id=\"comentario-46119998\" data-interatividade-id=\"32746805\" data-usuario-id=\"usuario-31824989\" data-usuario-sexo=\"\" data-usua",
+"errorTitle": "Duplicate ID found",
+"position": {
+"column": 17,
+"line": 7590
+},
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "a7bf28682671358a84bfbc8eb698f493",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[4]/ul[1]/li[1]/div[4]/ul[1]/li[2]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<button type=\"button\" class=\"glbComentarios-btn btn-share glbComentarios-bt-facebook\" id=\"glbComentarios-bt-facebook-46119998\" title=\"Compartilhe no Facebook\"><span>Facebook</span></button>",
+"errorTitle": "Duplicate ID found",
+"position": {
+"column": 11,
+"line": 3313
+},
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "e0a12d2c3ffd9122a6564acf81af03b8",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[4]/ul[1]/li[1]/div[4]/ul[1]/li[2]/div[1]/div[2]/div[4]/button[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<li id=\"comentario-46111755\" itemscopeitemtype=\"http://schema.org/UserComments\" data-comentario-qtd_replies=\"6\" data-comentario-id=\"comentario-46111755\" data-interatividade-id=\"32739760\" data-usuario-id=\"usuario-42840821\" data-usuario-sexo=\"\" data-usu",
+"errorTitle": "Duplicate ID found",
+"position": {
+"column": 21,
+"line": 7597
+},
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "b7f1a637c0e7fd4ae1b2899abd0479cc",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[4]/ul[1]/li[2]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<button type=\"button\" class=\"glbComentarios-btn btn-share glbComentarios-bt-facebook\" id=\"glbComentarios-bt-facebook-46111755\" title=\"Compartilhe no Facebook\"><span>Facebook</span></button>",
+"errorTitle": "Duplicate ID found",
+"position": {
+"column": 13,
+"line": 3433
+},
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "c4f87218b859e2dd1e10a479204f6a05",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[4]/ul[1]/li[2]/div[1]/div[2]/div[4]/button[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<li id=\"comentario-46119503\" itemscopeitemtype=\"http://schema.org/UserComments\" data-comentario-qtd_replies=\"\" data-comentario-id=\"comentario-46119503\" data-interatividade-id=\"32746428\" data-usuario-id=\"usuario-56603422\" data-usuario-sexo=\"\" data-usua",
+"errorTitle": "Duplicate ID found",
+"position": {
+"column": 21,
+"line": 7617
+},
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "3409b5233c82ed56fd4fd7ae87018f19",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[4]/ul[1]/li[2]/div[4]/ul[1]/li[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<button type=\"button\" class=\"glbComentarios-btn btn-share glbComentarios-bt-facebook\" id=\"glbComentarios-bt-facebook-46119503\" title=\"Compartilhe no Facebook\"><span>Facebook</span></button>",
+"errorTitle": "Duplicate ID found",
+"position": {
+"column": 11,
+"line": 3498
+},
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "4ba66a37ba818179848e89ededc76254",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[4]/ul[1]/li[2]/div[4]/ul[1]/li[1]/div[1]/div[2]/div[4]/button[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<li id=\"comentario-46119543\" itemscopeitemtype=\"http://schema.org/UserComments\" data-comentario-qtd_replies=\"\" data-comentario-id=\"comentario-46119543\" data-interatividade-id=\"32746460\" data-usuario-id=\"usuario-56603422\" data-usuario-sexo=\"\" data-usua",
+"errorTitle": "Duplicate ID found",
+"position": {
+"column": 21,
+"line": 7637
+},
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "2ebc11f012b827b9e9cf15df17f013c0",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[4]/ul[1]/li[2]/div[4]/ul[1]/li[2]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<button type=\"button\" class=\"glbComentarios-btn btn-share glbComentarios-bt-facebook\" id=\"glbComentarios-bt-facebook-46119543\" title=\"Compartilhe no Facebook\"><span>Facebook</span></button>",
+"errorTitle": "Duplicate ID found",
+"position": {
+"column": 13,
+"line": 3594
+},
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "53953368f6b21d302bfa6815140feedd",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[4]/ul[1]/li[2]/div[4]/ul[1]/li[2]/div[1]/div[2]/div[4]/button[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<li id=\"comentario-46112444\" itemscopeitemtype=\"http://schema.org/UserComments\" data-comentario-qtd_replies=\"1\" data-comentario-id=\"comentario-46112444\" data-interatividade-id=\"32740552\" data-usuario-id=\"usuario-49603047\" data-usuario-sexo=\"\" data-usu",
+"errorTitle": "Duplicate ID found",
+"position": {
+"column": 5,
+"line": 7667
+},
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "84f2f0615cffc835aff4d4442cb0b671",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[4]/ul[1]/li[3]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<button type=\"button\" class=\"glbComentarios-btn btn-share glbComentarios-bt-facebook\" id=\"glbComentarios-bt-facebook-46112444\" title=\"Compartilhe no Facebook\"><span>Facebook</span></button>",
+"errorTitle": "Duplicate ID found",
+"position": {
+"column": 11,
+"line": 3653
+},
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "23c573802926d5de2f6c1fc58852b5e8",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[4]/ul[1]/li[3]/div[1]/div[2]/div[4]/button[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<li id=\"comentario-46117952\" itemscopeitemtype=\"http://schema.org/UserComments\" data-comentario-qtd_replies=\"\" data-comentario-id=\"comentario-46117952\" data-interatividade-id=\"32745108\" data-usuario-id=\"usuario-54363952\" data-usuario-sexo=\"\" data-usua",
+"errorTitle": "Duplicate ID found",
+"position": {
+"column": 17,
+"line": 7708
+},
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "e01124204688ac53db21c6fb2f8ed171",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[4]/ul[1]/li[3]/div[4]/ul[1]/li[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<button type=\"button\" class=\"glbComentarios-btn btn-share glbComentarios-bt-facebook\" id=\"glbComentarios-bt-facebook-46117952\" title=\"Compartilhe no Facebook\"><span>Facebook</span></button>",
+"errorTitle": "Duplicate ID found",
+"position": {
+"column": 13,
+"line": 3716
+},
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "6f9a0f381d1e204f8b32e36b7d4dafb3",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[4]/ul[1]/li[3]/div[4]/ul[1]/li[1]/div[1]/div[2]/div[4]/button[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<li id=\"comentario-46117835\" itemscopeitemtype=\"http://schema.org/UserComments\" data-comentario-qtd_replies=\"0\" data-comentario-id=\"comentario-46117835\" data-interatividade-id=\"32745014\" data-usuario-id=\"usuario-54363952\" data-usuario-sexo=\"\" data-usu",
+"errorTitle": "Duplicate ID found",
+"position": {
+"column": 21,
+"line": 7715
+},
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "75fdf814103f77edb92e054200c8367e",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[4]/ul[1]/li[4]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<button type=\"button\" class=\"glbComentarios-btn btn-share glbComentarios-bt-facebook\" id=\"glbComentarios-bt-facebook-46117835\" title=\"Compartilhe no Facebook\"><span>Facebook</span></button>",
+"errorTitle": "Duplicate ID found",
+"position": {
+"column": 13,
+"line": 3831
+},
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "16a85463bcf7c2f7505060a548427384",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[4]/ul[1]/li[4]/div[1]/div[2]/div[4]/button[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<li id=\"comentario-46117650\" itemscopeitemtype=\"http://schema.org/UserComments\" data-comentario-qtd_replies=\"0\" data-comentario-id=\"comentario-46117650\" data-interatividade-id=\"32744862\" data-usuario-id=\"usuario-45638520\" data-usuario-sexo=\"\" data-usu",
+"errorTitle": "Duplicate ID found",
+"position": {
+"column": 21,
+"line": 7735
+},
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "6ecf0d05782576e5f98e83f7bd7ffe3d",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[4]/ul[1]/li[5]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<button type=\"button\" class=\"glbComentarios-btn btn-share glbComentarios-bt-facebook\" id=\"glbComentarios-bt-facebook-46117650\" title=\"Compartilhe no Facebook\"><span>Facebook</span></button>",
+"errorTitle": "Duplicate ID found",
+"position": {
+"column": 11,
+"line": 3894
+},
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "78fb2dcec53c1f1a4f0b39e949e1d479",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[4]/ul[1]/li[5]/div[1]/div[2]/div[4]/button[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<li id=\"comentario-46110359\" itemscopeitemtype=\"http://schema.org/UserComments\" data-comentario-qtd_replies=\"4\" data-comentario-id=\"comentario-46110359\" data-interatividade-id=\"32738374\" data-usuario-id=\"usuario-54153289\" data-usuario-sexo=\"\" data-usu",
+"errorTitle": "Duplicate ID found",
+"position": {
+"column": 17,
+"line": 7758
+},
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "2662a80016126b717dc34c881953127a",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[4]/ul[1]/li[6]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<button type=\"button\" class=\"glbComentarios-btn btn-share glbComentarios-bt-facebook\" id=\"glbComentarios-bt-facebook-46110359\" title=\"Compartilhe no Facebook\"><span>Facebook</span></button>",
+"errorTitle": "Duplicate ID found",
+"position": {
+"column": 13,
+"line": 4011
+},
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "d136c0829da958dc12cf38207a7bce25",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[4]/ul[1]/li[6]/div[1]/div[2]/div[4]/button[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<li id=\"comentario-46115779\" itemscopeitemtype=\"http://schema.org/UserComments\" data-comentario-qtd_replies=\"\" data-comentario-id=\"comentario-46115779\" data-interatividade-id=\"32743363\" data-usuario-id=\"usuario-54321485\" data-usuario-sexo=\"\" data-usua",
+"errorTitle": "Duplicate ID found",
+"position": {
+"column": 21,
+"line": 7765
+},
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "3e0887c5a75a2090befac1564246ef69",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[4]/ul[1]/li[6]/div[4]/ul[1]/li[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<button type=\"button\" class=\"glbComentarios-btn btn-share glbComentarios-bt-facebook\" id=\"glbComentarios-bt-facebook-46115779\" title=\"Compartilhe no Facebook\"><span>Facebook</span></button>",
+"errorTitle": "Duplicate ID found",
+"position": {
+"column": 11,
+"line": 4066
+},
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "d5419720a97431adb5855e37dd591942",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[4]/ul[1]/li[6]/div[4]/ul[1]/li[1]/div[1]/div[2]/div[4]/button[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<li id=\"comentario-46117383\" itemscopeitemtype=\"http://schema.org/UserComments\" data-comentario-qtd_replies=\"\" data-comentario-id=\"comentario-46117383\" data-interatividade-id=\"32744653\" data-usuario-id=\"usuario-45638520\" data-usuario-sexo=\"\" data-usua",
+"errorTitle": "Duplicate ID found",
+"position": {
+"column": 21,
+"line": 7785
+},
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "098a2a8655ed173ba5bb4db9c1c3931b",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[4]/ul[1]/li[6]/div[4]/ul[1]/li[2]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<button type=\"button\" class=\"glbComentarios-btn btn-share glbComentarios-bt-facebook\" id=\"glbComentarios-bt-facebook-46117383\" title=\"Compartilhe no Facebook\"><span>Facebook</span></button>",
+"errorTitle": "Duplicate ID found",
+"position": {
+"column": 13,
+"line": 4124
+},
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "f5a19d77aff4c1302fb2e360f8f2f5e4",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[4]/ul[1]/li[6]/div[4]/ul[1]/li[2]/div[1]/div[2]/div[4]/button[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<li id=\"comentario-46113006\" itemscopeitemtype=\"http://schema.org/UserComments\" data-comentario-qtd_replies=\"2\" data-comentario-id=\"comentario-46113006\" data-interatividade-id=\"32741081\" data-usuario-id=\"usuario-55397678\" data-usuario-sexo=\"\" data-usu",
+"errorTitle": "Duplicate ID found",
+"position": {
+"column": 21,
+"line": 7805
+},
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "051c167828bd4b64f52b1cf34adacba3",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[4]/ul[1]/li[7]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<button type=\"button\" class=\"glbComentarios-btn btn-share glbComentarios-bt-facebook\" id=\"glbComentarios-bt-facebook-46113006\" title=\"Compartilhe no Facebook\"><span>Facebook</span></button>",
+"errorTitle": "Duplicate ID found",
+"position": {
+"column": 13,
+"line": 4238
+},
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "aa31ad6f603cdc632d2f0a71a8f9a5a1",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[4]/ul[1]/li[7]/div[1]/div[2]/div[4]/button[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<li id=\"comentario-46115251\" itemscopeitemtype=\"http://schema.org/UserComments\" data-comentario-qtd_replies=\"\" data-comentario-id=\"comentario-46115251\" data-interatividade-id=\"32742939\" data-usuario-id=\"usuario-49945959\" data-usuario-sexo=\"\" data-usua",
+"errorTitle": "Duplicate ID found",
+"position": {
+"column": 10,
+"line": 7850
+},
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "2cdd4de2405a06c0ca8c852cc1196c2a",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[4]/ul[1]/li[7]/div[4]/ul[1]/li[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<button type=\"button\" class=\"glbComentarios-btn btn-share glbComentarios-bt-facebook\" id=\"glbComentarios-bt-facebook-46115251\" title=\"Compartilhe no Facebook\"><span>Facebook</span></button>",
+"errorTitle": "Duplicate ID found",
+"position": {
+"column": 11,
+"line": 4302
+},
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "730dc58eb616ccacc85ed5caee64f486",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[4]/ul[1]/li[7]/div[4]/ul[1]/li[1]/div[1]/div[2]/div[4]/button[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<li id=\"comentario-46116413\" itemscopeitemtype=\"http://schema.org/UserComments\" data-comentario-qtd_replies=\"\" data-comentario-id=\"comentario-46116413\" data-interatividade-id=\"32743866\" data-usuario-id=\"usuario-55397678\" data-usuario-sexo=\"\" data-usua",
+"errorTitle": "Duplicate ID found",
+"position": {
+"column": 10,
+"line": 7854
+},
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "a59e44285cb846a8a62ad0480ed6ccb1",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[4]/ul[1]/li[7]/div[4]/ul[1]/li[2]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<button type=\"button\" class=\"glbComentarios-btn btn-share glbComentarios-bt-facebook\" id=\"glbComentarios-bt-facebook-46116413\" title=\"Compartilhe no Facebook\"><span>Facebook</span></button>",
+"errorTitle": "Duplicate ID found",
+"position": {
+"column": 13,
+"line": 4393
+},
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "fa19d7346899c0b1d45bd6dcfc8e1481",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[4]/ul[1]/li[7]/div[4]/ul[1]/li[2]/div[1]/div[2]/div[4]/button[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<li id=\"comentario-46116195\" itemscopeitemtype=\"http://schema.org/UserComments\" data-comentario-qtd_replies=\"0\" data-comentario-id=\"comentario-46116195\" data-interatividade-id=\"32743702\" data-usuario-id=\"usuario-36478594\" data-usuario-sexo=\"\" data-usu",
+"errorTitle": "Duplicate ID found",
+"position": {
+"column": 10,
+"line": 7858
+},
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "4f0a264a4331d72227675eaaa4cc1395",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[4]/ul[1]/li[8]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<button type=\"button\" class=\"glbComentarios-btn btn-share glbComentarios-bt-facebook\" id=\"glbComentarios-bt-facebook-46116195\" title=\"Compartilhe no Facebook\"><span>Facebook</span></button>",
+"errorTitle": "Duplicate ID found",
+"position": {
+"column": 13,
+"line": 4454
+},
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "1b809368b0df7434b24b34c578f30965",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[4]/ul[1]/li[8]/div[1]/div[2]/div[4]/button[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<li id=\"comentario-46116009\" itemscopeitemtype=\"http://schema.org/UserComments\" data-comentario-qtd_replies=\"0\" data-comentario-id=\"comentario-46116009\" data-interatividade-id=\"32743547\" data-usuario-id=\"usuario-36478594\" data-usuario-sexo=\"\" data-usu",
+"errorTitle": "Duplicate ID found",
+"position": {
+"column": 10,
+"line": 7862
+},
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "ae6d03fe4db1cc70942a25537a484ee2",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[4]/ul[1]/li[9]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<button type=\"button\" class=\"glbComentarios-btn btn-share glbComentarios-bt-facebook\" id=\"glbComentarios-bt-facebook-46116009\" title=\"Compartilhe no Facebook\"><span>Facebook</span></button>",
+"errorTitle": "Duplicate ID found",
+"position": {
+"column": 11,
+"line": 4525
+},
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "3227d172789703cb5d8a253e6372a350",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[4]/ul[1]/li[9]/div[1]/div[2]/div[4]/button[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<li id=\"comentario-46111383\" itemscopeitemtype=\"http://schema.org/UserComments\" data-comentario-qtd_replies=\"2\" data-comentario-id=\"comentario-46111383\" data-interatividade-id=\"32739326\" data-usuario-id=\"usuario-45946866\" data-usuario-sexo=\"\" data-usu",
+"errorTitle": "Duplicate ID found",
+"position": {
+"column": 10,
+"line": 7866
+},
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "77ac3544118232b48c8f642256d20a51",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[4]/ul[1]/li[10]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<button type=\"button\" class=\"glbComentarios-btn btn-share glbComentarios-bt-facebook\" id=\"glbComentarios-bt-facebook-46111383\" title=\"Compartilhe no Facebook\"><span>Facebook</span></button>",
+"errorTitle": "Duplicate ID found",
+"position": {
+"column": 13,
+"line": 4623
+},
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "3ed5a3efcdd403e53ebcf1fdf1e3c8c2",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[4]/ul[1]/li[10]/div[1]/div[2]/div[4]/button[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<li id=\"comentario-46111542\" itemscopeitemtype=\"http://schema.org/UserComments\" data-comentario-qtd_replies=\"\" data-comentario-id=\"comentario-46111542\" data-interatividade-id=\"32739549\" data-usuario-id=\"usuario-43900815\" data-usuario-sexo=\"\" data-usua",
+"errorTitle": "Duplicate ID found",
+"position": {
+"column": 10,
+"line": 7870
+},
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "66e08f3648d2dc02f6c7fee46997d201",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[4]/ul[1]/li[10]/div[4]/ul[1]/li[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<button type=\"button\" class=\"glbComentarios-btn btn-share glbComentarios-bt-facebook\" id=\"glbComentarios-bt-facebook-46111542\" title=\"Compartilhe no Facebook\"><span>Facebook</span></button>",
+"errorTitle": "Duplicate ID found",
+"position": {
+"column": 11,
+"line": 4677
+},
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "878c4c06aca8ac5947250c9a82cc07f0",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[4]/ul[1]/li[10]/div[4]/ul[1]/li[1]/div[1]/div[2]/div[4]/button[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<li id=\"comentario-46115531\" itemscopeitemtype=\"http://schema.org/UserComments\" data-comentario-qtd_replies=\"\" data-comentario-id=\"comentario-46115531\" data-interatividade-id=\"32743175\" data-usuario-id=\"usuario-55211999\" data-usuario-sexo=\"\" data-usua",
+"errorTitle": "Duplicate ID found",
+"position": {
+"column": 10,
+"line": 7874
+},
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "7fed59fab4b1efe8658bd099bdb6b805",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[4]/ul[1]/li[10]/div[4]/ul[1]/li[2]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<button type=\"button\" class=\"glbComentarios-btn btn-share glbComentarios-bt-facebook\" id=\"glbComentarios-bt-facebook-46115531\" title=\"Compartilhe no Facebook\"><span>Facebook</span></button>",
+"errorTitle": "Duplicate ID found",
+"position": {
+"column": 13,
+"line": 4731
+},
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "f533415774cae6202d043c8d4f338402",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[4]/ul[1]/li[10]/div[4]/ul[1]/li[2]/div[1]/div[2]/div[4]/button[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<li id=\"comentario-46115189\" itemscopeitemtype=\"http://schema.org/UserComments\" data-comentario-qtd_replies=\"0\" data-comentario-id=\"comentario-46115189\" data-interatividade-id=\"32742883\" data-usuario-id=\"usuario-55392090\" data-usuario-sexo=\"\" data-usu",
+"errorTitle": "Duplicate ID found",
+"position": {
+"column": 0,
+"line": 7881
+},
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "62c16863913e4d9772ce01c651f7db45",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[4]/ul[1]/li[11]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<button type=\"button\" class=\"glbComentarios-btn btn-share glbComentarios-bt-facebook\" id=\"glbComentarios-bt-facebook-46115189\" title=\"Compartilhe no Facebook\"><span>Facebook</span></button>",
+"errorTitle": "Duplicate ID found",
+"position": {
+"column": 13,
+"line": 4815
+},
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "5909f333378b9d95b05b3eeaa929a1a4",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[4]/ul[1]/li[11]/div[1]/div[2]/div[4]/button[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<li id=\"comentario-46115074\" itemscopeitemtype=\"http://schema.org/UserComments\" data-comentario-qtd_replies=\"0\" data-comentario-id=\"comentario-46115074\" data-interatividade-id=\"32742787\" data-usuario-id=\"usuario-49945959\" data-usuario-sexo=\"\" data-usu",
+"errorTitle": "Duplicate ID found",
+"position": {
+"column": 0,
+"line": 7881
+},
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "98ac1c5220b9b74d57de128d25d325e7",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[4]/ul[1]/li[12]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<button type=\"button\" class=\"glbComentarios-btn btn-share glbComentarios-bt-facebook\" id=\"glbComentarios-bt-facebook-46115074\" title=\"Compartilhe no Facebook\"><span>Facebook</span></button>",
+"errorTitle": "Duplicate ID found",
+"position": {
+"column": 11,
+"line": 4869
+},
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "ef6caf064d7a3f01e1c8b8b30bbdc653",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[4]/ul[1]/li[12]/div[1]/div[2]/div[4]/button[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<li id=\"comentario-46110781\" itemscopeitemtype=\"http://schema.org/UserComments\" data-comentario-qtd_replies=\"2\" data-comentario-id=\"comentario-46110781\" data-interatividade-id=\"32738754\" data-usuario-id=\"usuario-49945959\" data-usuario-sexo=\"\" data-usu",
+"errorTitle": "Duplicate ID found",
+"position": {
+"column": 0,
+"line": 7881
+},
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "32e66c4c6592721615642c47737860be",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[4]/ul[1]/li[13]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<button type=\"button\" class=\"glbComentarios-btn btn-share glbComentarios-bt-facebook\" id=\"glbComentarios-bt-facebook-46110781\" title=\"Compartilhe no Facebook\"><span>Facebook</span></button>",
+"errorTitle": "Duplicate ID found",
+"position": {
+"column": 13,
+"line": 4973
+},
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "816f957bd94ab29d7b5291e07c302b65",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[4]/ul[1]/li[13]/div[1]/div[2]/div[4]/button[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<li id=\"comentario-46112550\" itemscopeitemtype=\"http://schema.org/UserComments\" data-comentario-qtd_replies=\"\" data-comentario-id=\"comentario-46112550\" data-interatividade-id=\"32740661\" data-usuario-id=\"usuario-38047513\" data-usuario-sexo=\"\" data-usua",
+"errorTitle": "Duplicate ID found",
+"position": {
+"column": 0,
+"line": 7881
+},
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "26086ca02d9991e391d7afcf9b80b4e7",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[4]/ul[1]/li[13]/div[4]/ul[1]/li[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<button type=\"button\" class=\"glbComentarios-btn btn-share glbComentarios-bt-facebook\" id=\"glbComentarios-bt-facebook-46112550\" title=\"Compartilhe no Facebook\"><span>Facebook</span></button>",
+"errorTitle": "Duplicate ID found",
+"position": {
+"column": 13,
+"line": 5034
+},
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "3cfe696374332bd34993d078f1e3b64f",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[4]/ul[1]/li[13]/div[4]/ul[1]/li[1]/div[1]/div[2]/div[4]/button[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<li id=\"comentario-46114876\" itemscopeitemtype=\"http://schema.org/UserComments\" data-comentario-qtd_replies=\"\" data-comentario-id=\"comentario-46114876\" data-interatividade-id=\"32742623\" data-usuario-id=\"usuario-49945959\" data-usuario-sexo=\"\" data-usua",
+"errorTitle": "Duplicate ID found",
+"position": {
+"column": 0,
+"line": 7881
+},
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "d0e75c5d794621c53570f11431b10e8e",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[4]/ul[1]/li[13]/div[4]/ul[1]/li[2]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<button type=\"button\" class=\"glbComentarios-btn btn-share glbComentarios-bt-facebook\" id=\"glbComentarios-bt-facebook-46114876\" title=\"Compartilhe no Facebook\"><span>Facebook</span></button>",
+"errorTitle": "Duplicate ID found",
+"position": {
+"column": 11,
+"line": 5105
+},
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "8af0bd80769bea0cdf147ad2c5312739",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[4]/ul[1]/li[13]/div[4]/ul[1]/li[2]/div[1]/div[2]/div[4]/button[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<li id=\"comentario-46114419\" itemscopeitemtype=\"http://schema.org/UserComments\" data-comentario-qtd_replies=\"0\" data-comentario-id=\"comentario-46114419\" data-interatividade-id=\"32742266\" data-usuario-id=\"usuario-49087532\" data-usuario-sexo=\"\" data-usu",
+"errorTitle": "Duplicate ID found",
+"position": {
+"column": 0,
+"line": 7881
+},
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "b37ad0ebba2221ff96b9a43a4acfd03c",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[4]/ul[1]/li[14]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<button type=\"button\" class=\"glbComentarios-btn btn-share glbComentarios-bt-facebook\" id=\"glbComentarios-bt-facebook-46114419\" title=\"Compartilhe no Facebook\"><span>Facebook</span></button>",
+"errorTitle": "Duplicate ID found",
+"position": {
+"column": 13,
+"line": 5227
+},
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "ebf76a52cb47aad65c2fa6b56f6bd85d",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[4]/ul[1]/li[14]/div[1]/div[2]/div[4]/button[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<li id=\"comentario-46113389\" itemscopeitemtype=\"http://schema.org/UserComments\" data-comentario-qtd_replies=\"0\" data-comentario-id=\"comentario-46113389\" data-interatividade-id=\"32741410\" data-usuario-id=\"usuario-27770922\" data-usuario-sexo=\"\" data-usu",
+"errorTitle": "Duplicate ID found",
+"position": {
+"column": 0,
+"line": 7881
+},
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "cf7da374fc36859935c713089f96de62",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[4]/ul[1]/li[15]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<button type=\"button\" class=\"glbComentarios-btn btn-share glbComentarios-bt-facebook\" id=\"glbComentarios-bt-facebook-46113389\" title=\"Compartilhe no Facebook\"><span>Facebook</span></button>",
+"errorTitle": "Duplicate ID found",
+"position": {
+"column": 13,
+"line": 5298
+},
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "faadc8e2a551a14a3ff3c1006601de79",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[4]/ul[1]/li[15]/div[1]/div[2]/div[4]/button[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<li id=\"comentario-46113155\" itemscopeitemtype=\"http://schema.org/UserComments\" data-comentario-qtd_replies=\"0\" data-comentario-id=\"comentario-46113155\" data-interatividade-id=\"32741209\" data-usuario-id=\"usuario-51735145\" data-usuario-sexo=\"\" data-usu",
+"errorTitle": "Duplicate ID found",
+"position": {
+"column": 0,
+"line": 7881
+},
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "5ef259d400fd55c4db7a2dc52f8de58c",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[4]/ul[1]/li[16]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<button type=\"button\" class=\"glbComentarios-btn btn-share glbComentarios-bt-facebook\" id=\"glbComentarios-bt-facebook-46113155\" title=\"Compartilhe no Facebook\"><span>Facebook</span></button>",
+"errorTitle": "Duplicate ID found",
+"position": {
+"column": 11,
+"line": 5364
+},
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "a85aa49a6c1be71803f37199d949a120",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[4]/ul[1]/li[16]/div[1]/div[2]/div[4]/button[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<li id=\"comentario-46112618\" itemscopeitemtype=\"http://schema.org/UserComments\" data-comentario-qtd_replies=\"0\" data-comentario-id=\"comentario-46112618\" data-interatividade-id=\"32740713\" data-usuario-id=\"usuario-55211999\" data-usuario-sexo=\"\" data-usu",
+"errorTitle": "Duplicate ID found",
+"position": {
+"column": 0,
+"line": 7881
+},
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "6182094ba218c20f307ce874ba9d28c1",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[4]/ul[1]/li[17]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<button type=\"button\" class=\"glbComentarios-btn btn-share glbComentarios-bt-facebook\" id=\"glbComentarios-bt-facebook-46112618\" title=\"Compartilhe no Facebook\"><span>Facebook</span></button>",
+"errorTitle": "Duplicate ID found",
+"position": {
+"column": 13,
+"line": 5469
+},
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "f7ec1fd045bf1717d43a2f9ae51fb8d6",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[4]/ul[1]/li[17]/div[1]/div[2]/div[4]/button[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<li id=\"comentario-46112525\" itemscopeitemtype=\"http://schema.org/UserComments\" data-comentario-qtd_replies=\"0\" data-comentario-id=\"comentario-46112525\" data-interatividade-id=\"32740639\" data-usuario-id=\"usuario-45946866\" data-usuario-sexo=\"\" data-usu",
+"errorTitle": "Duplicate ID found",
+"position": {
+"column": 0,
+"line": 7881
+},
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "9b23a810604ac3565542c635c5343787",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[4]/ul[1]/li[18]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<button type=\"button\" class=\"glbComentarios-btn btn-share glbComentarios-bt-facebook\" id=\"glbComentarios-bt-facebook-46112525\" title=\"Compartilhe no Facebook\"><span>Facebook</span></button>",
+"errorTitle": "Duplicate ID found",
+"position": {
+"column": 13,
+"line": 5521
+},
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "690efbc1750d6107995054e92f48dcc4",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[4]/ul[1]/li[18]/div[1]/div[2]/div[4]/button[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<li id=\"comentario-46111978\" itemscopeitemtype=\"http://schema.org/UserComments\" data-comentario-qtd_replies=\"0\" data-comentario-id=\"comentario-46111978\" data-interatividade-id=\"32740019\" data-usuario-id=\"usuario-50488005\" data-usuario-sexo=\"\" data-usu",
+"errorTitle": "Duplicate ID found",
+"position": {
+"column": 0,
+"line": 7881
+},
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "f2c46dadd9d20267082f57aba5f18bff",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[4]/ul[1]/li[19]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<button type=\"button\" class=\"glbComentarios-btn btn-share glbComentarios-bt-facebook\" id=\"glbComentarios-bt-facebook-46111978\" title=\"Compartilhe no Facebook\"><span>Facebook</span></button>",
+"errorTitle": "Duplicate ID found",
+"position": {
+"column": 11,
+"line": 5578
+},
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "f3412902074340fc3da35d23f84efdec",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[4]/ul[1]/li[19]/div[1]/div[2]/div[4]/button[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<li id=\"comentario-46111439\" itemscopeitemtype=\"http://schema.org/UserComments\" data-comentario-qtd_replies=\"0\" data-comentario-id=\"comentario-46111439\" data-interatividade-id=\"32739456\" data-usuario-id=\"usuario-36845996\" data-usuario-sexo=\"\" data-usu",
+"errorTitle": "Duplicate ID found",
+"position": "",
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "f403d811f863d2fd3998fa953f89012b",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[4]/ul[1]/li[20]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<button type=\"button\" class=\"glbComentarios-btn btn-share glbComentarios-bt-facebook\" id=\"glbComentarios-bt-facebook-46111439\" title=\"Compartilhe no Facebook\"><span>Facebook</span></button>",
+"errorTitle": "Duplicate ID found",
+"position": {
+"column": 13,
+"line": 5692
+},
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "a7d92a923aea173f43ffba7ecdc6a38b",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[4]/ul[1]/li[20]/div[1]/div[2]/div[4]/button[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<li id=\"comentario-46111223\" itemscopeitemtype=\"http://schema.org/UserComments\" data-comentario-qtd_replies=\"0\" data-comentario-id=\"comentario-46111223\" data-interatividade-id=\"32739168\" data-usuario-id=\"usuario-48456754\" data-usuario-sexo=\"\" data-usu",
+"errorTitle": "Duplicate ID found",
+"position": "",
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "816e2ac46878eaaac5fcf45c36bcf15a",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[4]/ul[1]/li[21]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<button type=\"button\" class=\"glbComentarios-btn btn-share glbComentarios-bt-facebook\" id=\"glbComentarios-bt-facebook-46111223\" title=\"Compartilhe no Facebook\"><span>Facebook</span></button>",
+"errorTitle": "Duplicate ID found",
+"position": {
+"column": 13,
+"line": 5757
+},
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "35df59c8003c90bfa1a208c586d0857b",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[4]/ul[1]/li[21]/div[1]/div[2]/div[4]/button[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<li id=\"comentario-46111755\" itemscopeitemtype=\"http://schema.org/UserComments\" data-comentario-qtd_replies=\"6\" data-comentario-id=\"comentario-46111755\" data-interatividade-id=\"32739760\" data-usuario-id=\"usuario-42840821\" data-usuario-sexo=\"\" data-usu",
+"errorTitle": "Duplicate ID found",
+"position": "",
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "6a0fd8f5a6f69f06a9b410253507b25d",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[5]/ul[1]/li[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<button type=\"button\" class=\"glbComentarios-btn btn-share glbComentarios-bt-facebook\" id=\"glbComentarios-bt-facebook-46111755\" title=\"Compartilhe no Facebook\"><span>Facebook</span></button>",
+"errorTitle": "Duplicate ID found",
+"position": {
+"column": 13,
+"line": 5877
+},
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "41ad1d0d97444c54f7657b94a640a8f1",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[5]/ul[1]/li[1]/div[1]/div[2]/div[4]/button[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<li id=\"comentario-46119503\" itemscopeitemtype=\"http://schema.org/UserComments\" data-comentario-qtd_replies=\"\" data-comentario-id=\"comentario-46119503\" data-interatividade-id=\"32746428\" data-usuario-id=\"usuario-56603422\" data-usuario-sexo=\"\" data-usua",
+"errorTitle": "Duplicate ID found",
+"position": "",
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "95464fe18f97cb33952c317dc5f407f5",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[5]/ul[1]/li[1]/div[4]/ul[1]/li[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<button type=\"button\" class=\"glbComentarios-btn btn-share glbComentarios-bt-facebook\" id=\"glbComentarios-bt-facebook-46119503\" title=\"Compartilhe no Facebook\"><span>Facebook</span></button>",
+"errorTitle": "Duplicate ID found",
+"position": {
+"column": 11,
+"line": 5941
+},
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "8f91c264c79f0cf7936335076a0063e5",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[5]/ul[1]/li[1]/div[4]/ul[1]/li[1]/div[1]/div[2]/div[4]/button[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<li id=\"comentario-46119543\" itemscopeitemtype=\"http://schema.org/UserComments\" data-comentario-qtd_replies=\"\" data-comentario-id=\"comentario-46119543\" data-interatividade-id=\"32746460\" data-usuario-id=\"usuario-56603422\" data-usuario-sexo=\"\" data-usua",
+"errorTitle": "Duplicate ID found",
+"position": "",
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "e755dccbf7366109f38ddaadd5ebf6e1",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[5]/ul[1]/li[1]/div[4]/ul[1]/li[2]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<button type=\"button\" class=\"glbComentarios-btn btn-share glbComentarios-bt-facebook\" id=\"glbComentarios-bt-facebook-46119543\" title=\"Compartilhe no Facebook\"><span>Facebook</span></button>",
+"errorTitle": "Duplicate ID found",
+"position": {
+"column": 13,
+"line": 5995
+},
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "881d4d8a3674e9d36aa3e970329f5461",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[5]/ul[1]/li[1]/div[4]/ul[1]/li[2]/div[1]/div[2]/div[4]/button[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<li id=\"comentario-46112618\" itemscopeitemtype=\"http://schema.org/UserComments\" data-comentario-qtd_replies=\"0\" data-comentario-id=\"comentario-46112618\" data-interatividade-id=\"32740713\" data-usuario-id=\"usuario-55211999\" data-usuario-sexo=\"\" data-usu",
+"errorTitle": "Duplicate ID found",
+"position": "",
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "43497442ecde650fc525343beb76f1d1",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[5]/ul[1]/li[2]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<button type=\"button\" class=\"glbComentarios-btn btn-share glbComentarios-bt-facebook\" id=\"glbComentarios-bt-facebook-46112618\" title=\"Compartilhe no Facebook\"><span>Facebook</span></button>",
+"errorTitle": "Duplicate ID found",
+"position": {
+"column": 13,
+"line": 6092
+},
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "7490addda6781c54b10d89fbdb783e98",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[5]/ul[1]/li[2]/div[1]/div[2]/div[4]/button[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<li id=\"comentario-46111383\" itemscopeitemtype=\"http://schema.org/UserComments\" data-comentario-qtd_replies=\"2\" data-comentario-id=\"comentario-46111383\" data-interatividade-id=\"32739326\" data-usuario-id=\"usuario-45946866\" data-usuario-sexo=\"\" data-usu",
+"errorTitle": "Duplicate ID found",
+"position": "",
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "e625a831f1f55f5343b1282e526135e4",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[5]/ul[1]/li[3]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<button type=\"button\" class=\"glbComentarios-btn btn-share glbComentarios-bt-facebook\" id=\"glbComentarios-bt-facebook-46111383\" title=\"Compartilhe no Facebook\"><span>Facebook</span></button>",
+"errorTitle": "Duplicate ID found",
+"position": {
+"column": 11,
+"line": 6166
+},
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "f75ed1e9ee2ee7beac04b0881461656f",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[5]/ul[1]/li[3]/div[1]/div[2]/div[4]/button[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<li id=\"comentario-46111542\" itemscopeitemtype=\"http://schema.org/UserComments\" data-comentario-qtd_replies=\"\" data-comentario-id=\"comentario-46111542\" data-interatividade-id=\"32739549\" data-usuario-id=\"usuario-43900815\" data-usuario-sexo=\"\" data-usua",
+"errorTitle": "Duplicate ID found",
+"position": "",
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "1321e880fc938912eaeeb418838522ed",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[5]/ul[1]/li[3]/div[4]/ul[1]/li[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<button type=\"button\" class=\"glbComentarios-btn btn-share glbComentarios-bt-facebook\" id=\"glbComentarios-bt-facebook-46111542\" title=\"Compartilhe no Facebook\"><span>Facebook</span></button>",
+"errorTitle": "Duplicate ID found",
+"position": {
+"column": 13,
+"line": 6264
+},
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "bd27f852a49e3889f10ec913fc5dcf20",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[5]/ul[1]/li[3]/div[4]/ul[1]/li[1]/div[1]/div[2]/div[4]/button[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<li id=\"comentario-46115531\" itemscopeitemtype=\"http://schema.org/UserComments\" data-comentario-qtd_replies=\"\" data-comentario-id=\"comentario-46115531\" data-interatividade-id=\"32743175\" data-usuario-id=\"usuario-55211999\" data-usuario-sexo=\"\" data-usua",
+"errorTitle": "Duplicate ID found",
+"position": "",
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "82dd9569e4680d64e66851891290cabe",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[5]/ul[1]/li[3]/div[4]/ul[1]/li[2]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<button type=\"button\" class=\"glbComentarios-btn btn-share glbComentarios-bt-facebook\" id=\"glbComentarios-bt-facebook-46115531\" title=\"Compartilhe no Facebook\"><span>Facebook</span></button>",
+"errorTitle": "Duplicate ID found",
+"position": {
+"column": 13,
+"line": 6320
+},
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "332064b3255d003300e9e73f7a5ed338",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[5]/ul[1]/li[3]/div[4]/ul[1]/li[2]/div[1]/div[2]/div[4]/button[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<li id=\"comentario-46110359\" itemscopeitemtype=\"http://schema.org/UserComments\" data-comentario-qtd_replies=\"4\" data-comentario-id=\"comentario-46110359\" data-interatividade-id=\"32738374\" data-usuario-id=\"usuario-54153289\" data-usuario-sexo=\"\" data-usu",
+"errorTitle": "Duplicate ID found",
+"position": "",
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "ed0381ad19984b9629c85f1b45515f69",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[5]/ul[1]/li[4]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<button type=\"button\" class=\"glbComentarios-btn btn-share glbComentarios-bt-facebook\" id=\"glbComentarios-bt-facebook-46110359\" title=\"Compartilhe no Facebook\"><span>Facebook</span></button>",
+"errorTitle": "Duplicate ID found",
+"position": {
+"column": 13,
+"line": 6386
+},
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "b8eee9aecc34871127d017c25b45d4ba",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[5]/ul[1]/li[4]/div[1]/div[2]/div[4]/button[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<li id=\"comentario-46115779\" itemscopeitemtype=\"http://schema.org/UserComments\" data-comentario-qtd_replies=\"\" data-comentario-id=\"comentario-46115779\" data-interatividade-id=\"32743363\" data-usuario-id=\"usuario-54321485\" data-usuario-sexo=\"\" data-usua",
+"errorTitle": "Duplicate ID found",
+"position": "",
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "a9034592db5afb6d5ed604843404a7bc",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[5]/ul[1]/li[4]/div[4]/ul[1]/li[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<button type=\"button\" class=\"glbComentarios-btn btn-share glbComentarios-bt-facebook\" id=\"glbComentarios-bt-facebook-46115779\" title=\"Compartilhe no Facebook\"><span>Facebook</span></button>",
+"errorTitle": "Duplicate ID found",
+"position": {
+"column": 13,
+"line": 6501
+},
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "811a9754019422a687c61539760e2afc",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[5]/ul[1]/li[4]/div[4]/ul[1]/li[1]/div[1]/div[2]/div[4]/button[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<li id=\"comentario-46117383\" itemscopeitemtype=\"http://schema.org/UserComments\" data-comentario-qtd_replies=\"\" data-comentario-id=\"comentario-46117383\" data-interatividade-id=\"32744653\" data-usuario-id=\"usuario-45638520\" data-usuario-sexo=\"\" data-usua",
+"errorTitle": "Duplicate ID found",
+"position": "",
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "d2f49004e13baff89dcc1d50f6c80b0f",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[5]/ul[1]/li[4]/div[4]/ul[1]/li[2]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<button type=\"button\" class=\"glbComentarios-btn btn-share glbComentarios-bt-facebook\" id=\"glbComentarios-bt-facebook-46117383\" title=\"Compartilhe no Facebook\"><span>Facebook</span></button>",
+"errorTitle": "Duplicate ID found",
+"position": {
+"column": 11,
+"line": 6554
+},
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "50987f7f74b64b377d550fe388a357e3",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[5]/ul[1]/li[4]/div[4]/ul[1]/li[2]/div[1]/div[2]/div[4]/button[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<li id=\"comentario-46116009\" itemscopeitemtype=\"http://schema.org/UserComments\" data-comentario-qtd_replies=\"0\" data-comentario-id=\"comentario-46116009\" data-interatividade-id=\"32743547\" data-usuario-id=\"usuario-36478594\" data-usuario-sexo=\"\" data-usu",
+"errorTitle": "Duplicate ID found",
+"position": "",
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "9411fc82eb51b475db7fd00f7eca6617",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[5]/ul[1]/li[5]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<button type=\"button\" class=\"glbComentarios-btn btn-share glbComentarios-bt-facebook\" id=\"glbComentarios-bt-facebook-46116009\" title=\"Compartilhe no Facebook\"><span>Facebook</span></button>",
+"errorTitle": "Duplicate ID found",
+"position": {
+"column": 13,
+"line": 6641
+},
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "df9b4b22c2e8c011012082c782fe66f7",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[5]/ul[1]/li[5]/div[1]/div[2]/div[4]/button[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<li id=\"comentario-46112525\" itemscopeitemtype=\"http://schema.org/UserComments\" data-comentario-qtd_replies=\"0\" data-comentario-id=\"comentario-46112525\" data-interatividade-id=\"32740639\" data-usuario-id=\"usuario-45946866\" data-usuario-sexo=\"\" data-usu",
+"errorTitle": "Duplicate ID found",
+"position": "",
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "f076ff11e2013c72165793a135133e80",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[5]/ul[1]/li[6]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<button type=\"button\" class=\"glbComentarios-btn btn-share glbComentarios-bt-facebook\" id=\"glbComentarios-bt-facebook-46112525\" title=\"Compartilhe no Facebook\"><span>Facebook</span></button>",
+"errorTitle": "Duplicate ID found",
+"position": {
+"column": 13,
+"line": 6693
+},
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "c4233f437e47e8669d2d30db5f12d990",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[5]/ul[1]/li[6]/div[1]/div[2]/div[4]/button[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<li id=\"comentario-46110781\" itemscopeitemtype=\"http://schema.org/UserComments\" data-comentario-qtd_replies=\"2\" data-comentario-id=\"comentario-46110781\" data-interatividade-id=\"32738754\" data-usuario-id=\"usuario-49945959\" data-usuario-sexo=\"\" data-usu",
+"errorTitle": "Duplicate ID found",
+"position": "",
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "c64f9286f8817e86bb42b1319daeb9a1",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[5]/ul[1]/li[7]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<button type=\"button\" class=\"glbComentarios-btn btn-share glbComentarios-bt-facebook\" id=\"glbComentarios-bt-facebook-46110781\" title=\"Compartilhe no Facebook\"><span>Facebook</span></button>",
+"errorTitle": "Duplicate ID found",
+"position": {
+"column": 13,
+"line": 6750
+},
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "0bf16a18ff791e566ae5e77c59d53636",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[5]/ul[1]/li[7]/div[1]/div[2]/div[4]/button[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<li id=\"comentario-46112550\" itemscopeitemtype=\"http://schema.org/UserComments\" data-comentario-qtd_replies=\"\" data-comentario-id=\"comentario-46112550\" data-interatividade-id=\"32740661\" data-usuario-id=\"usuario-38047513\" data-usuario-sexo=\"\" data-usua",
+"errorTitle": "Duplicate ID found",
+"position": "",
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "62c49413d240ec3bca4138f86be8c3c5",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[5]/ul[1]/li[7]/div[4]/ul[1]/li[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<button type=\"button\" class=\"glbComentarios-btn btn-share glbComentarios-bt-facebook\" id=\"glbComentarios-bt-facebook-46112550\" title=\"Compartilhe no Facebook\"><span>Facebook</span></button>",
+"errorTitle": "Duplicate ID found",
+"position": {
+"column": 13,
+"line": 6834
+},
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "2832da7ccb911bc8dd63211546c2f381",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[5]/ul[1]/li[7]/div[4]/ul[1]/li[1]/div[1]/div[2]/div[4]/button[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<li id=\"comentario-46114876\" itemscopeitemtype=\"http://schema.org/UserComments\" data-comentario-qtd_replies=\"\" data-comentario-id=\"comentario-46114876\" data-interatividade-id=\"32742623\" data-usuario-id=\"usuario-49945959\" data-usuario-sexo=\"\" data-usua",
+"errorTitle": "Duplicate ID found",
+"position": "",
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "4271aa8ebd328316d0a3f021bd995d47",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[5]/ul[1]/li[7]/div[4]/ul[1]/li[2]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<button type=\"button\" class=\"glbComentarios-btn btn-share glbComentarios-bt-facebook\" id=\"glbComentarios-bt-facebook-46114876\" title=\"Compartilhe no Facebook\"><span>Facebook</span></button>",
+"errorTitle": "Duplicate ID found",
+"position": "",
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "35ac93caf7c090bffff0ff28a6895a2d",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[5]/ul[1]/li[7]/div[4]/ul[1]/li[2]/div[1]/div[2]/div[4]/button[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<li id=\"comentario-46116195\" itemscopeitemtype=\"http://schema.org/UserComments\" data-comentario-qtd_replies=\"0\" data-comentario-id=\"comentario-46116195\" data-interatividade-id=\"32743702\" data-usuario-id=\"usuario-36478594\" data-usuario-sexo=\"\" data-usu",
+"errorTitle": "Duplicate ID found",
+"position": "",
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "7a5cf431ec1af7e6a639cbc6a072b79c",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[5]/ul[1]/li[8]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<button type=\"button\" class=\"glbComentarios-btn btn-share glbComentarios-bt-facebook\" id=\"glbComentarios-bt-facebook-46116195\" title=\"Compartilhe no Facebook\"><span>Facebook</span></button>",
+"errorTitle": "Duplicate ID found",
+"position": "",
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "b4279addd638e1f247738f28aa167337",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[5]/ul[1]/li[8]/div[1]/div[2]/div[4]/button[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<li id=\"comentario-46115074\" itemscopeitemtype=\"http://schema.org/UserComments\" data-comentario-qtd_replies=\"0\" data-comentario-id=\"comentario-46115074\" data-interatividade-id=\"32742787\" data-usuario-id=\"usuario-49945959\" data-usuario-sexo=\"\" data-usu",
+"errorTitle": "Duplicate ID found",
+"position": "",
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "2cf28ecb8ece7a025430011a8a47127e",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[5]/ul[1]/li[9]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<button type=\"button\" class=\"glbComentarios-btn btn-share glbComentarios-bt-facebook\" id=\"glbComentarios-bt-facebook-46115074\" title=\"Compartilhe no Facebook\"><span>Facebook</span></button>",
+"errorTitle": "Duplicate ID found",
+"position": "",
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "65b077a80a4a85f82adeea90d9136c6c",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[5]/ul[1]/li[9]/div[1]/div[2]/div[4]/button[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<li id=\"comentario-46113389\" itemscopeitemtype=\"http://schema.org/UserComments\" data-comentario-qtd_replies=\"0\" data-comentario-id=\"comentario-46113389\" data-interatividade-id=\"32741410\" data-usuario-id=\"usuario-27770922\" data-usuario-sexo=\"\" data-usu",
+"errorTitle": "Duplicate ID found",
+"position": "",
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "551c8bae8315fb7d4c64fcbc7563111f",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[5]/ul[1]/li[10]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<button type=\"button\" class=\"glbComentarios-btn btn-share glbComentarios-bt-facebook\" id=\"glbComentarios-bt-facebook-46113389\" title=\"Compartilhe no Facebook\"><span>Facebook</span></button>",
+"errorTitle": "Duplicate ID found",
+"position": "",
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "a386e169ca4b2103a4c7bb28f81d2490",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[5]/ul[1]/li[10]/div[1]/div[2]/div[4]/button[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<li id=\"comentario-46111223\" itemscopeitemtype=\"http://schema.org/UserComments\" data-comentario-qtd_replies=\"0\" data-comentario-id=\"comentario-46111223\" data-interatividade-id=\"32739168\" data-usuario-id=\"usuario-48456754\" data-usuario-sexo=\"\" data-usu",
+"errorTitle": "Duplicate ID found",
+"position": "",
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "4cd7653c0794cf36cdcc7fc7659e58fb",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[5]/ul[1]/li[11]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<button type=\"button\" class=\"glbComentarios-btn btn-share glbComentarios-bt-facebook\" id=\"glbComentarios-bt-facebook-46111223\" title=\"Compartilhe no Facebook\"><span>Facebook</span></button>",
+"errorTitle": "Duplicate ID found",
+"position": "",
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "1a4cf557d348cd4dcb253cdf5a4b355e",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[5]/ul[1]/li[11]/div[1]/div[2]/div[4]/button[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<li id=\"comentario-46112444\" itemscopeitemtype=\"http://schema.org/UserComments\" data-comentario-qtd_replies=\"1\" data-comentario-id=\"comentario-46112444\" data-interatividade-id=\"32740552\" data-usuario-id=\"usuario-49603047\" data-usuario-sexo=\"\" data-usu",
+"errorTitle": "Duplicate ID found",
+"position": "",
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "d245781c56cb728268b7a3da58f65e0b",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[5]/ul[1]/li[12]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<button type=\"button\" class=\"glbComentarios-btn btn-share glbComentarios-bt-facebook\" id=\"glbComentarios-bt-facebook-46112444\" title=\"Compartilhe no Facebook\"><span>Facebook</span></button>",
+"errorTitle": "Duplicate ID found",
+"position": "",
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "ca844b524e9a37f93104e342e56c0b33",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[5]/ul[1]/li[12]/div[1]/div[2]/div[4]/button[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<li id=\"comentario-46117952\" itemscopeitemtype=\"http://schema.org/UserComments\" data-comentario-qtd_replies=\"\" data-comentario-id=\"comentario-46117952\" data-interatividade-id=\"32745108\" data-usuario-id=\"usuario-54363952\" data-usuario-sexo=\"\" data-usua",
+"errorTitle": "Duplicate ID found",
+"position": "",
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "d2f73ddfee89c685ce7ff9834fd30c76",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[5]/ul[1]/li[12]/div[4]/ul[1]/li[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<button type=\"button\" class=\"glbComentarios-btn btn-share glbComentarios-bt-facebook\" id=\"glbComentarios-bt-facebook-46117952\" title=\"Compartilhe no Facebook\"><span>Facebook</span></button>",
+"errorTitle": "Duplicate ID found",
+"position": "",
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "83a7517e5ba4c7ccf0cbb7c437673467",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[5]/ul[1]/li[12]/div[4]/ul[1]/li[1]/div[1]/div[2]/div[4]/button[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<li id=\"comentario-46117650\" itemscopeitemtype=\"http://schema.org/UserComments\" data-comentario-qtd_replies=\"0\" data-comentario-id=\"comentario-46117650\" data-interatividade-id=\"32744862\" data-usuario-id=\"usuario-45638520\" data-usuario-sexo=\"\" data-usu",
+"errorTitle": "Duplicate ID found",
+"position": "",
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "b3ecce5b20e347e2180e45d834780542",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[5]/ul[1]/li[13]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<button type=\"button\" class=\"glbComentarios-btn btn-share glbComentarios-bt-facebook\" id=\"glbComentarios-bt-facebook-46117650\" title=\"Compartilhe no Facebook\"><span>Facebook</span></button>",
+"errorTitle": "Duplicate ID found",
+"position": "",
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "8ca5c23f413a1ae1af3d4cb93d893b77",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[5]/ul[1]/li[13]/div[1]/div[2]/div[4]/button[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<li id=\"comentario-46111978\" itemscopeitemtype=\"http://schema.org/UserComments\" data-comentario-qtd_replies=\"0\" data-comentario-id=\"comentario-46111978\" data-interatividade-id=\"32740019\" data-usuario-id=\"usuario-50488005\" data-usuario-sexo=\"\" data-usu",
+"errorTitle": "Duplicate ID found",
+"position": "",
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "82ce1493a0ce847366c3738b4807f154",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[5]/ul[1]/li[14]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<button type=\"button\" class=\"glbComentarios-btn btn-share glbComentarios-bt-facebook\" id=\"glbComentarios-bt-facebook-46111978\" title=\"Compartilhe no Facebook\"><span>Facebook</span></button>",
+"errorTitle": "Duplicate ID found",
+"position": "",
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "ded107d58872717ffa19b17f1e756945",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[5]/ul[1]/li[14]/div[1]/div[2]/div[4]/button[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<li id=\"comentario-46113155\" itemscopeitemtype=\"http://schema.org/UserComments\" data-comentario-qtd_replies=\"0\" data-comentario-id=\"comentario-46113155\" data-interatividade-id=\"32741209\" data-usuario-id=\"usuario-51735145\" data-usuario-sexo=\"\" data-usu",
+"errorTitle": "Duplicate ID found",
+"position": "",
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "82e79d74e098a518c1125bcbf3213355",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[5]/ul[1]/li[15]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<button type=\"button\" class=\"glbComentarios-btn btn-share glbComentarios-bt-facebook\" id=\"glbComentarios-bt-facebook-46113155\" title=\"Compartilhe no Facebook\"><span>Facebook</span></button>",
+"errorTitle": "Duplicate ID found",
+"position": "",
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "035858bfa2826e192ea5619fff799c54",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[5]/ul[1]/li[15]/div[1]/div[2]/div[4]/button[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<li id=\"comentario-46117835\" itemscopeitemtype=\"http://schema.org/UserComments\" data-comentario-qtd_replies=\"0\" data-comentario-id=\"comentario-46117835\" data-interatividade-id=\"32745014\" data-usuario-id=\"usuario-54363952\" data-usuario-sexo=\"\" data-usu",
+"errorTitle": "Duplicate ID found",
+"position": "",
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "3651f1f46f6d844caf3b661cc6756453",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[5]/ul[1]/li[16]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<button type=\"button\" class=\"glbComentarios-btn btn-share glbComentarios-bt-facebook\" id=\"glbComentarios-bt-facebook-46117835\" title=\"Compartilhe no Facebook\"><span>Facebook</span></button>",
+"errorTitle": "Duplicate ID found",
+"position": "",
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "1bf91c59e5e4a92a6f8c33ded87c494d",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[5]/ul[1]/li[16]/div[1]/div[2]/div[4]/button[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<li id=\"comentario-46115189\" itemscopeitemtype=\"http://schema.org/UserComments\" data-comentario-qtd_replies=\"0\" data-comentario-id=\"comentario-46115189\" data-interatividade-id=\"32742883\" data-usuario-id=\"usuario-55392090\" data-usuario-sexo=\"\" data-usu",
+"errorTitle": "Duplicate ID found",
+"position": "",
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "f1c9b7ffefc00b03d18241148e854a49",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[5]/ul[1]/li[17]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<button type=\"button\" class=\"glbComentarios-btn btn-share glbComentarios-bt-facebook\" id=\"glbComentarios-bt-facebook-46115189\" title=\"Compartilhe no Facebook\"><span>Facebook</span></button>",
+"errorTitle": "Duplicate ID found",
+"position": "",
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "b366e4fbce152670b470f2ed4488d259",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[5]/ul[1]/li[17]/div[1]/div[2]/div[4]/button[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<li id=\"comentario-46111994\" itemscopeitemtype=\"http://schema.org/UserComments\" data-comentario-qtd_replies=\"5\" data-comentario-id=\"comentario-46111994\" data-interatividade-id=\"32740043\" data-usuario-id=\"usuario-48524896\" data-usuario-sexo=\"\" data-usu",
+"errorTitle": "Duplicate ID found",
+"position": "",
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "2ce9c8ebfe3e58f116672011e5ce6e85",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[5]/ul[1]/li[18]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<button type=\"button\" class=\"glbComentarios-btn btn-share glbComentarios-bt-facebook\" id=\"glbComentarios-bt-facebook-46111994\" title=\"Compartilhe no Facebook\"><span>Facebook</span></button>",
+"errorTitle": "Duplicate ID found",
+"position": "",
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "75d9c88664e00268344818fa30ab62c0",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[5]/ul[1]/li[18]/div[1]/div[2]/div[4]/button[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<li id=\"comentario-46117890\" itemscopeitemtype=\"http://schema.org/UserComments\" data-comentario-qtd_replies=\"\" data-comentario-id=\"comentario-46117890\" data-interatividade-id=\"32745056\" data-usuario-id=\"usuario-54363952\" data-usuario-sexo=\"\" data-usua",
+"errorTitle": "Duplicate ID found",
+"position": "",
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "8e1430e7c6a8ca6cff0da3d2f33daccc",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[5]/ul[1]/li[18]/div[4]/ul[1]/li[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<button type=\"button\" class=\"glbComentarios-btn btn-share glbComentarios-bt-facebook\" id=\"glbComentarios-bt-facebook-46117890\" title=\"Compartilhe no Facebook\"><span>Facebook</span></button>",
+"errorTitle": "Duplicate ID found",
+"position": "",
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "5c938c189f464a3b4c532ef020d54e38",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[5]/ul[1]/li[18]/div[4]/ul[1]/li[1]/div[1]/div[2]/div[4]/button[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<li id=\"comentario-46119998\" itemscopeitemtype=\"http://schema.org/UserComments\" data-comentario-qtd_replies=\"\" data-comentario-id=\"comentario-46119998\" data-interatividade-id=\"32746805\" data-usuario-id=\"usuario-31824989\" data-usuario-sexo=\"\" data-usua",
+"errorTitle": "Duplicate ID found",
+"position": "",
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "d13e842e61eb0f314b8bb42c1ae8128c",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[5]/ul[1]/li[18]/div[4]/ul[1]/li[2]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<button type=\"button\" class=\"glbComentarios-btn btn-share glbComentarios-bt-facebook\" id=\"glbComentarios-bt-facebook-46119998\" title=\"Compartilhe no Facebook\"><span>Facebook</span></button>",
+"errorTitle": "Duplicate ID found",
+"position": "",
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "b0b83aa141d084853a1bf56b600b10c6",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[5]/ul[1]/li[18]/div[4]/ul[1]/li[2]/div[1]/div[2]/div[4]/button[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<li id=\"comentario-46114419\" itemscopeitemtype=\"http://schema.org/UserComments\" data-comentario-qtd_replies=\"0\" data-comentario-id=\"comentario-46114419\" data-interatividade-id=\"32742266\" data-usuario-id=\"usuario-49087532\" data-usuario-sexo=\"\" data-usu",
+"errorTitle": "Duplicate ID found",
+"position": "",
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "e2285e9c8cefd8f1dcc0871809a882ba",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[5]/ul[1]/li[19]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<button type=\"button\" class=\"glbComentarios-btn btn-share glbComentarios-bt-facebook\" id=\"glbComentarios-bt-facebook-46114419\" title=\"Compartilhe no Facebook\"><span>Facebook</span></button>",
+"errorTitle": "Duplicate ID found",
+"position": "",
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "75fb38d71c7828be6af45c352ee5dbde",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[5]/ul[1]/li[19]/div[1]/div[2]/div[4]/button[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<li id=\"comentario-46113006\" itemscopeitemtype=\"http://schema.org/UserComments\" data-comentario-qtd_replies=\"2\" data-comentario-id=\"comentario-46113006\" data-interatividade-id=\"32741081\" data-usuario-id=\"usuario-55397678\" data-usuario-sexo=\"\" data-usu",
+"errorTitle": "Duplicate ID found",
+"position": "",
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "d592aea9f326ab56331e07399d857892",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[5]/ul[1]/li[20]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<button type=\"button\" class=\"glbComentarios-btn btn-share glbComentarios-bt-facebook\" id=\"glbComentarios-bt-facebook-46113006\" title=\"Compartilhe no Facebook\"><span>Facebook</span></button>",
+"errorTitle": "Duplicate ID found",
+"position": "",
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "71c27d4ad3fbb8db1e550f53f04b71d9",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[5]/ul[1]/li[20]/div[1]/div[2]/div[4]/button[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<li id=\"comentario-46115251\" itemscopeitemtype=\"http://schema.org/UserComments\" data-comentario-qtd_replies=\"\" data-comentario-id=\"comentario-46115251\" data-interatividade-id=\"32742939\" data-usuario-id=\"usuario-49945959\" data-usuario-sexo=\"\" data-usua",
+"errorTitle": "Duplicate ID found",
+"position": "",
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "18a7770e16562c4e95684e7f239e0f5a",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[5]/ul[1]/li[20]/div[4]/ul[1]/li[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<button type=\"button\" class=\"glbComentarios-btn btn-share glbComentarios-bt-facebook\" id=\"glbComentarios-bt-facebook-46115251\" title=\"Compartilhe no Facebook\"><span>Facebook</span></button>",
+"errorTitle": "Duplicate ID found",
+"position": "",
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "ea06ca83c205afcc73324faa802df988",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[5]/ul[1]/li[20]/div[4]/ul[1]/li[1]/div[1]/div[2]/div[4]/button[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<li id=\"comentario-46116413\" itemscopeitemtype=\"http://schema.org/UserComments\" data-comentario-qtd_replies=\"\" data-comentario-id=\"comentario-46116413\" data-interatividade-id=\"32743866\" data-usuario-id=\"usuario-55397678\" data-usuario-sexo=\"\" data-usua",
+"errorTitle": "Duplicate ID found",
+"position": "",
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "fe038486712df1e243e88fbc631843c9",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[5]/ul[1]/li[20]/div[4]/ul[1]/li[2]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<button type=\"button\" class=\"glbComentarios-btn btn-share glbComentarios-bt-facebook\" id=\"glbComentarios-bt-facebook-46116413\" title=\"Compartilhe no Facebook\"><span>Facebook</span></button>",
+"errorTitle": "Duplicate ID found",
+"position": "",
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "3a8bcdfd69b581e281832e40e2fb3cbd",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[5]/ul[1]/li[20]/div[4]/ul[1]/li[2]/div[1]/div[2]/div[4]/button[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<li id=\"comentario-46111439\" itemscopeitemtype=\"http://schema.org/UserComments\" data-comentario-qtd_replies=\"0\" data-comentario-id=\"comentario-46111439\" data-interatividade-id=\"32739456\" data-usuario-id=\"usuario-36845996\" data-usuario-sexo=\"\" data-usu",
+"errorTitle": "Duplicate ID found",
+"position": "",
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "67fe26754323e73c9758a9c4f382908a",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[5]/ul[1]/li[21]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<button type=\"button\" class=\"glbComentarios-btn btn-share glbComentarios-bt-facebook\" id=\"glbComentarios-bt-facebook-46111439\" title=\"Compartilhe no Facebook\"><span>Facebook</span></button>",
+"errorTitle": "Duplicate ID found",
+"position": "",
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "106cf0e326573cffb8db460bdb828c4d",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[2]/div[2]/div[2]/div[1]/div[1]/div[1]/div[7]/div[5]/ul[1]/li[21]/div[1]/div[2]/div[4]/button[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<symbol viewBox=\"0 0 500 500\" id=\"icon-email\"><title>email</title><path d=\"M1.37 386.854c0 27.48 22.257 49.766 49.728 49.766H449.29c27.473 0 49.73-22.283 49.73-49.766v-248.87s-12.964 10.14-199.146 148.416c-28.297 17.07-69.558 17.46-9",
+"errorTitle": "Duplicate ID found",
+"position": "",
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "fb1281478aef26c054f5051581745812",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[4]/svg[1]/symbol[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<symbol viewBox=\"0 0 500 500\" id=\"icon-facebook\"><title>facebook</title><path id=\"svgstoreeb06781e16b6b900d678925df65cf12eWhite_2_\" d=\"M471.38 1.153H28.62c-15.173 0-27.47 12.296-27.47 27.47v442.756c0 15.167 12.297 27.468 27.47 27.468",
+"errorTitle": "Duplicate ID found",
+"position": "",
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "ee1a9401beb16b4b43625abaf832a979",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[4]/svg[1]/symbol[2]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<path id=\"svgstoreeb06781e16b6b900d678925df65cf12eWhite_2_\" d=\"M471.38 1.153H28.62c-15.173 0-27.47 12.296-27.47 27.47v442.756c0 15.167 12.297 27.468 27.47 27.468h238.365V306.113H202.13v-75.11h64.857v-55.394c0-64.284 39.262-99.288 96.607-99.288 27.47 0",
+"errorTitle": "Duplicate ID found",
+"position": "",
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "614bf5dc516df3665fe3081e24191740",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[4]/svg[1]/symbol[2]/path[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<symbol viewBox=\"0 0 500 500\" id=\"icon-googleplus\"><title>googleplus</title><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M332.72 1.512H185.872c-97.906 0-150.835 45.908-150.835 125.266 0 65.242 60.163 109.498 131.258 99.056-17.323",
+"errorTitle": "Duplicate ID found",
+"position": "",
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "e1d15bca8df66fe9314cb53ea305f8a2",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[4]/svg[1]/symbol[3]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<symbol viewBox=\"0 0 500 500\" id=\"icon-pinterest\"><title>pinterest</title><path d=\"M250.425 1.195C113.12 1.195 1.805 112.5 1.805 249.81c0 101.8 61.205 189.248 148.813 227.705-.704-17.358-.133-38.19 4.32-57.078 4.784-20.188 32-135.472",
+"errorTitle": "Duplicate ID found",
+"position": "",
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "74a82352a2a078bb8246517dfc7b9ad4",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[4]/svg[1]/symbol[4]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<symbol viewBox=\"0 0 500 500\" id=\"icon-twitter\"><title>twitter</title><path d=\"M498.717 96.337c-18.296 8.108-37.96 13.593-58.6 16.056 21.063-12.63 37.24-32.6 44.852-56.426-19.714 11.698-41.545 20.185-64.78 24.76-18.613-19.822-45.125-",
+"errorTitle": "Duplicate ID found",
+"position": "",
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "0adc8c1b1d8e16805e17b7f2238fa805",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[4]/svg[1]/symbol[5]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<symbol viewBox=\"0 0 500 500\" id=\"icon-whatsapp\"><title>whatsapp</title><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M254.55 1C119.793 1 10.543 109.368 10.543 243.056c0 45.74 12.796 88.506 35.012 124.986L1.514 497.92l135.094-42.9",
+"errorTitle": "Duplicate ID found",
+"position": "",
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "534b642aaf9d6d93006b70acd3599ea0",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[4]/svg[1]/symbol[6]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<symbol viewBox=\"0 0 500 500\" id=\"icon-email\"><title>email</title><path d=\"M1.37 386.854c0 27.48 22.257 49.766 49.728 49.766H449.29c27.473 0 49.73-22.283 49.73-49.766v-248.87s-12.964 10.14-199.146 148.416c-28.297 17.07-69.558 17.46-9",
+"errorTitle": "Duplicate ID found",
+"position": "",
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "7d6bbb6888a8d9fa4fadb37121115ba1",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[5]/svg[1]/symbol[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<symbol viewBox=\"0 0 500 500\" id=\"icon-facebook\"><title>facebook</title><path id=\"svgstoreeb06781e16b6b900d678925df65cf12eWhite_2_\" d=\"M471.38 1.153H28.62c-15.173 0-27.47 12.296-27.47 27.47v442.756c0 15.167 12.297 27.468 27.47 27.468",
+"errorTitle": "Duplicate ID found",
+"position": "",
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "2e8f7d13968ec5c8ac6634baf4928ef6",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[5]/svg[1]/symbol[2]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<path id=\"svgstoreeb06781e16b6b900d678925df65cf12eWhite_2_\" d=\"M471.38 1.153H28.62c-15.173 0-27.47 12.296-27.47 27.47v442.756c0 15.167 12.297 27.468 27.47 27.468h238.365V306.113H202.13v-75.11h64.857v-55.394c0-64.284 39.262-99.288 96.607-99.288 27.47 0",
+"errorTitle": "Duplicate ID found",
+"position": "",
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "f9b32a3f083b945695675b2f9b7f56eb",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[5]/svg[1]/symbol[2]/path[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<symbol viewBox=\"0 0 500 500\" id=\"icon-googleplus\"><title>googleplus</title><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M332.72 1.512H185.872c-97.906 0-150.835 45.908-150.835 125.266 0 65.242 60.163 109.498 131.258 99.056-17.323",
+"errorTitle": "Duplicate ID found",
+"position": "",
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "69f5409b56d15345312831e98be0c652",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[5]/svg[1]/symbol[3]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<symbol viewBox=\"0 0 500 500\" id=\"icon-pinterest\"><title>pinterest</title><path d=\"M250.425 1.195C113.12 1.195 1.805 112.5 1.805 249.81c0 101.8 61.205 189.248 148.813 227.705-.704-17.358-.133-38.19 4.32-57.078 4.784-20.188 32-135.472",
+"errorTitle": "Duplicate ID found",
+"position": "",
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "4340b3f20b711b6654a21deffd92665b",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[5]/svg[1]/symbol[4]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<symbol viewBox=\"0 0 500 500\" id=\"icon-twitter\"><title>twitter</title><path d=\"M498.717 96.337c-18.296 8.108-37.96 13.593-58.6 16.056 21.063-12.63 37.24-32.6 44.852-56.426-19.714 11.698-41.545 20.185-64.78 24.76-18.613-19.822-45.125-",
+"errorTitle": "Duplicate ID found",
+"position": "",
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "122ec0795da0af5ae7e30eec225b0e2c",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[5]/svg[1]/symbol[5]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<symbol viewBox=\"0 0 500 500\" id=\"icon-whatsapp\"><title>whatsapp</title><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M254.55 1C119.793 1 10.543 109.368 10.543 243.056c0 45.74 12.796 88.506 35.012 124.986L1.514 497.92l135.094-42.9",
+"errorTitle": "Duplicate ID found",
+"position": "",
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "614fca4930af6a8624ffb0edd0deb1a1",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[5]/svg[1]/symbol[6]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<symbol viewBox=\"0 0 500 500\" id=\"icon-email\"><title>email</title><path d=\"M1.37 386.854c0 27.48 22.257 49.766 49.728 49.766H449.29c27.473 0 49.73-22.283 49.73-49.766v-248.87s-12.964 10.14-199.146 148.416c-28.297 17.07-69.558 17.46-9",
+"errorTitle": "Duplicate ID found",
+"position": "",
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "cf8530c4459a0e925eaeb5e52ecd894c",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[6]/svg[1]/symbol[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<symbol viewBox=\"0 0 500 500\" id=\"icon-facebook\"><title>facebook</title><path id=\"svgstoreeb06781e16b6b900d678925df65cf12eWhite_2_\" d=\"M471.38 1.153H28.62c-15.173 0-27.47 12.296-27.47 27.47v442.756c0 15.167 12.297 27.468 27.47 27.468",
+"errorTitle": "Duplicate ID found",
+"position": "",
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "0c2de6698781cf2d4188a094bfe320e8",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[6]/svg[1]/symbol[2]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<path id=\"svgstoreeb06781e16b6b900d678925df65cf12eWhite_2_\" d=\"M471.38 1.153H28.62c-15.173 0-27.47 12.296-27.47 27.47v442.756c0 15.167 12.297 27.468 27.47 27.468h238.365V306.113H202.13v-75.11h64.857v-55.394c0-64.284 39.262-99.288 96.607-99.288 27.47 0",
+"errorTitle": "Duplicate ID found",
+"position": "",
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "34871bbcde8cd533ed2958fe1d736a40",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[6]/svg[1]/symbol[2]/path[1]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<symbol viewBox=\"0 0 500 500\" id=\"icon-googleplus\"><title>googleplus</title><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M332.72 1.512H185.872c-97.906 0-150.835 45.908-150.835 125.266 0 65.242 60.163 109.498 131.258 99.056-17.323",
+"errorTitle": "Duplicate ID found",
+"position": "",
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "1f92842a9c45bfe51b54278c0c5f1510",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[6]/svg[1]/symbol[3]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<symbol viewBox=\"0 0 500 500\" id=\"icon-pinterest\"><title>pinterest</title><path d=\"M250.425 1.195C113.12 1.195 1.805 112.5 1.805 249.81c0 101.8 61.205 189.248 148.813 227.705-.704-17.358-.133-38.19 4.32-57.078 4.784-20.188 32-135.472",
+"errorTitle": "Duplicate ID found",
+"position": "",
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "98db00ba197ca626fa21cafbc827c11a",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[6]/svg[1]/symbol[4]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<symbol viewBox=\"0 0 500 500\" id=\"icon-twitter\"><title>twitter</title><path d=\"M498.717 96.337c-18.296 8.108-37.96 13.593-58.6 16.056 21.063-12.63 37.24-32.6 44.852-56.426-19.714 11.698-41.545 20.185-64.78 24.76-18.613-19.822-45.125-",
+"errorTitle": "Duplicate ID found",
+"position": "",
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "3978c29b49975c041e0bf8d7cecc06a7",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[6]/svg[1]/symbol[5]"
+},
+{
+"bpID": 179,
+"certainty": 100,
+"errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+"errorSnippet": "<symbol viewBox=\"0 0 500 500\" id=\"icon-whatsapp\"><title>whatsapp</title><path fill-rule=\"evenodd\" clip-rule=\"evenodd\" d=\"M254.55 1C119.793 1 10.543 109.368 10.543 243.056c0 45.74 12.796 88.506 35.012 124.986L1.514 497.92l135.094-42.9",
+"errorTitle": "Duplicate ID found",
+"position": "",
+"priority": 66,
+"ref": "null",
+"resultTitle": "Avoid re-use of ID attribute values",
+"signature": "1aadfd1eb392778310d0f9329b9992d3",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+],
+"tID": 75,
+"xpath": "/html/body/div[6]/svg[1]/symbol[6]"
+}
+],
+"resultSummary": {
+"density": {
+"allDensity": 42,
+"errorDensity": 42,
+"warningDensity": 0
+},
+"issues": {
+"totalErrors": 197,
+"totalIssues": 197,
+"totalWarnings": 0
+},
+"issuesByLevel": {
+"A": {
+"count": 197,
+"pct": 100
+},
+"AA": {
+"count": 0,
+"pct": 0
+},
+"AAA": {
+"count": 13,
+"pct": 6.6
+}
+},
+"tests": {
+"failing": 11,
+"passing": 51,
+"total": 62
+}
+},
+"sourceHash": "1ac47953b2047f7b7d54b8e0f1655816",
+"status": 200,
+"clientScriptErrors": [],
+"log": null
+}

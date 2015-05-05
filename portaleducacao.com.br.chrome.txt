@@ -1,39 +1,62 @@
 *** Begin accessibility audit results ***
 An accessibility audit found 
 Errors:
-Error: AX_TEXT_01 (Controls and media elements should have labels) failed on the following elements (1 - 2 of 2):
+Error: AX_TEXT_01 (Controls and media elements should have labels) failed on the following elements (1 - 3 of 3):
 #AreaAtuacao
+#Email
 #btnCadastrarTop10
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_01--controls-and-media-elements-should-have-labels for more information.
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_01 for more information.
+
+Error: AX_ARIA_10 (This element has an unsupported ARIA attribute) failed on the following elements (1 - 2 of 2):
+#fb_xdm_frame_http
+#fb_xdm_frame_https
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_aria_10 for more information.
 
 
 Warnings:
-Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 68):
+Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 80):
 #barra > .container > .row > .col-md-12 > .menu.mobile > UL > LI:nth-of-type(2) > .lnkMenuMobile
 #barra > .container > .row > .col-md-12 > .menu.mobile > UL > LI:nth-of-type(3) > .lnkMenuMobile
 #barra > .container > .row > .col-md-12 > .menu.mobile > UL > LI:nth-of-type(4) > .lnkMenuMobile
 #barra > .container > .row > .col-md-12 > .menu.mobile > UL > LI:nth-of-type(5) > .lnkMenuMobile
 #barra > .container > .row > .col-md-12 > .menu.mobile > UL > LI:nth-of-type(6) > .lnkMenuMobile
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_focus_01--these-elements-are-focusable-but-either-invisible-or-obscured-by-another-element for more information.
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_focus_01 for more information.
+
+Warning: AX_HTML_01 (The web page should have the content's human language indicated in the markup) failed on the following elements (1 - 5 of 5):
+html
+html
+html
+html
+html
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_html_01 for more information.
 
 Warning: AX_TEXT_02 (Images should have an alt attribute) failed on the following element:
-#destaques > .container > .row > .col-md-4.col-sm-4:nth-of-type(2) > .flexslider > .flex-viewport > .slides > LI:nth-of-type(3) > .boxPalestras > IMG
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_02--images-should-have-an-alt-attribute-unless-they-have-an-aria-role-of-presentation for more information.
+#destaques > .container > .row > DIV:nth-of-type(2) > .flexslider > .flex-viewport > .slides > LI:nth-of-type(3) > .boxPalestras > IMG
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_02 for more information.
 
-Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 11):
+Warning: AX_TEXT_04 (The purpose of each link should be clear from the link text) failed on the following elements (1 - 5 of 35):
+#barra > .container > .row > .col-md-12 > .grid.gchat > SMALL > .lnkBarra
+#abaArtigos > .container > .row > UL:nth-of-type(4) > LI:nth-of-type(3) > .abaArtigos
+#thalita_cursos > OBJECT > A
+#slider > .container > .row > .col-md-12 > .flexslider > .flex-viewport > .slides > .clone > .bannerPadrao
+#slider > .container > .row > .col-md-12 > .flexslider > .flex-viewport > .slides > .flex-active-slide > .bannerPadrao
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_04 for more information.
+
+Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 14):
 #barra > .container > .row > .col-md-12 > .grid.login > DIV > .lnkBarra
 #btn
 #cursos > .container > .row > .col-md-12 > .aba.abaPos.bgPos.principal > .btn.lnkMenuPrincipal
 #cursos > .container > .row > .col-md-12 > .aba.abaIdiomas.bgIdiomas.principal > .btn.lnkMenuPrincipal
 #cursos > .container > .row > .col-md-12 > .aba.abaProfissionalizantes.bgProfissionalizantes.principal > .h1
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_color_01--text-elements-should-have-a-reasonable-contrast-ratio for more information.
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_color_01 for more information.
 
-Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 4 of 4):
+Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 5 of 10):
 #inputBusca
-#btnCadastrarTop10
-#modalPromo > .fechar.linkModalPromo
-#idTopo
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_image_01--meaningful-images-should-not-be-used-in-element-backgrounds for more information.
+#widget > .title > .refresh
+#widget > .frame > .prev
+#widget > .frame > .next
+#widget > .title > .refresh
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_image_01 for more information.
 
 
 *** End accessibility audit results ***

@@ -1,29 +1,73 @@
 *** Begin accessibility audit results ***
 An accessibility audit found 
-Warnings:
-Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 38):
-#q
-#promoter_bj > .news_bj > A
-#promoter_bj > .news_bj:nth-of-type(2) > A
-#promoter_bj > .news_bj:nth-of-type(3) > A
-#promoter_bj > .news_bj:nth-of-type(3) > H3 > A
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_focus_01--these-elements-are-focusable-but-either-invisible-or-obscured-by-another-element for more information.
+Errors:
+Error: AX_HTML_02 (An element's ID must be unique in the DOM) failed on the following elements (1 - 2 of 2):
+#fb-root
+#fb-root
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_html_02 for more information.
 
-Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 68):
+Error: AX_ARIA_10 (This element has an unsupported ARIA attribute) failed on the following elements (1 - 2 of 2):
+#fb_xdm_frame_http
+#fb_xdm_frame_https
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_aria_10 for more information.
+
+
+Warnings:
+Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 69):
+#q
+#google_ads_frame4
+#aw0
+#google_image_div > IFRAME
+IFRAME
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_focus_01 for more information.
+
+Warning: AX_HTML_01 (The web page should have the content's human language indicated in the markup) failed on the following elements (1 - 5 of 13):
+html
+html
+html
+html
+html
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_html_01 for more information.
+
+Warning: AX_TEXT_02 (Images should have an alt attribute) failed on the following elements (1 - 5 of 25):
+#aw0 > .img_ad
+#clickjogos-978x263 > .products > .cont > .products-ul > LI > .active > LI > A > .img-107x107 > IMG
+#clickjogos-978x263 > .products > .cont > .products-ul > LI > .active > LI:nth-of-type(2) > A > .img-107x107 > IMG
+#clickjogos-978x263 > .products > .cont > .products-ul > LI > .active > LI:nth-of-type(3) > A > .img-107x107 > IMG
+#clickjogos-978x263 > .products > .cont > .products-ul > LI > .active > LI:nth-of-type(4) > A > .img-107x107 > IMG
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_02 for more information.
+
+Warning: AX_TEXT_04 (The purpose of each link should be clear from the link text) failed on the following elements (1 - 5 of 121):
+#background_zone > .container.bgad > A
+#aw0
+#search_area > .fields > .submit
+#aw0
+#premium_games > .game_listing > .premium > .game.last > .image
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_04 for more information.
+
+Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 95):
+#search_area > .fields > DT > LABEL
 #header > .user-box > DIV > .user-info > .logged-out > .sign_up
 #nav > UL > .home > A > SPAN
 #nav > UL > LI:nth-of-type(2) > A
 #nav > UL > LI:nth-of-type(3) > A
-#nav > UL > LI:nth-of-type(4) > A
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_color_01--text-elements-should-have-a-reasonable-contrast-ratio for more information.
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_color_01 for more information.
 
-Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 5 of 34):
+Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 5 of 36):
 #search_area > .fields > .submit > SPAN
 #highlight_pages > .h2_block > .h_more > A > SPAN
 #highlight_pages > .buttons > .nav > .direction.prev > SPAN
 #highlight_pages > .buttons > .nav > .markers > .marker.selected
-#highlight_pages > .buttons > .nav > .markers > .marker:nth-of-type(2)
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_image_01--meaningful-images-should-not-be-used-in-element-backgrounds for more information.
+#highlight_pages > .buttons > .nav > .markers > A:nth-of-type(2)
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_image_01 for more information.
+
+Warning: AX_TITLE_01 (The web page should have a title that describes topic or purpose) failed on the following elements (1 - 5 of 10):
+html
+html
+html
+html
+html
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_title_01 for more information.
 
 
 *** End accessibility audit results ***

@@ -1,3 +1,67 @@
+TypeError: undefined is not a constructor (evaluating 'op.onshow(this.op)')
+
+  http://www.santander.com.br/document/wps/std-browser-update.js:270 in $buo
 *** Begin accessibility audit results ***
 An accessibility audit found 
+Errors:
+Error: AX_TEXT_01 (Controls and media elements should have labels) failed on the following elements (1 - 3 of 3):
+#txtCPF
+#txtDocto
+#select_dialogo
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_01 for more information.
+
+
+Warnings:
+Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 19):
+FORM > CENTER > TABLE > TBODY > TR > TD:nth-of-type(2) > TABLE > TBODY > TR:nth-of-type(2) > TD:nth-of-type(2) > A
+FORM > CENTER > TABLE > TBODY > TR > TD:nth-of-type(3) > TABLE > TBODY > TR > TD > TABLE > TBODY > TR:nth-of-type(2) > TD > .comoacessar
+#iFrameValidaContrato
+#menuSecoes > LI > A
+#menuSecoes > LI:nth-of-type(2) > .selecionadoNivel1
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_focus_01 for more information.
+
+Warning: AX_HTML_01 (The web page should have the content's human language indicated in the markup) failed on the following elements (1 - 5 of 5):
+html
+html
+html
+html
+html
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_html_01 for more information.
+
+Warning: AX_TEXT_02 (Images should have an alt attribute) failed on the following elements (1 - 5 of 8):
+#webdoor_1 > IMG
+#box_left_novo > DIV:nth-of-type(6) > .bt_veja_mais_2 > IMG
+#naocorrentista > P > A > IMG
+#atendimento2012 > .fleftc_03 > IMG
+#atendimento2012 > .fleftc_05 > IMG
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_02 for more information.
+
+Warning: AX_TEXT_04 (The purpose of each link should be clear from the link text) failed on the following elements (1 - 5 of 21):
+FORM > CENTER > TABLE > TBODY > TR > TD:nth-of-type(2) > TABLE > TBODY > TR:nth-of-type(2) > TD:nth-of-type(2) > A
+FORM > CENTER > TABLE > TBODY > TR > TD:nth-of-type(3) > TABLE > TBODY > TR > TD:nth-of-type(3) > TABLE > TBODY > TR:nth-of-type(2) > TD > TABLE > TBODY > TR > TD > A
+FORM > CENTER > TABLE > TBODY > TR > TD:nth-of-type(3) > TABLE > TBODY > TR > TD:nth-of-type(3) > TABLE > TBODY > TR:nth-of-type(2) > TD > TABLE > TBODY > TR > TD:nth-of-type(3) > A
+#segundoNivel > LI > A
+#boxBusca > FORM > A
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_04 for more information.
+
+Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 48):
+FORM > CENTER > TABLE > TBODY > TR > TD:nth-of-type(3) > TABLE > TBODY > TR > TD > TABLE > TBODY > TR:nth-of-type(2) > TD > .comoacessar
+FORM > CENTER > TABLE > TBODY > TR > TD:nth-of-type(3) > TABLE > TBODY > TR > TD:nth-of-type(2) > TABLE > TBODY > TR:nth-of-type(2) > .branco
+FORM > CENTER > TABLE > TBODY > TR > TD:nth-of-type(3) > TABLE > TBODY > TR > TD:nth-of-type(2) > TABLE > TBODY > TR:nth-of-type(2) > .branco > .comoacessar
+#hrefOk
+#tblBlocoCPF > TBODY > TR > TD:nth-of-type(3) > A
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_color_01 for more information.
+
+Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 3 of 3):
+#box_left_novo > DIV:nth-of-type(6) > .bt_veja_mais_2
+#form-fatura-online > FIELDSET > .btn_ok
+#ok_acesso
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_image_01 for more information.
+
+Warning: AX_TITLE_01 (The web page should have a title that describes topic or purpose) failed on the following elements (1 - 2 of 2):
+html
+html
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_title_01 for more information.
+
+
 *** End accessibility audit results ***

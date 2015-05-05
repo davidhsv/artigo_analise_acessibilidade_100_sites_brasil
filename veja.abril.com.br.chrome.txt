@@ -1,27 +1,70 @@
 *** Begin accessibility audit results ***
 An accessibility audit found 
 Errors:
-Error: AX_TEXT_01 (Controls and media elements should have labels) failed on the following element:
+Error: AX_TEXT_01 (Controls and media elements should have labels) failed on the following elements (1 - 3 of 3):
+#search > .form-control
 #search > .user-menu-btn.icon-search
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_01--controls-and-media-elements-should-have-labels for more information.
+#mc_botao
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_01 for more information.
+
+Error: AX_HTML_02 (An element's ID must be unique in the DOM) failed on the following elements (1 - 2 of 2):
+#minicupom
+#minicupom
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_html_02 for more information.
 
 
 Warnings:
-Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 22):
+Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 279):
 #google_ads_iframe_/9287/veja/home_1
+#main-menu-btn
 #search > .form-control
-#ubber-content > .row.ubber-home > DIV:nth-of-type(2) > .home-box-border > .titulo-principal-border.bloco-bottom-border > A
-#ubber-content > .row.ubber-home > DIV:nth-of-type(2) > .home-box-border > .home-colunistas.clearfix > .list.slick-initialized.slick-slider > .slick-list.draggable > .slick-track > .item.ubber-home-chamada.colunista.slick-slide:nth-of-type(7) > .imagem > A
-#ubber-content > .row.ubber-home > DIV:nth-of-type(2) > .home-box-border > .home-colunistas.clearfix > .list.slick-initialized.slick-slider > .slick-list.draggable > .slick-track > .item.ubber-home-chamada.colunista.slick-slide:nth-of-type(15) > .imagem > A
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_focus_01--these-elements-are-focusable-but-either-invisible-or-obscured-by-another-element for more information.
+#search > .user-menu-btn.icon-search
+#abril-id-wrapper > .abril-id-container > .btn-group > .bts > .btn.abrilid-btn
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_focus_01 for more information.
 
-Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 119):
+Warning: AX_HTML_01 (The web page should have the content's human language indicated in the markup) failed on the following elements (1 - 5 of 8):
+html
+html
+html
+html
+html
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_html_01 for more information.
+
+Warning: AX_TEXT_02 (Images should have an alt attribute) failed on the following elements (1 - 4 of 4):
+#abr_RMContainer > A > IMG
+#closeButton_1604051110 > IMG
+IMG
+IMG
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_02 for more information.
+
+Warning: AX_TEXT_04 (The purpose of each link should be clear from the link text) failed on the following elements (1 - 5 of 88):
+#abr_RMContainer > A
+#main-menu-btn
+#main-menu > UL > LI:nth-of-type(19) > .social-nav > UL > LI > .fa.fa-facebook
+#main-menu > UL > LI:nth-of-type(19) > .social-nav > UL > LI:nth-of-type(2) > .fa.fa-twitter
+#main-menu > UL > LI:nth-of-type(19) > .social-nav > UL > LI:nth-of-type(3) > .fa.fa-google-plus
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_04 for more information.
+
+Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 133):
 #main-menu > UL > .has-submenu > .main-menu-sub > .main-menu-sub-title
-#main-menu > UL > .has-submenu:nth-of-type(2) > .main-menu-sub > .main-menu-sub-title
-#main-menu > UL > .has-submenu:nth-of-type(3) > .main-menu-sub > .main-menu-sub-title
-#main-menu > UL > .has-submenu:nth-of-type(4) > .main-menu-sub > .main-menu-sub-title
-#main-menu > UL > .has-submenu:nth-of-type(5) > .main-menu-sub > .main-menu-sub-title
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_color_01--text-elements-should-have-a-reasonable-contrast-ratio for more information.
+#main-menu > UL > LI:nth-of-type(2) > .main-menu-sub > .main-menu-sub-title
+#main-menu > UL > LI:nth-of-type(3) > .main-menu-sub > .main-menu-sub-title
+#main-menu > UL > LI:nth-of-type(4) > .main-menu-sub > .main-menu-sub-title
+#main-menu > UL > LI:nth-of-type(5) > .main-menu-sub > .main-menu-sub-title
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_color_01 for more information.
+
+Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 2 of 2):
+#barra_assinaturas > .assinaturas > .logos > .divisor_50
+#mc_botao
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_image_01 for more information.
+
+Warning: AX_TITLE_01 (The web page should have a title that describes topic or purpose) failed on the following elements (1 - 5 of 6):
+html
+html
+html
+html
+html
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_title_01 for more information.
 
 
 *** End accessibility audit results ***

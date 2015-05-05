@@ -1,135 +1,82 @@
-Error: Load timeout for modules: libs/jquery-noconflict,libs/location,libs/cache,libs/amplify
-http://requirejs.org/docs/errors.html#timeout
-
-  http://br.staticontent.com/static-home-ui/0.0.142-geofix1/js/libs/mcreqjs.1.1.0.js:1 in onError
-  http://br.staticontent.com/jslibs/require-2.0.6.min.js:26
-  http://br.staticontent.com/jslibs/require-2.0.6.min.js:7 in o
-  http://br.staticontent.com/jslibs/require-2.0.6.min.js:26 in emit
-  http://br.staticontent.com/jslibs/require-2.0.6.min.js:19
-  http://br.staticontent.com/jslibs/require-2.0.6.min.js:7
-  http://br.staticontent.com/jslibs/require-2.0.6.min.js:26
-  http://br.staticontent.com/jslibs/require-2.0.6.min.js:7 in o
-  http://br.staticontent.com/jslibs/require-2.0.6.min.js:26 in emit
-  http://br.staticontent.com/jslibs/require-2.0.6.min.js:19
-  http://br.staticontent.com/jslibs/require-2.0.6.min.js:7
-  http://br.staticontent.com/jslibs/require-2.0.6.min.js:26
-  http://br.staticontent.com/jslibs/require-2.0.6.min.js:7 in o
-  http://br.staticontent.com/jslibs/require-2.0.6.min.js:26 in emit
-  http://br.staticontent.com/jslibs/require-2.0.6.min.js:15
-  http://br.staticontent.com/jslibs/require-2.0.6.min.js:7 in o
-  http://br.staticontent.com/jslibs/require-2.0.6.min.js:14 in A
-  http://br.staticontent.com/jslibs/require-2.0.6.min.js:17 in T
-  http://br.staticontent.com/jslibs/require-2.0.6.min.js:17
-TypeError: undefined is not a constructor (evaluating 'd.get()')
-
-  http://br.staticontent.com/js-versioned/1.60.1/FrameworkJS/base.js:1 in handler
-  http://br.staticontent.com/js-versioned/1.60.1/FrameworkJS/base.js:1 in onerror
-TypeError: undefined is not a constructor (evaluating 'd.get()')
-
-  http://br.staticontent.com/js-versioned/1.60.1/FrameworkJS/base.js:1 in handler
-  http://br.staticontent.com/js-versioned/1.60.1/FrameworkJS/base.js:1 in onerror
-TypeError: undefined is not a constructor (evaluating 'd.get()')
-
-  http://br.staticontent.com/js-versioned/1.60.1/FrameworkJS/base.js:1 in handler
-  http://br.staticontent.com/js-versioned/1.60.1/FrameworkJS/base.js:1 in onerror
-TypeError: undefined is not a constructor (evaluating 'jQuery.tmpl')
-
-  http://br.staticontent.com/nibbler-versioned/1.2.85.5/pkg/searchboxHelper.js:1 in j
-  http://br.staticontent.com/nibbler-versioned/1.2.85.5/pkg/searchboxHelper.js:1 in render
-  http://br.staticontent.com/nibbler-versioned/1.2.85.5/pkg/searchboxHelper.js:1
-  http://br.staticontent.com/nibbler-versioned/1.2.85.5/pkg/searchboxHelper.js:1 in every
-  http://br.staticontent.com/nibbler-versioned/1.2.85.5/pkg/searchboxHelper.js:1 in render
-  http://br.staticontent.com/nibbler-versioned/1.2.85.5/pkg/searchboxHelper.js:1 in r
-  http://br.staticontent.com/nibbler-versioned/1.2.85.5/pkg/searchboxHelper.js:1 in show
-  http://br.staticontent.com/nibbler-versioned/1.2.85.5/pkg/searchboxHelper.js:1
-  http://br.staticontent.com/jslibs/jquery-1.7.2.min.js:3 in dispatch
-  http://br.staticontent.com/jslibs/jquery-1.7.2.min.js:3 in i
-  :0 in focus
-  ../../dist/js/axs_testing.js:1624 in test
-  ../../dist/js/axs_testing.js:1411 in run
-  ../../dist/js/axs_testing.js:1524 in run
-  phantomjs://webpage.evaluate():2
-  phantomjs://webpage.evaluate():4
-TypeError: undefined is not a constructor (evaluating 'd.get()')
-
-  http://br.staticontent.com/js-versioned/1.60.1/FrameworkJS/base.js:1 in handler
-  http://br.staticontent.com/js-versioned/1.60.1/FrameworkJS/base.js:1 in onerror
-  :0 in focus
-  ../../dist/js/axs_testing.js:1624 in test
-  ../../dist/js/axs_testing.js:1411 in run
-  ../../dist/js/axs_testing.js:1524 in run
-  phantomjs://webpage.evaluate():2
-  phantomjs://webpage.evaluate():4
-TypeError: undefined is not a constructor (evaluating 'jQuery.tmpl')
-
-  http://br.staticontent.com/nibbler-versioned/1.2.85.5/pkg/searchboxHelper.js:1 in j
-  http://br.staticontent.com/nibbler-versioned/1.2.85.5/pkg/searchboxHelper.js:1 in render
-  http://br.staticontent.com/nibbler-versioned/1.2.85.5/pkg/searchboxHelper.js:1
-  http://br.staticontent.com/nibbler-versioned/1.2.85.5/pkg/searchboxHelper.js:1 in every
-  http://br.staticontent.com/nibbler-versioned/1.2.85.5/pkg/searchboxHelper.js:1 in render
-  http://br.staticontent.com/nibbler-versioned/1.2.85.5/pkg/searchboxHelper.js:1 in r
-  http://br.staticontent.com/nibbler-versioned/1.2.85.5/pkg/searchboxHelper.js:1 in show
-  http://br.staticontent.com/nibbler-versioned/1.2.85.5/pkg/searchboxHelper.js:1
-  http://br.staticontent.com/jslibs/jquery-1.7.2.min.js:3 in dispatch
-  http://br.staticontent.com/jslibs/jquery-1.7.2.min.js:3 in i
-  :0 in focus
-  ../../dist/js/axs_testing.js:1624 in test
-  ../../dist/js/axs_testing.js:1411 in run
-  ../../dist/js/axs_testing.js:1524 in run
-  phantomjs://webpage.evaluate():2
-  phantomjs://webpage.evaluate():4
-TypeError: undefined is not a constructor (evaluating 'd.get()')
-
-  http://br.staticontent.com/js-versioned/1.60.1/FrameworkJS/base.js:1 in handler
-  http://br.staticontent.com/js-versioned/1.60.1/FrameworkJS/base.js:1 in onerror
-  :0 in focus
-  ../../dist/js/axs_testing.js:1624 in test
-  ../../dist/js/axs_testing.js:1411 in run
-  ../../dist/js/axs_testing.js:1524 in run
-  phantomjs://webpage.evaluate():2
-  phantomjs://webpage.evaluate():4
 *** Begin accessibility audit results ***
 An accessibility audit found 
 Errors:
-Error: AX_TEXT_01 (Controls and media elements should have labels) failed on the following elements (1 - 3 of 3):
-body > .ux-wrapper > .ux-common-grid-row > .ux-common-grid-col6.ux-common-grid-col7-large.ux-common-grid-col12-medium.ux-common-grid-col12-small.ux--searchboxcol-fixed > .searchbox.hotels > .pdt-hotels.fh > .mod-roomsquantity > .com-roomquantity > .sb-hotels
-body > .ux-wrapper > .ux-common-grid-row > .ux-common-grid-col6.ux-common-grid-col7-large.ux-common-grid-col12-medium.ux-common-grid-col12-small.ux--searchboxcol-fixed > .searchbox.hotels > .pdt-hotels.fh > .mod-passengers > .ctn-passengers > .com-passenger.cp-1 > .ctn-passenger > .ctn-adult.ctn-1 > .adult
-body > .ux-wrapper > .ux-common-grid-row > .ux-common-grid-col6.ux-common-grid-col7-large.ux-common-grid-col12-medium.ux-common-grid-col12-small.ux--searchboxcol-fixed > .searchbox.hotels > .pdt-hotels.fh > .mod-passengers > .ctn-passengers > .com-passenger.cp-1 > .ctn-passenger > .ctn-child.ctn-1 > .child
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_01--controls-and-media-elements-should-have-labels for more information.
+Error: AX_TEXT_01 (Controls and media elements should have labels) failed on the following elements (1 - 5 of 10):
+#nibbler-header-notlogged > .nibbler-header-popup.nibbler-header-popup-selfservice > .nibbler-header-popup-inner > .nibbler-header-popup-body > .nibbler-header-grid-row > .nibbler-header-grid-col6.nibbler-header-grid-col12-small > .nibbler-header-login > LABEL > .nibbler-header-login-input-icon > .nibbler-header-input
+#nibbler-header-notlogged > .nibbler-header-popup.nibbler-header-popup-selfservice > .nibbler-header-popup-inner > .nibbler-header-popup-body > .nibbler-header-grid-row > .nibbler-header-grid-col6.nibbler-header-grid-col12-small > .nibbler-header-login > LABEL:nth-of-type(2) > .nibbler-header-login-input-icon > .nibbler-header-input
+#nibbler-header-notlogged > .nibbler-header-popup.nibbler-header-popup-selfservice > .nibbler-header-popup-inner > .nibbler-header-popup-slide.nibbler-header-popup-password-recover > .nibbler-header-popup-slide-inner > .nibbler-header-popup-slide-form > .nibbler-header-input
+#nibbler-header-notlogged > .nibbler-header-popup.nibbler-header-popup-selfservice > .nibbler-header-popup-inner > .nibbler-header-popup-slide.nibbler-header-popup-signin > .nibbler-header-popup-slide-inner > .nibbler-header-register.nibbler-header-popup-slide-form.nibbler--security-active > .nibbler-header-input
+#nibbler-header-notlogged > .nibbler-header-popup.nibbler-header-popup-selfservice > .nibbler-header-popup-inner > .nibbler-header-popup-slide.nibbler-header-popup-signin > .nibbler-header-popup-slide-inner > .nibbler-header-register.nibbler-header-popup-slide-form.nibbler--security-active > INPUT:nth-of-type(2)
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_01 for more information.
+
+Error: AX_HTML_02 (An element's ID must be unique in the DOM) failed on the following elements (1 - 5 of 28):
+#autocomplete-tpl
+#lbl-destination-flightshotels
+#sb-destination-flightshotels
+#lbl-datein-flightshotels2
+#sb-datein-flightshotels2
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_html_02 for more information.
+
+Error: AX_ARIA_10 (This element has an unsupported ARIA attribute) failed on the following elements (1 - 2 of 2):
+#fb_xdm_frame_http
+#fb_xdm_frame_https
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_aria_10 for more information.
 
 
 Warnings:
-Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 70):
-body > .nibbler-header.nibbler-header-pt > .nibbler-header-main > .nibbler-header-inner > .nibbler-header-logo
+Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 17):
 #nibbler-header-notlogged > .nibbler-header-popup.nibbler-header-popup-selfservice > .nibbler-header-popup-inner > .nibbler-header-popup-slide.nibbler-header-popup-password-recover > .nibbler-header-popup-slide-inner > .nibbler-header-popup-slide-form > .nibbler-header-button.primary
 #nibbler-header-notlogged > .nibbler-header-popup.nibbler-header-popup-selfservice > .nibbler-header-popup-inner > .nibbler-header-popup-slide.nibbler-header-popup-signin > .nibbler-header-popup-slide-inner > .nibbler-header-register.nibbler-header-popup-slide-form.nibbler--security-active > .nibbler-header-input
-#nibbler-header-notlogged > .nibbler-header-popup.nibbler-header-popup-selfservice > .nibbler-header-popup-inner > .nibbler-header-popup-slide.nibbler-header-popup-signin > .nibbler-header-popup-slide-inner > .nibbler-header-register.nibbler-header-popup-slide-form.nibbler--security-active > .nibbler-header-input:nth-of-type(2)
+#nibbler-header-notlogged > .nibbler-header-popup.nibbler-header-popup-selfservice > .nibbler-header-popup-inner > .nibbler-header-popup-slide.nibbler-header-popup-signin > .nibbler-header-popup-slide-inner > .nibbler-header-register.nibbler-header-popup-slide-form.nibbler--security-active > INPUT:nth-of-type(2)
 #nibbler-header-notlogged > .nibbler-header-popup.nibbler-header-popup-selfservice > .nibbler-header-popup-inner > .nibbler-header-popup-slide.nibbler-header-popup-signin > .nibbler-header-popup-slide-inner > .nibbler-header-register.nibbler-header-popup-slide-form.nibbler--security-active > .nibbler-header-popup-terms > A
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_focus_01--these-elements-are-focusable-but-either-invisible-or-obscured-by-another-element for more information.
+#nibbler-header-notlogged > .nibbler-header-popup.nibbler-header-popup-selfservice > .nibbler-header-popup-inner > .nibbler-header-popup-slide.nibbler-header-popup-signin > .nibbler-header-popup-slide-inner > .nibbler-header-register.nibbler-header-popup-slide-form.nibbler--security-active > .nibbler-header-button.primary.nibbler-header-button-create-account
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_focus_01 for more information.
+
+Warning: AX_HTML_01 (The web page should have the content's human language indicated in the markup) failed on the following elements (1 - 5 of 5):
+html
+html
+html
+html
+html
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_html_01 for more information.
 
 Warning: AX_TEXT_02 (Images should have an alt attribute) failed on the following elements (1 - 5 of 7):
 body > .ux-wrapper > .carousel-box > .module3 > .ux-home-offer-list.ux-home-comments-list > .slides-container > .slide > .slider-slide-link > .ux-home-comment.trustpilot > .ux-home-comment-logo
 body > .ux-wrapper > .carousel-box > .module3 > .ux-home-offer-list.ux-home-comments-list > .slides-container > .slide.item-home-review > .ux-home-comment.orange > .ux-home-comment-inner > .ux-home-comment-body > .ux-home-comment-picture > IMG
-body > .ux-wrapper > .carousel-box > .module3 > .ux-home-offer-list.ux-home-comments-list > .slides-container > .slide.item-home-review:nth-of-type(2) > .ux-home-comment.green > .ux-home-comment-inner > .ux-home-comment-body > .ux-home-comment-picture > IMG
-body > .ux-wrapper > .carousel-box > .module3 > .ux-home-offer-list.ux-home-comments-list > .slides-container > .slide.item-home-review:nth-of-type(3) > .ux-home-comment.blue > .ux-home-comment-inner > .ux-home-comment-body > .ux-home-comment-picture > IMG
-body > .ux-wrapper > .carousel-box > .module3 > .ux-home-offer-list.ux-home-comments-list > .slides-container > .slide.item-home-review:nth-of-type(4) > .ux-home-comment.orange > .ux-home-comment-inner > .ux-home-comment-body > .ux-home-comment-picture > IMG
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_02--images-should-have-an-alt-attribute-unless-they-have-an-aria-role-of-presentation for more information.
+body > .ux-wrapper > .carousel-box > .module3 > .ux-home-offer-list.ux-home-comments-list > .slides-container > LI:nth-of-type(3) > .ux-home-comment.green > .ux-home-comment-inner > .ux-home-comment-body > .ux-home-comment-picture > IMG
+body > .ux-wrapper > .carousel-box > .module3 > .ux-home-offer-list.ux-home-comments-list > .slides-container > LI:nth-of-type(4) > .ux-home-comment.blue > .ux-home-comment-inner > .ux-home-comment-body > .ux-home-comment-picture > IMG
+body > .ux-wrapper > .carousel-box > .module3 > .ux-home-offer-list.ux-home-comments-list > .slides-container > LI:nth-of-type(5) > .ux-home-comment.orange > .ux-home-comment-inner > .ux-home-comment-body > .ux-home-comment-picture > IMG
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_02 for more information.
 
-Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 711):
+Warning: AX_TEXT_04 (The purpose of each link should be clear from the link text) failed on the following elements (1 - 5 of 188):
+body > .nibbler-header.nibbler-header-pt > .nibbler-header-main > .nibbler-header-inner > .nibbler-header-logo
+#nibbler-header-notlogged > .nibbler-header-popup.nibbler-header-popup-selfservice > .nibbler-header-popup-inner > .nibbler-header-popup-close-mobile.nibbler-common-icon-remove
+#nibbler-header-notlogged > .nibbler-header-popup.nibbler-header-popup-selfservice > .nibbler-header-popup-inner > .nibbler-header-popup-slide.nibbler-header-popup-password-recover > .nibbler-header-popup-slide-inner > .nibbler-common-icon-remove.nibbler-header-popup-slide-close
+#nibbler-header-notlogged > .nibbler-header-popup.nibbler-header-popup-selfservice > .nibbler-header-popup-inner > .nibbler-header-popup-slide.nibbler-header-popup-signin > .nibbler-header-popup-slide-inner > .nibbler-common-icon-remove.nibbler-header-popup-slide-close
+#nibbler-header-notlogged > .nibbler-header-popup.nibbler-header-popup-selfservice > .nibbler-header-popup-inner > .nibbler-header-popup-slide.nibbler-header-popup-phones > .nibbler-header-popup-slide-inner > .nibbler-common-icon-remove.nibbler-header-popup-slide-close
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_04 for more information.
+
+Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 783):
 #nibbler-header-notlogged > A > .nibbler-header-user-menu-text.nibbler-header-user-menu-name > .nibbler-header-user-menu-text-name
 #nibbler-header-notlogged > A > .nibbler-header-user-menu-text.nibbler-header-user-menu-name > .nibbler-header-user-menu-selfservice
 #nibbler-header-notlogged > .nibbler-header-popup.nibbler-header-popup-selfservice > .nibbler-header-popup-inner > .nibbler-header-popup-body > .nibbler-header-grid-row > .nibbler-header-grid-col6.nibbler-header-grid-col12-small > .nibbler-header-social > .nibbler-header-popup-facebook-disclaimer
 #nibbler-header-notlogged > .nibbler-header-popup.nibbler-header-popup-selfservice > .nibbler-header-popup-inner > .nibbler-header-popup-body > .nibbler-header-grid-row > .nibbler-header-grid-col6.nibbler-header-grid-col12-small > .nibbler-header-login > .nibbler-header-login-actions > LI:nth-of-type(2) > .nibbler-header-login-forget-pass
 #nibbler-header-notlogged > .nibbler-header-popup.nibbler-header-popup-selfservice > .nibbler-header-popup-inner > .nibbler-header-popup-body > .nibbler-header-grid-row > .nibbler-header-grid-col6.nibbler-header-grid-col12-small > .nibbler-header-login > .nibbler-header-login-disclaimer > .nibbler-header-login-create-account
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_color_01--text-elements-should-have-a-reasonable-contrast-ratio for more information.
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_color_01 for more information.
 
-Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 5 of 21):
+Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 5 of 22):
 #nibbler-header-notlogged > .nibbler-header-popup.nibbler-header-popup-selfservice > .nibbler-header-popup-inner > .nibbler-header-popup-slide.nibbler-header-popup-phones > .nibbler-header-popup-slide-inner > .nibbler-header-popup-phones-container > .nibbler-header-popup-phones-header > .nibbler-header-popup-phones-main > .nibbler-header-popup-phones-main-flag.nibbler--flag-brasil
 #nibbler-header-notlogged > .nibbler-header-popup.nibbler-header-popup-selfservice > .nibbler-header-popup-inner > .nibbler-header-popup-slide.nibbler-header-popup-phones > .nibbler-header-popup-slide-inner > .nibbler-header-popup-phones-container > .nibbler-header-popup-phones-list > UL > LI > .nibbler--flag.nibbler--flag-chile
 #nibbler-header-notlogged > .nibbler-header-popup.nibbler-header-popup-selfservice > .nibbler-header-popup-inner > .nibbler-header-popup-slide.nibbler-header-popup-phones > .nibbler-header-popup-slide-inner > .nibbler-header-popup-phones-container > .nibbler-header-popup-phones-list > UL > LI:nth-of-type(2) > .nibbler--flag.nibbler--flag-colombia
 #nibbler-header-notlogged > .nibbler-header-popup.nibbler-header-popup-selfservice > .nibbler-header-popup-inner > .nibbler-header-popup-slide.nibbler-header-popup-phones > .nibbler-header-popup-slide-inner > .nibbler-header-popup-phones-container > .nibbler-header-popup-phones-list > UL > LI:nth-of-type(3) > .nibbler--flag.nibbler--flag-costarica
 #nibbler-header-notlogged > .nibbler-header-popup.nibbler-header-popup-selfservice > .nibbler-header-popup-inner > .nibbler-header-popup-slide.nibbler-header-popup-phones > .nibbler-header-popup-slide-inner > .nibbler-header-popup-phones-container > .nibbler-header-popup-phones-list > UL > LI:nth-of-type(4) > .nibbler--flag.nibbler--flag-ecuador
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_image_01--meaningful-images-should-not-be-used-in-element-backgrounds for more information.
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_image_01 for more information.
+
+Warning: AX_TITLE_01 (The web page should have a title that describes topic or purpose) failed on the following elements (1 - 3 of 3):
+html
+html
+html
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_title_01 for more information.
 
 
 *** End accessibility audit results ***

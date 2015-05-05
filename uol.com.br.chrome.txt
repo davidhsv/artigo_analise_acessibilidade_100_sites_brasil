@@ -1,53 +1,76 @@
-TypeError: undefined is not an object (evaluating 'slot.ads[0]')
-
-  http://tm.jsuol.com.br/modules/admanager-bar.js:1 in prepareSlot
-  http://tm.jsuol.com.br/modules/admanager-bar.js:1 in getSlot
-  http://tm.jsuol.com.br/modules/admanager-bar.js:1 in getSlots
-  http://tm.jsuol.com.br/modules/admanager-bar.js:1 in showDefaultAds
-  http://tm.jsuol.com.br/modules/admanager-bar.js:1
 *** Begin accessibility audit results ***
 An accessibility audit found 
 Errors:
-Error: AX_TEXT_01 (Controls and media elements should have labels) failed on the following elements (1 - 4 of 4):
+Error: AX_TEXT_01 (Controls and media elements should have labels) failed on the following elements (1 - 5 of 8):
+#formBusca > FIELDSET > .inputText.suggest-input.cor9
 #formBusca > FIELDSET > .buttonSubmit
+#corpo > .area-tvuol.horizontal-tvuol.mod-horizontal.module > .tv-uol > .horizontal-header.tv-uol-header.border2-top > .module.search > .search-input
 #corpo > .area-tvuol.horizontal-tvuol.mod-horizontal.module > .tv-uol > .horizontal-header.tv-uol-header.border2-top > .module.search > .icon.icon-search
-#corpo > .mod-horizontal.radio-jogos-container > .modulo-radio.area-radio > .formBusca-radio-jogos.module > .btnSub
-#corpo > .mod-horizontal.radio-jogos-container > .modulo-jogos.area-jogos > .formBusca-radio-jogos.module > .btnSub
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_01--controls-and-media-elements-should-have-labels for more information.
+#corpo > .mod-horizontal.radio-jogos-container > .modulo-radio.area-radio > .formBusca-radio-jogos.module > .input-container > .iptText.bg7.corf.bordap.q
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_01 for more information.
+
+Error: AX_HTML_02 (An element's ID must be unique in the DOM) failed on the following elements (1 - 2 of 2):
+#DEprvwIfrm
+#DEprvwIfrm
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_html_02 for more information.
 
 
 Warnings:
 Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 116):
 #topo > .container-superior.bg27 > .centraliza > .pagina-inicial > .corw.cor-transition.opacity80.btnPaginaInicial
-#topo > .container-superior.bg27 > .centraliza > .cotacao-dolar.corw > .opacity80.cor-transition.corw
-#topo > .container-superior.bg27 > .centraliza > .link.corw.cor-transition.opacity80
 #corpo > .mod-horizontal.topo-padrao.area-padrao > .container-cols > .horizontal-manchete.double-area.modulo > .sub > LI > .color-hover
 #corpo > .mod-horizontal.topo-padrao.area-padrao > .container-cols > .horizontal-manchete.double-area.modulo > .sub > LI:nth-of-type(2) > .color-hover
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_focus_01--these-elements-are-focusable-but-either-invisible-or-obscured-by-another-element for more information.
+#corpo > .mod-horizontal.topo-padrao.area-padrao > .container-cols > .col1 > .modulo.horizontal-chamada.hasSub.moduloSemBorda > .sub > LI > .color-hover
+#corpo > .mod-horizontal.topo-padrao.area-padrao > .container-cols > .col2 > .horizontal-submanchete.modulo > .sub > LI > .color-hover
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_focus_01 for more information.
 
-Warning: AX_TEXT_02 (Images should have an alt attribute) failed on the following elements (1 - 5 of 42):
-#horizontal-rotativo-i6 > .inner-container > .inner.viewport > .item.item4.animVisible > A > .title.cor-transition.cor2-hover > .campanha-emoji
-#horizontal-rotativo-i6 > .inner-container > .inner.viewport > .item.item5 > A > .subtitle.cor3.cor7-hover.cor-transition > .campanha-emoji
-#corpo > .mod-horizontal.topo-padrao.area-padrao > .col3 > .modulo.horizontal-chamada.i80x80.hasSub.moduloSemBorda.ultimoModulo > .sub > LI > .color-hover > .text.corb.cor2-hover.cor-transition > .campanha-emoji
-#corpo > .mod-horizontal.softnews-container > .modulo-softnews.border2-top > H2 > .corb > .chamada.cor2-hover.cor-transition > .campanha-emoji
-#corpo > .mod-horizontal.softnews-container > .modulo-softnews.border2-top > H2:nth-of-type(2) > .corb > .chamada.cor2-hover.cor-transition > .campanha-emoji
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_02--images-should-have-an-alt-attribute-unless-they-have-an-aria-role-of-presentation for more information.
+Warning: AX_HTML_01 (The web page should have the content's human language indicated in the markup) failed on the following elements (1 - 5 of 17):
+html
+html
+html
+html
+html
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_html_01 for more information.
 
-Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 178):
-#topo > .container-form.centraliza > .logo > .sprite.sprite-geral.uol-emoji
+Warning: AX_TEXT_02 (Images should have an alt attribute) failed on the following elements (1 - 5 of 8):
+#bfI5550000417_1430792808245 > IMG
+#banner-180x110-1_ad_container > A > IMG
+#banner-1190x70-3_ad_container > A > IMG
+IMG
+DIV > A > IMG
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_02 for more information.
+
+Warning: AX_TEXT_04 (The purpose of each link should be clear from the link text) failed on the following elements (1 - 5 of 28):
+#topo > .container-superior.bg27 > .centraliza > .redes-sociais > LI > .icon-facebook.corw.opacity90.cor-transition
+#topo > .container-superior.bg27 > .centraliza > .redes-sociais > LI:nth-of-type(2) > .icon-twitter.corw.opacity90.cor-transition
+#topo > .container-superior.bg27 > .centraliza > .redes-sociais > LI:nth-of-type(3) > .icon-instagram.corw.opacity90.cor-transition
+#menuHorizontal > .menu-uol-content.centraliza > .menu-uol-nav > .menu-uol-nav-list > .menu-uol-item.area-padrao.item-assine > .menu-uol-item-content > .border-box > .content-block > .content-block-area.assine > .block
+#menuHorizontal > .menu-uol-content.centraliza > .menu-uol-nav > .menu-uol-nav-list > .menu-uol-item.area-tvuol > .menu-uol-item-content > .border-box > .content-block > .content-block-footer > .content-footer-area.canais-videos > .channels-list > .col-1 > .opacity80.cor-transition
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_04 for more information.
+
+Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 195):
+#topo > .container-form.centraliza > .logo > .sprite.sprite-geral.logo-header
 #topo > .container-form.centraliza > .form-mail.module > FIELDSET > .header-uolmail > .titulo-uolmail > .cor9
 #menuHorizontal > .menu-uol-content.centraliza > .menu-uol-nav > .menu-uol-nav-list > .menu-uol-item.area-esporte > .menu-uol-item-content > .border-box > .content-block.content-block-times > .content-block-area > .block-title.cor2
 #menuHorizontal > .menu-uol-content.centraliza > .menu-uol-nav > .menu-uol-nav-list > .menu-uol-item.area-esporte > .menu-uol-item-content > .border-box > .content-block.content-block-times > .content-block-area > .times > LI > .opacity80.cor-transition > .sprite.sprite-futebol-s.sprite-futebol-atletico-mg
 #menuHorizontal > .menu-uol-content.centraliza > .menu-uol-nav > .menu-uol-nav-list > .menu-uol-item.area-esporte > .menu-uol-item-content > .border-box > .content-block.content-block-times > .content-block-area > .times > LI:nth-of-type(2) > .opacity80.cor-transition > .sprite.sprite-futebol-s.sprite-futebol-atletico-pr
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_color_01--text-elements-should-have-a-reasonable-contrast-ratio for more information.
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_color_01 for more information.
 
-Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 5 of 22):
-#containerPrevisaoTempo > .sprite.sprite-tempo.sprite-tempo-NC
+Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 5 of 23):
+#containerPrevisaoTempo > .sprite.sprite-tempo.sprite-tempo-PN-N
+#corpo > .module.mod-horizontal.horizontal-tab.border29.area-tab > .tab > .logo.border2 > .sprite.sprite-geral.logo-tab
 #corpo > .mod-horizontal.module-widget-horizontal.area-esporte.module > .widget-horizontal-base.widget-horizontal.esporte > .widget-horizontal-right-box > .widget-horizontal-lista-brasao.widget-horizontal-fixed-content.wait > LI > .widget-horizontal-item-click > .widget-horizontal-time.sprite-futebol.sprite-futebol-atletico-mg
 #corpo > .mod-horizontal.module-widget-horizontal.area-esporte.module > .widget-horizontal-base.widget-horizontal.esporte > .widget-horizontal-right-box > .widget-horizontal-lista-brasao.widget-horizontal-fixed-content.wait > LI:nth-of-type(2) > .widget-horizontal-item-click > .widget-horizontal-time.sprite-futebol.sprite-futebol-atletico-pr
 #corpo > .mod-horizontal.module-widget-horizontal.area-esporte.module > .widget-horizontal-base.widget-horizontal.esporte > .widget-horizontal-right-box > .widget-horizontal-lista-brasao.widget-horizontal-fixed-content.wait > LI:nth-of-type(3) > .widget-horizontal-item-click > .widget-horizontal-time.sprite-futebol.sprite-futebol-bahia
-#corpo > .mod-horizontal.module-widget-horizontal.area-esporte.module > .widget-horizontal-base.widget-horizontal.esporte > .widget-horizontal-right-box > .widget-horizontal-lista-brasao.widget-horizontal-fixed-content.wait > LI:nth-of-type(4) > .widget-horizontal-item-click > .widget-horizontal-time.sprite-futebol.sprite-futebol-botafogo
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_image_01--meaningful-images-should-not-be-used-in-element-backgrounds for more information.
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_image_01 for more information.
+
+Warning: AX_TITLE_01 (The web page should have a title that describes topic or purpose) failed on the following elements (1 - 5 of 11):
+html
+html
+html
+html
+html
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_title_01 for more information.
 
 
 *** End accessibility audit results ***

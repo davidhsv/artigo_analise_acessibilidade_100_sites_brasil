@@ -1,49 +1,98 @@
 TypeError: undefined is not an object (evaluating 'g.parents')
 
-  http://ia.media-imdb.com/images/G/01/imdb/js/collections/pagelayout-2743765907._CB307082751_.js:52
-  http://ia.media-imdb.com/images/G/01/imdb/js/collections/pagelayout-2743765907._CB307082751_.js:16 in dispatch
-  http://ia.media-imdb.com/images/G/01/imdb/js/collections/pagelayout-2743765907._CB307082751_.js:16 in bC
+  http://ia.media-imdb.com/images/G/01/imdb/js/collections/pagelayout-31166502._CB305150261_.js:52
+  http://ia.media-imdb.com/images/G/01/imdb/js/collections/pagelayout-31166502._CB305150261_.js:16 in dispatch
+  http://ia.media-imdb.com/images/G/01/imdb/js/collections/pagelayout-31166502._CB305150261_.js:16 in bC
   :0 in focus
-  ../../dist/js/axs_testing.js:1624 in test
-  ../../dist/js/axs_testing.js:1411 in run
-  ../../dist/js/axs_testing.js:1524 in run
+  ../../dist/js/axs_testing.js:1875 in test
+  ../../dist/js/axs_testing.js:1578 in run
+  ../../dist/js/axs_testing.js:1709 in run
   phantomjs://webpage.evaluate():2
   phantomjs://webpage.evaluate():4
 *** Begin accessibility audit results ***
 An accessibility audit found 
 Errors:
-Error: AX_TEXT_01 (Controls and media elements should have labels) failed on the following elements (1 - 2 of 2):
+Error: AX_TEXT_01 (Controls and media elements should have labels) failed on the following elements (1 - 3 of 3):
 #navbar-submit-button
+#navbar-query
 #quicksearch
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_01--controls-and-media-elements-should-have-labels for more information.
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_01 for more information.
+
+Error: AX_HTML_02 (An element's ID must be unique in the DOM) failed on the following elements (1 - 5 of 10):
+#nblogin
+#nblogin
+#tnw
+#mnw
+#tvw
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_html_02 for more information.
+
+Error: AX_ARIA_08 (Elements with ARIA roles must ensure required owned elements are present) failed on the following elements (1 - 5 of 20):
+#anchor > .stream > .h-feed > .h-entry.tweet.with-expansion.customisable-border > .footer.customisable-border > .tweet-actions
+#anchor > .stream > .h-feed > LI:nth-of-type(2) > .footer.customisable-border > .tweet-actions
+#anchor > .stream > .h-feed > LI:nth-of-type(3) > .footer.customisable-border > .tweet-actions
+#anchor > .stream > .h-feed > LI:nth-of-type(4) > .footer.customisable-border > .tweet-actions
+#anchor > .stream > .h-feed > LI:nth-of-type(5) > .footer.customisable-border > .tweet-actions
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_aria_08 for more information.
+
+Error: AX_ARIA_10 (This element has an unsupported ARIA attribute) failed on the following elements (1 - 5 of 42):
+#anchor > .stream > .h-feed > .h-entry.tweet.with-expansion.customisable-border > .header > .u-url.permalink.customisable-highlight > .dt-updated
+#anchor > .stream > .h-feed > .h-entry.tweet.with-expansion.customisable-border > .header > .h-card.p-author.with-verification > .u-url.profile > .full-name > .verified
+#anchor > .stream > .h-feed > LI:nth-of-type(2) > .header > .u-url.permalink.customisable-highlight > .dt-updated
+#anchor > .stream > .h-feed > LI:nth-of-type(2) > .header > .h-card.p-author.with-verification > .u-url.profile > .full-name > .verified
+#anchor > .stream > .h-feed > LI:nth-of-type(3) > .header > .u-url.permalink.customisable-highlight > .dt-updated
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_aria_10 for more information.
 
 
 Warnings:
-Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 2 of 2):
+Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 118):
 #home_img_holder > .alt_logo > A
-#main > .heroWidget > .ab_widget > .ab_hero > .ninja_image_pack > .ninja_left > .ninja_image:nth-of-type(3) > DIV > .widget_image > .image > .video-colorbox
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_focus_01--these-elements-are-focusable-but-either-invisible-or-obscured-by-another-element for more information.
+#main > .heroWidget > .ab_widget > .ab_hero > .ninja_image_pack > .ninja_left > DIV:nth-of-type(3) > DIV > .widget_image > .image > .video-colorbox
+#main > DIV:nth-of-type(5) > .ab_widget > .ab_ninja > .ninja_image_pack > .ninja_left > DIV:nth-of-type(3) > DIV > .widget_image > .image > A
+#main > DIV:nth-of-type(10) > .ab_widget > .ab_ninja > .ninja_image_pack > .ninja_left > DIV:nth-of-type(3) > DIV > .widget_image > .image > A
+#main > DIV:nth-of-type(10) > .ab_widget > .ab_ninja > .ninja_image_pack > .ninja_left > DIV:nth-of-type(5) > DIV > .widget_image > .image > A
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_focus_01 for more information.
 
-Warning: AX_TEXT_02 (Images should have an alt attribute) failed on the following elements (1 - 2 of 2):
+Warning: AX_HTML_01 (The web page should have the content's human language indicated in the markup) failed on the following elements (1 - 5 of 6):
+html
+html
+html
+html
+html
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_html_01 for more information.
+
+Warning: AX_TEXT_02 (Images should have an alt attribute) failed on the following element:
 #tnw > .channel-content > .primary-news > .primary-image > .image > A > IMG
-#main > .article:nth-of-type(3) > .ab_widget > .ab_ninja > .ninja_image_pack > .ninja_left > .ninja_image.first_image > DIV > .widget_image > .image > A > .pri_image
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_02--images-should-have-an-alt-attribute-unless-they-have-an-aria-role-of-presentation for more information.
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_02 for more information.
 
-Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 65):
+Warning: AX_TEXT_04 (The purpose of each link should be clear from the link text) failed on the following elements (1 - 5 of 60):
+#home_img
+#navProMenu > .navCategory > A
+#main > .heroWidget > .ab_widget > .ab_hero > .ninja_image_pack > .ninja_left > .ninja_image.first_image > DIV > .widget_image > .image > .video-colorbox
+#main > .heroWidget > .ab_widget > .ab_hero > .ninja_image_pack > .ninja_left > DIV:nth-of-type(3) > DIV > .widget_image > .image > .video-colorbox
+#main > .heroWidget > .ab_widget > .ab_hero > .ninja_image_pack > .ninja_left > .ninja_image.last_image > DIV > .widget_image > .image > .video-colorbox
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_04 for more information.
+
+Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 163):
 #navMenu1 > .subNavListContainer > H5
 #navMenu1 > .subNavListContainer > H5:nth-of-type(2)
-#navMenu1 > .subNavListContainer:nth-of-type(2) > H5
-#navMenu1 > .subNavListContainer:nth-of-type(2) > H5:nth-of-type(2)
+#navMenu1 > DIV:nth-of-type(3) > H5
+#navMenu1 > DIV:nth-of-type(3) > H5:nth-of-type(2)
 #navMenu2 > .subNavListContainer > H5
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_color_01--text-elements-should-have-a-reasonable-contrast-ratio for more information.
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_color_01 for more information.
 
-Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 5 of 23):
+Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 5 of 87):
 #home_img
 #navbar-submit-button > .magnifyingglass.navbarSprite
 #sidebar > .aux-content-widget-2 > .ab_widget > .rhs-body > .rhs-row > .ribbonize > .wl-ribbon.standalone.touch.not-inWL
-#sidebar > .aux-content-widget-2 > .ab_widget > .rhs-body > .rhs-row:nth-of-type(2) > .ribbonize > .wl-ribbon.standalone.touch.not-inWL
-#sidebar > .aux-content-widget-2 > .ab_widget > .rhs-body > .rhs-row:nth-of-type(3) > .ribbonize > .wl-ribbon.standalone.touch.not-inWL
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_image_01--meaningful-images-should-not-be-used-in-element-backgrounds for more information.
+#sidebar > .aux-content-widget-2 > .ab_widget > .rhs-body > DIV:nth-of-type(2) > .ribbonize > .wl-ribbon.standalone.touch.not-inWL
+#sidebar > .aux-content-widget-2 > .ab_widget > .rhs-body > DIV:nth-of-type(3) > .ribbonize > .wl-ribbon.standalone.touch.not-inWL
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_image_01 for more information.
+
+Warning: AX_TITLE_01 (The web page should have a title that describes topic or purpose) failed on the following elements (1 - 3 of 3):
+html
+html
+html
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_title_01 for more information.
 
 
 *** End accessibility audit results ***

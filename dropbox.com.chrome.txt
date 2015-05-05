@@ -1,27 +1,39 @@
 *** Begin accessibility audit results ***
 An accessibility audit found 
 Warnings:
-Warning: AX_TEXT_02 (Images should have an alt attribute) failed on the following elements (1 - 5 of 16):
-#pyxl4099874470499636644 > .animator-poster
-#pyxl4099874470499636644 > .animator-strip > .animator-frame.animator-sequence
-#pyxl4099874470499636644 > .animator-strip > .animator-frame.animator-sequence:nth-of-type(2)
-#pyxl297990976169490308 > .animator-poster
-#pyxl297990976169490308 > .animator-strip > .animator-frame.animator-sequence
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_02--images-should-have-an-alt-attribute-unless-they-have-an-aria-role-of-presentation for more information.
+Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 19):
+#page-header > A
+#pyxl1898254589358639644
+#pyxl1639025614388664156
+#pyxl4863535251847265090
+#pyxl803542191624727907
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_focus_01 for more information.
 
-Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 85):
-#pyxl3642632977807973264 > .text-input-wrapper > LABEL
-#pyxl3124987039602195229 > .text-input-wrapper > LABEL
-#pyxl8706255719445065937 > .clearfix.login-form > .clearfix > .sso-description > .sprite-div > .sprite-text > .sprite-text-inner
-#pyxl8706255719445065937 > .clearfix.login-form > .clearfix > .login-button.button-primary > .sign-in-text
-#pyxl8706255719445065937 > .clearfix.login-form > .sso-optout > DIV
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_color_01--text-elements-should-have-a-reasonable-contrast-ratio for more information.
+Warning: AX_TEXT_02 (Images should have an alt attribute) failed on the following elements (1 - 3 of 3):
+#page-header > A > .dfb-link.sprite-div > .sprite-frame.small.icon-left > .sprite.sprite_web.s_web_s_briefcase
+#devices-background
+#learn-more > IMG
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_02 for more information.
 
-Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 3 of 3):
-#dropbox-logo > .dropbox-logo__glyph
-#locale-link > .sprite.sprite_web.s_web_world_grey
-#locale-link > A > .sprite_web.sprite.arrow.s_web_arrow-up-gray
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_image_01--meaningful-images-should-not-be-used-in-element-backgrounds for more information.
+Warning: AX_TEXT_04 (The purpose of each link should be clear from the link text) failed on the following elements (1 - 5 of 7):
+#db-modal-locale-selector-modal > .db-modal > .db-modal-box > .db-modal-x
+#db-modal-locale-selector-modal > .db-modal > .db-modal-box > .db-modal-content > TABLE > TBODY > TR > TD:nth-of-type(2) > UL > LI:nth-of-type(6) > .locale-option
+#db-modal-locale-selector-modal > .db-modal > .db-modal-box > .db-modal-content > TABLE > TBODY > TR > TD:nth-of-type(2) > UL > LI:nth-of-type(7) > .locale-option
+#db-modal-locale-selector-modal > .db-modal > .db-modal-box > .db-modal-content > TABLE > TBODY > TR > TD:nth-of-type(2) > UL > LI:nth-of-type(8) > .locale-option
+#db-modal-locale-selector-modal > .db-modal > .db-modal-box > .db-modal-content > TABLE > TBODY > TR > TD:nth-of-type(2) > UL > LI:nth-of-type(9) > .locale-option
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_04 for more information.
+
+Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 58):
+#page-header > A > .dfb-link.sprite-div > .sprite-text > .sprite-text-inner
+#page-header > .downloading-link
+#db-modal-locale-selector-modal > .db-modal > .db-modal-box > .db-modal-content > TABLE > TBODY > TR > TD > UL > LI > .locale-option
+#db-modal-locale-selector-modal > .db-modal > .db-modal-box > .db-modal-content > TABLE > TBODY > TR > TD > UL > LI:nth-of-type(2) > .locale-option
+#db-modal-locale-selector-modal > .db-modal > .db-modal-box > .db-modal-content > TABLE > TBODY > TR > TD > UL > LI:nth-of-type(3) > .locale-option
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_color_01 for more information.
+
+Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following element:
+#page-header > A > .dfb-link.sprite-div > .sprite-frame.small.icon-left > .sprite.sprite_web.s_web_s_briefcase
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_image_01 for more information.
 
 
 *** End accessibility audit results ***

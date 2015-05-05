@@ -7,11 +7,28 @@ Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscu
 #session_password-login
 #signin
 #first
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_focus_01--these-elements-are-focusable-but-either-invisible-or-obscured-by-another-element for more information.
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_focus_01 for more information.
 
-Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following element:
+Warning: AX_TEXT_04 (The purpose of each link should be clear from the link text) failed on the following elements (1 - 5 of 7):
+#lang-list > .zh > A
+#lang-list > .ko > A
+#lang-list > LI:nth-of-type(12) > A
+#lang-list > .ja > A
+#lang-list > .ru > A
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_04 for more information.
+
+Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 2 of 2):
+#main > SECTION > .two-row-image > .twoRowPeopleQuoteAuthor
 #guest-home-reg-form > FIELDSET > .form-bottom-row > .policy
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_color_01--text-elements-should-have-a-reasonable-contrast-ratio for more information.
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_color_01 for more information.
+
+Warning: AX_FOCUS_03 (Avoid positive integer values for tabIndex) failed on the following elements (1 - 5 of 9):
+#session_key-login
+#control_gen_1 > LI:nth-of-type(2) > .forgot-pwd
+#session_password-login
+#signin
+#firstName-coldRegistrationForm
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_focus_03 for more information.
 
 
 *** End accessibility audit results ***

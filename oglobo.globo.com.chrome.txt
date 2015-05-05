@@ -8,38 +8,81 @@ Error: undefined is not a constructor (evaluating '$(element).parent().parent().
   http://js.og.infg.com.br/1430320773/js/angular/angular.min.js:92
 *** Begin accessibility audit results ***
 An accessibility audit found 
-Warnings:
-Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 174):
+Errors:
+Error: AX_TEXT_01 (Controls and media elements should have labels) failed on the following element:
 #q
-body > .home > .row > .large-12.left.columns > .row > .col-left.large-8.columns > .editorias.principal > SPAN > .comments
-body > .home > .row > .large-12.left.columns > .row > .col-left.large-8.columns > .editorias.principal > UL > LI > A
-body > .home > .row > .large-12.left.columns > .row > .col-left.large-8.columns > .editorias:nth-of-type(2) > SPAN > .comments
-body > .home > .row > .large-12.left.columns > .row > .col-left.large-8.columns > .editorias:nth-of-type(4) > H2 > A
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_focus_01--these-elements-are-focusable-but-either-invisible-or-obscured-by-another-element for more information.
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_01 for more information.
 
-Warning: AX_TEXT_02 (Images should have an alt attribute) failed on the following elements (1 - 5 of 19):
+Error: AX_HTML_02 (An element's ID must be unique in the DOM) failed on the following elements (1 - 5 of 6):
+#navegg
+#navegg
+#vol-util
+#vol-util
+#produto
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_html_02 for more information.
+
+Error: AX_ARIA_10 (This element has an unsupported ARIA attribute) failed on the following elements (1 - 2 of 2):
+#fb_xdm_frame_http
+#fb_xdm_frame_https
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_aria_10 for more information.
+
+
+Warnings:
+Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 197):
+#q
+body > .home > .row > .large-12.left.columns > .row > .col-left.large-8.columns > .editorias.principal > .materia-relacionada.clearfix > DIV:nth-of-type(2) > SPAN > .comments
+body > .home > .row > .large-12.left.columns > .row > .col-left.large-8.columns > DIV:nth-of-type(3) > H2 > A
+body > .home > .row > .large-12.left.columns > .row > .col-left.large-8.columns > DIV:nth-of-type(3) > H3 > A
+body > .home > .row > .large-12.left.columns > .row > .col-left.large-8.columns > DIV:nth-of-type(4) > H2 > A
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_focus_01 for more information.
+
+Warning: AX_HTML_01 (The web page should have the content's human language indicated in the markup) failed on the following elements (1 - 5 of 10):
+html
+html
+html
+html
+html
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_html_01 for more information.
+
+Warning: AX_TEXT_02 (Images should have an alt attribute) failed on the following elements (1 - 5 of 20):
 body > .top-header > .header-container > .row > .large-16.columns > .logo-home > .logo > IMG
 body > .super-leaderboard.publicidade.clearfix > .publicidade-container.robots-nocontent.robots-noindex > IMG
-#player-wrapper1-4144798 > .wm-poster-wrapper > .wm-poster-inner-wrapper > .wm-poster-image
+body > .home > .row > .large-12.left.columns > .row > .col-left.large-8.columns > DIV:nth-of-type(12) > .materia-relacionada.clearfix > .link.animado-opacity > IMG
 body > .home > .row > .large-12.left.columns > .row > .main-home.large-8.columns > .halfpage.publicidade.clearfix > .publicidade-container.robots-nocontent.robots-noindex > IMG
 body > .home > .row > .large-12.left.columns > .row > .main-home.large-8.columns > .halfbanner.publicidade.clearfix > .publicidade-container.robots-nocontent.robots-noindex > IMG
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_02--images-should-have-an-alt-attribute-unless-they-have-an-aria-role-of-presentation for more information.
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_02 for more information.
 
-Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 330):
+Warning: AX_TEXT_04 (The purpose of each link should be clear from the link text) failed on the following elements (1 - 5 of 112):
+#barra-globocom > .barra-conteudo > .barra-logo.no-show.small
+#barra-globocom > .barra-conteudo > .barra-logo.no-show.large
+#barra-globocom > .barra-conteudo > .barra-itens > LI:nth-of-type(3) > .barra-item-esportes.no-show.large
+#barra-globocom > .barra-conteudo > .barra-itens > LI:nth-of-type(6) > .barra-item-famosos-etc.no-show.large
+#login-popin-close
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_04 for more information.
+
+Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 349):
 #barra-globocom > .barra-conteudo > .barra-itens > LI:nth-of-type(4) > .barra-item-gshow
 body > .barrinha > .barrinha-container > DIV > UL > .oglobo.ativo > .oglobo.ativo-link
 body > .barrinha > .barrinha-container > DIV > UL > .memoria > .memoria-link
 body > .barrinha > .barrinha-container > DIV > UL > .acervo > .acervo-link
 body > .barrinha > .barrinha-container > DIV > UL > .ela > .ela-link
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_color_01--text-elements-should-have-a-reasonable-contrast-ratio for more information.
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_color_01 for more information.
 
-Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 5 of 9):
+Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 5 of 8):
 #search-submit
-#player-wrapper1-4144798 > .wm-poster-wrapper > .wm-poster-inner-wrapper > .wm-poster-play
 #player-wrapper1 > .wm-poster-wrapper > .wm-poster-inner-wrapper > .wm-poster-play
-#player-wrapper1-4144912 > .wm-poster-wrapper > .wm-poster-inner-wrapper > .wm-poster-play
 body > .home > .row > .col-right.large-4.columns > DIV:nth-of-type(2) > .vairio.clearfix > A > .img-vairio
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_image_01--meaningful-images-should-not-be-used-in-element-backgrounds for more information.
+body > .home > .row > .col-right.large-4.columns > DIV:nth-of-type(6) > .horoscopo.clearfix > .touro
+#tab_1 > .pointer
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_image_01 for more information.
+
+Warning: AX_TITLE_01 (The web page should have a title that describes topic or purpose) failed on the following elements (1 - 5 of 7):
+html
+html
+html
+html
+html
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_title_01 for more information.
 
 
 *** End accessibility audit results ***

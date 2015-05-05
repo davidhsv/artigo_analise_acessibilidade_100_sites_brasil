@@ -3,33 +3,65 @@ An accessibility audit found
 Errors:
 Error: AX_TEXT_01 (Controls and media elements should have labels) failed on the following element:
 #2583 > .search-weather-container > .box-search-weather > FORM > .box-input > .input-search-weather
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_01--controls-and-media-elements-should-have-labels for more information.
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_01 for more information.
 
 
 Warnings:
-Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 19):
+Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 25):
 #zaz-app-navbar > .nb__logo
+#adExp > A
 A
-#2583 > .default-weather-container.weather-container.visible > .weather-bottom > .box-weather > .links > A
-#7829711 > A
-#7829711 > A > .container-essentials.video > .news > .title > H2 > .hat.gray.hover-news.border-news
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_focus_01--these-elements-are-focusable-but-either-invisible-or-obscured-by-another-element for more information.
+#2583 > .weather-container.default.background2n.visible > .weather-top > A
+#2583 > .weather-container.default.background2n.visible > .weather-bottom > .box-weather > A
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_focus_01 for more information.
 
-Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 20):
+Warning: AX_HTML_01 (The web page should have the content's human language indicated in the markup) failed on the following elements (1 - 5 of 23):
+html
+html
+html
+html
+html
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_html_01 for more information.
+
+Warning: AX_TEXT_02 (Images should have an alt attribute) failed on the following elements (1 - 5 of 7):
+#adCont > A > IMG
+#adExp > A > IMG
+#creativeFile > A > IMG
+IMG
+IMG:nth-of-type(2)
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_02 for more information.
+
+Warning: AX_TEXT_04 (The purpose of each link should be clear from the link text) failed on the following elements (1 - 5 of 15):
+#sc-soccer-team
+#sc-horoscope
+#sc-weather
+#sc-email
+#sc-user-login
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_04 for more information.
+
+Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 23):
 #zaz-nb-plugin-breakingNews > .trr-bnews > .trr-bnews__content-outside > .trr-bnews__link > .trr-bnews__content-inside > .trr-bnews__pill
-#21f2f518119750931240c1f60bd13c21mrs3RCRD > A > .container-essentials.news > .news > .title > H2 > .hat.hover-news.border-news
-#21f2f518119750931240c1f60bd13c21mrs3RCRD > A > .container-essentials.news > .news > .title > H3 > .text
-#21f2f518119750931240c1f60bd13c21mrs3RCRD > A > .container-essentials.news > .news > .card-footer > .share > .action-link > .share-text
-#2583 > .default-weather-container.weather-container.visible > .phrase
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_color_01--text-elements-should-have-a-reasonable-contrast-ratio for more information.
+#2583 > .weather-container.default.background2n.visible > .weather-middle > .city-name
+#2583 > .weather-container.default.background2n.visible > .weather-middle > .box-temperatures > .temp-min > .text
+#2583 > .weather-container.default.background2n.visible > .weather-middle > .box-temperatures > .temp-min > .temperature
+#2583 > .weather-container.default.background2n.visible > .weather-middle > .box-temperatures > .temp-now > .temperature
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_color_01 for more information.
 
-Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 5 of 34):
+Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 5 of 41):
 #nb-menu
 #sc-menu-arrow
 #zaz-nb-plugin-navbar-email > .mail24
 #zaz-app-navbar > .nb__logo
-#21f2f518119750931240c1f60bd13c21mrs3RCRD > A > .container-essentials.news > .news > .card-footer > .share > .action-link > .sprite-icons-card.arrow-share.web
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_image_01--meaningful-images-should-not-be-used-in-element-backgrounds for more information.
+#2583 > .weather-container.default.background2n.visible > .weather-top > A > .logo
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_image_01 for more information.
+
+Warning: AX_TITLE_01 (The web page should have a title that describes topic or purpose) failed on the following elements (1 - 5 of 14):
+html
+html
+html
+html
+html
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_title_01 for more information.
 
 
 *** End accessibility audit results ***

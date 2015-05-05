@@ -1,31 +1,54 @@
 ReferenceError: Can't find variable: ue
 
-  http://www.amazon.com/:277
-  http://www.amazon.com/:99
-  http://www.amazon.com/:100
-  http://www.amazon.com/:103 in A
+  http://www.amazon.com/:319
+  http://www.amazon.com/:141
+  http://www.amazon.com/:142
+  http://www.amazon.com/:145 in A
 *** Begin accessibility audit results ***
 An accessibility audit found 
 Errors:
 Error: AX_TEXT_01 (Controls and media elements should have labels) failed on the following element:
 #twotabsearchtextbox
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_01--controls-and-media-elements-should-have-labels for more information.
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_01 for more information.
+
+Error: AX_HTML_02 (An element's ID must be unique in the DOM) failed on the following elements (1 - 4 of 4):
+#gw-critical-content
+#nav-prime-tooltip
+#gw-critical-content
+#nav-prime-tooltip
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_html_02 for more information.
+
+Error: AX_ARIA_10 (This element has an unsupported ARIA attribute) failed on the following elements (1 - 2 of 2):
+#sis_pixel_r2
+#gw-quick-look-btn-announce
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_aria_10 for more information.
 
 
 Warnings:
-Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 3 of 3):
-#a-page > DIV > A
+Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 2 of 2):
+#a-page > DIV:nth-of-type(2) > A
 #searchDropdownBox
-#asin-shoveler-ns_1QYB3Z9PCSFQ899APRDK_21693_ > .a-section.feed-carousel.feed-carousel-touch > .a-section.feed-carousel-viewport > .a-nostyle.a-horizontal.feed-carousel-shelf > .feed-carousel-card:nth-of-type(16) > .a-list-item > .a-link-normal.a-inline-block
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_focus_01--these-elements-are-focusable-but-either-invisible-or-obscured-by-another-element for more information.
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_focus_01 for more information.
+
+Warning: AX_HTML_01 (The web page should have the content's human language indicated in the markup) failed on the following element:
+html
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_html_01 for more information.
+
+Warning: AX_TEXT_04 (The purpose of each link should be clear from the link text) failed on the following elements (1 - 5 of 151):
+#a-page > A
+#image-map-ns_1KJ55BJNQ8BDEQS8AKBY_24589_ > .cropped-image-map-size > .cropped-image-map-center-alignment > SPAN > .a-link-normal.a-inline-block
+#image-map-ns_18WG27J7JEFXHYZTPJRG_13323_ > .cropped-image-map-size > .cropped-image-map-center-alignment > SPAN > .a-link-normal.a-inline-block
+#image-map-ns_01Z9EDJ2N0RGQZ8GTPWC_3969_ > .cropped-image-map-size > .cropped-image-map-center-alignment > SPAN > .a-link-normal.a-inline-block
+#bestseller-list-ns_18SXJH0D0TF178JAQDT7_23738_ > .listRow > DIV:nth-of-type(2) > .a-link-normal.a-inline-block
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_04 for more information.
 
 Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 165):
 #nav-logo > .nav-logo-link > .nav-logo-base.nav-sprite
 #nav-search > .nav-searchbar.nav-active > .nav-left > .nav-search-scope.nav-sprite > .nav-search-facade > .nav-search-label
-#nav-flyout-yourAccount > .nav-template.nav-flyout-content.nav-tpl-itemList > .nav-link.nav-item:nth-of-type(8) > .nav-subtext
-#nav-flyout-yourAccount > .nav-template.nav-flyout-content.nav-tpl-itemList > .nav-link.nav-item:nth-of-type(10) > .nav-subtext
-#nav-flyout-yourAccount > .nav-template.nav-flyout-content.nav-tpl-itemList > .nav-link.nav-item:nth-of-type(11) > .nav-subtext
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_color_01--text-elements-should-have-a-reasonable-contrast-ratio for more information.
+#nav-flyout-yourAccount > .nav-template.nav-flyout-content.nav-tpl-itemList > A:nth-of-type(8) > .nav-subtext
+#nav-flyout-yourAccount > .nav-template.nav-flyout-content.nav-tpl-itemList > A:nth-of-type(10) > .nav-subtext
+#nav-flyout-yourAccount > .nav-template.nav-flyout-content.nav-tpl-itemList > A:nth-of-type(11) > .nav-subtext
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_color_01 for more information.
 
 Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 5 of 7):
 #nav-search > .nav-searchbar.nav-active > .nav-left > .nav-search-scope.nav-sprite > .nav-search-facade > .nav-icon
@@ -33,7 +56,15 @@ Warning: AX_IMAGE_01 (Meaningful images should not be used in element background
 #nav-link-yourAccount > .nav-line-2 > .nav-icon.nav-arrow
 #nav-link-prime > .nav-line-2 > .nav-icon.nav-arrow
 #nav-link-wishlist > .nav-line-2 > .nav-icon.nav-arrow
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_image_01--meaningful-images-should-not-be-used-in-element-backgrounds for more information.
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_image_01 for more information.
+
+Warning: AX_FOCUS_03 (Avoid positive integer values for tabIndex) failed on the following elements (1 - 5 of 16):
+#nav-logo > .nav-logo-link
+#nav-logo > .nav-logo-tagline.nav-sprite.nav-prime-try
+#nav-swm-holiday-map > AREA
+#searchDropdownBox
+#nav-search > .nav-searchbar.nav-active > .nav-right > .nav-search-submit.nav-sprite > .nav-input
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_focus_03 for more information.
 
 
 *** End accessibility audit results ***

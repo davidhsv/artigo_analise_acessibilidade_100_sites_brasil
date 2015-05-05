@@ -1,28 +1,60 @@
-ReferenceError: Can't find variable: StackExchange
-
-  http://stackoverflow.com/:27 in global code
-ReferenceError: Can't find variable: StackExchange
-
-  http://stackoverflow.com/:35 in global code
-ReferenceError: Can't find variable: StackExchange
-
-  http://stackoverflow.com/:214 in global code
-ReferenceError: Can't find variable: StackExchange
-
-  http://stackoverflow.com/:305 in global code
-ReferenceError: Can't find variable: StackExchange
-
-  http://stackoverflow.com/:3732 in global code
 *** Begin accessibility audit results ***
 An accessibility audit found 
+Errors:
+Error: AX_TEXT_01 (Controls and media elements should have labels) failed on the following element:
+#search > INPUT
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_01 for more information.
+
+
 Warnings:
-Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 64):
-body > .topbar > .topbar-wrapper > .topbar-links > .links-container > .topbar-menu-links > .icon-help.js-help-button
+Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 63):
 #footer-menu > .top-footer-links > A
 #footer-menu > .top-footer-links > A:nth-of-type(2)
 #footer-menu > .top-footer-links > A:nth-of-type(3)
 #footer-menu > .top-footer-links > A:nth-of-type(4)
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_focus_01--these-elements-are-focusable-but-either-invisible-or-obscured-by-another-element for more information.
+#footer-menu > .top-footer-links > A:nth-of-type(5)
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_focus_01 for more information.
+
+Warning: AX_HTML_01 (The web page should have the content's human language indicated in the markup) failed on the following elements (1 - 2 of 2):
+html
+html
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_html_01 for more information.
+
+Warning: AX_TEXT_02 (Images should have an alt attribute) failed on the following element:
+#adzerk1256411561 > IMG
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_02 for more information.
+
+Warning: AX_TEXT_04 (The purpose of each link should be clear from the link text) failed on the following elements (1 - 5 of 7):
+#close > A
+#question-summary-30043248 > .summary > .tags.t-go.t-dns.t-nslookup > .post-tag
+#adzerk1256411561 > A
+#footer-sites > TABLE > TBODY > TR:nth-of-type(2) > TD:nth-of-type(3) > OL > LI:nth-of-type(7) > .more
+#footer-sites > TABLE > TBODY > TR:nth-of-type(2) > TD:nth-of-type(4) > OL > LI:nth-of-type(8) > .more
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_04 for more information.
+
+Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 241):
+body > .topbar > .topbar-wrapper > .network-items > .topbar-icon.icon-site-switcher.yes-hover.js-site-switcher-button.js-gps-track > .hidden-text
+body > .topbar > .topbar-wrapper > .topbar-links > .links-container > .topbar-menu-links > .topbar-dialog.help-dialog.js-help-dialog.dno > .modal-content > UL > LI > .js-gps-track
+body > .topbar > .topbar-wrapper > .topbar-links > .links-container > .topbar-menu-links > .topbar-dialog.help-dialog.js-help-dialog.dno > .modal-content > UL > LI:nth-of-type(2) > .js-gps-track
+body > .topbar > .topbar-wrapper > .topbar-links > .links-container > .topbar-menu-links > .topbar-dialog.help-dialog.js-help-dialog.dno > .modal-content > UL > LI:nth-of-type(3) > .js-gps-track
+#nav-questions
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_color_01 for more information.
+
+Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 5 of 26):
+body > .topbar > .topbar-wrapper > .topbar-links > .links-container > .topbar-menu-links > .icon-help.js-help-button > .triangle
+#hot-network-questions > UL > LI > .favicon.favicon-math
+#hot-network-questions > UL > LI:nth-of-type(2) > .favicon.favicon-chinese
+#hot-network-questions > UL > LI:nth-of-type(3) > .favicon.favicon-academia
+#hot-network-questions > UL > LI:nth-of-type(4) > .favicon.favicon-movies
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_image_01 for more information.
+
+Warning: AX_TITLE_01 (The web page should have a title that describes topic or purpose) failed on the following element:
+html
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_title_01 for more information.
+
+Warning: AX_FOCUS_03 (Avoid positive integer values for tabIndex) failed on the following element:
+#search > INPUT
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_focus_03 for more information.
 
 
 *** End accessibility audit results ***

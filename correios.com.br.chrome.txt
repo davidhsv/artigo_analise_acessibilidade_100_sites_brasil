@@ -7,7 +7,15 @@ Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscu
 #coluna-esquerda > .bloco-footer > .lista-footer > .itens-principais.rede-de-atendimento > A
 #coluna-esquerda > .bloco-footer > .lista-footer > DIV:nth-of-type(3) > P > .external-link
 #coluna-esquerda > .bloco-footer > .lista-footer > .itens-principais.ouvidoria > A
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_focus_01--these-elements-are-focusable-but-either-invisible-or-obscured-by-another-element for more information.
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_focus_01 for more information.
+
+Warning: AX_TEXT_04 (The purpose of each link should be clear from the link text) failed on the following elements (1 - 5 of 29):
+#logo-header
+#rastreamento-dos-correios-via-sms > A
+#encomenda-pre-paga-via-internet > A
+#hallmark > A
+#correios-parceiro-de-9-em-cada-10-sites-de-e-commerce > A
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_04 for more information.
 
 Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 7):
 #portaltab-para-sua-empresa > A
@@ -15,7 +23,7 @@ Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) fai
 #portaltab-sobre-correios > A
 #portaltab-correios-online > A
 #portaltab-sistemas > A
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_color_01--text-elements-should-have-a-reasonable-contrast-ratio for more information.
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_color_01 for more information.
 
 Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 5 of 5):
 #livesearch0 > .LSBox > .searchButton
@@ -23,7 +31,7 @@ Warning: AX_IMAGE_01 (Meaningful images should not be used in element background
 #rastreamento-obj > FORM > .acesso-busca-submit
 #prevBtn-destaque
 #nextBtn-destaque
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_image_01--meaningful-images-should-not-be-used-in-element-backgrounds for more information.
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_image_01 for more information.
 
 
 *** End accessibility audit results ***

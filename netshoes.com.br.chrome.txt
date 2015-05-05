@@ -1,1 +1,58 @@
-Failed to load the page at http://netshoes.com.br. Status was: fail
+*** Begin accessibility audit results ***
+An accessibility audit found 
+Errors:
+Error: AX_ARIA_10 (This element has an unsupported ARIA attribute) failed on the following element:
+body > .main-wrapper > .body-wrapper > .home-banner-holder > .navigation-banner
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_aria_10 for more information.
+
+
+Warnings:
+Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 32):
+body > .main-wrapper > .header-wrapper.search-wrapper > .holder-logo-and-search > .site-logo-holder > .site-logo
+body > .footer-wrapper > .footer-holder > .shipping-features-wrapper > LI > .price-rules > A
+body > .footer-wrapper > .footer-holder > .shipping-features-wrapper > LI:nth-of-type(2) > .price-rules > A
+body > .footer-wrapper > .footer-holder > .shipping-features-wrapper > LI:nth-of-type(5) > A
+body > .footer-wrapper > .footer-holder > .footer-content-wrapper > .footer-content-list > .footer-content.footer-institucional > .footer-navigation-list > LI > A
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_focus_01 for more information.
+
+Warning: AX_HTML_01 (The web page should have the content's human language indicated in the markup) failed on the following elements (1 - 5 of 5):
+html
+html
+html
+html
+html
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_html_01 for more information.
+
+Warning: AX_TEXT_02 (Images should have an alt attribute) failed on the following element:
+body > .main-wrapper > .header-wrapper.search-wrapper > .holder-logo-and-search > .header-placeholder-banner > A > .header-placeholder-banner-img
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_02 for more information.
+
+Warning: AX_TEXT_04 (The purpose of each link should be clear from the link text) failed on the following elements (1 - 5 of 31):
+body > .main-wrapper > .header-wrapper.search-wrapper > .holder-logo-and-search > .header-placeholder-banner > A
+body > .main-wrapper > .header-wrapper.nav-wrapper > .header-holder > NAV > .main-navigation > LI > .main-submenu.with-banner.homens > .main-submenu-banner.banner-menu.homens > A
+body > .main-wrapper > .header-wrapper.nav-wrapper > .header-holder > NAV > .main-navigation > LI:nth-of-type(2) > .main-submenu.with-banner.mulheres > .main-submenu-banner.banner-menu.mulheres > A
+body > .main-wrapper > .header-wrapper.nav-wrapper > .header-holder > NAV > .main-navigation > LI:nth-of-type(3) > .main-submenu.with-banner.criancas > .main-submenu-banner.banner-menu.criancas > A
+body > .main-wrapper > .header-wrapper.nav-wrapper > .header-holder > NAV > .main-navigation > LI:nth-of-type(4) > .main-submenu.with-banner.roupas > .main-submenu-banner.banner-menu.roupas > A
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_04 for more information.
+
+Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 471):
+body > .main-wrapper > .header-wrapper.search-wrapper > .holder-logo-and-search > .site-logo-holder > .site-logo
+body > .main-wrapper > .header-wrapper.search-wrapper > .holder-logo-and-search > .input-search-wrapper > .input-search > .plugin-search-suggestion > .input-search-bt > .ico-holder
+body > .main-wrapper > .header-wrapper.nav-wrapper > .header-holder > NAV > .main-navigation > LI > A
+body > .main-wrapper > .header-wrapper.nav-wrapper > .header-holder > NAV > .main-navigation > LI > .main-submenu.with-banner.homens > .product-suggestion-list > LI > .offers > .product-suggestion-tag
+body > .main-wrapper > .header-wrapper.nav-wrapper > .header-holder > NAV > .main-navigation > LI > .main-submenu.with-banner.homens > .product-suggestion-list > LI:nth-of-type(2) > .releases > .product-suggestion-tag
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_color_01 for more information.
+
+Warning: AX_TITLE_01 (The web page should have a title that describes topic or purpose) failed on the following elements (1 - 4 of 4):
+html
+html
+html
+html
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_title_01 for more information.
+
+Warning: AX_FOCUS_03 (Avoid positive integer values for tabIndex) failed on the following element:
+#search
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_focus_03 for more information.
+
+
+*** End accessibility audit results ***

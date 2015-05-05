@@ -1,280 +1,75 @@
-TypeError: undefined is not a constructor (evaluating 'a.getAttribute(b)')
+ReferenceError: Can't find variable: trackingSaraivaV2
 
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in attr
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in f
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in select
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in fb
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:3 in handlers
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:3 in dispatch
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:3 in handle
-  http://www.saraiva.com.br/js/saraiva/lib/swiper/idangerous.swiper.js:2352 in createLoop
-  http://www.saraiva.com.br/js/saraiva/lib/swiper/idangerous.swiper.js:2469 in makeSwiper
-  http://www.saraiva.com.br/js/saraiva/lib/swiper/idangerous.swiper.js:2498 in Swiper
-  http://www.saraiva.com.br/js/saraiva/home/customization_home.js:169
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in j
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in fireWith
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in ready
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in I
-TypeError: undefined is not a constructor (evaluating 'a.getAttribute(b)')
-
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in attr
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in f
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in select
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in fb
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:3 in handlers
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:3 in dispatch
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:3 in handle
-  http://www.saraiva.com.br/js/saraiva/lib/swiper/idangerous.swiper.js:2352 in createLoop
-  http://www.saraiva.com.br/js/saraiva/lib/swiper/idangerous.swiper.js:2469 in makeSwiper
-  http://www.saraiva.com.br/js/saraiva/lib/swiper/idangerous.swiper.js:2498 in Swiper
-  http://www.saraiva.com.br/js/saraiva/home/customization_home.js:169
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in j
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in fireWith
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in ready
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in I
-TypeError: undefined is not a constructor (evaluating 'a.getAttribute(b)')
-
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in attr
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in f
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in select
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in fb
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:3 in handlers
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:3 in dispatch
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:3 in handle
-  http://www.saraiva.com.br/js/saraiva/lib/swiper/idangerous.swiper.js:2352 in createLoop
-  http://www.saraiva.com.br/js/saraiva/lib/swiper/idangerous.swiper.js:2469 in makeSwiper
-  http://www.saraiva.com.br/js/saraiva/lib/swiper/idangerous.swiper.js:2498 in Swiper
-  http://www.saraiva.com.br/js/saraiva/home/customization_home.js:169
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in j
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in fireWith
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in ready
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in I
-TypeError: undefined is not a constructor (evaluating 'a.getAttribute(b)')
-
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in attr
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in f
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in select
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in fb
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:3 in handlers
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:3 in dispatch
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:3 in handle
-  http://www.saraiva.com.br/js/saraiva/lib/swiper/idangerous.swiper.js:2352 in createLoop
-  http://www.saraiva.com.br/js/saraiva/lib/swiper/idangerous.swiper.js:2469 in makeSwiper
-  http://www.saraiva.com.br/js/saraiva/lib/swiper/idangerous.swiper.js:2498 in Swiper
-  http://www.saraiva.com.br/js/saraiva/home/customization_home.js:169
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in j
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in fireWith
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in ready
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in I
-TypeError: undefined is not a constructor (evaluating 'a.getAttribute(b)')
-
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in attr
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in f
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in select
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in fb
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:3 in handlers
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:3 in dispatch
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:3 in handle
-  http://www.saraiva.com.br/js/saraiva/lib/swiper/idangerous.swiper.js:2352 in createLoop
-  http://www.saraiva.com.br/js/saraiva/lib/swiper/idangerous.swiper.js:2469 in makeSwiper
-  http://www.saraiva.com.br/js/saraiva/lib/swiper/idangerous.swiper.js:2498 in Swiper
-  http://www.saraiva.com.br/js/saraiva/home/customization_home.js:169
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in j
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in fireWith
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in ready
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in I
-TypeError: undefined is not a constructor (evaluating 'a.getAttribute(b)')
-
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in attr
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in f
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in select
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in fb
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:3 in handlers
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:3 in dispatch
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:3 in handle
-  http://www.saraiva.com.br/js/saraiva/lib/swiper/idangerous.swiper.js:2352 in createLoop
-  http://www.saraiva.com.br/js/saraiva/lib/swiper/idangerous.swiper.js:2469 in makeSwiper
-  http://www.saraiva.com.br/js/saraiva/lib/swiper/idangerous.swiper.js:2498 in Swiper
-  http://www.saraiva.com.br/js/saraiva/home/customization_home.js:169
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in j
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in fireWith
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in ready
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in I
-TypeError: undefined is not a constructor (evaluating 'a.getAttribute(b)')
-
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in attr
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in f
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in select
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in fb
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:3 in handlers
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:3 in dispatch
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:3 in handle
-  http://www.saraiva.com.br/js/saraiva/lib/swiper/idangerous.swiper.js:2352 in createLoop
-  http://www.saraiva.com.br/js/saraiva/lib/swiper/idangerous.swiper.js:2469 in makeSwiper
-  http://www.saraiva.com.br/js/saraiva/lib/swiper/idangerous.swiper.js:2498 in Swiper
-  http://www.saraiva.com.br/js/saraiva/home/customization_home.js:169
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in j
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in fireWith
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in ready
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in I
-TypeError: undefined is not a constructor (evaluating 'a.getAttribute(b)')
-
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in attr
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in f
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in select
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in fb
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:3 in handlers
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:3 in dispatch
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:3 in handle
-  http://www.saraiva.com.br/js/saraiva/lib/swiper/idangerous.swiper.js:2352 in createLoop
-  http://www.saraiva.com.br/js/saraiva/lib/swiper/idangerous.swiper.js:2469 in makeSwiper
-  http://www.saraiva.com.br/js/saraiva/lib/swiper/idangerous.swiper.js:2498 in Swiper
-  http://www.saraiva.com.br/js/saraiva/home/customization_home.js:169
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in j
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in fireWith
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in ready
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in I
-TypeError: undefined is not a constructor (evaluating 'a.getAttribute(b)')
-
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in attr
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in f
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in select
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in fb
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:3 in handlers
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:3 in dispatch
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:3 in handle
-  http://www.saraiva.com.br/js/saraiva/lib/swiper/idangerous.swiper.js:2352 in createLoop
-  http://www.saraiva.com.br/js/saraiva/lib/swiper/idangerous.swiper.js:2469 in makeSwiper
-  http://www.saraiva.com.br/js/saraiva/lib/swiper/idangerous.swiper.js:2498 in Swiper
-  http://www.saraiva.com.br/js/saraiva/home/customization_home.js:169
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in j
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in fireWith
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in ready
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in I
-TypeError: undefined is not a constructor (evaluating 'a.getAttribute(b)')
-
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in attr
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in f
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in select
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in fb
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:3 in handlers
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:3 in dispatch
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:3 in handle
-  http://www.saraiva.com.br/js/saraiva/lib/swiper/idangerous.swiper.js:2352 in createLoop
-  http://www.saraiva.com.br/js/saraiva/lib/swiper/idangerous.swiper.js:2469 in makeSwiper
-  http://www.saraiva.com.br/js/saraiva/lib/swiper/idangerous.swiper.js:2498 in Swiper
-  http://www.saraiva.com.br/js/saraiva/home/customization_home.js:169
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in j
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in fireWith
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in ready
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in I
-TypeError: undefined is not a constructor (evaluating 'a.getAttribute(b)')
-
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in attr
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in f
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in select
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in fb
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:3 in handlers
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:3 in dispatch
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:3 in handle
-  http://www.saraiva.com.br/js/saraiva/lib/swiper/idangerous.swiper.js:2352 in createLoop
-  http://www.saraiva.com.br/js/saraiva/lib/swiper/idangerous.swiper.js:2469 in makeSwiper
-  http://www.saraiva.com.br/js/saraiva/lib/swiper/idangerous.swiper.js:2498 in Swiper
-  http://www.saraiva.com.br/js/saraiva/home/customization_home.js:169
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in j
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in fireWith
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in ready
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in I
-TypeError: undefined is not a constructor (evaluating 'a.getAttribute(b)')
-
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in attr
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in f
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in select
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in fb
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:3 in handlers
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:3 in dispatch
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:3 in handle
-  http://www.saraiva.com.br/js/saraiva/lib/swiper/idangerous.swiper.js:2352 in createLoop
-  http://www.saraiva.com.br/js/saraiva/lib/swiper/idangerous.swiper.js:2469 in makeSwiper
-  http://www.saraiva.com.br/js/saraiva/lib/swiper/idangerous.swiper.js:2498 in Swiper
-  http://www.saraiva.com.br/js/saraiva/home/customization_home.js:169
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in j
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in fireWith
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in ready
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in I
-TypeError: undefined is not a constructor (evaluating 'a.getAttribute(b)')
-
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in attr
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in f
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in select
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in fb
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:3 in handlers
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:3 in dispatch
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:3 in handle
-  http://www.saraiva.com.br/js/saraiva/lib/swiper/idangerous.swiper.js:2352 in createLoop
-  http://www.saraiva.com.br/js/saraiva/lib/swiper/idangerous.swiper.js:2469 in makeSwiper
-  http://www.saraiva.com.br/js/saraiva/lib/swiper/idangerous.swiper.js:2498 in Swiper
-  http://www.saraiva.com.br/js/saraiva/home/customization_home.js:169
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in j
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in fireWith
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in ready
-  http://www.saraiva.com.br/js/jquery/jquery-2.1.1.min.js:2 in I
+  http://www.saraiva.com.br/:485 in onload
 *** Begin accessibility audit results ***
 An accessibility audit found 
+Errors:
+Error: AX_TEXT_01 (Controls and media elements should have labels) failed on the following elements (1 - 2 of 2):
+#chaordic-widget-input-box
+#neoFormAIInput
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_01 for more information.
+
+Error: AX_HTML_02 (An element's ID must be unique in the DOM) failed on the following elements (1 - 5 of 38):
+#content-minicart
+#content-minicart
+#conten
+#cartoesc
+#contCartoesc
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_html_02 for more information.
+
+
 Warnings:
-Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 77):
-#content-login > .loggedInfo.no-display > A
-#chaordic-widget-iframe
-#nav > .level2.nav-2.level-top > UL > .banner > .zblock.zblock-menu-banner-2 > P > A
-#nav > .level3.nav-3.level-top > UL > .banner > .zblock.zblock-menu-banner-3 > A
-#nav > .level4.nav-4.level-top > UL > .banner > .zblock.zblock-menu-banner-4 > A
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_focus_01--these-elements-are-focusable-but-either-invisible-or-obscured-by-another-element for more information.
+Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 60):
+#chaordic-widget-input-box
+#tabAI > .contentAtendimento > .contentBlock.contentBlock-3 > .btnExtLink.btExtLinkCustom
+#tabAI > .contentAtendimento > .contentBlock.contentBlock-3 > A:nth-of-type(2)
+#tabAI > .contentAtendimento > .contentBlock.contentBlock-3 > .btnExtLink.btnExtLinkIcon.btnExtLinkIconCh
+#tabAI > .contentAtendimento > .contentBlock.contentBlock-3 > .btnExtLink.btnExtLinkIcon.btnExtLinkIconEm
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_focus_01 for more information.
 
-Warning: AX_TEXT_02 (Images should have an alt attribute) failed on the following element:
+Warning: AX_HTML_01 (The web page should have the content's human language indicated in the markup) failed on the following elements (1 - 4 of 4):
+html
+html
+html
+html
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_html_01 for more information.
+
+Warning: AX_TEXT_02 (Images should have an alt attribute) failed on the following elements (1 - 4 of 4):
 #content-minicart > IMG
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_02--images-should-have-an-alt-attribute-unless-they-have-an-aria-role-of-presentation for more information.
+body > .chaordic-search-button.isolated-button > DIV > .chaordic-search-button-img
+#chaordic-spinner
+#chaordic-search-button-img
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_02 for more information.
 
-Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 174):
-#nav > .level1.nav-1.first.level-top > UL > .bloco:nth-of-type(3) > A:nth-of-type(7) > .main_cat > SPAN
-#nav > .level9.nav-9.level-top > UL > .bloco:nth-of-type(3) > A:nth-of-type(8) > SPAN
-#nav > .level10.nav-10.level-top.level-promo.last > .level10.menu-destaque > LI > .category-products > .products-grid.destaque-menu > .item.first > .info-destaque > .priceStructure > .list_price_group > .price
-#nav > .level10.nav-10.level-top.level-promo.last > .level10.menu-destaque > LI > .category-products > .products-grid.destaque-menu > .item.first > .info-destaque > .priceStructure > .list_price_group > .price > .price
-#nav > .level10.nav-10.level-top.level-promo.last > .level10.menu-destaque > LI > .category-products > .products-grid.destaque-menu > .item.first > .info-destaque > .priceStructure > .list_price_group > .special_price > .price
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_color_01--text-elements-should-have-a-reasonable-contrast-ratio for more information.
+Warning: AX_TEXT_04 (The purpose of each link should be clear from the link text) failed on the following elements (1 - 5 of 32):
+body > .wrapper > .header-container > .header-container-fixed > .contentHeaderContainer > .header > .col2.logoNav > .logo > .logo
+body > .wrapper > .header-container > .header-container-fixed > .contentHeaderContainer > .header > .col2.last.mini-navigation > UL > .cart-mini-navigation.checkout-cart-icon.no-display > A
+#elCentral > .centralControl > .btnClose
+#nav > .level1.nav-1.first.level-top > UL > .banner > .zblock.zblock-menu-banner-1 > A
+#nav > .level2.nav-2.level-top > UL > .banner > .zblock.zblock-menu-banner-2 > P > A
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_04 for more information.
 
-Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 5 of 7):
-body > .wrapper > .header-container > .header-container-fixed > .contentHeaderContainer > .header > .col2.last.mini-navigation > UL > .closeAccountLogged
+Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 120):
+#divFormEmail > .topTitle
+#neoFormEMail > .inputBlock > LABEL
+#neoFormEMail > .inputBlock > LABEL > SPAN
+#neoFormEMail > DIV:nth-of-type(2) > LABEL
+#neoFormEMail > DIV:nth-of-type(2) > LABEL > SPAN
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_color_01 for more information.
+
+Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 5 of 5):
+body > .chaordic-search-button.isolated-button > DIV
+#chaordic-search-button > DIV
 body > .wrapper > .banner-top > .contentArrow > .contentArrowInt > .bannertop.arrowleft
 body > .wrapper > .banner-top > .contentArrow > .contentArrowInt > .bannertop.arrowright
-body > .wrapper > .page > .main.col1-layout > .col-main > .widget.widget-static-block:nth-of-type(2) > .block-product-home > .tabSystemContainer.limit > .content.tab1-subtab1.active > .col4 > .category-products > .products-grid.last.destaque-home > .item.first > .ratings > .rating-box.rating-box-desabled
-body > .wrapper > .page > .main.col1-layout > .col-main > .widget.widget-static-block:nth-of-type(3) > .tabSystemContainer.limit > .content.tab1-subtab1.active > .col4 > .category-products > .products-grid.last.destaque-home > .item.first > .ratings > .rating-box > .rating
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_image_01--meaningful-images-should-not-be-used-in-element-backgrounds for more information.
+body > .footer-before-container > DIV:nth-of-type(2) > .footer-initial > .limit > UL > .cartao-saraiva > .img-cartao-saraiva
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_image_01 for more information.
+
+Warning: AX_TITLE_01 (The web page should have a title that describes topic or purpose) failed on the following elements (1 - 3 of 3):
+html
+html
+html
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_title_01 for more information.
 
 
 *** End accessibility audit results ***

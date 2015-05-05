@@ -4,7 +4,15 @@ Errors:
 Error: AX_TEXT_01 (Controls and media elements should have labels) failed on the following elements (1 - 2 of 2):
 #form11 > SELECT
 #form2 > SELECT
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_01--controls-and-media-elements-should-have-labels for more information.
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_01 for more information.
+
+Error: AX_HTML_02 (An element's ID must be unique in the DOM) failed on the following elements (1 - 5 of 11):
+#noticiasPrincipais
+#noticiasPrincipais
+#noticiasPrincipais
+#tf_boxdestaques
+#tf_boxdestaques
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_html_02 for more information.
 
 
 Warnings:
@@ -14,7 +22,11 @@ Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscu
 #nav > LI:nth-of-type(2) > UL > LI:nth-of-type(3) > A
 #nav > LI:nth-of-type(2) > UL > LI:nth-of-type(4) > A
 #nav > LI:nth-of-type(2) > UL > LI:nth-of-type(5) > A
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_focus_01--these-elements-are-focusable-but-either-invisible-or-obscured-by-another-element for more information.
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_focus_01 for more information.
+
+Warning: AX_HTML_01 (The web page should have the content's human language indicated in the markup) failed on the following element:
+html
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_html_01 for more information.
 
 Warning: AX_TEXT_02 (Images should have an alt attribute) failed on the following elements (1 - 5 of 16):
 TABLE > TBODY > TR:nth-of-type(3) > TD > TABLE > TBODY > TR > TD > TABLE > TBODY > TR > TD:nth-of-type(2) > A > IMG
@@ -22,13 +34,21 @@ TABLE > TBODY > TR:nth-of-type(3) > TD > TABLE > TBODY > TR > TD > TABLE > TBODY
 TABLE > TBODY > TR:nth-of-type(3) > TD > TABLE > TBODY > TR > TD > TABLE > TBODY > TR > TD:nth-of-type(2) > A:nth-of-type(3) > IMG
 TABLE > TBODY > TR:nth-of-type(3) > TD > TABLE > TBODY > TR > TD > TABLE > TBODY > TR > TD:nth-of-type(2) > A:nth-of-type(4) > IMG
 TABLE > TBODY > TR:nth-of-type(3) > TD > TABLE > TBODY > TR > TD > TABLE > TBODY > TR > TD:nth-of-type(2) > A:nth-of-type(5) > IMG
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_02--images-should-have-an-alt-attribute-unless-they-have-an-aria-role-of-presentation for more information.
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_02 for more information.
+
+Warning: AX_TEXT_04 (The purpose of each link should be clear from the link text) failed on the following elements (1 - 5 of 18):
+TABLE > TBODY > TR:nth-of-type(3) > TD > TABLE > TBODY > TR > TD > TABLE > TBODY > TR > TD:nth-of-type(2) > A
+TABLE > TBODY > TR:nth-of-type(3) > TD > TABLE > TBODY > TR > TD > TABLE > TBODY > TR > TD:nth-of-type(2) > A:nth-of-type(2)
+TABLE > TBODY > TR:nth-of-type(3) > TD > TABLE > TBODY > TR > TD > TABLE > TBODY > TR > TD:nth-of-type(2) > A:nth-of-type(3)
+TABLE > TBODY > TR:nth-of-type(3) > TD > TABLE > TBODY > TR > TD > TABLE > TBODY > TR > TD:nth-of-type(2) > A:nth-of-type(4)
+TABLE > TBODY > TR:nth-of-type(3) > TD > TABLE > TBODY > TR > TD > TABLE > TBODY > TR > TD:nth-of-type(2) > A:nth-of-type(5)
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_04 for more information.
 
 Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 3 of 3):
 #tf_noticiashome > TABLE > TBODY > TR > TD > .tf_destaque > .tf_data
 #noticiasPrincipais > .tf_data
 #noticiasPrincipais > .tf_data
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_color_01--text-elements-should-have-a-reasonable-contrast-ratio for more information.
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_color_01 for more information.
 
 
 *** End accessibility audit results ***

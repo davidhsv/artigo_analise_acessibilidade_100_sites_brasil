@@ -1,32 +1,65 @@
+TypeError: Object is not a constructor (evaluating 'new Cookie('glb-ego-horoscopo',365)')
+
+  http://s.glbimg.com/jo/eg/static/CACHE/js/a2824df0ca19.js:2
+  http://s.glbimg.com/jo/eg/static/ego-common-364f62b40e.js:1 in o
+  http://s.glbimg.com/jo/eg/static/ego-common-364f62b40e.js:1 in fireWith
+  http://s.glbimg.com/jo/eg/static/ego-common-364f62b40e.js:1 in ready
+  http://s.glbimg.com/jo/eg/static/ego-common-364f62b40e.js:1 in B
 *** Begin accessibility audit results ***
 An accessibility audit found 
+Errors:
+Error: AX_HTML_02 (An element's ID must be unique in the DOM) failed on the following elements (1 - 5 of 6):
+#menu-2-passo-a-passo
+#menu-2-passo-a-passo
+#frmBuscaScroll
+#frmBuscaScroll
+#foto-
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_html_02 for more information.
+
+
 Warnings:
 Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 4 of 4):
 #header-produto > .opec-area.opec-mobile.opec-x60.grid-12 > .opec-internal > A
 #solar-touro > A
 #solar-touro > .infos > A
 #widget-ultimo-ensaio-paparazzo > .wrapper > .ensaio > A
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_focus_01--these-elements-are-focusable-but-either-invisible-or-obscured-by-another-element for more information.
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_focus_01 for more information.
 
-Warning: AX_TEXT_02 (Images should have an alt attribute) failed on the following elements (1 - 5 of 20):
+Warning: AX_HTML_01 (The web page should have the content's human language indicated in the markup) failed on the following element:
+html
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_html_01 for more information.
+
+Warning: AX_TEXT_02 (Images should have an alt attribute) failed on the following elements (1 - 5 of 26):
 #widget-top-famosos-home-moda-e-beleza > .top-famosos > .top-famoso-1 > .foto > IMG
 #widget-top-famosos-home-moda-e-beleza > .top-famosos > .top-famoso-2 > .foto > IMG
 #widget-top-famosos-home-moda-e-beleza > .top-famosos > .top-famoso-3 > .foto > IMG
-#glb-corpo > .glb-conteudo:nth-of-type(2) > .glb-bloco.home-moda-e-beleza > .glb-grid-5 > .widget.destaque.ultimas-home-moda-e-beleza > .midias > .midia.materia.primeira > .conteudo.com-foto > .foto > .borda-interna > IMG
-#glb-corpo > .glb-conteudo:nth-of-type(2) > .glb-bloco.home-moda-e-beleza > .glb-grid-5 > .widget.destaque.ultimas-home-moda-e-beleza > .midias > .midia.materia:nth-of-type(2) > .conteudo.com-foto > .foto > .borda-interna > IMG
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_02--images-should-have-an-alt-attribute-unless-they-have-an-aria-role-of-presentation for more information.
+#glb-corpo > DIV:nth-of-type(5) > .glb-bloco.home-moda-e-beleza > .glb-grid-5 > .widget.destaque.ultimas-home-moda-e-beleza > .midias > .midia.materia.primeira > .conteudo.com-foto > .foto > .borda-interna > IMG
+#glb-corpo > DIV:nth-of-type(5) > .glb-bloco.home-moda-e-beleza > .glb-grid-5 > .widget.destaque.ultimas-home-moda-e-beleza > .midias > LI:nth-of-type(2) > .conteudo.com-foto > .foto > .borda-interna > IMG
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_02 for more information.
 
-Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 183):
+Warning: AX_TEXT_04 (The purpose of each link should be clear from the link text) failed on the following elements (1 - 5 of 43):
+#barra-globocom > .barra-conteudo > .barra-logo.no-show.small
+#barra-globocom > .barra-conteudo > .barra-logo.no-show.large
+#barra-globocom > .barra-conteudo > .barra-itens > LI:nth-of-type(3) > .barra-item-esportes.no-show.large
+#barra-globocom > .barra-conteudo > .barra-itens > LI:nth-of-type(6) > .barra-item-famosos-etc.no-show.large
+#login-popin-close
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_04 for more information.
+
+Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 179):
 #menu-2-top-famosos > .menu-item-link > .menu-item-title
 #menu-2-ego-teen > .menu-item-link > .menu-item-title
 #menu-2-entrevista > .menu-item-link > .menu-item-title
 #menu-2-flagra > .menu-item-link > .menu-item-title
 #menu-2-noite > .menu-item-link > .menu-item-title
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_color_01--text-elements-should-have-a-reasonable-contrast-ratio for more information.
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_color_01 for more information.
 
 Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following element:
-#glb-corpo > .glb-conteudo:nth-of-type(3) > .glb-bloco.area-subprodutos > .glb-grid-4 > .glb-bl-conteudo.glb-bl-previsoes-do-dia > .glb-bl-interno > .titulo > .personare-brand
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_image_01--meaningful-images-should-not-be-used-in-element-backgrounds for more information.
+#glb-corpo > DIV:nth-of-type(7) > .glb-bloco.area-subprodutos > .glb-grid-4 > .glb-bl-conteudo.glb-bl-previsoes-do-dia > .glb-bl-interno > .titulo > .personare-brand
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_image_01 for more information.
+
+Warning: AX_TITLE_01 (The web page should have a title that describes topic or purpose) failed on the following element:
+html
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_title_01 for more information.
 
 
 *** End accessibility audit results ***

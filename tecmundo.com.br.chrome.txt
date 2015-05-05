@@ -1,32 +1,75 @@
 *** Begin accessibility audit results ***
 An accessibility audit found 
 Errors:
-Error: AX_TEXT_01 (Controls and media elements should have labels) failed on the following element:
+Error: AX_TEXT_01 (Controls and media elements should have labels) failed on the following elements (1 - 2 of 2):
 #nzn-js-search-toggle
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_01--controls-and-media-elements-should-have-labels for more information.
+#nzn-js-search-input
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_01 for more information.
+
+Error: AX_ARIA_10 (This element has an unsupported ARIA attribute) failed on the following elements (1 - 5 of 5):
+#yt-subscribe > .yt-uix-button-subscription-container > .yt-uix-button.yt-uix-button-size-default.yt-uix-button-subscribe-branded.yt-uix-button-has-icon.no-icon-markup.yt-uix-subscription-button.yt-can-buffer.external.fixed-width > .yt-uix-button-content > .subscribe-label
+#yt-subscribe > .yt-uix-button-subscription-container > .yt-uix-button.yt-uix-button-size-default.yt-uix-button-subscribe-branded.yt-uix-button-has-icon.no-icon-markup.yt-uix-subscription-button.yt-can-buffer.external.fixed-width > .yt-uix-button-content > .subscribed-label
+#yt-subscribe > .yt-uix-button-subscription-container > .yt-uix-button.yt-uix-button-size-default.yt-uix-button-subscribe-branded.yt-uix-button-has-icon.no-icon-markup.yt-uix-subscription-button.yt-can-buffer.external.fixed-width > .yt-uix-button-content > .unsubscribe-label
+#fb_xdm_frame_http
+#fb_xdm_frame_https
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_aria_10 for more information.
 
 
 Warnings:
-Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 16):
-#nzn-js-partner1-wrapper > .nzn-mosaic.nzn-mosaic-model5.nzn-mosaic-meg > .nzn-mosaic-item > .nzn-mosaic-news > A
-#nzn-js-partner1-wrapper > .nzn-mosaic.nzn-mosaic-model5.nzn-mosaic-meg > .nzn-mosaic-item:nth-of-type(2) > .nzn-mosaic-news > A
-#nzn-js-partner1-wrapper > .nzn-mosaic.nzn-mosaic-model5.nzn-mosaic-meg > .nzn-mosaic-item:nth-of-type(3) > .nzn-mosaic-news > A
-#nzn-js-partner1-wrapper > .nzn-mosaic.nzn-mosaic-model5.nzn-mosaic-meg > .nzn-mosaic-item:nth-of-type(4) > .nzn-mosaic-news > A
-#nzn-js-mosaic1-wrapper > .nzn-mosaic.nzn-mosaic-model1 > .nzn-mosaic-item > .nzn-mosaic-news > A
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_focus_01--these-elements-are-focusable-but-either-invisible-or-obscured-by-another-element for more information.
+Warning: AX_ARIA_11 (This element has an invalid ARIA attribute) failed on the following element:
+#yt-subscribe > .yt-uix-button-subscription-container > .yt-uix-button.yt-uix-button-size-default.yt-uix-button-subscribe-branded.yt-uix-button-has-icon.no-icon-markup.yt-uix-subscription-button.yt-can-buffer.external.fixed-width
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_aria_11 for more information.
 
-Warning: AX_TEXT_02 (Images should have an alt attribute) failed on the following elements (1 - 2 of 2):
+Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 37):
+#aswift_0
+#google_ads_frame1
+#google_image_div > IFRAME
+IFRAME
+IFRAME:nth-of-type(2)
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_focus_01 for more information.
+
+Warning: AX_HTML_01 (The web page should have the content's human language indicated in the markup) failed on the following elements (1 - 5 of 30):
+html
+html
+html
+html
+html
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_html_01 for more information.
+
+Warning: AX_TEXT_02 (Images should have an alt attribute) failed on the following elements (1 - 4 of 4):
 #nzn-js-navbar > .uk-navbar-brand.uk-margin-remove.nzn-navbar-item > A > IMG
+#aw0 > .img_ad
+#aw0 > .img_ad
 #nzn-js-container > .nzn-page-home > .nzn-footer-wrapper > .nzn-footer-group > .uk-container.uk-container-center > A > IMG
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_02--images-should-have-an-alt-attribute-unless-they-have-an-aria-role-of-presentation for more information.
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_02 for more information.
 
-Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 71):
+Warning: AX_TEXT_04 (The purpose of each link should be clear from the link text) failed on the following elements (1 - 5 of 28):
+#nzn-js-navbar > .uk-navbar-brand.uk-margin-remove.nzn-navbar-item > A
+#nzn-js-navbar > .uk-visible-small.uk-navbar-toggle.nzn-navbar-item
+#aw0
+#nzn-js-partner1-wrapper > .nzn-mosaic.nzn-mosaic-model5.nzn-mosaic-meg > .nzn-mosaic-item > .nzn-mosaic-news > A
+#nzn-js-partner1-wrapper > .nzn-mosaic.nzn-mosaic-model5.nzn-mosaic-meg > ARTICLE:nth-of-type(2) > .nzn-mosaic-news > A
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_04 for more information.
+
+Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 80):
 #nzn-js-navbar > .uk-navbar-nav.uk-hidden-small.nzn-navbar-item > .nzn-navbar-item-fixed > A
-#nzn-js-navbar > .uk-navbar-nav.uk-hidden-small.nzn-navbar-item > .nzn-navbar-item-fixed:nth-of-type(2) > A
-#nzn-js-navbar > .uk-navbar-nav.uk-hidden-small.nzn-navbar-item > .nzn-navbar-item-fixed:nth-of-type(3) > A
-#nzn-js-navbar > .uk-navbar-nav.uk-hidden-small.nzn-navbar-item > .nzn-navbar-item-fixed:nth-of-type(4) > A
+#nzn-js-navbar > .uk-navbar-nav.uk-hidden-small.nzn-navbar-item > LI:nth-of-type(2) > A
+#nzn-js-navbar > .uk-navbar-nav.uk-hidden-small.nzn-navbar-item > LI:nth-of-type(3) > A
+#nzn-js-navbar > .uk-navbar-nav.uk-hidden-small.nzn-navbar-item > LI:nth-of-type(4) > A
 #nzn-js-navbar > .uk-navbar-nav.uk-hidden-small.nzn-navbar-item > .nzn-navbar-item-fixed.uk-hidden-medium > A
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_color_01--text-elements-should-have-a-reasonable-contrast-ratio for more information.
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_color_01 for more information.
+
+Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following element:
+#u_0_1 > .pluginConnectButton > .pluginButton.pluginButtonSmall.pluginButtonInline.pluginConnectButtonDisconnected > DIV > .pluginButtonContainer > .pluginButtonImage > BUTTON > .pluginButtonIcon.img.sp_plugin-button.sx_plugin-button_favblue
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_image_01 for more information.
+
+Warning: AX_TITLE_01 (The web page should have a title that describes topic or purpose) failed on the following elements (1 - 5 of 27):
+html
+html
+html
+html
+html
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_title_01 for more information.
 
 
 *** End accessibility audit results ***

@@ -1,0 +1,75 @@
+*** Begin accessibility audit results ***
+An accessibility audit found 
+Errors:
+Error: AX_TEXT_01 (Controls and media elements should have labels) failed on the following element:
+#SMT_email
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_01 for more information.
+
+Error: AX_HTML_02 (An element's ID must be unique in the DOM) failed on the following elements (1 - 5 of 20):
+#68DC459B-C5D3-4F72-9A18-7F7823B41B16SVA
+#4E22B79E-90BE-4BD6-ACBF-3B201C46CB34SVA
+#HOPPA07612-1SVA
+#HOPPA07612-2SVA
+#68DC459B-C5D3-4F72-9A18-7F7823B41B16SVA
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_html_02 for more information.
+
+
+Warnings:
+Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 89):
+#refresh-off
+#accessible-menu > UL > LI:nth-of-type(2) > A
+#accessible-menu > UL > LI:nth-of-type(3) > A
+#accessible-menu > UL > LI:nth-of-type(4) > A
+#accessible-menu > UL > LI:nth-of-type(5) > A
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_focus_01 for more information.
+
+Warning: AX_HTML_01 (The web page should have the content's human language indicated in the markup) failed on the following elements (1 - 5 of 7):
+html
+html
+html
+html
+html
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_html_01 for more information.
+
+Warning: AX_TEXT_02 (Images should have an alt attribute) failed on the following elements (1 - 5 of 10):
+#97B43BEF-888B-45F3-8BAA-CE8259954C78 > H2 > A > IMG
+#FBEE3090-255D-48E0-961C-7011B1330B70 > .cabecalho > A > .logo > IMG
+#FBEE3090-255D-48E0-961C-7011B1330B70 > .estrutura > .rodape > .cadastro > A > .logo > IMG
+#FBEE3090-255D-48E0-961C-7011B1330B70 > .estrutura > .rodape > .feed > A > .logo > IMG
+#A9E206E9-D565-4A7E-8F9B-A26E3C0B7DFC > .destaques > LI > A > IMG
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_02 for more information.
+
+Warning: AX_TEXT_04 (The purpose of each link should be clear from the link text) failed on the following elements (1 - 5 of 105):
+#ferramentas > .tools > .facebook > A
+#ferramentas > .tools > .twitter > A
+#ferramentas > .tools > .gplus > A
+#ferramentas > .tools > .newsletter > A
+#C21BFD08-5C8C-4B60-B06C-6CDBA21EFA13 > .getHover > P > A
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_04 for more information.
+
+Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 157):
+#buscaGoogle > CITE
+#2BBEBFE5-B41D-48D8-A06A-D3027E861320 > .tvFlashNav > DIV
+#2BBEBFE5-B41D-48D8-A06A-D3027E861320 > .tvFlashNav > DIV > .posicao
+#2BBEBFE5-B41D-48D8-A06A-D3027E861320 > .tvFlashNav > DIV > CITE
+#8753B66C-FEEB-46FB-9D25-38923CE045FE > .destaque > .header > H2 > A
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_color_01 for more information.
+
+Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 5 of 33):
+#searchContainer > .botao-buscar
+#2BBEBFE5-B41D-48D8-A06A-D3027E861320 > .tvFlashNav > .voltar > SPAN
+#2BBEBFE5-B41D-48D8-A06A-D3027E861320 > .tvFlashNav > .avancar > SPAN
+#3208D265-F139-4FA6-9DBC-BD6E37C015DD > .esquerda > .image > .play
+#8753B66C-FEEB-46FB-9D25-38923CE045FE > .videos > UL > .fl.getHover > .img > .play
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_image_01 for more information.
+
+Warning: AX_TITLE_01 (The web page should have a title that describes topic or purpose) failed on the following elements (1 - 5 of 5):
+html
+html
+html
+html
+html
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_title_01 for more information.
+
+
+*** End accessibility audit results ***

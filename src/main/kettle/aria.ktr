@@ -136,8 +136,8 @@
     </lookup>
      <cluster_schema/>
  <remotesteps>   <input>   </input>   <output>   </output> </remotesteps>    <GUI>
-      <xloc>607</xloc>
-      <yloc>255</yloc>
+      <xloc>608</xloc>
+      <yloc>256</yloc>
       <draw>Y</draw>
       </GUI>
     </step>
@@ -153,7 +153,7 @@
            <method>none</method>
            <schema_name/>
            </partitioning>
-    <script><![CDATA[C:\\Users\\dhsv\\Desktop\\workspace_\\teste\\(.*)\.aria\.txt]]></script>    <matcher>_URL</matcher>
+    <script><![CDATA[.*?([^/]*)\.aria\.txt]]></script>    <matcher>_URL</matcher>
     <resultfieldname>result</resultfieldname>
     <usevar>Y</usevar>
     <allowcapturegroups>Y</allowcapturegroups>
@@ -225,13 +225,8 @@
     <encoding/>
     <add_to_result_filenames>Y</add_to_result_filenames>
     <file>
-      <name>C&#x3a;&#x5c;Users&#x5c;dhsv&#x5c;Desktop&#x5c;workspace_&#x5c;teste&#x5c;</name>
+      <name>&#x2f;Users&#x2f;Demo&#x2f;Desktop&#x2f;TRT&#x2f;artigosource&#x2f;</name>
       <filemask>.&#x2a;aria&#x5c;.txt</filemask>
-      <exclude_filemask/>
-      <file_required>N</file_required>
-      <include_subfolders>N</include_subfolders>
-      <name/>
-      <filemask/>
       <exclude_filemask/>
       <file_required>N</file_required>
       <include_subfolders>N</include_subfolders>

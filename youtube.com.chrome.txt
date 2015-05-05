@@ -1,50 +1,118 @@
 TypeError: undefined is not an object (evaluating 'window.angular.version')
 
-  https://s.ytimg.com/yts/jsbin/www-en_US-vfl_D4YEN/common.js:956
+  https://s.ytimg.com/yts/jsbin/www-en_US-vflVDejtq/common.js:956
 *** Begin accessibility audit results ***
 An accessibility audit found 
 Errors:
+Error: AX_ARIA_09 (Elements with ARIA roles must be in the correct scope) failed on the following elements (1 - 5 of 144):
+#item-section-397460 > LI > .feed-item-container.browse-list-item-container.yt-section-hover-container.lohp-newspaper-shelf.shelf-item.branded-page-box.vve-check.clearfix > .lohp-shelf-content > .lohp-large-shelf-container > .yt-lockup.yt-lockup-grid.yt-lockup-video.vve-check.clearfix > .yt-lockup-thumbnail.contains-addto > .thumb-menu.dark-overflow-action-menu.video-actions > .yt-uix-button-reverse.flip.addto-watch-queue-menu.spf-nolink.hide-until-delayloaded.yt-uix-button.yt-uix-button-dark-overflow-action-menu.yt-uix-button-size-default.yt-uix-button-has-icon.no-icon-markup.yt-uix-button-empty > .watch-queue-thumb-menu.yt-uix-button-menu.yt-uix-button-menu-dark-overflow-action-menu.hid > .overflow-menu-choice.addto-watch-queue-menu-choice.addto-watch-queue-play-next.yt-uix-button-menu-item
+#item-section-397460 > LI > .feed-item-container.browse-list-item-container.yt-section-hover-container.lohp-newspaper-shelf.shelf-item.branded-page-box.vve-check.clearfix > .lohp-shelf-content > .lohp-large-shelf-container > .yt-lockup.yt-lockup-grid.yt-lockup-video.vve-check.clearfix > .yt-lockup-thumbnail.contains-addto > .thumb-menu.dark-overflow-action-menu.video-actions > .yt-uix-button-reverse.flip.addto-watch-queue-menu.spf-nolink.hide-until-delayloaded.yt-uix-button.yt-uix-button-dark-overflow-action-menu.yt-uix-button-size-default.yt-uix-button-has-icon.no-icon-markup.yt-uix-button-empty > .watch-queue-thumb-menu.yt-uix-button-menu.yt-uix-button-menu-dark-overflow-action-menu.hid > .overflow-menu-choice.addto-watch-queue-menu-choice.addto-watch-queue-play-now.yt-uix-button-menu-item
+#item-section-397460 > LI > .feed-item-container.browse-list-item-container.yt-section-hover-container.lohp-newspaper-shelf.shelf-item.branded-page-box.vve-check.clearfix > .lohp-shelf-content > .lohp-medium-shelves-container > .lohp-medium-shelf > .yt-lockup.yt-lockup-mini.yt-lockup-video.vve-check.clearfix > .yt-lockup-thumbnail.contains-addto > .thumb-menu.dark-overflow-action-menu.video-actions > .yt-uix-button-reverse.flip.addto-watch-queue-menu.spf-nolink.hide-until-delayloaded.yt-uix-button.yt-uix-button-dark-overflow-action-menu.yt-uix-button-size-default.yt-uix-button-has-icon.no-icon-markup.yt-uix-button-empty > .watch-queue-thumb-menu.yt-uix-button-menu.yt-uix-button-menu-dark-overflow-action-menu.hid > .overflow-menu-choice.addto-watch-queue-menu-choice.addto-watch-queue-play-next.yt-uix-button-menu-item
+#item-section-397460 > LI > .feed-item-container.browse-list-item-container.yt-section-hover-container.lohp-newspaper-shelf.shelf-item.branded-page-box.vve-check.clearfix > .lohp-shelf-content > .lohp-medium-shelves-container > .lohp-medium-shelf > .yt-lockup.yt-lockup-mini.yt-lockup-video.vve-check.clearfix > .yt-lockup-thumbnail.contains-addto > .thumb-menu.dark-overflow-action-menu.video-actions > .yt-uix-button-reverse.flip.addto-watch-queue-menu.spf-nolink.hide-until-delayloaded.yt-uix-button.yt-uix-button-dark-overflow-action-menu.yt-uix-button-size-default.yt-uix-button-has-icon.no-icon-markup.yt-uix-button-empty > .watch-queue-thumb-menu.yt-uix-button-menu.yt-uix-button-menu-dark-overflow-action-menu.hid > .overflow-menu-choice.addto-watch-queue-menu-choice.addto-watch-queue-play-now.yt-uix-button-menu-item
+#item-section-397460 > LI > .feed-item-container.browse-list-item-container.yt-section-hover-container.lohp-newspaper-shelf.shelf-item.branded-page-box.vve-check.clearfix > .lohp-shelf-content > .lohp-medium-shelves-container > DIV:nth-of-type(2) > .yt-lockup.yt-lockup-mini.yt-lockup-video.vve-check.clearfix > .yt-lockup-thumbnail.contains-addto > .thumb-menu.dark-overflow-action-menu.video-actions > .yt-uix-button-reverse.flip.addto-watch-queue-menu.spf-nolink.hide-until-delayloaded.yt-uix-button.yt-uix-button-dark-overflow-action-menu.yt-uix-button-size-default.yt-uix-button-has-icon.no-icon-markup.yt-uix-button-empty > .watch-queue-thumb-menu.yt-uix-button-menu.yt-uix-button-menu-dark-overflow-action-menu.hid > .overflow-menu-choice.addto-watch-queue-menu-choice.addto-watch-queue-play-next.yt-uix-button-menu-item
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_aria_09 for more information.
+
 Error: AX_TEXT_01 (Controls and media elements should have labels) failed on the following elements (1 - 5 of 7):
-#item-section-159684 > LI > .feed-item-container.browse-list-item-container.yt-section-hover-container.compact-shelf.shelf-item.branded-page-box.vve-check.clearfix > .feed-item-dismissable > .compact-shelf.yt-uix-shelfslider.yt-uix-shelfslider-at-head > .yt-uix-button.yt-uix-button-size-default.yt-uix-button-shelf-slider-pager.yt-uix-shelfslider-next
-#item-section-823812 > LI > .feed-item-container.browse-list-item-container.yt-section-hover-container.compact-shelf.shelf-item.branded-page-box.vve-check.clearfix > .feed-item-dismissable > .compact-shelf.yt-uix-shelfslider.yt-uix-shelfslider-at-head > .yt-uix-button.yt-uix-button-size-default.yt-uix-button-shelf-slider-pager.yt-uix-shelfslider-next
-#item-section-504956 > LI > .feed-item-container.browse-list-item-container.yt-section-hover-container.compact-shelf.shelf-item.branded-page-box.vve-check.clearfix > .feed-item-dismissable > .compact-shelf.yt-uix-shelfslider.yt-uix-shelfslider-at-head > .yt-uix-button.yt-uix-button-size-default.yt-uix-button-shelf-slider-pager.yt-uix-shelfslider-next
-#item-section-483120 > LI > .feed-item-container.browse-list-item-container.yt-section-hover-container.compact-shelf.shelf-item.branded-page-box.vve-check.clearfix > .feed-item-dismissable > .compact-shelf.yt-uix-shelfslider.yt-uix-shelfslider-at-head > .yt-uix-button.yt-uix-button-size-default.yt-uix-button-shelf-slider-pager.yt-uix-shelfslider-next
-#item-section-840093 > LI > .feed-item-container.browse-list-item-container.yt-section-hover-container.compact-shelf.shelf-item.branded-page-box.vve-check.clearfix > .feed-item-dismissable > .compact-shelf.yt-uix-shelfslider.yt-uix-shelfslider-at-head > .yt-uix-button.yt-uix-button-size-default.yt-uix-button-shelf-slider-pager.yt-uix-shelfslider-next
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_01--controls-and-media-elements-should-have-labels for more information.
+#item-section-130388 > LI > .feed-item-container.browse-list-item-container.yt-section-hover-container.compact-shelf.shelf-item.branded-page-box.vve-check.clearfix > .feed-item-dismissable > .compact-shelf.yt-uix-shelfslider.yt-uix-shelfslider-at-head > .yt-uix-button.yt-uix-button-size-default.yt-uix-button-shelf-slider-pager.yt-uix-shelfslider-next
+#item-section-490249 > LI > .feed-item-container.browse-list-item-container.yt-section-hover-container.compact-shelf.shelf-item.branded-page-box.vve-check.clearfix > .feed-item-dismissable > .compact-shelf.yt-uix-shelfslider.yt-uix-shelfslider-at-head > .yt-uix-button.yt-uix-button-size-default.yt-uix-button-shelf-slider-pager.yt-uix-shelfslider-next
+#item-section-974160 > LI > .feed-item-container.browse-list-item-container.yt-section-hover-container.compact-shelf.shelf-item.branded-page-box.vve-check.clearfix > .feed-item-dismissable > .compact-shelf.yt-uix-shelfslider.yt-uix-shelfslider-at-head > .yt-uix-button.yt-uix-button-size-default.yt-uix-button-shelf-slider-pager.yt-uix-shelfslider-next
+#item-section-675850 > LI > .feed-item-container.browse-list-item-container.yt-section-hover-container.compact-shelf.shelf-item.branded-page-box.vve-check.clearfix > .feed-item-dismissable > .compact-shelf.yt-uix-shelfslider.yt-uix-shelfslider-at-head > .yt-uix-button.yt-uix-button-size-default.yt-uix-button-shelf-slider-pager.yt-uix-shelfslider-next
+#item-section-785278 > LI > .feed-item-container.browse-list-item-container.yt-section-hover-container.compact-shelf.shelf-item.branded-page-box.vve-check.clearfix > .feed-item-dismissable > .compact-shelf.yt-uix-shelfslider.yt-uix-shelfslider-at-head > .yt-uix-button.yt-uix-button-size-default.yt-uix-button-shelf-slider-pager.yt-uix-shelfslider-next
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_01 for more information.
+
+Error: AX_ARIA_08 (Elements with ARIA roles must ensure required owned elements are present) failed on the following elements (1 - 3 of 3):
+#guide-container > .guide-module-content.yt-scrollbar > .guide-toplevel > .guide-section.vve-check > .guide-item-container.personal-item > .guide-user-links.yt-uix-tdl.yt-box
+#guide-container > .guide-module-content.yt-scrollbar > .guide-toplevel > LI:nth-of-type(2) > .guide-item-container.personal-item > .guide-user-links.yt-uix-tdl.yt-box
+#guide-container > .guide-module-content.yt-scrollbar > .guide-toplevel > LI:nth-of-type(3) > .guide-item-container.personal-item > .guide-user-links.yt-uix-tdl.yt-box
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_aria_08 for more information.
+
+Error: AX_ARIA_10 (This element has an unsupported ARIA attribute) failed on the following elements (1 - 5 of 106):
+#appbar-nav > .appbar-nav-menu > LI > .epic-nav-item-heading
+#music-tab
+#item-section-397460 > LI > .feed-item-container.browse-list-item-container.yt-section-hover-container.lohp-newspaper-shelf.shelf-item.branded-page-box.vve-check.clearfix > .lohp-shelf-content > .lohp-large-shelf-container > .yt-lockup.yt-lockup-grid.yt-lockup-video.vve-check.clearfix > .yt-lockup-thumbnail.contains-addto > .yt-uix-sessionlink.spf-link > .video-time
+#item-section-397460 > LI > .feed-item-container.browse-list-item-container.yt-section-hover-container.lohp-newspaper-shelf.shelf-item.branded-page-box.vve-check.clearfix > .lohp-shelf-content > .lohp-medium-shelves-container > .lohp-medium-shelf > .yt-lockup.yt-lockup-mini.yt-lockup-video.vve-check.clearfix > .yt-lockup-thumbnail.contains-addto > .yt-uix-sessionlink.spf-link > .video-time
+#item-section-397460 > LI > .feed-item-container.browse-list-item-container.yt-section-hover-container.lohp-newspaper-shelf.shelf-item.branded-page-box.vve-check.clearfix > .lohp-shelf-content > .lohp-medium-shelves-container > DIV:nth-of-type(2) > .yt-lockup.yt-lockup-mini.yt-lockup-video.vve-check.clearfix > .yt-lockup-thumbnail.contains-addto > .yt-uix-sessionlink.spf-link > .video-time
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_aria_10 for more information.
 
 
 Warnings:
-Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 21):
+Warning: AX_ARIA_12 (This element does not support ARIA roles, states and properties) failed on the following elements (1 - 5 of 7):
+#UC_Db3AmhX1e4DMBEMkab4TA-guide-item > .guide-item.yt-uix-sessionlink.yt-valign.spf-link > .yt-valign-container > .thumb > .video-thumb.yt-thumb.yt-thumb-20 > .yt-thumb-square > .yt-thumb-clip > IMG
+#UC-9-kyTW8ZkZNDHQJ6FgpwQ-guide-item > .guide-item.yt-uix-sessionlink.yt-valign.spf-link > .yt-valign-container > .thumb > .video-thumb.yt-thumb.yt-thumb-20 > .yt-thumb-square > .yt-thumb-clip > IMG
+#UCEgdi0XIXXZ-qJOFPf4JSKw-guide-item > .guide-item.yt-uix-sessionlink.yt-valign.spf-link > .yt-valign-container > .thumb > .video-thumb.yt-thumb.yt-thumb-20 > .yt-thumb-square > .yt-thumb-clip > IMG
+#UCOpNcN46UbXVtpKMrmU4Abg-guide-item > .guide-item.yt-uix-sessionlink.yt-valign.spf-link > .yt-valign-container > .thumb > .video-thumb.yt-thumb.yt-thumb-20 > .yt-thumb-square > .yt-thumb-clip > IMG
+#UCG9na7bctxWnEx2wwBSnnDQ-guide-item > .guide-item.yt-uix-sessionlink.yt-valign.spf-link > .yt-valign-container > .thumb > .video-thumb.yt-thumb.yt-thumb-20 > .yt-thumb-square > .yt-thumb-clip > IMG
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_aria_12 for more information.
+
+Warning: AX_ARIA_11 (This element has an invalid ARIA attribute) failed on the following elements (1 - 5 of 9):
+#what_to_watch-guide-item
+#UC_Db3AmhX1e4DMBEMkab4TA-guide-item
+#UC-9-kyTW8ZkZNDHQJ6FgpwQ-guide-item
+#UCEgdi0XIXXZ-qJOFPf4JSKw-guide-item
+#UCOpNcN46UbXVtpKMrmU4Abg-guide-item
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_aria_11 for more information.
+
+Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 20):
 #a11y-skip-nav
-#player-api
-#item-section-957821 > LI > .feed-item-container.browse-list-item-container.yt-section-hover-container.lohp-newspaper-shelf.shelf-item.branded-page-box.clearfix > .lohp-shelf-content > .lohp-medium-shelves-container > .lohp-medium-shelf > .yt-lockup.yt-lockup-mini.yt-lockup-video.vve-check.clearfix > .yt-lockup-thumbnail.contains-addto > .yt-uix-button.yt-uix-button-size-small.yt-uix-button-default.yt-uix-button-empty.yt-uix-button-has-icon.no-icon-markup.addto-button.video-actions.spf-nolink.hide-until-delayloaded.addto-watch-later-button-sign-in.yt-uix-tooltip
-#item-section-957821 > LI > .feed-item-container.browse-list-item-container.yt-section-hover-container.lohp-newspaper-shelf.shelf-item.branded-page-box.clearfix > .lohp-shelf-content > .lohp-medium-shelves-container > .lohp-medium-shelf:nth-of-type(3) > .yt-lockup.yt-lockup-mini.yt-lockup-video.vve-check.clearfix > .yt-lockup-content > .yt-lockup-title > .yt-ui-ellipsis.yt-ui-ellipsis-2.yt-uix-sessionlink.spf-link
-#footer-logo > A
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_focus_01--these-elements-are-focusable-but-either-invisible-or-obscured-by-another-element for more information.
+#item-section-397460 > LI > .feed-item-container.browse-list-item-container.yt-section-hover-container.lohp-newspaper-shelf.shelf-item.branded-page-box.vve-check.clearfix > .lohp-shelf-content > .lohp-medium-shelves-container > .lohp-medium-shelf > .yt-lockup.yt-lockup-mini.yt-lockup-video.vve-check.clearfix > .yt-lockup-thumbnail.contains-addto > .yt-uix-button.yt-uix-button-size-small.yt-uix-button-default.yt-uix-button-empty.yt-uix-button-has-icon.no-icon-markup.addto-button.video-actions.spf-nolink.hide-until-delayloaded.addto-watch-later-button-sign-in.yt-uix-tooltip
+#aw0
+#footer-logo-link
+#yt-picker-language-button
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_focus_01 for more information.
+
+Warning: AX_HTML_01 (The web page should have the content's human language indicated in the markup) failed on the following elements (1 - 5 of 6):
+html
+html
+html
+html
+html
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_html_01 for more information.
 
 Warning: AX_TEXT_02 (Images should have an alt attribute) failed on the following elements (1 - 5 of 7):
-#item-section-159684 > LI > .feed-item-container.browse-list-item-container.yt-section-hover-container.compact-shelf.shelf-item.branded-page-box.vve-check.clearfix > .feed-item-dismissable > .branded-page-module-title > .branded-page-module-title-link.yt-uix-sessionlink.spf-link.g-hovercard > .yt-lockup-thumbnail > .yt-thumb.video-thumb > IMG
-#item-section-823812 > LI > .feed-item-container.browse-list-item-container.yt-section-hover-container.compact-shelf.shelf-item.branded-page-box.vve-check.clearfix > .feed-item-dismissable > .branded-page-module-title > .branded-page-module-title-link.yt-uix-sessionlink.spf-link.g-hovercard > .yt-lockup-thumbnail > .yt-thumb.video-thumb > IMG
-#item-section-504956 > LI > .feed-item-container.browse-list-item-container.yt-section-hover-container.compact-shelf.shelf-item.branded-page-box.vve-check.clearfix > .feed-item-dismissable > .branded-page-module-title > .branded-page-module-title-link.yt-uix-sessionlink.spf-link.g-hovercard > .yt-lockup-thumbnail > .yt-thumb.video-thumb > IMG
-#item-section-483120 > LI > .feed-item-container.browse-list-item-container.yt-section-hover-container.compact-shelf.shelf-item.branded-page-box.vve-check.clearfix > .feed-item-dismissable > .branded-page-module-title > .branded-page-module-title-link.yt-uix-sessionlink.spf-link.g-hovercard > .yt-lockup-thumbnail > .yt-thumb.video-thumb > IMG
-#item-section-840093 > LI > .feed-item-container.browse-list-item-container.yt-section-hover-container.compact-shelf.shelf-item.branded-page-box.vve-check.clearfix > .feed-item-dismissable > .branded-page-module-title > .branded-page-module-title-link.yt-uix-sessionlink.spf-link.g-hovercard > .yt-lockup-thumbnail > .yt-thumb.video-thumb > IMG
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_02--images-should-have-an-alt-attribute-unless-they-have-an-aria-role-of-presentation for more information.
+#item-section-130388 > LI > .feed-item-container.browse-list-item-container.yt-section-hover-container.compact-shelf.shelf-item.branded-page-box.vve-check.clearfix > .feed-item-dismissable > .branded-page-module-title > .branded-page-module-title-link.yt-uix-sessionlink.spf-link.g-hovercard > .yt-lockup-thumbnail > .yt-thumb.video-thumb > IMG
+#item-section-490249 > LI > .feed-item-container.browse-list-item-container.yt-section-hover-container.compact-shelf.shelf-item.branded-page-box.vve-check.clearfix > .feed-item-dismissable > .branded-page-module-title > .branded-page-module-title-link.yt-uix-sessionlink.spf-link.g-hovercard > .yt-lockup-thumbnail > .yt-thumb.video-thumb > IMG
+#item-section-974160 > LI > .feed-item-container.browse-list-item-container.yt-section-hover-container.compact-shelf.shelf-item.branded-page-box.vve-check.clearfix > .feed-item-dismissable > .branded-page-module-title > .branded-page-module-title-link.yt-uix-sessionlink.spf-link.g-hovercard > .yt-lockup-thumbnail > .yt-thumb.video-thumb > IMG
+#item-section-675850 > LI > .feed-item-container.browse-list-item-container.yt-section-hover-container.compact-shelf.shelf-item.branded-page-box.vve-check.clearfix > .feed-item-dismissable > .branded-page-module-title > .branded-page-module-title-link.yt-uix-sessionlink.spf-link.g-hovercard > .yt-lockup-thumbnail > .yt-thumb.video-thumb > IMG
+#item-section-785278 > LI > .feed-item-container.browse-list-item-container.yt-section-hover-container.compact-shelf.shelf-item.branded-page-box.vve-check.clearfix > .feed-item-dismissable > .branded-page-module-title > .branded-page-module-title-link.yt-uix-sessionlink.spf-link.g-hovercard > .yt-lockup-thumbnail > .yt-thumb.video-thumb > IMG
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_02 for more information.
 
-Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 11):
-#ticker > .yt-alert-content > .yt-alert-message
-#ticker > .yt-alert-content > .yt-alert-message > A
+Warning: AX_TEXT_04 (The purpose of each link should be clear from the link text) failed on the following elements (1 - 5 of 75):
+#yt-lang-alert-content > .yt-lang-alert-controls > A
+#item-section-397460 > LI > .feed-item-container.browse-list-item-container.yt-section-hover-container.lohp-newspaper-shelf.shelf-item.branded-page-box.vve-check.clearfix > .lohp-shelf-content > .lohp-large-shelf-container > .yt-lockup.yt-lockup-grid.yt-lockup-video.vve-check.clearfix > .yt-lockup-thumbnail.contains-addto > .yt-uix-sessionlink.spf-link
+#item-section-397460 > LI > .feed-item-container.browse-list-item-container.yt-section-hover-container.lohp-newspaper-shelf.shelf-item.branded-page-box.vve-check.clearfix > .lohp-shelf-content > .lohp-medium-shelves-container > .lohp-medium-shelf > .yt-lockup.yt-lockup-mini.yt-lockup-video.vve-check.clearfix > .yt-lockup-thumbnail.contains-addto > .yt-uix-sessionlink.spf-link
+#item-section-397460 > LI > .feed-item-container.browse-list-item-container.yt-section-hover-container.lohp-newspaper-shelf.shelf-item.branded-page-box.vve-check.clearfix > .lohp-shelf-content > .lohp-medium-shelves-container > DIV:nth-of-type(2) > .yt-lockup.yt-lockup-mini.yt-lockup-video.vve-check.clearfix > .yt-lockup-thumbnail.contains-addto > .yt-uix-sessionlink.spf-link
+#item-section-397460 > LI > .feed-item-container.browse-list-item-container.yt-section-hover-container.lohp-newspaper-shelf.shelf-item.branded-page-box.vve-check.clearfix > .lohp-shelf-content > .lohp-medium-shelves-container > DIV:nth-of-type(3) > .yt-lockup.yt-lockup-mini.yt-lockup-video.vve-check.clearfix > .yt-lockup-thumbnail.contains-addto > .yt-uix-sessionlink.spf-link
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_04 for more information.
+
+Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 9):
 #search-btn > .yt-uix-button-content
 #yt-lang-alert-container > .yt-alert-content > .yt-alert-message
-#item-section-159684 > LI > .feed-item-container.browse-list-item-container.yt-section-hover-container.compact-shelf.shelf-item.branded-page-box.vve-check.clearfix > .feed-item-dismissable > .menu-container > .shelf-action-container > .shelf-subscription-button.yt-uix-button-subscription-container > .yt-subscription-button-subscriber-count-branded-horizontal
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_color_01--text-elements-should-have-a-reasonable-contrast-ratio for more information.
+#item-section-130388 > LI > .feed-item-container.browse-list-item-container.yt-section-hover-container.compact-shelf.shelf-item.branded-page-box.vve-check.clearfix > .feed-item-dismissable > .menu-container > .shelf-action-container > .shelf-subscription-button.yt-uix-button-subscription-container > .yt-subscription-button-subscriber-count-branded-horizontal
+#item-section-490249 > LI > .feed-item-container.browse-list-item-container.yt-section-hover-container.compact-shelf.shelf-item.branded-page-box.vve-check.clearfix > .feed-item-dismissable > .menu-container > .shelf-action-container > .shelf-subscription-button.yt-uix-button-subscription-container > .yt-subscription-button-subscriber-count-branded-horizontal
+#item-section-974160 > LI > .feed-item-container.browse-list-item-container.yt-section-hover-container.compact-shelf.shelf-item.branded-page-box.vve-check.clearfix > .feed-item-dismissable > .menu-container > .shelf-action-container > .shelf-subscription-button.yt-uix-button-subscription-container > .yt-subscription-button-subscriber-count-branded-horizontal
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_color_01 for more information.
 
-Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 5 of 57):
-#ticker > .yt-alert-icon > .icon.master-sprite.yt-sprite
+Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 5 of 78):
 #logo-container > .logo.masthead-logo-renderer-logo.yt-sprite
 #appbar-guide-button > .yt-uix-button-icon-wrapper > .yt-uix-button-icon.yt-uix-button-icon-appbar-guide.yt-sprite
 #yt-lang-alert-container > .yt-alert-icon > .icon.master-sprite.yt-sprite
-#item-section-159684 > LI > .feed-item-container.browse-list-item-container.yt-section-hover-container.compact-shelf.shelf-item.branded-page-box.vve-check.clearfix > .feed-item-dismissable > .compact-shelf.yt-uix-shelfslider.yt-uix-shelfslider-at-head > .yt-uix-button.yt-uix-button-size-default.yt-uix-button-shelf-slider-pager.yt-uix-shelfslider-next > .yt-uix-button-content > .yt-uix-shelfslider-next-arrow.yt-uix-tooltip.yt-sprite
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_image_01--meaningful-images-should-not-be-used-in-element-backgrounds for more information.
+#item-section-130388 > LI > .feed-item-container.browse-list-item-container.yt-section-hover-container.compact-shelf.shelf-item.branded-page-box.vve-check.clearfix > .feed-item-dismissable > .compact-shelf.yt-uix-shelfslider.yt-uix-shelfslider-at-head > .yt-uix-shelfslider-body.yt-viewport > .yt-uix-shelfslider-list > .yt-shelf-grid-item.yt-uix-shelfslider-item > .yt-lockup.yt-lockup-grid.yt-lockup-video.vve-check.clearfix > .yt-lockup-dismissable > .yt-lockup-content > .yt-lockup-byline > .yt-uix-tooltip.yt-channel-title-icon-verified.yt-sprite
+#item-section-130388 > LI > .feed-item-container.browse-list-item-container.yt-section-hover-container.compact-shelf.shelf-item.branded-page-box.vve-check.clearfix > .feed-item-dismissable > .compact-shelf.yt-uix-shelfslider.yt-uix-shelfslider-at-head > .yt-uix-shelfslider-body.yt-viewport > .yt-uix-shelfslider-list > LI:nth-of-type(2) > .yt-lockup.yt-lockup-grid.yt-lockup-video.vve-check.clearfix > .yt-lockup-dismissable > .yt-lockup-content > .yt-lockup-byline > .yt-uix-tooltip.yt-channel-title-icon-verified.yt-sprite
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_image_01 for more information.
+
+Warning: AX_TITLE_01 (The web page should have a title that describes topic or purpose) failed on the following elements (1 - 5 of 6):
+html
+html
+html
+html
+html
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_title_01 for more information.
+
+Warning: AX_FOCUS_03 (Avoid positive integer values for tabIndex) failed on the following elements (1 - 3 of 3):
+#a11y-skip-nav
+#search-btn
+#masthead-search-term
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_focus_03 for more information.
 
 
 *** End accessibility audit results ***

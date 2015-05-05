@@ -7,15 +7,21 @@ Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscu
 #banner > A
 #globalfooter > .gf-buy.footer-shop > SPAN > A
 #globalfooter > .gf-buy.footer-shop > A
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_focus_01--these-elements-are-focusable-but-either-invisible-or-obscured-by-another-element for more information.
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_focus_01 for more information.
 
-Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 24):
+Warning: AX_TEXT_04 (The purpose of each link should be clear from the link text) failed on the following elements (1 - 3 of 3):
+#gallery-content-watch > .hero-content > .backing-link
+#gallery-content-watch > .hero-content > .copy > .inner > .links > LI:nth-of-type(2) > .icon.icon-chevronright
+#globalfooter > .gf-links.piped.footer-links > LI:nth-of-type(7) > .choose
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_04 for more information.
+
+Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 26):
+#gh-svg-icons > .gh-text-replace
 #gh-menu-icon-home > A > .gh-text-replace
 #gh-content > .gh-nav > .gh-nav-view > .gh-nav-list > .gh-tab.gh-tab-apple > .gh-tab-link > .gh-tab-inner > .gh-text-replace
 #gh-content > .gh-nav > .gh-nav-view > .gh-nav-list > .gh-tab.gh-tab-store > .gh-tab-link > .gh-tab-inner > .gh-text-replace
 #gh-content > .gh-nav > .gh-nav-view > .gh-nav-list > .gh-tab.gh-tab-mac > .gh-tab-link > .gh-tab-inner > .gh-text-replace
-#gh-content > .gh-nav > .gh-nav-view > .gh-nav-list > .gh-tab.gh-tab-iphone > .gh-tab-link > .gh-tab-inner > .gh-text-replace
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_color_01--text-elements-should-have-a-reasonable-contrast-ratio for more information.
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_color_01 for more information.
 
 
 *** End accessibility audit results ***

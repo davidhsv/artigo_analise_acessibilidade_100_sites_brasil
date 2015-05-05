@@ -1,7 +1,10 @@
-TypeError: undefined is not a constructor (evaluating 'this.callbackSuccess()')
+TypeError: undefined is not a constructor (evaluating 'this.callbackFail()')
 
   http://adv.r7.com//script?href=http://www.r7.com/:15 in setAdContentsBySlotForSync
   http://adv.r7.com//script?href=http://www.r7.com/:15 in setAdContentsBySlotForSync
+TypeError: null is not an object (evaluating 'MRMTag.O("pfwe" + this.rn).style')
+
+  http://mfa.vivo.predicta.net/mrm-ad/ad/script/?;c=3107;sc=360;p=22;psi=2022758513;n=2022758513;tc=https://adclick.g.doubleclick.net/aclk?sa=L&ai=BWxtIhS5IVabHJ6zW0AH0xoHAD82pgKYGAAAAEAEg9eqmHjgAWIWHoebwAWDN0OWAkAOyAQp3d3cucjcuY29tugEJZ2ZwX2ltYWdlyAEJ2gESaHR0cDovL3d3dy5yNy5jb20vqQIFhEdcfr6VPsACAuACAOoCES83NTQyL3I3aG9tZS9ob21l-ALy0R6AAwGQA5wEmAOcBKgDAeAEAZAGAaAGFtgHAA&num=0&cid=5Ghbx-Cc6GEDMLE-GP65qwv9&sig=AOD64_15TyXUMKB70jkhIuzEQl6ljaRgGQ&client=ca-pub-5966568724565061&adurl=:134
 *** Begin accessibility audit results ***
 An accessibility audit found 
 *** End accessibility audit results ***

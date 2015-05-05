@@ -1,17 +1,3 @@
-TypeError: undefined is not a constructor (evaluating 'new YT.Player('boxVideoContainerRedes', {
-			height: 260,
-			width: 460,
-			videoId: videoId,
-			playerVars: {
-    			html5:1
-			}
-		})')
-
-  http://www.vivo.com.br/portalweb/appmanager/env/web#:2856 in rodarVideoRedes
-  http://www.vivo.com.br/portalweb/appmanager/env/web#:2990 in complete
-  http://www.vivo.com.br/portalweb/framework/skins/portalvivo/js/jquery-1.5.2.min.js:16 in resolveWith
-  http://www.vivo.com.br/portalweb/framework/skins/portalvivo/js/jquery-1.5.2.min.js:16 in v
-  http://www.vivo.com.br/portalweb/framework/skins/portalvivo/js/jquery-1.5.2.min.js:16 in onreadystatechange
 TypeError: null is not an object (evaluating 'document.getElementById("iframe2ViaContaFixa").height = val[0] + "px"')
 
   http://www.vivo.com.br/portalweb/ShowPropertyServlet?nodeId=/UCMRepository/PW_JS_SEGUNDA_VIA_CONTA_FIXA:7 in listenForRedimensionaIframe
@@ -21,20 +7,47 @@ TypeError: null is not an object (evaluating 'document.getElementById("iframe2Vi
 *** Begin accessibility audit results ***
 An accessibility audit found 
 Errors:
-Error: AX_TEXT_01 (Controls and media elements should have labels) failed on the following elements (1 - 2 of 2):
+Error: AX_TEXT_01 (Controls and media elements should have labels) failed on the following element:
 #numero
-#campoRegional
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_01--controls-and-media-elements-should-have-labels for more information.
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_01 for more information.
+
+Error: AX_HTML_02 (An element's ID must be unique in the DOM) failed on the following elements (1 - 2 of 2):
+#vcPrincipalBook
+#vcPrincipalBook
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_html_02 for more information.
+
+Error: AX_ARIA_08 (Elements with ARIA roles must ensure required owned elements are present) failed on the following element:
+#twitter-widget-0 > .stream > .h-feed > .h-entry.tweet.with-expansion.customisable-border > .footer.customisable-border > .tweet-actions
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_aria_08 for more information.
+
+Error: AX_ARIA_10 (This element has an unsupported ARIA attribute) failed on the following elements (1 - 4 of 4):
+#twitter-widget-0 > .stream > .h-feed > .h-entry.tweet.with-expansion.customisable-border > .header > .u-url.permalink.customisable-highlight > .dt-updated
+#twitter-widget-0 > .stream > .h-feed > .h-entry.tweet.with-expansion.customisable-border > .header > .h-card.p-author.with-verification > .u-url.profile > .full-name > .verified
+#fb_xdm_frame_http
+#fb_xdm_frame_https
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_aria_10 for more information.
 
 
 Warnings:
-Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 111):
-#menuFocoParaVoce
-#menuEmpresasFoco
-#menuFocoParaOperadoras
-#menuFocoAVivo
-#header > .top > .box_menu_topo > .header_content_1 > .logo_rev > A
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_focus_01--these-elements-are-focusable-but-either-invisible-or-obscured-by-another-element for more information.
+Warning: AX_ARIA_12 (This element does not support ARIA roles, states and properties) failed on the following element:
+#POGNVDA2
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_aria_12 for more information.
+
+Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 69):
+#senhaText
+#mp_7 > A
+#breadcrumbs > H5 > SPAN > A
+#T157600132041377637263729 > .noClass > .box_acesso_rapido > .lista_rapido > .limpa_decorado
+#T157600132041377637263729 > .noClass > .box_acesso_rapido > .lista_rapido > A:nth-of-type(2)
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_focus_01 for more information.
+
+Warning: AX_HTML_01 (The web page should have the content's human language indicated in the markup) failed on the following elements (1 - 5 of 7):
+html
+html
+html
+html
+html
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_html_01 for more information.
 
 Warning: AX_TEXT_02 (Images should have an alt attribute) failed on the following elements (1 - 5 of 30):
 #banner_videos > LI > IMG
@@ -42,23 +55,39 @@ Warning: AX_TEXT_02 (Images should have an alt attribute) failed on the followin
 #banner_videos > LI:nth-of-type(3) > IMG
 #banner_videos > LI:nth-of-type(4) > IMG
 #banner_videos > LI:nth-of-type(5) > IMG
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_02--images-should-have-an-alt-attribute-unless-they-have-an-aria-role-of-presentation for more information.
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_02 for more information.
 
-Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 138):
+Warning: AX_TEXT_04 (The purpose of each link should be clear from the link text) failed on the following elements (1 - 5 of 43):
+#header > .top > .box_menu_topo > .header_content > .regional_header > .ct_dir_drop_rg > .lista_drop_rg > .box_drop > .campo_drop > .seta_drop
+#header > .top > .box_menu_topo > .header_content > .regional_header > .ct_dir_drop_rg > .lista_drop_rg > .box_drop > .campo_drop > .out_seta_drop
+#header > .top > .box_menu_topo > .header_content > .regional_header > .ct_dir_drop_rg > .lista_drop_rg > .lista_bt > .bt_continuar_drop
+#header > .top > .box_menu_topo > .header_content_1 > .logo_rev > A
+#msn_erro_email > .br_dir_erro > .x_msn_errro
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_04 for more information.
+
+Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 142):
 #menuEmpresasFoco
 #empPrincipalBook > SPAN
 #EmpPrincipalSolucoesBook > SPAN
 #menuFocoParaOperadoras
 #menuFocoAVivo
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_color_01--text-elements-should-have-a-reasonable-contrast-ratio for more information.
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_color_01 for more information.
 
-Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 5 of 50):
+Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 5 of 52):
 #vcPrincipalBook > .marca_menu_left
 #vcPrincipalBook > .marca_menu_right
 #header > .top > .box_menu_topo > .header_content > .regional_header > .drop_rg > .ic_rg
-#estado
 #pesquisaVivoButton
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_image_01--meaningful-images-should-not-be-used-in-element-backgrounds for more information.
+#btnEntrar
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_image_01 for more information.
+
+Warning: AX_TITLE_01 (The web page should have a title that describes topic or purpose) failed on the following elements (1 - 5 of 5):
+html
+html
+html
+html
+html
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_title_01 for more information.
 
 
 *** End accessibility audit results ***

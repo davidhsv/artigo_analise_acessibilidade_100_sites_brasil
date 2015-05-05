@@ -1,16 +1,67 @@
 *** Begin accessibility audit results ***
 An accessibility audit found 
 Errors:
-Error: AX_TEXT_01 (Controls and media elements should have labels) failed on the following element:
-#recaptcha_response_field
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_01--controls-and-media-elements-should-have-labels for more information.
+Error: AX_ARIA_10 (This element has an unsupported ARIA attribute) failed on the following element:
+#fb_xdm_frame_https
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_aria_10 for more information.
 
 
 Warnings:
-Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 2 of 2):
-#cf-error-details > .cf-wrapper.cf-header.cf-error-overview > .cf-subheadline
-#cf-error-details > .cf-wrapper.cf-header.cf-error-overview > .cf-subheadline > SPAN
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_color_01--text-elements-should-have-a-reasonable-contrast-ratio for more information.
+Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 63):
+#botao-agenda
+#botao-lugares
+#botao-no-site
+#google_ads_iframe_/3781540/mobile_full_0
+#post-852257 > A
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_focus_01 for more information.
+
+Warning: AX_HTML_01 (The web page should have the content's human language indicated in the markup) failed on the following elements (1 - 5 of 7):
+html
+html
+html
+html
+html
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_html_01 for more information.
+
+Warning: AX_TEXT_02 (Images should have an alt attribute) failed on the following elements (1 - 5 of 11):
+#line-5541266b102fb > .wrap.clearfix > .editoria.clearfix.category-geracao-e > .titulo-editoria.clearfix > .patrocinador-editoria > A > IMG
+#line-54d923e6d1415 > .wrap.clearfix > .editoria.clearfix.category-dica-digital > .titulo-editoria.clearfix > .patrocinador-editoria > IMG
+#line-545136f243e13 > .wrap.clearfix > .editoria.clearfix.category-urbanidade > .titulo-editoria.clearfix > .patrocinador-editoria > A > IMG
+#line-545136f243e13 > .wrap.clearfix > DIV:nth-of-type(2) > .titulo-editoria.clearfix > .patrocinador-editoria > IMG
+#line-545136f243e13 > .wrap.clearfix > DIV:nth-of-type(3) > .titulo-editoria.clearfix > .patrocinador-editoria > IMG
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_02 for more information.
+
+Warning: AX_TEXT_04 (The purpose of each link should be clear from the link text) failed on the following elements (1 - 5 of 77):
+ tagName:A id:
+#busca-agenda-dia > .ui-datepicker-inline.ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all > .ui-datepicker-calendar > TBODY > TR > TD:nth-of-type(7) > .ui-state-default
+#busca-agenda-dia > .ui-datepicker-inline.ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all > .ui-datepicker-calendar > TBODY > TR:nth-of-type(2) > .ui-datepicker-week-end > .ui-state-default
+#busca-agenda-dia > .ui-datepicker-inline.ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all > .ui-datepicker-calendar > TBODY > TR:nth-of-type(2) > .ui-datepicker-days-cell-over.ui-datepicker-current-day.ui-datepicker-today > .ui-state-default.ui-state-highlight.ui-state-active.ui-state-hover
+ tagName:A id:
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_04 for more information.
+
+Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 148):
+#busca-agenda-dia > .ui-datepicker-inline.ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all > .ui-datepicker-calendar > THEAD > TR > .ui-datepicker-week-end > SPAN
+#busca-agenda-dia > .ui-datepicker-inline.ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all > .ui-datepicker-calendar > THEAD > TR > TH:nth-of-type(2) > SPAN
+#busca-agenda-dia > .ui-datepicker-inline.ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all > .ui-datepicker-calendar > THEAD > TR > TH:nth-of-type(3) > SPAN
+#busca-agenda-dia > .ui-datepicker-inline.ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all > .ui-datepicker-calendar > THEAD > TR > TH:nth-of-type(4) > SPAN
+#busca-agenda-dia > .ui-datepicker-inline.ui-datepicker.ui-widget.ui-widget-content.ui-helper-clearfix.ui-corner-all > .ui-datepicker-calendar > THEAD > TR > TH:nth-of-type(5) > SPAN
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_color_01 for more information.
+
+Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 5 of 7):
+#logo-catraca
+#balao-cidade > .setinha-balao
+#menu-cidade > .setinha
+#balao-busca > .setinha-balao-topo
+#ph-next-nav
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_image_01 for more information.
+
+Warning: AX_TITLE_01 (The web page should have a title that describes topic or purpose) failed on the following elements (1 - 5 of 5):
+html
+html
+html
+html
+html
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_title_01 for more information.
 
 
 *** End accessibility audit results ***

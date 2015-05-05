@@ -4,39 +4,71 @@ Errors:
 Error: AX_TEXT_01 (Controls and media elements should have labels) failed on the following elements (1 - 2 of 2):
 #sli_search_1
 #ctl00_Conteudo_PaginaSistemaArea1_ctl22_emailClienteNews
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_01--controls-and-media-elements-should-have-labels for more information.
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_01 for more information.
+
+Error: AX_HTML_02 (An element's ID must be unique in the DOM) failed on the following elements (1 - 5 of 37):
+#ctl00_Conteudo_PaginaSistemaArea1_hd-externo-portatil-samsung-m3-1tb-stshx-m101tcb-preto-1718192
+#6365679
+#ctl00_Conteudo_PaginaSistemaArea1_rating-338508
+#ctl00_Conteudo_PaginaSistemaArea1_fritadeira-britania-air-fry-saude-branca-2986330
+#37884966
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_html_02 for more information.
 
 
 Warnings:
-Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 13):
+Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 11):
 #sli_search_1
 #ctl00_Conteudo_PaginaSistemaArea1_ctl17_btnOK
 #ctl00_Conteudo_PaginaSistemaArea1_1702 > .banner-cont-auto > .box-banner > A
-#ctl00_Conteudo_PaginaSistemaArea1_1702 > .banner-cont-auto > .box-banner:nth-of-type(2) > A
-#ctl00_Conteudo_PaginaSistemaArea1_1702 > .banner-cont-auto > .box-banner:nth-of-type(3) > A
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_focus_01--these-elements-are-focusable-but-either-invisible-or-obscured-by-another-element for more information.
+#ctl00_Conteudo_PaginaSistemaArea1_1702 > .banner-cont-auto > DIV:nth-of-type(2) > A
+#ctl00_Conteudo_PaginaSistemaArea1_1702 > .banner-cont-auto > DIV:nth-of-type(3) > A
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_focus_01 for more information.
+
+Warning: AX_HTML_01 (The web page should have the content's human language indicated in the markup) failed on the following elements (1 - 5 of 6):
+html
+html
+html
+html
+html
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_html_01 for more information.
 
 Warning: AX_TEXT_02 (Images should have an alt attribute) failed on the following elements (1 - 5 of 10):
 #ctl00_Conteudo_PaginaSistemaArea1_1702 > .banner-cont-auto > .box-banner > A > IMG
-#ctl00_Conteudo_PaginaSistemaArea1_1702 > .banner-cont-auto > .box-banner:nth-of-type(2) > A > IMG
-#ctl00_Conteudo_PaginaSistemaArea1_1702 > .banner-cont-auto > .box-banner:nth-of-type(3) > A > IMG
+#ctl00_Conteudo_PaginaSistemaArea1_1702 > .banner-cont-auto > DIV:nth-of-type(2) > A > IMG
+#ctl00_Conteudo_PaginaSistemaArea1_1702 > .banner-cont-auto > DIV:nth-of-type(3) > A > IMG
 #ctl00_Conteudo_PaginaSistemaArea1_1603 > .banner-cont-auto > .box-banner > A > IMG
-#ctl00_Conteudo_PaginaSistemaArea1_1603 > .banner-cont-auto > .box-banner:nth-of-type(2) > A > IMG
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_02--images-should-have-an-alt-attribute-unless-they-have-an-aria-role-of-presentation for more information.
+#ctl00_Conteudo_PaginaSistemaArea1_1603 > .banner-cont-auto > DIV:nth-of-type(2) > A > IMG
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_02 for more information.
 
-Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 668):
+Warning: AX_TEXT_04 (The purpose of each link should be clear from the link text) failed on the following elements (1 - 5 of 26):
+#ctl00_TopBar_TopBar1_lblMenuSuperior > .headerMenu > .mn.informatica-e-tecnologia > .sbmn > .banner-retangulo-grande
+#ctl00_TopBar_TopBar1_lblMenuSuperior > .headerMenu > .mn.casa-e-escritorio > .sbmn > .banner-retangulo-grande
+#ctl00_TopBar_TopBar1_lblMenuSuperior > .headerMenu > .mn.cultura-e-entretenimento > .sbmn > .banner-retangulo-grande
+#ctl00_TopBar_TopBar1_lblMenuSuperior > .headerMenu > .mn.beleza-e-estilo > .sbmn > .banner-retangulo-grande
+#ctl00_TopBar_TopBar1_lblMenuSuperior > .headerMenu > .mn.ferramentas-e-automotivo > .sbmn > .banner-retangulo-grande
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_04 for more information.
+
+Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 677):
 #ctl00_TopBar_TopBar1_divHeader > .topHeader > .wp > .logo
 #ctl00_TopBar_TopBar1_lblMenuSuperior > .headerMenu > .mn.alimentos-e-bebidas > .it-mn > B
 #ctl00_TopBar_TopBar1_lblMenuSuperior > .headerMenu > .mn.informatica-e-tecnologia > .it-mn > B
 #ctl00_TopBar_TopBar1_lblMenuSuperior > .headerMenu > .mn.casa-e-escritorio > .it-mn > B
 #ctl00_TopBar_TopBar1_lblMenuSuperior > .headerMenu > .mn.cultura-e-entretenimento > .it-mn > B
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_color_01--text-elements-should-have-a-reasonable-contrast-ratio for more information.
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_color_01 for more information.
 
 Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 3 of 3):
 #ctl00_Conteudo_PaginaSistemaArea1_ctl17_btnOK
 #footer > .fArea3 > .container > .col.dev > .devices > .desktop > A > I
 #footer > .fArea3 > .container > .col.dev > .devices > .mobile > A > I
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_image_01--meaningful-images-should-not-be-used-in-element-backgrounds for more information.
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_image_01 for more information.
+
+Warning: AX_TITLE_01 (The web page should have a title that describes topic or purpose) failed on the following elements (1 - 5 of 5):
+html
+html
+html
+html
+html
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_title_01 for more information.
 
 
 *** End accessibility audit results ***

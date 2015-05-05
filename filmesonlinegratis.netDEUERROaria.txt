@@ -1,7 +1,0 @@
-org.jsoup.HttpStatusException: HTTP error fetching URL. Status=403, URL=http://filmesonlinegratis.net
-	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:537)
-	at org.jsoup.helper.HttpConnection$Response.execute(HttpConnection.java:493)
-	at org.jsoup.helper.HttpConnection.execute(HttpConnection.java:205)
-	at org.jsoup.helper.HttpConnection.get(HttpConnection.java:194)
-	at foo.Crawler.aria(Crawler.java:221)
-	at foo.Crawler.main(Crawler.java:134)

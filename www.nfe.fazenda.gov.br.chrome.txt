@@ -6,37 +6,49 @@ Error: AX_TEXT_01 (Controls and media elements should have labels) failed on the
 #ibtBuscar
 #linkBanners > P > SELECT
 #linkBanners > P:nth-of-type(2) > SELECT
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_01--controls-and-media-elements-should-have-labels for more information.
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_01 for more information.
 
 
 Warnings:
 Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 5):
 #menu-icon
 #wrapper-barra-brasil > NAV > .list > .link-barra
-#wrapper-barra-brasil > NAV > .list > .link-barra:nth-of-type(2)
-#wrapper-barra-brasil > NAV > .list > .link-barra:nth-of-type(3)
-#wrapper-barra-brasil > NAV > .list > .link-barra:nth-of-type(4)
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_focus_01--these-elements-are-focusable-but-either-invisible-or-obscured-by-another-element for more information.
+#wrapper-barra-brasil > NAV > .list > A:nth-of-type(2)
+#wrapper-barra-brasil > NAV > .list > A:nth-of-type(3)
+#wrapper-barra-brasil > NAV > .list > A:nth-of-type(4)
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_focus_01 for more information.
+
+Warning: AX_HTML_01 (The web page should have the content's human language indicated in the markup) failed on the following element:
+html
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_html_01 for more information.
 
 Warning: AX_TEXT_02 (Images should have an alt attribute) failed on the following elements (1 - 5 of 5):
 #divServicosMaisAcessados > .servicosDestaqueEsquerda > IMG
 #divServicosMaisAcessados > .servicosDestaqueDireita > IMG
-#divServicosMaisAcessados > .servicosDestaqueEsquerda:nth-of-type(2) > IMG
-#divServicosMaisAcessados > .servicosDestaqueDireita:nth-of-type(2) > IMG
+#divServicosMaisAcessados > DIV:nth-of-type(3) > IMG
+#divServicosMaisAcessados > DIV:nth-of-type(4) > IMG
 #serpro-componente-estatistica
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_02--images-should-have-an-alt-attribute-unless-they-have-an-aria-role-of-presentation for more information.
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_02 for more information.
 
-Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 43):
+Warning: AX_TEXT_04 (The purpose of each link should be clear from the link text) failed on the following elements (1 - 5 of 5):
+#menu-icon
+#imgHome > A
+#ContentPlaceHolder1_gdvInformes_hlkDataInforme_0
+#ContentPlaceHolder1_gdvInformes_hlkDataInforme_1
+#ContentPlaceHolder1_gdvInformes_hlkDataInforme_2
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_04 for more information.
+
+Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 41):
 #menuAcessibilidade > A
 #menuAcessibilidade > A:nth-of-type(2)
 #menuAcessibilidade > A:nth-of-type(3)
 #menuAcessibilidade > A:nth-of-type(4)
 #menuAcessibilidade > A:nth-of-type(5)
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_color_01--text-elements-should-have-a-reasonable-contrast-ratio for more information.
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_color_01 for more information.
 
 Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following element:
 #menu-icon
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_image_01--meaningful-images-should-not-be-used-in-element-backgrounds for more information.
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_image_01 for more information.
 
 
 *** End accessibility audit results ***

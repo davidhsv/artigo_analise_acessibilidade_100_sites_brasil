@@ -7,20 +7,51 @@ Error: AX_ARIA_04 (ARIA state and property values must be valid) failed on the f
 #u_0_5
 #u_0_8
 #u_0_a
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_aria_04 for more information.
+
+Error: AX_HTML_02 (An element's ID must be unique in the DOM) failed on the following elements (1 - 4 of 4):
+#locale
+#locale
+#recaptcha_reload_btn
+#recaptcha_reload_btn
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_html_02 for more information.
+
+Error: AX_ARIA_10 (This element has an unsupported ARIA attribute) failed on the following elements (1 - 5 of 10):
+#u_0_0 > .uiStickyPlaceholderInput.uiStickyPlaceholderEmptyInput > .placeholder
+#u_0_1
+#u_0_2 > .uiStickyPlaceholderInput.uiStickyPlaceholderEmptyInput > .placeholder
+#u_0_3
+#u_0_4 > .uiStickyPlaceholderInput.uiStickyPlaceholderEmptyInput > .placeholder
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_aria_10 for more information.
 
 
 Warnings:
+Warning: AX_TEXT_04 (The purpose of each link should be clear from the link text) failed on the following elements (1 - 5 of 5):
+#content > DIV > .mtm.locales > .uiList.localeSelectorList._509-._4ki._6-h._6-j._6-i > LI:nth-of-type(7) > A
+#content > DIV > .mtm.locales > .uiList.localeSelectorList._509-._4ki._6-h._6-j._6-i > LI:nth-of-type(8) > A
+#content > DIV > .mtm.locales > .uiList.localeSelectorList._509-._4ki._6-h._6-j._6-i > LI:nth-of-type(9) > A
+#content > DIV > .mtm.locales > .uiList.localeSelectorList._509-._4ki._6-h._6-j._6-i > LI:nth-of-type(10) > A
+#content > DIV > .mtm.locales > .uiList.localeSelectorList._509-._4ki._6-h._6-j._6-i > LI:nth-of-type(11) > .showMore
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_04 for more information.
+
 Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 5):
 #blueBarNAXAnchor > DIV > .loggedout_menubar_container > .clearfix.loggedout_menubar > .lfloat._ohe > H1 > A > .fb_logo.img.sp_Z_xw_7FDtNv.sx_b6c073 > U
 #login_form > TABLE > TBODY > TR:nth-of-type(3) > .login_form_label_field > DIV > .uiInputLabel.clearfix.uiInputLabelLegacy > .uiInputLabelLabel
-#login_form > TABLE > TBODY > TR:nth-of-type(3) > .login_form_label_field:nth-of-type(2) > A
+#login_form > TABLE > TBODY > TR:nth-of-type(3) > TD:nth-of-type(2) > A
 #u_0_i
 #u_0_k
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_color_01--text-elements-should-have-a-reasonable-contrast-ratio for more information.
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_color_01 for more information.
 
 Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following element:
 #loginbutton
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_image_01--meaningful-images-should-not-be-used-in-element-backgrounds for more information.
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_image_01 for more information.
+
+Warning: AX_FOCUS_03 (Avoid positive integer values for tabIndex) failed on the following elements (1 - 4 of 4):
+#email
+#pass
+#u_0_l
+#persist_box
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_focus_03 for more information.
 
 
 *** End accessibility audit results ***

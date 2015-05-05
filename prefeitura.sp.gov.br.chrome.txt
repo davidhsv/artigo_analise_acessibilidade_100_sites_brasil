@@ -1,55 +1,81 @@
-Error: Load timeout for modules: backbone,jquery/jquery-cookie,ajax/header,hbs!views/template/secretarias_unnormalized2,hbs,hbs!views/template/subprefeituras_unnormalized3,hbs!views/template/orgaos_unnormalized4,views/secao,views/tweets,views/regiao,views/videos-youtube
-http://requirejs.org/docs/errors.html#timeout
-
-  http://www.capital.sp.gov.br/portal/js/libs/require.js:32 in onError
-  http://www.capital.sp.gov.br/portal/js/libs/require.js:15 in A
-  http://www.capital.sp.gov.br/portal/js/libs/require.js:17 in T
-  http://www.capital.sp.gov.br/portal/js/libs/require.js:17
-TypeError: undefined is not an object (evaluating 'resultado[21]')
-
-  undefined:982
 *** Begin accessibility audit results ***
 An accessibility audit found 
 Errors:
-Error: AX_TEXT_01 (Controls and media elements should have labels) failed on the following elements (1 - 4 of 4):
+Error: AX_ARIA_09 (Elements with ARIA roles must be in the correct scope) failed on the following element:
+#secoes-primeiro-nivel
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_aria_09 for more information.
+
+Error: AX_TEXT_01 (Controls and media elements should have labels) failed on the following elements (1 - 5 of 6):
 #buscaGeral
 #global_search
 #externos > .dash-header > .e-fechar
-#lista-orgaos
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_01--controls-and-media-elements-should-have-labels for more information.
+#voltar
+#ir
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_01 for more information.
+
+Error: AX_HTML_02 (An element's ID must be unique in the DOM) failed on the following elements (1 - 5 of 10):
+#lista-videos
+#lista-secretarias
+#lista-subprefeituras
+#lista-videos
+#name_style
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_html_02 for more information.
+
+Error: AX_ARIA_08 (Elements with ARIA roles must ensure required owned elements are present) failed on the following element:
+#secoes-primeiro-nivel
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_aria_08 for more information.
+
+Error: AX_ARIA_10 (This element has an unsupported ARIA attribute) failed on the following elements (1 - 3 of 3):
+body > .full-cinza
+#n-template4 > H1 > A > .title-icon
+#mapas > .title-section > A > .title-icon
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_aria_10 for more information.
 
 
 Warnings:
-Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 30):
+Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 33):
 #externos > A
+#com-sub-banner > .bx-wrapper > .bx-viewport > .banner > LI > A
+#com-sub-banner > .bx-wrapper > .bx-viewport > .banner > LI > DIV > A
+#com-sub-banner > .bx-wrapper > .bx-controls.bx-has-pager > .bx-pager.bx-default-pager > .bx-pager-item > .bx-pager-link.active
+#com-sub-banner > .bx-wrapper > .bx-controls.bx-has-pager > .bx-pager.bx-default-pager > DIV:nth-of-type(2) > .bx-pager-link
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_focus_01 for more information.
+
+Warning: AX_HTML_01 (The web page should have the content's human language indicated in the markup) failed on the following element:
+html
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_html_01 for more information.
+
+Warning: AX_TEXT_02 (Images should have an alt attribute) failed on the following elements (1 - 5 of 16):
+#com-sub-banner > .bx-wrapper > .bx-viewport > .banner > LI > A > IMG
+#grupo-cidadao > LI > A > .secoes-hover
+#grupo-cidadao > LI:nth-of-type(2) > A > .secoes-hover
+#grupo-cidadao > LI:nth-of-type(3) > A > .secoes-hover
+#grupo-cidadao > LI:nth-of-type(4) > A > .secoes-hover
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_02 for more information.
+
+Warning: AX_TEXT_04 (The purpose of each link should be clear from the link text) failed on the following elements (1 - 5 of 16):
+#atend156 > A
+#externos > A
+#com-sub-banner > .bx-wrapper > .bx-viewport > .banner > LI > A
+#com-sub-banner > .bx-wrapper > .bx-viewport > .banner > LI:nth-of-type(2) > A
 #com-sub-banner > .bx-wrapper > .bx-viewport > .banner > LI:nth-of-type(3) > A
-#com-sub-banner > .bx-wrapper > .bx-viewport > .banner > LI:nth-of-type(3) > DIV > A
-#com-sub-banner > .bx-wrapper > .bx-controls.bx-has-pager > .bx-pager.bx-default-pager > .bx-pager-item > .bx-pager-link
-#com-sub-banner > .bx-wrapper > .bx-controls.bx-has-pager > .bx-pager.bx-default-pager > .bx-pager-item:nth-of-type(2) > .bx-pager-link
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_focus_01--these-elements-are-focusable-but-either-invisible-or-obscured-by-another-element for more information.
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_04 for more information.
 
-Warning: AX_TEXT_02 (Images should have an alt attribute) failed on the following elements (1 - 4 of 4):
-#com-sub-banner > .bx-wrapper > .bx-viewport > .banner > LI:nth-of-type(3) > A > IMG
-#mapas > A > IMG
-body > .full-preto > .container.full_block > .four.columns.bloco2.app-list > UL > LI > .app-icone.app-iphone > IMG
-body > .full-preto > .container.full_block > .four.columns.bloco2.app-list > UL > LI:nth-of-type(2) > .app-icone.app-android > IMG
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_02--images-should-have-an-alt-attribute-unless-they-have-an-aria-role-of-presentation for more information.
-
-Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 75):
+Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 17):
 #acesso > .four.columns.bold.em09
 #trnsp
 #logo > A
 #busca > FIELDSET > LABEL
-#externos > .dash-header
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_color_01--text-elements-should-have-a-reasonable-contrast-ratio for more information.
+#com-sub-banner > .bx-wrapper > .bx-viewport > .banner > LI > DIV > A > H2
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_color_01 for more information.
 
-Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 5 of 17):
+Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 5 of 13):
 #atend156 > A
 #global_search
-#servicos-externos > .ex-clima > .dash-border > .tempo-g.nb
-#servicos-externos > .ex-clima > .dash-border > .tempestade > SPAN > .raio
 #servicos-externos > .ex-publico > .dash-border > .dash-img
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_image_01--meaningful-images-should-not-be-used-in-element-backgrounds for more information.
+#n-template4 > H1 > A > .title-icon
+#secoes-portal > H2 > .arrow-g-down
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_image_01 for more information.
 
 
 *** End accessibility audit results ***

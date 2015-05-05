@@ -3,14 +3,44 @@ TypeError: null is not an object (evaluating 'divAd.getAttribute')
   http://p2.trrsf.com/tagmanfe/ShowArea.aspx?key=br.cobranded_letras.home.super&direct=1:1
 *** Begin accessibility audit results ***
 An accessibility audit found 
+Errors:
+Error: AX_TEXT_01 (Controls and media elements should have labels) failed on the following element:
+#q
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_01 for more information.
+
+
 Warnings:
-Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 7):
+Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 8):
+#adExp > A
 #js-cnt-tops > .g-460.top-musicas.cor_2 > .barra > A
 #js-cnt-tops > .g-460.top-artistas.cor_1 > .barra > A
 #rodape > .rdp-list.ac > LI > A
 #rodape > .rdp-list.ac > LI:nth-of-type(2) > A
-#rodape > .rdp-list.ac > LI:nth-of-type(3) > A
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_focus_01--these-elements-are-focusable-but-either-invisible-or-obscured-by-another-element for more information.
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_focus_01 for more information.
+
+Warning: AX_HTML_01 (The web page should have the content's human language indicated in the markup) failed on the following elements (1 - 5 of 11):
+html
+html
+html
+html
+html
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_html_01 for more information.
+
+Warning: AX_TEXT_02 (Images should have an alt attribute) failed on the following elements (1 - 5 of 6):
+#adCont > A > IMG
+#adExp > A > IMG
+#creativeFile > A > IMG
+IMG
+IMG:nth-of-type(2)
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_02 for more information.
+
+Warning: AX_TEXT_04 (The purpose of each link should be clear from the link text) failed on the following elements (1 - 5 of 7):
+#page > .header > .header-cnt.g-960 > .search > .suggest > .suggest__drop > .suggest__all > A
+#adCont > A
+#adExp > A
+#creativeFile > A
+#rdp-abc > A:nth-of-type(27)
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_04 for more information.
 
 Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 209):
 #lt > A
@@ -18,7 +48,7 @@ Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) fai
 #ccid > .container_ccid > .ccid_sites > LI > .ccid_link_bar
 #ccid > .container_ccid > .ccid_sites > LI:nth-of-type(2) > .ccid_link_bar
 #ccid > .container_ccid > .ccid_sites > LI:nth-of-type(3) > .ccid_link_bar
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_color_01--text-elements-should-have-a-reasonable-contrast-ratio for more information.
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_color_01 for more information.
 
 Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 5 of 47):
 #ccid_lateral_top > .ccid_container-lateral > .ccid_logar > FORM > .ccid_bt_logar > B
@@ -26,7 +56,15 @@ Warning: AX_IMAGE_01 (Meaningful images should not be used in element background
 #js-albuns-destaques-cnt > .albuns-lista > LI:nth-of-type(2) > A > .albuns-lista__img.al2
 #js-albuns-destaques-cnt > .albuns-lista > LI:nth-of-type(3) > A > .albuns-lista__img.al3
 #js-albuns-destaques-cnt > .albuns-lista > LI:nth-of-type(4) > A > .albuns-lista__img.al4
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_image_01--meaningful-images-should-not-be-used-in-element-backgrounds for more information.
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_image_01 for more information.
+
+Warning: AX_TITLE_01 (The web page should have a title that describes topic or purpose) failed on the following elements (1 - 5 of 9):
+html
+html
+html
+html
+html
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_title_01 for more information.
 
 
 *** End accessibility audit results ***

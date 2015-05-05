@@ -1,48 +1,70 @@
-TypeError: null is not an object (evaluating 'state.toUpperCase')
-
-  http://s.glbimg.com/en/ho/static/CACHE/js/6623daedd214.js:553 in _defineGeoLocatedState
-  http://s.glbimg.com/en/ho/static/CACHE/js/6623daedd214.js:552 in _geoLocate
-  http://s.glbimg.com/en/ho/static/CACHE/js/6623daedd214.js:1 in g
-  http://s.glbimg.com/en/ho/static/CACHE/js/6623daedd214.js:179 in fire
-  http://s.glbimg.com/en/ho/static/CACHE/js/6623daedd214.js:179 in globoapi_geo_callback
 *** Begin accessibility audit results ***
 An accessibility audit found 
 Errors:
 Error: AX_ARIA_04 (ARIA state and property values must be valid) failed on the following element:
 #libby-servicos-fipe-form > .user-input-area > .libby-servicos-autocomplete-container.libby-scrollbar.disabled > .libby-servicos-autocomplete > .ui-autocomplete.ui-menu.ui-widget.ui-widget-content.ui-corner-all
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_aria_04 for more information.
+
+Error: AX_HTML_02 (An element's ID must be unique in the DOM) failed on the following elements (1 - 2 of 2):
+#Layer_1
+#Layer_1
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_html_02 for more information.
+
+Error: AX_ARIA_02 (ARIA attributes which refer to other elements by ID should refer to elements which exist in the DOM) failed on the following element:
+#libby-servicos-fipe-form > .user-input-area > .libby-servicos-autocomplete-container.libby-scrollbar.disabled > .libby-servicos-autocomplete > .ui-autocomplete.ui-menu.ui-widget.ui-widget-content.ui-corner-all
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_aria_02 for more information.
+
+Error: AX_ARIA_08 (Elements with ARIA roles must ensure required owned elements are present) failed on the following element:
+#libby-servicos-fipe-form > .user-input-area > .libby-servicos-autocomplete-container.libby-scrollbar.disabled > .libby-servicos-autocomplete > .ui-autocomplete.ui-menu.ui-widget.ui-widget-content.ui-corner-all
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_aria_08 for more information.
 
 
 Warnings:
 Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 10):
 #area-widgets-direita-topo > .libby-agrupador-destaque-globotv-com-canais.length-5 > .main-area.mobile-grid-full > .header-area.analytics-area.analytics-id-header > .logo-link
-#container-columns > .area.news-column.last-has-photo > .destaques-container.analytics-area.analytics-id-L > .destaque.destaque-terciario.destaque-terciario-medio-foto-lado.hentry:nth-of-type(2) > .chamada.chamada-principal.mobile-grid-full.mobile-grid-full-with-show-more > .foto
-#container-columns > .area.news-column.last-has-photo > .destaques-container.analytics-area.analytics-id-L > .destaque.destaque-terciario.destaque-terciario-medio-foto-lado.hentry:nth-of-type(3) > .chamada.chamada-principal.mobile-grid-full > A
-#container-columns > .area.sports-column.last-has-photo > .destaques-container.analytics-area.analytics-id-L > .destaque.destaque-terciario.destaque-terciario-medio-foto-lado.hentry:nth-of-type(2) > .chamada.chamada-principal.mobile-grid-full.mobile-grid-full-with-show-more > .foto
-#container-columns > .area.sports-column.last-has-photo > .destaques-container.analytics-area.analytics-id-L > .destaque.destaque-terciario.destaque-terciario-medio-foto-lado.hentry:nth-of-type(3) > .chamada.chamada-principal.mobile-grid-full > A
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_focus_01--these-elements-are-focusable-but-either-invisible-or-obscured-by-another-element for more information.
+#container-columns > .area.news-column.last-has-photo > .destaques-container.analytics-area.analytics-id-L > DIV:nth-of-type(5) > .chamada.chamada-principal.mobile-grid-full.mobile-grid-full-with-show-more > .foto
+#container-columns > .area.news-column.last-has-photo > .destaques-container.analytics-area.analytics-id-L > DIV:nth-of-type(7) > .chamada.chamada-principal.mobile-grid-full > A
+#container-columns > .area.sports-column.last-has-photo > .destaques-container.analytics-area.analytics-id-L > DIV:nth-of-type(5) > .chamada.chamada-principal.mobile-grid-full.mobile-grid-full-with-show-more > .foto
+#container-columns > .area.sports-column.last-has-photo > .destaques-container.analytics-area.analytics-id-L > DIV:nth-of-type(7) > .chamada.chamada-principal.mobile-grid-full > A
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_focus_01 for more information.
 
-Warning: AX_TEXT_02 (Images should have an alt attribute) failed on the following elements (1 - 5 of 7):
-#container-columns > .area.etc-column.analytics-area.last-has-photo > .widget > .analytics-area.analytics-id-P.box-widgets-personalizaveis.libby-widgets-personalizaveis-novelas > .widget-highlights.glb-hl-style-entretenimento > .area-topo > .titulo > DIV > .choice-marker > SPAN > IMG
+Warning: AX_HTML_01 (The web page should have the content's human language indicated in the markup) failed on the following elements (1 - 2 of 2):
+html
+html
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_html_01 for more information.
+
+Warning: AX_TEXT_02 (Images should have an alt attribute) failed on the following elements (1 - 5 of 6):
 #home-pagecontent > .area.central.container.analytics-area.analytics-id-O > .destaque.agrupador-super-wide.agrupador-musica-triplo.analytics-area.analytics-id-U.franja-inferior > .destaques > .mobile-grid-full > .foto > .borda-foto > IMG
-#home-pagecontent > .area.central.container.analytics-area.analytics-id-O > .destaque.agrupador-super-wide.agrupador-musica-triplo.analytics-area.analytics-id-U.franja-inferior > .destaques > .mobile-grid-full:nth-of-type(2) > .foto > .borda-foto > IMG
-#home-pagecontent > .area.central.container.analytics-area.analytics-id-O > .destaque.agrupador-super-wide.agrupador-musica-triplo.analytics-area.analytics-id-U.franja-inferior > .destaques > .mobile-grid-full:nth-of-type(3) > .foto > .borda-foto > IMG
+#home-pagecontent > .area.central.container.analytics-area.analytics-id-O > .destaque.agrupador-super-wide.agrupador-musica-triplo.analytics-area.analytics-id-U.franja-inferior > .destaques > LI:nth-of-type(2) > .foto > .borda-foto > IMG
+#home-pagecontent > .area.central.container.analytics-area.analytics-id-O > .destaque.agrupador-super-wide.agrupador-musica-triplo.analytics-area.analytics-id-U.franja-inferior > .destaques > LI:nth-of-type(3) > .foto > .borda-foto > IMG
 #home-pagecontent > .area.central.container.analytics-area.analytics-id-O > .destaque.agrupador-super-wide.agrupador-musica-triplo.analytics-area.analytics-id-U.franja-inferior > .top-container.analytics-area.analytics-id-L.mobile-grid-full > UL > LI > .foto > .area-foto > IMG
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_02--images-should-have-an-alt-attribute-unless-they-have-an-aria-role-of-presentation for more information.
+#home-pagecontent > .area.central.container.analytics-area.analytics-id-O > .destaque.agrupador-super-wide.agrupador-musica-triplo.analytics-area.analytics-id-U.franja-inferior > .top-container.analytics-area.analytics-id-L.mobile-grid-full > UL > LI:nth-of-type(2) > .foto > .area-foto > IMG
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_02 for more information.
 
-Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 122):
+Warning: AX_TEXT_04 (The purpose of each link should be clear from the link text) failed on the following elements (1 - 5 of 23):
+#open-menu
+#base-container-width-element > .header-mobile-top > .logo-globo
+#close-search
+#open-search
+#busca-padrao > FORM > FIELDSET > .feedback-message > .close
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_04 for more information.
+
+Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 100):
 #home-push-menu > .home-push-menu-container > .home-push-menu-initial > .home-push-menu-header
 #home-push-menu > .home-push-menu-container > .home-push-menu-initial > .barra-itens > LI:nth-of-type(3) > .barra-item-gshow.link-produto
 #home-push-menu > .home-push-menu-container > .home-push-menu-initial > .barra-itens > LI:nth-of-type(4) > .barra-item-famosos-etc.link-produto
-#bloco-principal > .grid-base.wide.analytics-area.analytics-id-A.mobile-grid-base > .destaque-secundario-duplo-foto-topo.destaque.destaque-primeiro-scroll.secundario.duplo.glb-hl-style-entretenimento.analytics-area.analytics-id-M.mobile-ultimo-ultimo-destaque > .esquerda > .mobile-grid-partial > .foto > .conteudo > H2
-#bloco-principal > .grid-base.wide.analytics-area.analytics-id-A.mobile-grid-base > .destaque-secundario-duplo-foto-topo.destaque.destaque-primeiro-scroll.secundario.duplo.glb-hl-style-entretenimento.analytics-area.analytics-id-M.mobile-ultimo-ultimo-destaque > .esquerda > .chamada-relacionada > LI > .mobile-grid-partial > A
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_color_01--text-elements-should-have-a-reasonable-contrast-ratio for more information.
+#bloco-principal > .grid-base.wide.analytics-area.analytics-id-A.mobile-grid-base > .destaque-secundario-foto-lado.destaque.destaque-primeiro-scroll.secundario.foto-lado.glb-hl-style-entretenimento.analytics-area.analytics-id-M.mobile-ultimo-ultimo-destaque > .mobile-grid-partial > .foto > .conteudo > H2
+#bloco-principal > .grid-base.wide.analytics-area.analytics-id-A.mobile-grid-base > .destaque-secundario-foto-lado.destaque.destaque-primeiro-scroll.secundario.foto-lado.glb-hl-style-entretenimento.analytics-area.analytics-id-M.mobile-pull-left-ultimo-destaque > .mobile-grid-partial > .foto > .conteudo > H2
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_color_01 for more information.
 
-Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 4 of 4):
+Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 2 of 2):
 #area-widgets-direita-topo > .libby-agrupador-destaque-globotv-com-canais.length-5 > .main-area.mobile-grid-full > .header-area.analytics-area.analytics-id-header > .logo-link > .logo
 #libby-home-widget-economia > .libby-home-widgetBase-container.css3pie > .header > .logo
-#libby-home-widget-horoscopo > .libby-home-widgetBase-container.css3pie > .header > .provider
-#libby-home-widget-horoscopo > .libby-home-widgetBase-container.css3pie > .content > .libby-widgetHoroscopo-content > .libby-widgetHoroscopo-currentSignContainer > .libby-widgetHoroscopo-currentSignImage.libby-widgetHoroscopo-touro
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_image_01--meaningful-images-should-not-be-used-in-element-backgrounds for more information.
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_image_01 for more information.
+
+Warning: AX_TITLE_01 (The web page should have a title that describes topic or purpose) failed on the following element:
+html
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_title_01 for more information.
 
 
 *** End accessibility audit results ***

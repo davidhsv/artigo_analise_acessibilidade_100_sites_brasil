@@ -1,0 +1,27 @@
+*** Begin accessibility audit results ***
+An accessibility audit found 
+Warnings:
+Warning: AX_TEXT_04 (The purpose of each link should be clear from the link text) failed on the following elements (1 - 3 of 3):
+body > .site_wrapper > .site_main.OLXcampaign.rap-do-desapega-gravida.mb20px > .page_home > .section_state > .col-1 > .list > LI:nth-of-type(9) > .link
+body > .site_wrapper > .site_main.OLXcampaign.rap-do-desapega-gravida.mb20px > .page_home > .section_apps > .col-3 > DIV:nth-of-type(2) > .list.apps > .item.google-play > A
+body > .site_wrapper > .site_main.OLXcampaign.rap-do-desapega-gravida.mb20px > .page_home > .section_apps > .col-3 > DIV:nth-of-type(2) > .list.apps > .item.app-store > A
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_04 for more information.
+
+Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 45):
+body > .site_wrapper > .site_header > .grid-row > .grid-col.col-1 > .logo > .link
+#container_not_logged > SPAN > .link
+body > .site_wrapper > .site_header > .grid-row > .grid-col.col-2 > .section_functions > .OLXad-insert-box > .label-free > .btn.btn-large.btn-orange
+body > .site_wrapper > .site_main.OLXcampaign.rap-do-desapega-gravida.mb20px > .page_home > .section_main > .col-1 > .title
+body > .site_wrapper > .site_main.OLXcampaign.rap-do-desapega-gravida.mb20px > .page_home > .section_main > .col-1 > .title > .smaller
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_color_01 for more information.
+
+Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 5 of 5):
+body > .site_wrapper > .site_main.OLXcampaign.rap-do-desapega-gravida.mb20px > .page_home > .section_olx > .col-1 > .section_ipiranga > .col-1 > .logo-ipiranga
+body > .site_wrapper > .site_main.OLXcampaign.rap-do-desapega-gravida.mb20px > .page_home > .section_olx > .col-2 > .section_bn2olx > .col-1 > .logo-bn
+body > .site_wrapper > .site_main.OLXcampaign.rap-do-desapega-gravida.mb20px > .page_home > .section_apps > .col-3 > .line > .image.baixe-agora
+body > .site_wrapper > .site_main.OLXcampaign.rap-do-desapega-gravida.mb20px > .page_home > .section_apps > .col-3 > DIV:nth-of-type(2) > .list.apps > .item.google-play > A > .image
+body > .site_wrapper > .site_main.OLXcampaign.rap-do-desapega-gravida.mb20px > .page_home > .section_apps > .col-3 > DIV:nth-of-type(2) > .list.apps > .item.app-store > A > .image
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_image_01 for more information.
+
+
+*** End accessibility audit results ***

@@ -1,44 +1,85 @@
 *** Begin accessibility audit results ***
 An accessibility audit found 
 Errors:
-Error: AX_TEXT_01 (Controls and media elements should have labels) failed on the following elements (1 - 2 of 2):
-#header > HEADER > .container > .row:nth-of-type(2) > .busca > .search-form.col-xs-12.col-sm-12.col-md-3.col-lg-3 > FIELDSET > .icone-busca.hidden-xs.hidden-sm
+Error: AX_TEXT_01 (Controls and media elements should have labels) failed on the following elements (1 - 3 of 3):
+#header > HEADER > .container > DIV:nth-of-type(2) > .busca > .search-form.col-xs-12.col-sm-12.col-md-3.col-lg-3 > FIELDSET > .icone-busca.hidden-xs.hidden-sm
 #mc_botao
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_01--controls-and-media-elements-should-have-labels for more information.
+#produto
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_01 for more information.
+
+Error: AX_HTML_02 (An element's ID must be unique in the DOM) failed on the following elements (1 - 5 of 6):
+#abrAD_button
+#abrAD_button
+#bt_todos_barraAssine
+#bt_todos_barraAssine
+#divisor_barraAssine
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_html_02 for more information.
+
+Error: AX_ARIA_10 (This element has an unsupported ARIA attribute) failed on the following elements (1 - 5 of 34):
+#calendar > .programs-list > .programs-list-row.clearfix > .item-2.program-item > .program-ratings-wrapper > .program-ratings.clearfix > .vejasp-rating > .rating.vejasp-rating-stars.rating-small > .rating-stars.stars-4
+#calendar > .programs-list > .programs-list-row.clearfix > .item-4.program-item > .program-ratings-wrapper > .program-ratings.clearfix > .vejasp-rating > .rating.vejasp-rating-stars.rating-small > .rating-stars.stars-3
+#ranking-veja-sp > .category-container.clearfix > .category-column > .editorial-list > .clearfix.first-ranking > .ranking-info > .vejasp-rating > .rating.vejasp-rating-stars.rating-small > .rating-stars.stars-3
+#ranking-veja-sp > .category-container.clearfix > .category-column > .editorial-list > .clearfix.other-rankings.ranking-item > .ranking-info > .vejasp-rating > .rating.vejasp-rating-stars.rating-small > .rating-stars.stars-3
+#ranking-veja-sp > .category-container.clearfix > .category-column > .editorial-list > LI:nth-of-type(3) > .ranking-info > .vejasp-rating > .rating.vejasp-rating-stars.rating-small > .rating-stars.stars-3
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_aria_10 for more information.
 
 
 Warnings:
-Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 69):
+Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 81):
 #header > HEADER > .container > .row > .redesSociais.hidden-xs.hidden-sm.col-md-offset-9.col-md-3.col-lg-offset-9.col-lg-3 > UL > LI > A
 #header > HEADER > .container > .row > .redesSociais.hidden-xs.hidden-sm.col-md-offset-9.col-md-3.col-lg-offset-9.col-lg-3 > UL > LI:nth-of-type(2) > A
+#aw0
+DIV > A
 #id11 > .image
-#id11 > .item-legend
-#calendar > .programs-list > .programs-list-row.clearfix > .item-2.program-item > .program-image
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_focus_01--these-elements-are-focusable-but-either-invisible-or-obscured-by-another-element for more information.
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_focus_01 for more information.
 
-Warning: AX_TEXT_02 (Images should have an alt attribute) failed on the following elements (1 - 5 of 5):
+Warning: AX_HTML_01 (The web page should have the content's human language indicated in the markup) failed on the following elements (1 - 5 of 10):
+html
+html
+html
+html
+html
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_html_01 for more information.
+
+Warning: AX_TEXT_02 (Images should have an alt attribute) failed on the following elements (1 - 5 of 6):
 #friends-activity > .friends-activity-wrapper > .friends-activity-list.clearfix > .friends-item.clearfix > .friend > .image > A > IMG
-#friends-activity > .friends-activity-wrapper > .friends-activity-list.clearfix > .friends-item.clearfix:nth-of-type(2) > .friend > .image > A > IMG
-#friends-activity > .friends-activity-wrapper > .friends-activity-list.clearfix > .friends-item.clearfix:nth-of-type(3) > .friend > .image > A > IMG
-#friends-activity > .friends-activity-wrapper > .friends-activity-list.clearfix > .friends-item.clearfix:nth-of-type(4) > .friend > .image > A > IMG
-#friends-activity > .friends-activity-wrapper > .friends-activity-list.clearfix > .friends-item.clearfix:nth-of-type(5) > .friend > .image > A > IMG
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_02--images-should-have-an-alt-attribute-unless-they-have-an-aria-role-of-presentation for more information.
+#friends-activity > .friends-activity-wrapper > .friends-activity-list.clearfix > LI:nth-of-type(2) > .friend > .image > A > IMG
+#friends-activity > .friends-activity-wrapper > .friends-activity-list.clearfix > LI:nth-of-type(3) > .friend > .image > A > IMG
+#friends-activity > .friends-activity-wrapper > .friends-activity-list.clearfix > LI:nth-of-type(4) > .friend > .image > A > IMG
+#friends-activity > .friends-activity-wrapper > .friends-activity-list.clearfix > LI:nth-of-type(5) > .friend > .image > A > IMG
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_02 for more information.
 
-Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 275):
-#header > HEADER > .container > .row:nth-of-type(2) > .logotipo.col-xs-12.col-sm-12.col-md-4.col-lg-4 > H1 > A
-#header > HEADER > .container > .row:nth-of-type(2) > .logotipo.col-xs-12.col-sm-12.col-md-4.col-lg-4 > .cidades.hidden-xs.hidden-sm > .clicar
-#header > HEADER > .container > .row:nth-of-type(2) > .menuLateral.hidden-md.hidden-lg > NAV > H4
-#header > HEADER > .container > .row:nth-of-type(2) > .menuLateral.hidden-md.hidden-lg > NAV > UL > LI > A
-#header > HEADER > .container > .row:nth-of-type(2) > .menuLateral.hidden-md.hidden-lg > NAV > UL > LI:nth-of-type(2) > A
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_color_01--text-elements-should-have-a-reasonable-contrast-ratio for more information.
+Warning: AX_TEXT_04 (The purpose of each link should be clear from the link text) failed on the following elements (1 - 5 of 102):
+#header > HEADER > .container > .row > .redesSociais.hidden-xs.hidden-sm.col-md-offset-9.col-md-3.col-lg-offset-9.col-lg-3 > UL > LI > A
+#header > HEADER > .container > .row > .redesSociais.hidden-xs.hidden-sm.col-md-offset-9.col-md-3.col-lg-offset-9.col-lg-3 > UL > LI:nth-of-type(2) > A
+#aw0
+#header > HEADER > .container > DIV:nth-of-type(2) > .menuLateral.hidden-md.hidden-lg > NAV > .redesSociais > UL > LI > A
+#header > HEADER > .container > DIV:nth-of-type(2) > .menuLateral.hidden-md.hidden-lg > NAV > .redesSociais > UL > LI:nth-of-type(2) > A
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_04 for more information.
 
-Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 5 of 34):
+Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 324):
+#header > HEADER > .container > DIV:nth-of-type(2) > .logotipo.col-xs-12.col-sm-12.col-md-4.col-lg-4 > H1 > A
+#header > HEADER > .container > DIV:nth-of-type(2) > .logotipo.col-xs-12.col-sm-12.col-md-4.col-lg-4 > .cidades.hidden-xs.hidden-sm > .clicar
+#header > HEADER > .container > DIV:nth-of-type(2) > .menuLateral.hidden-md.hidden-lg > NAV > H4
+#header > HEADER > .container > DIV:nth-of-type(2) > .menuLateral.hidden-md.hidden-lg > NAV > UL > LI > A
+#header > HEADER > .container > DIV:nth-of-type(2) > .menuLateral.hidden-md.hidden-lg > NAV > UL > LI:nth-of-type(2) > A
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_color_01 for more information.
+
+Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 5 of 43):
 #featured-nav > .prev
 #featured-nav > .next
 #friends-activity > .friends-activity-wrapper > .friends-activity-list.clearfix > .friends-item.clearfix > .friend > .image > A > .author-mask
 #friends-activity > .friends-activity-wrapper > .friends-activity-list.clearfix > .friends-item.clearfix > .text > .arrow
-#friends-activity > .friends-activity-wrapper > .friends-activity-list.clearfix > .friends-item.clearfix:nth-of-type(2) > .friend > .image > A > .author-mask
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_image_01--meaningful-images-should-not-be-used-in-element-backgrounds for more information.
+#friends-activity > .friends-activity-wrapper > .friends-activity-list.clearfix > LI:nth-of-type(2) > .friend > .image > A > .author-mask
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_image_01 for more information.
+
+Warning: AX_TITLE_01 (The web page should have a title that describes topic or purpose) failed on the following elements (1 - 5 of 6):
+html
+html
+html
+html
+html
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_title_01 for more information.
 
 
 *** End accessibility audit results ***

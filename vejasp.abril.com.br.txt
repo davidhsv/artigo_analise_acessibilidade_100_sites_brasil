@@ -1,0 +1,1025 @@
+{
+"apiErrors": [],
+"documentSize": 238502,
+"globalStats": {
+"errorDensity": "155",
+"warningDensity": "12",
+"allDensity": "167",
+"stdDev": "399"
+},
+"message": "success",
+"request": {
+"certainty": "0",
+"docID": "14A99F2B-DC80-6C25-DE9C-F7C5D210223D",
+"importance": "1",
+"key": "null",
+"level": "AAA",
+"priority": "0",
+"projectID": "DEFAULT_PROJECT",
+"ref": "0",
+"reportID": "a3e72cf6-24ac-4b4e-eedc-4070ff7f6d90",
+"responseID": "ecc054a64b24676044aee99e72ec367a",
+"uaString": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.114 Safari/537.36",
+"url": "http://vejasp.abril.com.br/materia/trinta-coisas-que-so-quem-mora-em-moema-vai-entender",
+"viewport": {
+"height": 768,
+"width": 1024
+},
+"fragment": "0",
+"store": "0"
+},
+"responseExecTime": "11.89",
+"responseTime": "2015-05-04T19:26:36.108Z",
+"resultSet": [
+{
+"bpID": 1,
+"certainty": 100,
+"errorDescription": "All images must have an alt attribute. Not supplying an alt attribute will mean that users who cannot see the image will not understand what the image conveys. ",
+"errorSnippet": "<img src=\"https://tpc.googlesyndication.com/pagead/imgad?id=CICAgMCu2OXG-AEQARgBMgh3C-p_NT4Q6w\" style=\"position:relative;visibility:visible;float:right;z-index:2147483643\" onclick=\"dclkHideFloat_94924816()\">",
+"errorTitle": "Image missing alt attribute",
+"position": {
+"column": 14,
+"line": 46
+},
+"priority": 96,
+"ref": "null",
+"resultTitle": "Provide alt attributes for IMG elements",
+"signature": "a74e443801b878b44e6a741d6cf94ae7",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 1.1.1 Non-text Content"
+],
+"tID": 9,
+"xpath": "/html/body/div[1]/div[1]/img[1]"
+},
+{
+"bpID": 1,
+"certainty": 100,
+"errorDescription": "All images must have an alt attribute. Not supplying an alt attribute will mean that users who cannot see the image will not understand what the image conveys. ",
+"errorSnippet": "<img src=\"https://tpc.googlesyndication.com/pagead/imgad?id=CICAgKDT1NKb9gEQARgBMgghQFl2WAgrQg\" border=\"0\" galleryimg=\"no\">",
+"errorTitle": "Image missing alt attribute",
+"position": {
+"column": 14,
+"line": 53
+},
+"priority": 96,
+"ref": "null",
+"resultTitle": "Provide alt attributes for IMG elements",
+"signature": "8a0f1a8a3a554e201a7c5c62c1b12757",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 1.1.1 Non-text Content"
+],
+"tID": 9,
+"xpath": "/html/body/div[1]/div[2]/a[1]/img[1]"
+},
+{
+"bpID": 1,
+"certainty": 100,
+"errorDescription": "All images must have an alt attribute. Not supplying an alt attribute will mean that users who cannot see the image will not understand what the image conveys. ",
+"errorSnippet": "<img src=\"https://securepubads.g.doubleclick.net/pagead/adview?ai=Bj4JL48dHVfqwF5CQMP21gYgMjtDbqAcAAAAQASCu4tYhOABYpoWhrJoCYMnGqYvApNgPsgETdmVqYXNwLmFicmlsLmNvbS5icroBCWdmcF9pbWFnZcgBCdoBV2h0dHA6Ly92ZWphc3AuYWJyaWwuY29tLmJyL21hdGVyaWEvdHJpbnRhLWNvaXNh",
+"errorTitle": "Image missing alt attribute",
+"position": {
+"column": 14,
+"line": 67
+},
+"priority": 96,
+"ref": "null",
+"resultTitle": "Provide alt attributes for IMG elements",
+"signature": "39b1b62358534410bcb9b91dfee3f42b",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 1.1.1 Non-text Content"
+],
+"tID": 9,
+"xpath": "/html/body/div[1]/div[3]/img[1]"
+},
+{
+"bpID": 1,
+"certainty": 100,
+"errorDescription": "All images must have an alt attribute. Not supplying an alt attribute will mean that users who cannot see the image will not understand what the image conveys. ",
+"errorSnippet": "<img src=\"http://msalx.vejasp.abril.com.br/2014/07/02/1740/jgoum/1816403-high.jpeg?1404333785\">",
+"errorTitle": "Image missing alt attribute",
+"position": "",
+"priority": 96,
+"ref": "null",
+"resultTitle": "Provide alt attributes for IMG elements",
+"signature": "e0b864de10937432e6e91e4bbe7ae3ef",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 1.1.1 Non-text Content"
+],
+"tID": 9,
+"xpath": "/html/body/div[5]/div[1]/aside[1]/div[4]/section[1]/ul[1]/li[1]/a[1]/img[1]"
+},
+{
+"bpID": 1,
+"certainty": 100,
+"errorDescription": "All images must have an alt attribute. Not supplying an alt attribute will mean that users who cannot see the image will not understand what the image conveys. ",
+"errorSnippet": "<img src=\"http://msalx.vejasp.abril.com.br/2015/05/02/2009/jgoum/magalu-01-foto-insercao-corrigida-72dpi.jpeg?1430608280\">",
+"errorTitle": "Image missing alt attribute",
+"position": "",
+"priority": 96,
+"ref": "null",
+"resultTitle": "Provide alt attributes for IMG elements",
+"signature": "a07758cf67814030d8a5167451d9e08d",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 1.1.1 Non-text Content"
+],
+"tID": 9,
+"xpath": "/html/body/div[5]/div[1]/aside[1]/div[4]/section[1]/ul[1]/li[2]/a[1]/img[1]"
+},
+{
+"bpID": 1,
+"certainty": 100,
+"errorDescription": "All images must have an alt attribute. Not supplying an alt attribute will mean that users who cannot see the image will not understand what the image conveys. ",
+"errorSnippet": "<img src=\"http://msalx.vejasp.abril.com.br/2014/04/08/1124/jgoum/dengue.jpeg?1396967138\">",
+"errorTitle": "Image missing alt attribute",
+"position": "",
+"priority": 96,
+"ref": "null",
+"resultTitle": "Provide alt attributes for IMG elements",
+"signature": "c0a0f1f577c200e7bd855a2491ac4c8f",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 1.1.1 Non-text Content"
+],
+"tID": 9,
+"xpath": "/html/body/div[5]/div[1]/aside[1]/div[4]/section[1]/ul[1]/li[3]/a[1]/img[1]"
+},
+{
+"bpID": 1,
+"certainty": 100,
+"errorDescription": "All images must have an alt attribute. Not supplying an alt attribute will mean that users who cannot see the image will not understand what the image conveys. ",
+"errorSnippet": "<img src=\"http://msalx.vejasp.abril.com.br/2015/05/03/1037/jgoum/dp-cambuci.jpeg?1430660257\">",
+"errorTitle": "Image missing alt attribute",
+"position": "",
+"priority": 96,
+"ref": "null",
+"resultTitle": "Provide alt attributes for IMG elements",
+"signature": "9bf20e415b94dd8bc9aa0f51907ed0d5",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 1.1.1 Non-text Content"
+],
+"tID": 9,
+"xpath": "/html/body/div[5]/div[1]/aside[1]/div[4]/section[1]/ul[2]/li[1]/a[1]/img[1]"
+},
+{
+"bpID": 41,
+"certainty": 100,
+"errorDescription": "This button has no text within it. Users of assistive technologies like voice dictation software will be unable to reference the button by name and users of screen readers will not have any information regarding this button's purpose. ",
+"errorSnippet": "<button type=\"submit\"><i class=\"fa fa-search\"></i></button>",
+"errorTitle": "Empty button found",
+"position": {
+"column": 6866,
+"line": 1
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure labels are clear and informative",
+"signature": "a1e91dc12a09edb91629eed89604eeb6",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AA: 2.4.6 Headings and Labels"
+],
+"tID": 82,
+"xpath": "/html/body/header[1]/div[1]/div[2]/div[3]/form[1]/fieldset[1]/button[1]"
+},
+{
+"bpID": 41,
+"certainty": 100,
+"errorDescription": "This button has no text within it. Users of assistive technologies like voice dictation software will be unable to reference the button by name and users of screen readers will not have any information regarding this button's purpose. ",
+"errorSnippet": "<button class=\"galeria-multimidia-next fa fa-angle-right\"></button>",
+"errorTitle": "Empty button found",
+"position": "",
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure labels are clear and informative",
+"signature": "bf292491530024a18b56bfbbc02bfbda",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AA: 2.4.6 Headings and Labels"
+],
+"tID": 82,
+"xpath": "/html/body/div[5]/div[1]/div[1]/main[1]/article[1]/section[1]/div[1]/div[2]/button[2]"
+},
+{
+"bpID": 41,
+"certainty": 100,
+"errorDescription": "This button has no text within it. Users of assistive technologies like voice dictation software will be unable to reference the button by name and users of screen readers will not have any information regarding this button's purpose. ",
+"errorSnippet": "<button href=\"#\" class=\"galeria-multimidia-view-all-close fa fa-times\"></button>",
+"errorTitle": "Empty button found",
+"position": "",
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure labels are clear and informative",
+"signature": "06347931df57bf6b8a14aec6cf2348c0",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AA: 2.4.6 Headings and Labels"
+],
+"tID": 82,
+"xpath": "/html/body/div[5]/div[1]/div[1]/main[1]/article[1]/section[1]/div[1]/div[2]/ul[1]/li[11]/button[1]"
+},
+{
+"bpID": 53,
+"certainty": 100,
+"errorDescription": "Frames must have titles which describe the content or purpose in the frame.",
+"errorSnippet": "<iframe id=\"google_ads_iframe_/9287/vejasaopaulo/materia_4\" name=\"google_ads_iframe_/9287/vejasaopaulo/materia_4\" width=\"0\" height=\"0\" scrolling=\"no\" marginwidth=\"0\" marginheight=\"0\" frameborder=\"0\" style=\"border-top-width: 0px; border-right-width: 0p",
+"errorTitle": "Frames do not have titles",
+"position": {
+"column": 1252,
+"line": 139
+},
+"priority": 90,
+"ref": "null",
+"resultTitle": "Provide clear, informative titles for all Frames and I-Frames",
+"signature": "59a59bbbdb11d727217442323694b842",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.1 Bypass Blocks"
+],
+"tID": 13,
+"xpath": "/html/body/div[3]/div[1]/iframe[1]"
+},
+{
+"bpID": 53,
+"certainty": 100,
+"errorDescription": "Frames must have titles which describe the content or purpose in the frame.",
+"errorSnippet": "<iframe frameborder=\"0\" style=\"border-top-width: 0px; border-right-width: 0px; border-bottom-width: 0px; border-left-width: 0px; border-style: initial; border-color: initial; vertical-align: bottom; \" src=\"http://tpc.googlesyndication.com/safeframe/1-",
+"errorTitle": "Frames do not have titles",
+"position": "",
+"priority": 90,
+"ref": "null",
+"resultTitle": "Provide clear, informative titles for all Frames and I-Frames",
+"signature": "6b30ae539dfeec9f049ad0347e8b4b51",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.1 Bypass Blocks"
+],
+"tID": 13,
+"xpath": "/html/body/div[4]/div[1]/div[1]/iframe[1]"
+},
+{
+"bpID": 53,
+"certainty": 100,
+"errorDescription": "Frames must have titles which describe the content or purpose in the frame.",
+"errorSnippet": "<iframe id=\"google_ads_iframe_/9287/vejasaopaulo/materia_3\" name=\"google_ads_iframe_/9287/vejasaopaulo/materia_3\" width=\"300\" height=\"250\" scrolling=\"no\" marginwidth=\"0\" marginheight=\"0\" frameborder=\"0\" style=\"border-top-width: 0px; border-right-width",
+"errorTitle": "Frames do not have titles",
+"position": "",
+"priority": 90,
+"ref": "null",
+"resultTitle": "Provide clear, informative titles for all Frames and I-Frames",
+"signature": "26eb7049656f15296fb05bef2e6a2d0a",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.1 Bypass Blocks"
+],
+"tID": 13,
+"xpath": "/html/body/div[5]/div[1]/aside[1]/div[1]/div[1]/div[1]/iframe[1]"
+},
+{
+"bpID": 53,
+"certainty": 100,
+"errorDescription": "Frames must have titles which describe the content or purpose in the frame.",
+"errorSnippet": "<iframe id=\"google_ads_iframe_/9287/vejasaopaulo/materia_2\" name=\"google_ads_iframe_/9287/vejasaopaulo/materia_2\" width=\"728\" height=\"90\" scrolling=\"no\" marginwidth=\"0\" marginheight=\"0\" frameborder=\"0\" style=\"border-top-width: 0px; border-right-width:",
+"errorTitle": "Frames do not have titles",
+"position": "",
+"priority": 90,
+"ref": "null",
+"resultTitle": "Provide clear, informative titles for all Frames and I-Frames",
+"signature": "1b426c99da05713bb47180f66b7e8081",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.1 Bypass Blocks"
+],
+"tID": 13,
+"xpath": "/html/body/div[6]/div[1]/div[1]/iframe[1]"
+},
+{
+"bpID": 53,
+"certainty": 100,
+"errorDescription": "Frames must have titles which describe the content or purpose in the frame.",
+"errorSnippet": "<iframe width=\"940\" height=\"300\" scrolling=\"no\" frameborder=\"0\" src=\"http://templates.buscape.com/dynatemplate/abril_vejasp_abasdecategoria.html?type=vejasp\"></iframe>",
+"errorTitle": "Frames do not have titles",
+"position": "",
+"priority": 90,
+"ref": "null",
+"resultTitle": "Provide clear, informative titles for all Frames and I-Frames",
+"signature": "4d2751668994ec553d7d2aa920d17b3b",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.1 Bypass Blocks"
+],
+"tID": 13,
+"xpath": "/html/body/div[7]/div[1]/div[1]/iframe[1]"
+},
+{
+"bpID": 53,
+"certainty": 100,
+"errorDescription": "Frames must have titles which describe the content or purpose in the frame.",
+"errorSnippet": "<iframe src=\"http://barrasassine.abril.com.br/novabarra/vejinhas/index.html\" frameborder=\"0\" allowtransparency=\"true\" scrolling=\"no\" style=\"max-width:1220px; width:100%; height:100%; max-height:546px;\"></iframe>",
+"errorTitle": "Frames do not have titles",
+"position": "",
+"priority": 90,
+"ref": "null",
+"resultTitle": "Provide clear, informative titles for all Frames and I-Frames",
+"signature": "3ebd44e03a9105dbe50ee6ef9bf59b51",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.1 Bypass Blocks"
+],
+"tID": 13,
+"xpath": "/html/body/div[7]/div[2]/div[1]/iframe[1]"
+},
+{
+"bpID": 53,
+"certainty": 100,
+"errorDescription": "Frames must have titles which describe the content or purpose in the frame.",
+"errorSnippet": "<iframe id=\"google_ads_iframe_/9287/vejasaopaulo/materia_0\" name=\"google_ads_iframe_/9287/vejasaopaulo/materia_0\" width=\"1\" height=\"1\" scrolling=\"no\" marginwidth=\"0\" marginheight=\"0\" frameborder=\"0\" style=\"border-top-width: 0px; border-right-width: 0p",
+"errorTitle": "Frames do not have titles",
+"position": "",
+"priority": 90,
+"ref": "null",
+"resultTitle": "Provide clear, informative titles for all Frames and I-Frames",
+"signature": "416c34ac73375953f4df85cc92b0a13f",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.1 Bypass Blocks"
+],
+"tID": 13,
+"xpath": "/html/body/div[8]/div[1]/iframe[1]"
+},
+{
+"bpID": 53,
+"certainty": 80,
+"errorDescription": "This frame has the exact same title attribute value as another. Unless the content within these frames serve the same purpose, they should each have distinct titles.",
+"errorSnippet": "<iframe name=\"fb_xdm_frame_http\" frameborder=\"0\" allowtransparency=\"true\" allowfullscreen=\"true\" scrolling=\"no\" id=\"fb_xdm_frame_http\" aria-hidden=\"true\" title=\"Facebook Cross Domain Communication Frame\" tabindex=\"-1\" style=\"border-top-style: none; bo",
+"errorTitle": "Frames have duplicate titles",
+"position": "",
+"priority": 90,
+"ref": "null",
+"resultTitle": "Provide clear, informative titles for all Frames and I-Frames",
+"signature": "49a9b8503261cf4b5f2221261840a45a",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.1 Bypass Blocks"
+],
+"tID": 89,
+"xpath": "/html/body/div[10]/div[1]/div[1]/iframe[1]"
+},
+{
+"bpID": 53,
+"certainty": 80,
+"errorDescription": "This frame has the exact same title attribute value as another. Unless the content within these frames serve the same purpose, they should each have distinct titles.",
+"errorSnippet": "<iframe name=\"fb_xdm_frame_https\" frameborder=\"0\" allowtransparency=\"true\" allowfullscreen=\"true\" scrolling=\"no\" id=\"fb_xdm_frame_https\" aria-hidden=\"true\" title=\"Facebook Cross Domain Communication Frame\" tabindex=\"-1\" style=\"border-top-style: none; ",
+"errorTitle": "Frames have duplicate titles",
+"position": "",
+"priority": 90,
+"ref": "null",
+"resultTitle": "Provide clear, informative titles for all Frames and I-Frames",
+"signature": "cafdf9bbd6c7e816b64b0e9227e8f360",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.1 Bypass Blocks"
+],
+"tID": 89,
+"xpath": "/html/body/div[10]/div[1]/div[1]/iframe[2]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "Link found which contains no text. Because Accessibility APIs use a link's text do determine its accessible name, this link will have no name and will not be announced by assistive technologies.",
+"errorSnippet": "<a href=\"https://adclick.g.doubleclick.net/aclk%253Fsa%253DL%2526ai%253DBHT9H48dHVfqwF5CQMP21gYgMjtDbqAcAAAAQASCu4tYhOABYpoWhrJoCYMnGqYvApNgPsgETdmVqYXNwLmFicmlsLmNvbS5icroBCWdmcF9pbWFnZcgBCdoBV2h0dHA6Ly92ZWphc3AuYWJyaWwuY29tLmJyL21hdGVyaWEvdHJpbnRhLW",
+"errorTitle": "Blank link text found",
+"position": {
+"column": 0,
+"line": 1
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "3058eed990218b25d8eea00577040b6d",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 57,
+"xpath": "/html/body/div[1]/div[2]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "Link found which contains no text. Because Accessibility APIs use a link's text do determine its accessible name, this link will have no name and will not be announced by assistive technologies.",
+"errorSnippet": "<a href=\"http://adclick.g.doubleclick.net/aclk?sa=L&amp;ai=BpQLO48dHVdC1F5CQMP21gYgMptODqgcAAAAQASCu4tYhOABY7oaA1ZoCYMnGqYvApNgPsgETdmVqYXNwLmFicmlsLmNvbS5icroBCWdmcF9pbWFnZcgBCdoBV2h0dHA6Ly92ZWphc3AuYWJyaWwuY29tLmJyL21hdGVyaWEvdHJpbnRhLWNvaXNhcy1",
+"errorTitle": "Blank link text found",
+"position": {
+"column": 0,
+"line": 1
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "1e4046b70e7ccb0a0c0a18d3ab6b3e0a",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 57,
+"xpath": "/html/body/div[3]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "Link found which contains no text. Because Accessibility APIs use a link's text do determine its accessible name, this link will have no name and will not be announced by assistive technologies.",
+"errorSnippet": "<a href=\"http://facebook.com/vejasp\" target=\"_blank\" class=\"facebook\" data-tracker=\"bt-facebook\"><i class=\"fa fa-facebook\"></i></a>",
+"errorTitle": "Blank link text found",
+"position": {
+"column": 0,
+"line": 1
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "b334e7b89e097533ece35438df0351af",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 57,
+"xpath": "/html/body/header[1]/div[1]/div[1]/div[1]/ul[1]/li[2]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "Link found which contains no text. Because Accessibility APIs use a link's text do determine its accessible name, this link will have no name and will not be announced by assistive technologies.",
+"errorSnippet": "<a href=\"http://twitter.com/vejasp\" target=\"_blank\" class=\"twitter\" data-tracker=\"bt-twitter\"><i class=\"fa fa-twitter\"></i></a>",
+"errorTitle": "Blank link text found",
+"position": {
+"column": 0,
+"line": 1
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "79d6496b8e15c8f5ce113227532bbdad",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 57,
+"xpath": "/html/body/header[1]/div[1]/div[1]/div[1]/ul[1]/li[3]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "Link found which contains no text. Because Accessibility APIs use a link's text do determine its accessible name, this link will have no name and will not be announced by assistive technologies.",
+"errorSnippet": "<a class=\"btn btn-more\" href=\"javascript:void(0);\" data-tracker=\"mais-materia-topo\"><i class=\"fa fa-mail-forward fa-2x\"></i></a>",
+"errorTitle": "Blank link text found",
+"position": {
+"column": 0,
+"line": 1
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "f088d7d51eb565212294774200185f28",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 57,
+"xpath": "/html/body/div[5]/div[1]/div[1]/main[1]/article[1]/div[1]/div[1]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "Link found which contains no text. Because Accessibility APIs use a link's text do determine its accessible name, this link will have no name and will not be announced by assistive technologies.",
+"errorSnippet": "<a href=\"#\" onmousedown=\"\" onclick=\"OBR.extern.callWhatIs('http://www.outbrain.com/what-is/default/pt','',-1,-1,true ,null);return false\">\n\t\t<span class=\"ob_amelia\" title=\"Outbrain\"></span>\n\t</a>",
+"errorTitle": "Blank link text found",
+"position": {
+"column": 0,
+"line": 139
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "35f5da9687c60f216fe1b106f8401a53",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 57,
+"xpath": "/html/body/div[5]/div[1]/div[1]/main[1]/article[1]/div[15]/div[1]/div[2]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "Link found which contains no text. Because Accessibility APIs use a link's text do determine its accessible name, this link will have no name and will not be announced by assistive technologies.",
+"errorSnippet": "<a class=\"btn btn-more\" href=\"javascript:void(0);\" data-tracker=\"mais-materia-topo\"><i class=\"fa fa-mail-forward fa-2x\"></i></a>",
+"errorTitle": "Blank link text found",
+"position": {
+"column": 0,
+"line": 139
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "234258af6c62b633845bdd08dc71ceb6",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 57,
+"xpath": "/html/body/div[5]/div[1]/div[1]/main[1]/div[1]/div[1]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "Link found which contains no text. Because Accessibility APIs use a link's text do determine its accessible name, this link will have no name and will not be announced by assistive technologies.",
+"errorSnippet": "<a href=\"/materia/policia-identifica-corpo-de-homem-achado-em-cacamba-de-lixo-tomorrowland\" class=\"image\">\n <img src=\"http://msalx.vejasp.abril.com.br/2014/07/02/1740/jgoum/1816403-high.jpeg?1404333785\">\n </a>",
+"errorTitle": "Blank link text found",
+"position": {
+"column": 0,
+"line": 139
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "0436bd11c0e3bb857c9ce535ada19056",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 57,
+"xpath": "/html/body/div[5]/div[1]/aside[1]/div[4]/section[1]/ul[1]/li[1]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "Link found which contains no text. Because Accessibility APIs use a link's text do determine its accessible name, this link will have no name and will not be announced by assistive technologies.",
+"errorSnippet": "<a href=\"/materia/policia-recupera-carga-roubada-magazine-luiza\" class=\"image\">\n <img src=\"http://msalx.vejasp.abril.com.br/2015/05/02/2009/jgoum/magalu-01-foto-insercao-corrigida-72dpi.jpeg?1430608280\">\n </a>",
+"errorTitle": "Blank link text found",
+"position": {
+"column": 0,
+"line": 139
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "36463bdf6e1f61641344730b1e535343",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 57,
+"xpath": "/html/body/div[5]/div[1]/aside[1]/div[4]/section[1]/ul[1]/li[2]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "Link found which contains no text. Because Accessibility APIs use a link's text do determine its accessible name, this link will have no name and will not be announced by assistive technologies.",
+"errorSnippet": "<a href=\"/materia/sao-paulo-bate-recorde-historico-de-mortes-por-dengue\" class=\"image\">\n <img src=\"http://msalx.vejasp.abril.com.br/2014/04/08/1124/jgoum/dengue.jpeg?1396967138\">\n </a>",
+"errorTitle": "Blank link text found",
+"position": {
+"column": 0,
+"line": 139
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "2ffb85fed7030743f2ed5e9e740bca7e",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 57,
+"xpath": "/html/body/div[5]/div[1]/aside[1]/div[4]/section[1]/ul[1]/li[3]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "Link found which contains no text. Because Accessibility APIs use a link's text do determine its accessible name, this link will have no name and will not be announced by assistive technologies.",
+"errorSnippet": "<a href=\"/materia/racismo-loja-professora\" class=\"image\">\n <img src=\"http://msalx.vejasp.abril.com.br/2015/05/03/1037/jgoum/dp-cambuci.jpeg?1430660257\">\n </a>",
+"errorTitle": "Blank link text found",
+"position": {
+"column": 0,
+"line": 139
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "2a11139df48339bb9281ed1741ccaa8b",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 57,
+"xpath": "/html/body/div[5]/div[1]/aside[1]/div[4]/section[1]/ul[2]/li[1]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "Link found which contains no text. Because Accessibility APIs use a link's text do determine its accessible name, this link will have no name and will not be announced by assistive technologies.",
+"errorSnippet": "<a href=\"/u/capa/link\" class=\"capa\"><img src=\"/u/capa/imagem/edicao_capa_102x135\" alt=\"\"></a>",
+"errorTitle": "Blank link text found",
+"position": "",
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "ed76997f2e23d58eecead56478b7a1a1",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 57,
+"xpath": "/html/body/footer[1]/div[1]/div[1]/nav[1]/ul[1]/li[6]/ul[1]/li[1]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "Link found which contains no text. Because Accessibility APIs use a link's text do determine its accessible name, this link will have no name and will not be announced by assistive technologies.",
+"errorSnippet": "<a href=\"http://facebook.com/vejasp\" target=\"_blank\" data-tracker=\"bt-facebook\"><i class=\"fa fa-facebook\"></i></a>",
+"errorTitle": "Blank link text found",
+"position": "",
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "326c7a78e3ea3decc2792f13b07cf765",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 57,
+"xpath": "/html/body/footer[1]/div[1]/div[2]/div[1]/ul[1]/li[2]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "Link found which contains no text. Because Accessibility APIs use a link's text do determine its accessible name, this link will have no name and will not be announced by assistive technologies.",
+"errorSnippet": "<a href=\"http://twitter.com/vejasp\" target=\"_blank\" data-tracker=\"bt-twitter\"><i class=\"fa fa-twitter\"></i></a>",
+"errorTitle": "Blank link text found",
+"position": "",
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "f420c804eb422adad1d09a2170fccbf7",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 57,
+"xpath": "/html/body/footer[1]/div[1]/div[2]/div[1]/ul[1]/li[3]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "Link found which contains no text. Because Accessibility APIs use a link's text do determine its accessible name, this link will have no name and will not be announced by assistive technologies.",
+"errorSnippet": "<a href=\"http://plus.google.com/u/0/+vejasp/posts\" target=\"_blank\" data-tracker=\"bt-google-plus\"><i class=\"fa fa-google-plus\"></i></a>",
+"errorTitle": "Blank link text found",
+"position": "",
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "41339ffd6f65e40abd08ece3a5888337",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 57,
+"xpath": "/html/body/footer[1]/div[1]/div[2]/div[1]/ul[1]/li[4]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "Link found which contains no text. Because Accessibility APIs use a link's text do determine its accessible name, this link will have no name and will not be announced by assistive technologies.",
+"errorSnippet": "<a href=\"http://instagram.com/vejasp\" target=\"_blank\" data-tracker=\"bt-instagram\"><i class=\"fa fa-instagram\"></i></a>",
+"errorTitle": "Blank link text found",
+"position": "",
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "1074bc46b7a23d9755403505bf114410",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 57,
+"xpath": "/html/body/footer[1]/div[1]/div[2]/div[1]/ul[1]/li[5]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "Link found which contains no text. Because Accessibility APIs use a link's text do determine its accessible name, this link will have no name and will not be announced by assistive technologies.",
+"errorSnippet": "<a href=\"http://pt.foursquare.com/p/veja-s%C3%A3o-paulo/11498991\" target=\"_blank\" data-tracker=\"bt-foursquare\"><i class=\"fa fa-foursquare\"></i></a>",
+"errorTitle": "Blank link text found",
+"position": "",
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "20d7c53a7c81dec8f2508788a958a0b6",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 57,
+"xpath": "/html/body/footer[1]/div[1]/div[2]/div[1]/ul[1]/li[6]/a[1]"
+},
+{
+"bpID": 106,
+"certainty": 100,
+"errorDescription": "This link has a title attribute that is identical to the text inside the link. This may lead to unnecessary verbosity for assistive technologies and provides no user benefit.",
+"errorSnippet": "<a href=\"/edicoes-anteriores\" title=\"Edições anteriores\" data-tracker=\"revista-edicoes-anteriores\">Edições anteriores</a>",
+"errorTitle": "Link text with identical title",
+"position": "",
+"priority": 100,
+"ref": "null",
+"resultTitle": "Ensure link text (and alternate text for images, when used as links) describes the destination or purpose of the link.",
+"signature": "be7e4819ddfac1defbfa8f026c28f0cc",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 2.4.4 Link Purpose (In Context)",
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level AAA: 2.4.9 Link Purpose (Link Only)"
+],
+"tID": 79,
+"xpath": "/html/body/footer[1]/div[1]/div[1]/nav[1]/ul[1]/li[6]/ul[1]/li[3]/a[1]"
+},
+{
+"bpID": 113,
+"certainty": 100,
+"errorDescription": "This link's href attribute does not conform to RFC1630 which defines the proper construction of URIs. The behavior, in certain scenarios, may not match the intended behavior.",
+"errorSnippet": "<a href=\"#\" class=\"clicar\" data-tracker=\"comidabebida\">Comida &amp; Bebida</a>",
+"errorTitle": "Link uses invalid hypertext reference",
+"position": {
+"column": 0,
+"line": 1
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Utilize the A element for links, and provide a valid hypertext reference",
+"signature": "1ca7330af0f8f3a4269a8d11bda32472",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.2 Name, Role, Value"
+],
+"tID": 31,
+"xpath": "/html/body/header[1]/div[1]/div[3]/div[1]/nav[1]/ul[1]/li[1]/a[1]"
+},
+{
+"bpID": 113,
+"certainty": 100,
+"errorDescription": "This link's href attribute does not conform to RFC1630 which defines the proper construction of URIs. The behavior, in certain scenarios, may not match the intended behavior.",
+"errorSnippet": "<a href=\"#\" class=\"clicar\" data-tracker=\"cinema\">Cinema</a>",
+"errorTitle": "Link uses invalid hypertext reference",
+"position": {
+"column": 0,
+"line": 1
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Utilize the A element for links, and provide a valid hypertext reference",
+"signature": "2292a26bc5140f4dc52086699ad96b03",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.2 Name, Role, Value"
+],
+"tID": 31,
+"xpath": "/html/body/header[1]/div[1]/div[3]/div[1]/nav[1]/ul[1]/li[2]/a[1]"
+},
+{
+"bpID": 113,
+"certainty": 100,
+"errorDescription": "This link's href attribute does not conform to RFC1630 which defines the proper construction of URIs. The behavior, in certain scenarios, may not match the intended behavior.",
+"errorSnippet": "<a href=\"#\" class=\"clicar\" data-tracker=\"cultura\">Cultura</a>",
+"errorTitle": "Link uses invalid hypertext reference",
+"position": {
+"column": 0,
+"line": 1
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Utilize the A element for links, and provide a valid hypertext reference",
+"signature": "5ac4b761580780454a02f176e564cc20",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.2 Name, Role, Value"
+],
+"tID": 31,
+"xpath": "/html/body/header[1]/div[1]/div[3]/div[1]/nav[1]/ul[1]/li[3]/a[1]"
+},
+{
+"bpID": 113,
+"certainty": 100,
+"errorDescription": "This link's href attribute does not conform to RFC1630 which defines the proper construction of URIs. The behavior, in certain scenarios, may not match the intended behavior.",
+"errorSnippet": "<a href=\"#\" class=\"clicar\" data-tracker=\"noite\">Noite</a>",
+"errorTitle": "Link uses invalid hypertext reference",
+"position": {
+"column": 0,
+"line": 1
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Utilize the A element for links, and provide a valid hypertext reference",
+"signature": "7dc77d326f264b088775bb2fc43847ac",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.2 Name, Role, Value"
+],
+"tID": 31,
+"xpath": "/html/body/header[1]/div[1]/div[3]/div[1]/nav[1]/ul[1]/li[4]/a[1]"
+},
+{
+"bpID": 113,
+"certainty": 100,
+"errorDescription": "This link's href attribute does not conform to RFC1630 which defines the proper construction of URIs. The behavior, in certain scenarios, may not match the intended behavior.",
+"errorSnippet": "<a href=\"#\" class=\"clicar\" data-tracker=\"criancas\">Crianças</a>",
+"errorTitle": "Link uses invalid hypertext reference",
+"position": {
+"column": 0,
+"line": 1
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Utilize the A element for links, and provide a valid hypertext reference",
+"signature": "b7ad309e4f8b37def5c4b84c7065b0af",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.2 Name, Role, Value"
+],
+"tID": 31,
+"xpath": "/html/body/header[1]/div[1]/div[3]/div[1]/nav[1]/ul[1]/li[5]/a[1]"
+},
+{
+"bpID": 113,
+"certainty": 100,
+"errorDescription": "This link's href attribute does not conform to RFC1630 which defines the proper construction of URIs. The behavior, in certain scenarios, may not match the intended behavior.",
+"errorSnippet": "<a href=\"#\" class=\"clicar\" data-tracker=\"gratis\">Grátis</a>",
+"errorTitle": "Link uses invalid hypertext reference",
+"position": {
+"column": 0,
+"line": 1
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Utilize the A element for links, and provide a valid hypertext reference",
+"signature": "2f472870844c7fe92f8048e9f1b747bb",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.2 Name, Role, Value"
+],
+"tID": 31,
+"xpath": "/html/body/header[1]/div[1]/div[3]/div[1]/nav[1]/ul[1]/li[6]/a[1]"
+},
+{
+"bpID": 113,
+"certainty": 100,
+"errorDescription": "This link's href attribute does not conform to RFC1630 which defines the proper construction of URIs. The behavior, in certain scenarios, may not match the intended behavior.",
+"errorSnippet": "<a href=\"#\" class=\"clicar\" data-tracker=\"revista\">Revista</a>",
+"errorTitle": "Link uses invalid hypertext reference",
+"position": {
+"column": 0,
+"line": 1
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Utilize the A element for links, and provide a valid hypertext reference",
+"signature": "d046906d34342f89b18d8f60c6abb69d",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.2 Name, Role, Value"
+],
+"tID": 31,
+"xpath": "/html/body/header[1]/div[1]/div[3]/div[1]/nav[1]/ul[1]/li[7]/a[1]"
+},
+{
+"bpID": 113,
+"certainty": 100,
+"errorDescription": "This link's href attribute does not conform to RFC1630 which defines the proper construction of URIs. The behavior, in certain scenarios, may not match the intended behavior.",
+"errorSnippet": "<a href=\"#\" class=\"clicar\" data-tracker=\"bairros\">Bairros</a>",
+"errorTitle": "Link uses invalid hypertext reference",
+"position": {
+"column": 0,
+"line": 1
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Utilize the A element for links, and provide a valid hypertext reference",
+"signature": "974b30b8906459f4bcfa24778ada7165",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.2 Name, Role, Value"
+],
+"tID": 31,
+"xpath": "/html/body/header[1]/div[1]/div[3]/div[1]/nav[1]/ul[1]/li[8]/a[1]"
+},
+{
+"bpID": 113,
+"certainty": 100,
+"errorDescription": "This link's href attribute does not conform to RFC1630 which defines the proper construction of URIs. The behavior, in certain scenarios, may not match the intended behavior.",
+"errorSnippet": "<a href=\"#\" class=\"clicar\" data-tracker=\"mais\">Mais</a>",
+"errorTitle": "Link uses invalid hypertext reference",
+"position": {
+"column": 0,
+"line": 1
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Utilize the A element for links, and provide a valid hypertext reference",
+"signature": "3c1982360fa6d3d90d9dd094afc927ed",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.2 Name, Role, Value"
+],
+"tID": 31,
+"xpath": "/html/body/header[1]/div[1]/div[3]/div[1]/nav[1]/ul[1]/li[9]/a[1]"
+},
+{
+"bpID": 113,
+"certainty": 100,
+"errorDescription": "This link's href attribute does not conform to RFC1630 which defines the proper construction of URIs. The behavior, in certain scenarios, may not match the intended behavior.",
+"errorSnippet": "<a href=\"#\" class=\"galeria-multimidia-control-view-all\"><i class=\"icon-grid\"></i> <span>Todas as mídias</span></a>",
+"errorTitle": "Link uses invalid hypertext reference",
+"position": {
+"column": 0,
+"line": 32
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Utilize the A element for links, and provide a valid hypertext reference",
+"signature": "9a53dc97d15550e9ef01bf6136222374",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.2 Name, Role, Value"
+],
+"tID": 31,
+"xpath": "/html/body/div[5]/div[1]/div[1]/main[1]/article[1]/section[1]/div[1]/div[1]/a[1]"
+},
+{
+"bpID": 113,
+"certainty": 100,
+"errorDescription": "This link's href attribute does not conform to RFC1630 which defines the proper construction of URIs. The behavior, in certain scenarios, may not match the intended behavior.",
+"errorSnippet": "<a href=\"#\" class=\"galeria-multimidia-inicio\"><i class=\"fa fa-undo\"></i> Voltar ao início</a>",
+"errorTitle": "Link uses invalid hypertext reference",
+"position": {
+"column": 0,
+"line": 32
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Utilize the A element for links, and provide a valid hypertext reference",
+"signature": "07342881f98fcd8966a59f182ba999ff",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.2 Name, Role, Value"
+],
+"tID": 31,
+"xpath": "/html/body/div[5]/div[1]/div[1]/main[1]/article[1]/section[1]/div[1]/div[2]/ul[1]/li[10]/p[1]/a[1]"
+},
+{
+"bpID": 113,
+"certainty": 100,
+"errorDescription": "This link's href attribute does not conform to RFC1630 which defines the proper construction of URIs. The behavior, in certain scenarios, may not match the intended behavior.",
+"errorSnippet": "<a href=\"#\" onmousedown=\"\" onclick=\"OBR.extern.callWhatIs('http://www.outbrain.com/what-is/default/pt','',-1,-1,true ,null);return false\">\n\t\t<span class=\"ob_amelia\" title=\"Outbrain\"></span>\n\t</a>",
+"errorTitle": "Link uses invalid hypertext reference",
+"position": {
+"column": 0,
+"line": 139
+},
+"priority": 100,
+"ref": "null",
+"resultTitle": "Utilize the A element for links, and provide a valid hypertext reference",
+"signature": "54b9e67175fe01c8c0696ebbc7d073c5",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.2 Name, Role, Value"
+],
+"tID": 31,
+"xpath": "/html/body/div[5]/div[1]/div[1]/main[1]/article[1]/div[15]/div[1]/div[2]/a[1]"
+},
+{
+"bpID": 118,
+"certainty": 100,
+"errorDescription": "Language of the document has not been set. Set the language of the document by adding the 'lang' attribute on the <html> element using an ISO 639-1 language code",
+"errorSnippet": "<html class=\"\"><head style=\"\"><script type=\"text/javascript\" style=\"\">var DoNotDisplayIA=1;function onFinishedPlaying(){dclkHideFloat_94924816();}function dclk_hide_overlay(){dclkHideFloat_94924816();}function dclkHideFloat_94924816(){v",
+"errorTitle": "Language not set",
+"position": {
+"column": 16,
+"line": 1
+},
+"priority": 77,
+"ref": "null",
+"resultTitle": "Identify the primary language used in the document",
+"signature": "44a94237c000e850648a666c8f85d30d",
+"standards": [
+"Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 3.1.1 Language of Page"
+],
+"tID": 3,
+"xpath": "/html"
+}
+],
+"resultSummary": {
+"density": {
+"allDensity": 21,
+"errorDensity": 21,
+"warningDensity": 0
+},
+"issues": {
+"totalErrors": 50,
+"totalIssues": 50,
+"totalWarnings": 0
+},
+"issuesByLevel": {
+"A": {
+"count": 47,
+"pct": 94
+},
+"AA": {
+"count": 3,
+"pct": 6
+},
+"AAA": {
+"count": 18,
+"pct": 36
+}
+},
+"tests": {
+"failing": 8,
+"passing": 54,
+"total": 62
+}
+},
+"sourceHash": "5f49443a01a4644c589869fad341f5c6",
+"status": 200,
+"clientScriptErrors": [],
+"log": null
+}

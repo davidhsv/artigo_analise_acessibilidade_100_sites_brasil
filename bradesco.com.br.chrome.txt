@@ -1,3 +1,74 @@
-*** Begin accessibility audit results ***
 An accessibility audit found 
+Errors:
+Error: AX_HTML_02 (An element's ID must be unique in the DOM) failed on the following elements (1 - 5 of 28):
+#AGN
+#CTA
+#DIGCTA
+#rss
+#rss
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_html_02 for more information.
+
+
+Warnings:
+Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 354):
+#Form60 > FIELDSET > .box-campos > .btn-img.btn-ok
+#skiplinks > LI > A
+#skiplinks > LI:nth-of-type(2) > A
+#skiplinks > LI:nth-of-type(3) > A
+#js-aumento-fonte
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_focus_01 for more information.
+
+Warning: AX_HTML_01 (The web page should have the content's human language indicated in the markup) failed on the following elements (1 - 5 of 7):
+html
+html
+html
+html
+html
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_html_01 for more information.
+
+Warning: AX_TEXT_02 (Images should have an alt attribute) failed on the following element:
+#ifrm_next > IMG
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_02 for more information.
+
+Warning: AX_TEXT_04 (The purpose of each link should be clear from the link text) failed on the following elements (1 - 5 of 25):
+#content > A
+#content > .mainMenu > .seloRio2016 > A
+#but_prev
+#but_next
+#lnkCover1
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_04 for more information.
+
+Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 49):
+#js-diminuicao-fonte
+#headerPF > UL > LI:nth-of-type(2) > .js-tooltip
+#headerPF > UL > LI:nth-of-type(2) > .js-tooltip > SPAN
+#headerPF > UL > LI:nth-of-type(3) > A
+#headerPF > UL > LI:nth-of-type(3) > A > SPAN
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_color_01 for more information.
+
+Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 5 of 56):
+#AGN
+#CTA
+#DIGCTA
+#Form60 > FIELDSET > .box-campos > .btn-img.btn-ok
+#formbusca > FIELDSET > DIV > .btn-img.btn-buscar
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_image_01 for more information.
+
+Warning: AX_TITLE_01 (The web page should have a title that describes topic or purpose) failed on the following elements (1 - 5 of 6):
+html
+html
+html
+html
+html
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_title_01 for more information.
+
+Warning: AX_FOCUS_03 (Avoid positive integer values for tabIndex) failed on the following elements (1 - 5 of 228):
+#AGN
+#CTA
+#DIGCTA
+#Form60 > FIELDSET > .box-campos > .btn-img.btn-ok
+#skiplinks > LI > A
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_focus_03 for more information.
+
+
 *** End accessibility audit results ***

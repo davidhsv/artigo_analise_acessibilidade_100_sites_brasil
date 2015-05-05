@@ -4,41 +4,72 @@ Errors:
 Error: AX_ARIA_04 (ARIA state and property values must be valid) failed on the following elements (1 - 2 of 2):
 #gh-shop-a
 #gh-eb-Alerts > .gh-menu > .gh-control.ghn-b.gh-eb-li-a
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_aria_04 for more information.
 
 Error: AX_TEXT_01 (Controls and media elements should have labels) failed on the following elements (1 - 2 of 2):
 #dailyDeals > .pagination > .arrow.left-arrow
 #dailyDeals > .pagination > .arrow.right-arrow
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_01--controls-and-media-elements-should-have-labels for more information.
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_01 for more information.
+
+Error: AX_HTML_02 (An element's ID must be unique in the DOM) failed on the following elements (1 - 5 of 9):
+#GBHDailyDeals300Item5plus
+#GBHDailyDeals300Item5plus-0-itemw
+#GBHDailyDeals300Item5plus-0-items
+#GBHDailyDeals300Item5plus
+#GBHDailyDeals300Item5plus-0-itemw
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_html_02 for more information.
+
+Error: AX_ARIA_02 (ARIA attributes which refer to other elements by ID should refer to elements which exist in the DOM) failed on the following elements (1 - 2 of 2):
+#gh-shop-a
+#gh-eb-Alerts > .gh-menu > .gh-control.ghn-b.gh-eb-li-a
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_aria_02 for more information.
+
+Error: AX_ARIA_10 (This element has an unsupported ARIA attribute) failed on the following elements (1 - 2 of 2):
+#gh-ug
+#gh-eb-Geo-a-default > .gh-eb-Geo-txt
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_aria_10 for more information.
 
 
 Warnings:
-Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 84):
-#gh-gb
+Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 64):
 #gh-hdn-stm
 #gh-eb-My > .gh-menu > .gh-acc-exp-a.gh-acc-a2.gh-control
-#billboardFragment > .connected-placements > .alpha-placement > .arrow.arrow-left
-#billboardFragment > .connected-placements > .alpha-placement > .arrow.arrow-right
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_focus_01--these-elements-are-focusable-but-either-invisible-or-obscured-by-another-element for more information.
+#GBHDailyDeals300Item5plus-0-items > .item.item1 > .fill.item
+#featuredCollectionsFragment > .hero-container.framing > .big-heros > .big-hero.first.no-lazy > .position-relative > .big-hero-images > .first > A
+#featuredCollectionsFragment > .hero-container.framing > .big-heros > DIV:nth-of-type(4) > .framing-description-under > .description-left > .big-hero-subtitle > A
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_focus_01 for more information.
 
 Warning: AX_TEXT_02 (Images should have an alt attribute) failed on the following element:
 IMG
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_02--images-should-have-an-alt-attribute-unless-they-have-an-aria-role-of-presentation for more information.
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_02 for more information.
 
-Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 34):
-#dailyDeals > .deals.clr.clearfix > .ddcrd.daily-deal.first.load-first > .prom.prom140 > .gspr
-#dailyDeals > .deals.clr.clearfix > .ddcrd.daily-deal.load-first:nth-of-type(2) > .prom.prom140 > .gspr
-#dailyDeals > .deals.clr.clearfix > .ddcrd.daily-deal.load-first:nth-of-type(3) > .prom.prom140 > .gspr
-#dailyDeals > .deals.clr.clearfix > .ddcrd.daily-deal.load-first:nth-of-type(4) > .prom.prom140 > .gspr
-#dailyDeals > .deals.clr.clearfix > .ddcrd.daily-deal.load-first:nth-of-type(5) > .prom.prom140 > .gspr
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_color_01--text-elements-should-have-a-reasonable-contrast-ratio for more information.
+Warning: AX_TEXT_04 (The purpose of each link should be clear from the link text) failed on the following elements (1 - 5 of 47):
+#gh-cart > .gh-eb-li-a
+#GBHDailyDeals550x270 > .object.object-0 > .fill
+#GBHDailyDeals550x270-1-items > .item.item1 > .fill.item
+#GBHDailyDeals550x270-1-items > .item.item2 > .fill.item
+#GBHDailyDeals550x270-1-items > .item.item3 > .fill.item
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_04 for more information.
 
-Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 5 of 81):
+Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 47):
+#GBHDailyDeals550x270-1-items > .item.item1 > .part.part-2
+#GBHDailyDeals550x270-1-items > .item.item1 > .part.part-4
+#GBHDailyDeals550x270-1-items > .item.item2 > .part.part-2
+#GBHDailyDeals550x270-1-items > .item.item2 > .part.part-4
+#GBHDailyDeals550x270-1-items > .item.item3 > .part.part-2
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_color_01 for more information.
+
+Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 5 of 78):
+#gh-stepbanner-close
 #gh-shop-ei
 #gh-cart-i
 #billboardFragment > .connected-placements > .alpha-placement > .arrow.arrow-left > .arrow-image
 #billboardFragment > .connected-placements > .alpha-placement > .arrow.arrow-right > .arrow-image
-#billboardFragment > .connected-placements > .alpha-placement > .arrow.arrow-left:nth-of-type(2) > .arrow-image
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_image_01--meaningful-images-should-not-be-used-in-element-backgrounds for more information.
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_image_01 for more information.
+
+Warning: AX_FOCUS_03 (Avoid positive integer values for tabIndex) failed on the following element:
+body > .dlg > .clz
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_focus_03 for more information.
 
 
 *** End accessibility audit results ***

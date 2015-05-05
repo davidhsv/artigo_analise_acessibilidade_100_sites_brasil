@@ -13,29 +13,42 @@ An accessibility audit found
 Errors:
 Error: AX_TEXT_01 (Controls and media elements should have labels) failed on the following element:
 #subbox
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_01--controls-and-media-elements-should-have-labels for more information.
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_01 for more information.
 
 
 Warnings:
-Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 31):
+Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 48):
 #megafilmes > A
 #subbox
 #searchform > .enviar
 #lancamentos > A
 #series > A
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_focus_01--these-elements-are-focusable-but-either-invisible-or-obscured-by-another-element for more information.
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_focus_01 for more information.
 
-Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 30):
+Warning: AX_HTML_01 (The web page should have the content's human language indicated in the markup) failed on the following element:
+html
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_html_01 for more information.
+
+Warning: AX_TEXT_04 (The purpose of each link should be clear from the link text) failed on the following elements (1 - 5 of 15):
+body > ._li > .pluginSkinLight.pluginFontHelvetica > ._4s7c > .clearfix.pam > ._8o._8r.lfloat._ohe
+body > ._li > .pluginSkinLight.pluginFontHelvetica > ._4s7c > ._43qm.pluginFacepile._43qf > .uiList.pam._4cg3._509-._4ki > ._43q7.pluginFacepileItem > .link
+body > ._li > .pluginSkinLight.pluginFontHelvetica > ._4s7c > ._43qm.pluginFacepile._43qf > .uiList.pam._4cg3._509-._4ki > LI:nth-of-type(2) > .link
+body > ._li > .pluginSkinLight.pluginFontHelvetica > ._4s7c > ._43qm.pluginFacepile._43qf > .uiList.pam._4cg3._509-._4ki > LI:nth-of-type(4) > .link
+body > ._li > .pluginSkinLight.pluginFontHelvetica > ._4s7c > ._43qm.pluginFacepile._43qf > .uiList.pam._4cg3._509-._4ki > LI:nth-of-type(5) > .link
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_04 for more information.
+
+Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 33):
 #megafilmes > A
 #lancamentos > A > .nome-categoria-lancamento
 #series > A > .nome-categoria-serie
 #ultimos > A > .nome-categoria-red
 #acao > A > .nome-categoria-red
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_color_01--text-elements-should-have-a-reasonable-contrast-ratio for more information.
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_color_01 for more information.
 
-Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following element:
+Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 2 of 2):
 #searchform > .enviar
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_image_01--meaningful-images-should-not-be-used-in-element-backgrounds for more information.
+#u_0_0 > .pluginConnectButton > .pluginButton.pluginConnectButtonDisconnected > DIV > .pluginButtonContainer > .pluginButtonImage > BUTTON > .pluginButtonIcon.img.sp_plugin-button.sx_plugin-button_favblue
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_image_01 for more information.
 
 
 *** End accessibility audit results ***

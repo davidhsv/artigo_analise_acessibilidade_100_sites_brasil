@@ -1,37 +1,72 @@
 *** Begin accessibility audit results ***
 An accessibility audit found 
-Warnings:
-Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 14):
-#carlist2 > .carousel-eye > A
-#carlist4 > LI > A
-#carlist4 > LI:nth-of-type(2) > A
-#carlist4 > LI:nth-of-type(3) > A
-#D9F6A6B9-363E-4BA0-9524-FCCEA220EAC8 > .thumbs-itens > .ativo > A
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_focus_01--these-elements-are-focusable-but-either-invisible-or-obscured-by-another-element for more information.
+Errors:
+Error: AX_HTML_02 (An element's ID must be unique in the DOM) failed on the following elements (1 - 4 of 4):
+#EJEADA02202
+#EJEADA02202
+#area11
+#area11
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_html_02 for more information.
 
-Warning: AX_TEXT_02 (Images should have an alt attribute) failed on the following elements (1 - 5 of 13):
+Error: AX_ARIA_10 (This element has an unsupported ARIA attribute) failed on the following elements (1 - 2 of 2):
+#fb_xdm_frame_http
+#fb_xdm_frame_https
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_aria_10 for more information.
+
+
+Warnings:
+Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 13):
+#u_0_0 > .pluginConnectButton > .pluginButton.pluginButtonSmall.pluginButtonInline.pluginConnectButtonDisconnected > DIV > .pluginButtonContainer > .pluginButtonImage > BUTTON
+#button
+#carlist4 > .ativo > A
+#D9F6A6B9-363E-4BA0-9524-FCCEA220EAC8 > .thumbs-itens > .ativo > A
+#D9F6A6B9-363E-4BA0-9524-FCCEA220EAC8 > .thumbs-itens > LI:nth-of-type(2) > A
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_focus_01 for more information.
+
+Warning: AX_HTML_01 (The web page should have the content's human language indicated in the markup) failed on the following elements (1 - 4 of 4):
+html
+html
+html
+html
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_html_01 for more information.
+
+Warning: AX_TEXT_02 (Images should have an alt attribute) failed on the following elements (1 - 5 of 19):
+#pubIntervencao > A > IMG
 #D9F6A6B9-363E-4BA0-9524-FCCEA220EAC8 > .carrossel-options > .fotodestaque.ativo > .imagem > A > .lazy
 #D9F6A6B9-363E-4BA0-9524-FCCEA220EAC8 > .thumbs-itens > .ativo > A > .foto > .borda-foto > .lazy
 #D9F6A6B9-363E-4BA0-9524-FCCEA220EAC8 > .thumbs-itens > LI:nth-of-type(2) > A > .foto > .borda-foto > .lazy
 #D9F6A6B9-363E-4BA0-9524-FCCEA220EAC8 > .thumbs-itens > LI:nth-of-type(3) > A > .foto > .borda-foto > .lazy
-#D9F6A6B9-363E-4BA0-9524-FCCEA220EAC8 > .thumbs-itens > LI:nth-of-type(4) > A > .foto > .borda-foto > .lazy
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_02--images-should-have-an-alt-attribute-unless-they-have-an-aria-role-of-presentation for more information.
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_02 for more information.
 
-Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 81):
+Warning: AX_TEXT_04 (The purpose of each link should be clear from the link text) failed on the following elements (1 - 5 of 59):
+#barra-parceiros > DIV > .canais > .ig-redes-social > .ig-redes-social > UL > .facebook-ig > .icon-header
+#barra-parceiros > DIV > .canais > .ig-redes-social > .ig-redes-social > UL > .twitter-ig > A
+#barra-parceiros > DIV > .canais > .ig-redes-social > .ig-redes-social > UL > .google-plus-ig > A
+#barra-parceiros > DIV > .canais > .ig-redes-social > .ig-redes-social > UL > .newslatter-ig > A
+#new-logo > A
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_04 for more information.
+
+Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 55):
+#u_0_0 > .pluginConnectButton > .pluginButton.pluginButtonSmall.pluginButtonInline.pluginConnectButtonDisconnected > DIV > .pluginButtonContainer > .pluginButtonLabel
+#u_0_0 > .pluginConnectButton > .pluginButton.pluginButtonSmall.pluginButtonPressed.pluginButtonInline.pluginButtonX.pluginConnectButtonConnected.hidden_elem > DIV > .pluginButtonContainer > .pluginButtonLabel
 #carlist2 > .carousel-eye > A
-#carlist3 > LI > A > .thumb-text > .thumb-text-span
-#carlist3 > LI:nth-of-type(2) > A > .thumb-text > .thumb-text-span
-#carlist3 > LI:nth-of-type(3) > A > .thumb-text > .thumb-text-span
-#carlist3 > LI:nth-of-type(4) > A > .thumb-text > .thumb-text-span
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_color_01--text-elements-should-have-a-reasonable-contrast-ratio for more information.
+ tagName:DIV id:
+ tagName:DIV id:
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_color_01 for more information.
 
-Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 5 of 15):
+Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 5 of 18):
+#u_0_0 > .pluginConnectButton > .pluginButton.pluginButtonSmall.pluginButtonInline.pluginConnectButtonDisconnected > DIV > .pluginButtonContainer > .pluginButtonImage > BUTTON > .pluginButtonIcon.img.sp_plugin-button.sx_plugin-button_favblue
 #nav-menu > .container > .menu-hider > .only-resp > .tooglemenu
 #7A1AB75F-5A8B-491C-9419-72111228939E > .destaque > .destaque-seta > .destaque-seta-ponta
 #7A1AB75F-5A8B-491C-9419-72111228939E > .destaque > .destaque-lista > UL > LI > .marcador
 #7A1AB75F-5A8B-491C-9419-72111228939E > .destaque > .destaque-lista > UL > LI:nth-of-type(2) > .marcador
-#7A1AB75F-5A8B-491C-9419-72111228939E > .destaque > .destaque-lista > UL > LI:nth-of-type(3) > .marcador
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_image_01--meaningful-images-should-not-be-used-in-element-backgrounds for more information.
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_image_01 for more information.
+
+Warning: AX_TITLE_01 (The web page should have a title that describes topic or purpose) failed on the following elements (1 - 3 of 3):
+html
+html
+html
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_title_01 for more information.
 
 
 *** End accessibility audit results ***

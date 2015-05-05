@@ -1,0 +1,245 @@
+{
+  "apiErrors": [],
+  "documentSize": 64588,
+  "globalStats": {
+    "errorDensity": "155",
+    "warningDensity": "12",
+    "allDensity": "167",
+    "stdDev": "400"
+  },
+  "message": "success",
+  "request": {
+    "certainty": "0",
+    "docID": "DD154E27-F393-406B-8C39-18B659926C37",
+    "importance": "1",
+    "key": "null",
+    "level": "AAA",
+    "priority": "0",
+    "projectID": "DEFAULT_PROJECT",
+    "ref": "0",
+    "reportID": "bc501542-3bf6-4615-98c9-9813f921bd2c",
+    "responseID": "d157d3fec9230bf5f6c4b68609ee57d3",
+    "uaString": "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_9_2) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/35.0.1916.114 Safari/537.36",
+    "url": "http://tenon.io/api/file.php?docID=DD154E27-F393-406B-8C39-18B659926C37",
+    "viewport": {
+      "height": 768,
+      "width": 1024
+    },
+    "fragment": "0",
+    "store": "0"
+  },
+  "responseExecTime": "2.04",
+  "responseTime": "2015-05-04T14:44:19.377Z",
+  "resultSet": [
+    {
+      "bpID": 49,
+      "certainty": 100,
+      "errorDescription": "Provide a label for all controls. This allows all users to understand the type of information expected in the field.",
+      "errorSnippet": "<input type=\"text\" id=\"signin-email\" class=\"text-input email-input\" name=\"session[username_or_email]\" autocomplete=\"on\" placeholder=\"Celular, e-mail ou nome de usuário\">",
+      "errorTitle": "Form element has no label",
+      "position": {
+        "column": 1,
+        "line": 192
+      },
+      "priority": 90,
+      "ref": "null",
+      "resultTitle": "Provide explicit labels for form fields",
+      "signature": "1b4ee2c6f81a22fa2f80f608223a6b19",
+      "standards": [
+        "Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 1.1.1 Non-text Content",
+        "Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 1.3.1 Info and Relationships",
+        "Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 3.3.2 Labels or Instructions",
+        "Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.2 Name, Role, Value"
+      ],
+      "tID": 38,
+      "xpath": "/html/body/div[1]/div[2]/div[1]/div[1]/div[2]/div[2]/form[1]/div[1]/input[1]"
+    },
+    {
+      "bpID": 49,
+      "certainty": 100,
+      "errorDescription": "Provide a label for all controls. This allows all users to understand the type of information expected in the field.",
+      "errorSnippet": "<input type=\"password\" id=\"signin-password\" class=\"text-input flex-table-input\" name=\"session[password]\" placeholder=\"Senha\">",
+      "errorTitle": "Form element has no label",
+      "position": {
+        "column": 1,
+        "line": 199
+      },
+      "priority": 90,
+      "ref": "null",
+      "resultTitle": "Provide explicit labels for form fields",
+      "signature": "c96150f6a5ea81232f1f9c1157bd668a",
+      "standards": [
+        "Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 1.1.1 Non-text Content",
+        "Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 1.3.1 Info and Relationships",
+        "Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 3.3.2 Labels or Instructions",
+        "Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.2 Name, Role, Value"
+      ],
+      "tID": 38,
+      "xpath": "/html/body/div[1]/div[2]/div[1]/div[1]/div[2]/div[2]/form[1]/table[1]/tr[1]/td[1]/div[1]/input[1]"
+    },
+    {
+      "bpID": 49,
+      "certainty": 100,
+      "errorDescription": "Provide a label for all controls. This allows all users to understand the type of information expected in the field.",
+      "errorSnippet": "<input type=\"text\" class=\"text-input\" autocomplete=\"off\" name=\"user[name]\" maxlength=\"20\" placeholder=\"Nome completo\">",
+      "errorTitle": "Form element has no label",
+      "position": {
+        "column": 1,
+        "line": 228
+      },
+      "priority": 90,
+      "ref": "null",
+      "resultTitle": "Provide explicit labels for form fields",
+      "signature": "cb29ff0e0ced55850f2f86edf75af8fa",
+      "standards": [
+        "Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 1.1.1 Non-text Content",
+        "Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 1.3.1 Info and Relationships",
+        "Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 3.3.2 Labels or Instructions",
+        "Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.2 Name, Role, Value"
+      ],
+      "tID": 38,
+      "xpath": "/html/body/div[1]/div[2]/div[1]/div[1]/div[2]/div[3]/form[1]/div[1]/input[1]"
+    },
+    {
+      "bpID": 49,
+      "certainty": 100,
+      "errorDescription": "Provide a label for all controls. This allows all users to understand the type of information expected in the field.",
+      "errorSnippet": "<input type=\"text\" class=\"text-input email-input\" autocomplete=\"off\" name=\"user[email]\" placeholder=\"E-mail\">",
+      "errorTitle": "Form element has no label",
+      "position": {
+        "column": 1,
+        "line": 231
+      },
+      "priority": 90,
+      "ref": "null",
+      "resultTitle": "Provide explicit labels for form fields",
+      "signature": "91e812b19ff763bbf79d95aa16c1de63",
+      "standards": [
+        "Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 1.1.1 Non-text Content",
+        "Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 1.3.1 Info and Relationships",
+        "Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 3.3.2 Labels or Instructions",
+        "Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.2 Name, Role, Value"
+      ],
+      "tID": 38,
+      "xpath": "/html/body/div[1]/div[2]/div[1]/div[1]/div[2]/div[3]/form[1]/div[2]/input[1]"
+    },
+    {
+      "bpID": 49,
+      "certainty": 100,
+      "errorDescription": "Provide a label for all controls. This allows all users to understand the type of information expected in the field.",
+      "errorSnippet": "<input type=\"password\" class=\"text-input\" name=\"user[user_password]\" placeholder=\"Senha\">",
+      "errorTitle": "Form element has no label",
+      "position": {
+        "column": 1,
+        "line": 234
+      },
+      "priority": 90,
+      "ref": "null",
+      "resultTitle": "Provide explicit labels for form fields",
+      "signature": "ae1e45daac3290e4f59ea5da5ef73c2a",
+      "standards": [
+        "Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 1.1.1 Non-text Content",
+        "Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 1.3.1 Info and Relationships",
+        "Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 3.3.2 Labels or Instructions",
+        "Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.2 Name, Role, Value"
+      ],
+      "tID": 38,
+      "xpath": "/html/body/div[1]/div[2]/div[1]/div[1]/div[2]/div[3]/form[1]/div[3]/input[1]"
+    },
+    {
+      "bpID": 131,
+      "certainty": 60,
+      "errorDescription": "This table does not contain any TH elements.  If this table is used for layout, replace it with a proper layout controlled with CSS. If that's not possible, add role=\"presentation\" to the table.",
+      "errorSnippet": "<table class=\"flex-table password-signin\">\n<tbody>\n<tr>\n<td class=\"flex-table-primary\">\n<div class=\"password flex-table-form\">\n<input type=\"password\" id=\"signin-password\" class=\"text-input flex-table-input\" name=\"session[",
+      "errorTitle": "Headers not identified for table",
+      "position": {
+        "column": 1,
+        "line": 194
+      },
+      "priority": 100,
+      "ref": "null",
+      "resultTitle": "Provide headers for all data tables",
+      "signature": "34f4ce0b122311527e458eddeab47f29",
+      "standards": [
+        "Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 1.3.1 Info and Relationships"
+      ],
+      "tID": 34,
+      "xpath": "/html/body/div[1]/div[2]/div[1]/div[1]/div[2]/div[2]/form[1]/table[1]"
+    },
+    {
+      "bpID": 178,
+      "certainty": 100,
+      "errorDescription": "Elements were found with role attributes that should be replaced with native semantics",
+      "errorSnippet": "<a href=\"#supported_languages\" class=\"dropdown-toggle js-dropdown-toggle\" role=\"button\" aria-haspopup=\"true\">\n<small>Idioma:</small> <span class=\"js-current-language\">Português</span> <b class=\"caret\"></b>\n</a",
+      "errorTitle": "Do not apply 'role' attribute where native semantics are available",
+      "position": {
+        "column": 1,
+        "line": 42
+      },
+      "priority": 100,
+      "ref": "null",
+      "resultTitle": "Do not apply 'role' attribute where native semantics are available",
+      "signature": "40ab33610ce4802dc4b057e18e133a7d",
+      "standards": [
+        "Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.2 Name, Role, Value"
+      ],
+      "tID": 58,
+      "xpath": "/html/body/div[1]/div[1]/div[1]/div[1]/div[1]/div[1]/ul[1]/li[1]/a[1]"
+    },
+    {
+      "bpID": 179,
+      "certainty": 100,
+      "errorDescription": "An ID attribute value has been used more than once. In cases where the ID is used to reference a UI control this is likely to cause issues for users of assistive technologies",
+      "errorSnippet": "<h3 id=\"saved-searches-heading\" class=\"typeahead-category-title saved-searches-title\" style=\"\">Buscas salvas</h3>",
+      "errorTitle": "Duplicate ID found",
+      "position": {
+        "column": 1,
+        "line": 330
+      },
+      "priority": 66,
+      "ref": "null",
+      "resultTitle": "Avoid re-use of ID attribute values",
+      "signature": "7b732e80db382529b362c77b5b18e1ca",
+      "standards": [
+        "Web Content Accessibility Guidelines (WCAG) 2.0, Level A: 4.1.1 Parsing"
+      ],
+      "tID": 75,
+      "xpath": "/html/body/div[6]/div[1]/div[1]/div[2]/div[1]/form[1]/div[1]/div[2]/div[1]/h3[1]"
+    }
+  ],
+  "resultSummary": {
+    "density": {
+      "allDensity": 13,
+      "errorDensity": 11,
+      "warningDensity": 2
+    },
+    "issues": {
+      "totalErrors": 7,
+      "totalIssues": 8,
+      "totalWarnings": 1
+    },
+    "issuesByLevel": {
+      "A": {
+        "count": 8,
+        "pct": 100
+      },
+      "AA": {
+        "count": 0,
+        "pct": 0
+      },
+      "AAA": {
+        "count": 0,
+        "pct": 0
+      }
+    },
+    "tests": {
+      "failing": 4,
+      "passing": 58,
+      "total": 62
+    }
+  },
+  "sourceHash": "b2a0f6519550669ce033ff4cd9ea4837",
+  "status": 200,
+  "clientScriptErrors": [],
+  "log": null
+}

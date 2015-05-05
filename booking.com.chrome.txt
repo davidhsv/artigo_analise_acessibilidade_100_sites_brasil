@@ -3,38 +3,72 @@ An accessibility audit found
 Errors:
 Error: AX_ARIA_04 (ARIA state and property values must be valid) failed on the following element:
 body > .ui-autocomplete.ui-autocomplete-icons.autocomplete_redesign.ui-menu.ui-widget.ui-widget-content.ui-corner-all
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_aria_04 for more information.
 
-Error: AX_TEXT_01 (Controls and media elements should have labels) failed on the following elements (1 - 5 of 5):
+Error: AX_TEXT_01 (Controls and media elements should have labels) failed on the following elements (1 - 5 of 7):
 #frm > FIELDSET > .b-form__dates.b-form-group > .b-form-group__content > .b-form-date-selectors.b-form-group.b-form-group_subgroup > .b-form-checkin.b-form-group.b-form-group_subgroup.b-form-group_inline > .b-form-group__controls.b-date-selector > .b-date-selector__control.b-date-selector__control-dayselector.b-selectbox > .b-selectbox__element
 #frm > FIELDSET > .b-form__dates.b-form-group > .b-form-group__content > .b-form-date-selectors.b-form-group.b-form-group_subgroup > .b-form-checkin.b-form-group.b-form-group_subgroup.b-form-group_inline > .b-form-group__controls.b-date-selector > .b-date-selector__control.b-date-selector__control-monthselector.b-selectbox > .b-selectbox__element
 #frm > FIELDSET > .b-form__dates.b-form-group > .b-form-group__content > .b-form-date-selectors.b-form-group.b-form-group_subgroup > .b-form-checkout.b-form-group.b-form-group_subgroup.b-form-group_inline > .b-form-group__controls.b-date-selector > .b-date-selector__control.b-date-selector__control-dayselector.b-selectbox > .b-selectbox__element
 #frm > FIELDSET > .b-form__dates.b-form-group > .b-form-group__content > .b-form-date-selectors.b-form-group.b-form-group_subgroup > .b-form-checkout.b-form-group.b-form-group_subgroup.b-form-group_inline > .b-form-group__controls.b-date-selector > .b-date-selector__control.b-date-selector__control-monthselector.b-selectbox > .b-selectbox__element
 #newsletter_to
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_01--controls-and-media-elements-should-have-labels for more information.
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_01 for more information.
+
+Error: AX_HTML_02 (An element's ID must be unique in the DOM) failed on the following elements (1 - 5 of 8):
+#pwd_remind_tar
+#cs_resend_one-active-booking
+#cs_resend_five-active-bookings
+#log_tar
+#pwd_remind_tar
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_html_02 for more information.
+
+Error: AX_ARIA_02 (ARIA attributes which refer to other elements by ID should refer to elements which exist in the DOM) failed on the following element:
+body > .ui-autocomplete.ui-autocomplete-icons.autocomplete_redesign.ui-menu.ui-widget.ui-widget-content.ui-corner-all
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_aria_02 for more information.
+
+Error: AX_ARIA_08 (Elements with ARIA roles must ensure required owned elements are present) failed on the following element:
+body > .ui-autocomplete.ui-autocomplete-icons.autocomplete_redesign.ui-menu.ui-widget.ui-widget-content.ui-corner-all
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_aria_08 for more information.
 
 
 Warnings:
 Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 72):
-#fEJdDBKJIaLKKXe > UL > .index-nav_menu-item:nth-of-type(3) > .index-nav_menu-item-link
-#fEJdDBKJIaLKKXe > UL > .index-nav_menu-item:nth-of-type(4) > .index-nav_menu-item-link.jq_tooltip
+#fEJdDBKJIaLKKXe > UL > LI:nth-of-type(3) > .index-nav_menu-item-link
+#fEJdDBKJIaLKKXe > UL > LI:nth-of-type(4) > .index-nav_menu-item-link.jq_tooltip
 #frm > FIELDSET > .b-form__group.b-form-group.b-form-group_inline-label > .b-form-custom-group.b-form-group.b-form-group_subgroup.b-form-custom-group_disabled > .b-form-group__content > .b-form-group__controls > .b-custom-group-configurator > .b-custom-group-configurator__control.b-custom-group-configurator__control_inline.b-rooms-selectbox.b-selectbox.b-selectbox_type_inline > .b-selectbox__container > .b-selectbox__element.b-selectbox__element_size_small
 #frm > FIELDSET > .b-form__group.b-form-group.b-form-group_inline-label > .b-form-custom-group.b-form-group.b-form-group_subgroup.b-form-custom-group_disabled > .b-form-group__content > .b-form-group__controls > .b-custom-group-configurator > .b-custom-group-configurator__control.b-custom-group-configurator__control_inline.b-adults-selectbox.b-selectbox.b-selectbox_type_inline > .b-selectbox__container > .b-selectbox__element.b-selectbox__element_size_small
 #frm > FIELDSET > .b-form__group.b-form-group.b-form-group_inline-label > .b-form-custom-group.b-form-group.b-form-group_subgroup.b-form-custom-group_disabled > .b-form-group__content > .b-form-group__controls > .b-custom-group-configurator > .b-custom-group-configurator__control.b-custom-group-configurator__control_inline.b-children-selectbox.b-selectbox.b-selectbox_type_inline > .b-selectbox__container > .b-selectbox__element.b-selectbox__element_size_small
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_focus_01--these-elements-are-focusable-but-either-invisible-or-obscured-by-another-element for more information.
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_focus_01 for more information.
 
-Warning: AX_TEXT_02 (Images should have an alt attribute) failed on the following elements (1 - 3 of 3):
+Warning: AX_HTML_01 (The web page should have the content's human language indicated in the markup) failed on the following elements (1 - 5 of 8):
+html
+html
+html
+html
+html
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_html_01 for more information.
+
+Warning: AX_TEXT_02 (Images should have an alt attribute) failed on the following elements (1 - 4 of 4):
 #user_form > .user_center_nav.exp_ge_move_dsf_in_header > .user_center_option.uc_language.js-uc-language > .popover_trigger > IMG
 #current_account > .popover_trigger.signin_cta.profile_menu_trigger.uc-option__link > .uc-option__icon
 #back_to_top > .dsf_sprites
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_02--images-should-have-an-alt-attribute-unless-they-have-an-aria-role-of-presentation for more information.
+IMG
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_02 for more information.
 
-Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 981):
+Warning: AX_TEXT_04 (The purpose of each link should be clear from the link text) failed on the following elements (1 - 5 of 80):
+#enB
+#user_form > .user_center_nav.exp_ge_move_dsf_in_header > .user_center_option.uc_currency > .popover_trigger
+#user_form > .user_center_nav.exp_ge_move_dsf_in_header > .user_center_option.uc_language.js-uc-language > .popover_trigger
+#current_language_foldout > .select_foldout_wrap > UL:nth-of-type(2) > .lang_zh-cn > .no_target_blank
+#current_language_foldout > .select_foldout_wrap > UL:nth-of-type(3) > .lang_ja > .no_target_blank
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_04 for more information.
+
+Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 979):
 #uc_feedbacklink_box > .user_center_popover.narrow.center_arrow.uc_howtobook > .popover_content > .select_foldout > .select_foldout_wrap > UL > .menu_feedback > .provide_website_feedback
 #uc_feedbacklink_box > .user_center_popover.narrow.center_arrow.uc_howtobook > .popover_content > .select_foldout > .select_foldout_wrap > UL > .menu_cuca > A
 #uc_feedbacklink_box > .user_center_popover.narrow.center_arrow.uc_howtobook > .popover_content > .select_foldout > .select_foldout_wrap > UL > .menu_add_property > A
 #current_language > .popover_explain
 #current_language_foldout > .select_foldout_wrap > .language_flags > .lang_en-us.selected_country > .no_target_blank > .seldescription
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_color_01--text-elements-should-have-a-reasonable-contrast-ratio for more information.
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_color_01 for more information.
 
 Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 5 of 22):
 #enB > .b-sprite.feedbacklink_questionbubble
@@ -42,7 +76,15 @@ Warning: AX_IMAGE_01 (Meaningful images should not be used in element background
 #current_account > .user_center_popover.center_arrow.uc-cug-signup-menu-prompt.js-uc-cug-signup-menu-prompt > .popover_content > .uc-cug-signup-menu-prompt__header > .uc-cug-signup-menu-prompt__close.js-uc-cug-signup-menu-prompt__close.use_sprites.icon_remove
 #frm > .b-form__header.b-form-group > .b-form-group__content > .b-form-title.b-form-title_small > .b-sprite.sb_border_gradient
 #frm > FIELDSET > .b-form__footer.b-form-group > .b-form-group__content > .b-form-advanced-search.b-form-advanced-search_disabled.b-form-group.b-form-group_subgroup > .blockJsRequired.b_advanced_search.b_advanced_search_s_hidden > .b_advanced_search_toggler.b-sprite-wrap > .b-sprite.right_dark
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_image_01--meaningful-images-should-not-be-used-in-element-backgrounds for more information.
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_image_01 for more information.
+
+Warning: AX_TITLE_01 (The web page should have a title that describes topic or purpose) failed on the following elements (1 - 5 of 8):
+html
+html
+html
+html
+html
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_title_01 for more information.
 
 
 *** End accessibility audit results ***

@@ -1,1 +1,64 @@
-Failed to load the page at http://pontofrio.com.br. Status was: fail
+*** Begin accessibility audit results ***
+An accessibility audit found 
+Errors:
+Error: AX_TEXT_01 (Controls and media elements should have labels) failed on the following elements (1 - 3 of 3):
+#sli_search_1
+#ctl00_Conteudo_PaginaSistemaArea1_ctl06_emailClienteNews
+#sli_search_2
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_01 for more information.
+
+
+Warnings:
+Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 11):
+#google_image_div > IFRAME
+IFRAME
+#google_ads_frame1
+#aw0
+#google_image_div > IFRAME
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_focus_01 for more information.
+
+Warning: AX_HTML_01 (The web page should have the content's human language indicated in the markup) failed on the following elements (1 - 5 of 23):
+html
+html
+html
+html
+html
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_html_01 for more information.
+
+Warning: AX_TEXT_02 (Images should have an alt attribute) failed on the following elements (1 - 2 of 2):
+#aw0 > .img_ad
+#aw0 > .img_ad
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_02 for more information.
+
+Warning: AX_TEXT_04 (The purpose of each link should be clear from the link text) failed on the following elements (1 - 5 of 28):
+#mBnrTv > .fullBnr > .bArea-1 > .bArea-1-1 > .mSlide > .slideShow.js.fade > .item.tv-1.selected > A
+#mBnrTv > .fullBnr > .bArea-1 > .bArea-1-1 > .mSlide > .slideShow.js.fade > .item.tv-4 > A
+#mBnrTv > .fullBnr > .bArea-1 > .bArea-1-1 > .mSlide > .slideShow.js.fade > .item.tv-6 > A
+#mBnrTv > .fullBnr > .bArea-1 > .bArea-1-1 > .mSlide > .slideShow.js.fade > .item.tv-8 > A
+#ctl00_Conteudo_PaginaSistemaArea1_3799 > .bannerHome_conteudo > .bannerHome_link
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_04 for more information.
+
+Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 55):
+#ctl00_TopBar_TopBar1_divHeader > .topHeader > .wp > .logo
+#mBnrTv > .fullBnr > .bArea-1 > .bArea-1-1 > .mSlide > .slideShow.js.fade > .item.tv-2 > A > .bnr2.tvb > .bnrLP > .elementoVitrine > .bnrOpt2 > .ddMP > .mplus
+#mBnrTv > .fullBnr > .bArea-1 > .bArea-1-1 > .mSlide > .slideShow.js.fade > .item.tv-5 > A > .bnr5.tvb > .bnrLP > .elementoVitrine > .bnrOpt2 > .ddMP > .mplus
+#mBnrTv > .fullBnr > .bArea-1 > .bArea-1-1 > .mSlide > .slideShow.js.fade > .item.tv-7 > A > .bnr7.tvb > .bnrLP > .elementoVitrine > .bnrOpt2 > .ddP > .for.price.sale.prPor > .adP
+#mBnrTv > .fullBnr > .bArea-1 > .bArea-1-1 > .mSlide > .slideShow.js.fade > .item.tv-7 > A > .bnr7.tvb > .bnrLP > .elementoVitrine > .bnrOpt2 > .ddP > .for.price.sale.prPor > STRONG > .txtPorA > .txtPor-A2
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_color_01 for more information.
+
+Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 3 of 3):
+#ctl00_Conteudo_PaginaSistemaArea1_ctl03_btnOK
+#ctl00_Conteudo_PaginaSistemaArea1_ctl06_btnNewsOK
+#ctl00_Conteudo_PaginaSistemaArea1_ctl02_btnOK
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_image_01 for more information.
+
+Warning: AX_TITLE_01 (The web page should have a title that describes topic or purpose) failed on the following elements (1 - 5 of 22):
+html
+html
+html
+html
+html
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_title_01 for more information.
+
+
+*** End accessibility audit results ***

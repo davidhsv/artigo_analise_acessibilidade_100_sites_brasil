@@ -6,23 +6,40 @@ Error: AX_TEXT_01 (Controls and media elements should have labels) failed on the
 #campo_agencia
 #campo_conta
 #local_search
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_01--controls-and-media-elements-should-have-labels for more information.
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_01 for more information.
+
+Error: AX_HTML_02 (An element's ID must be unique in the DOM) failed on the following elements (1 - 2 of 2):
+#busca_geral
+#busca_geral
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_html_02 for more information.
+
+Error: AX_ARIA_10 (This element has an unsupported ARIA attribute) failed on the following element:
+#sliderHora
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_aria_10 for more information.
 
 
 Warnings:
-Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 8):
+Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 7):
 #local_search
 #localizador > .contentLocalizador > .localSearch.clearfix > .setaDown > A
-#footer > .navFooter.clearfix > DIV > DIV > UL > LI > A
 #footer > .navFooter.clearfix > DIV > DIV > UL > LI:nth-of-type(2) > A
 #footer > .navFooter.clearfix > DIV > DIV > UL > LI:nth-of-type(3) > A
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_focus_01--these-elements-are-focusable-but-either-invisible-or-obscured-by-another-element for more information.
+#footer > .navFooter.clearfix > DIV > DIV > UL > LI:nth-of-type(4) > A
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_focus_01 for more information.
 
 Warning: AX_TEXT_02 (Images should have an alt attribute) failed on the following elements (1 - 3 of 3):
 #header > .logo > .logoItau
 #lupa
 #lupaLocal
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_02--images-should-have-an-alt-attribute-unless-they-have-an-aria-role-of-presentation for more information.
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_02 for more information.
+
+Warning: AX_TEXT_04 (The purpose of each link should be clear from the link text) failed on the following elements (1 - 5 of 11):
+#campanha01 > A
+#campanha02 > A
+#sliderHora > .ui-slider-handle.ui-state-default.ui-corner-all
+#footer > .footerSocial > .telSocial > .social > LI > A
+#footer > .footerSocial > .telSocial > .social > LI:nth-of-type(2) > A
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_04 for more information.
 
 Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 28):
 #header > .mnuHeader > .contentAll > .mnuProdutos > .subMnu > .pf.clearfix > DIV > DIV > P > .titSessao
@@ -30,12 +47,20 @@ Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) fai
 #header > .mnuHeader > .contentAll > .mnuProdutos > .subMnu > .pj.clearfix > DIV > DIV > P > .titSessao > SPAN
 #header > .mnuHeader > .contentAll > .mnuProdutos > .subMnu > .pp.clearfix > DIV > DIV > P > .titSessao
 #header > .mnuHeader > .contentAll > .mnuProdutos > .subMnu > .pp.clearfix > DIV > DIV > P > .titSessao > SPAN
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_color_01--text-elements-should-have-a-reasonable-contrast-ratio for more information.
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_color_01 for more information.
 
 Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 2 of 2):
 #busca_geral
 #header > .formLogin > .btnGroup.btnPosLeft > .arrows
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_image_01--meaningful-images-should-not-be-used-in-element-backgrounds for more information.
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_image_01 for more information.
+
+Warning: AX_FOCUS_03 (Avoid positive integer values for tabIndex) failed on the following elements (1 - 5 of 17):
+#busca_geral
+#header > .mnuHeader > .contentAll > .mnuProdutos
+#header > .mnuHeader > .contentAll > .mnuObjetivos
+#header > .mnuHeader > .contentAll > .mnuAtendimento
+#header > .formLogin > .btnGroup.btnPosLeft
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_focus_03 for more information.
 
 
 *** End accessibility audit results ***

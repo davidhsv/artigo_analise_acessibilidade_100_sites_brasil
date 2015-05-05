@@ -1,43 +1,64 @@
 *** Begin accessibility audit results ***
 An accessibility audit found 
 Errors:
-Error: AX_TEXT_01 (Controls and media elements should have labels) failed on the following element:
+Error: AX_TEXT_01 (Controls and media elements should have labels) failed on the following elements (1 - 2 of 2):
 #BATEPAPO > SELECT
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_01--controls-and-media-elements-should-have-labels for more information.
+#cid
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_01 for more information.
 
 
 Warnings:
-Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 121):
+Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 140):
 #barrabol > .container > .tempo.dropdown-toggle.cidadesel > .dropdown.transition-hover-this > .text-center > .clickbol
 #barrabol > .container > .horoscopo.dropdown-toggle > .dropdown.transition-hover-this > LI > .clickbol
 #barrabol > .container > .horoscopo.dropdown-toggle > .dropdown.transition-hover-this > LI:nth-of-type(2) > .clickbol
 #barrabol > .container > .horoscopo.dropdown-toggle > .dropdown.transition-hover-this > LI:nth-of-type(3) > .clickbol
 #barrabol > .container > .horoscopo.dropdown-toggle > .dropdown.transition-hover-this > LI:nth-of-type(4) > .clickbol
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_focus_01--these-elements-are-focusable-but-either-invisible-or-obscured-by-another-element for more information.
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_focus_01 for more information.
 
-Warning: AX_TEXT_02 (Images should have an alt attribute) failed on the following elements (1 - 5 of 5):
-#MAISCLICADAS > .maisclicadas > .first > .clickbol > IMG
-#MAISCLICADAS > .maisclicadas > LI:nth-of-type(2) > .clickbol > IMG
-#MAISCLICADAS > .maisclicadas > LI:nth-of-type(3) > .clickbol > IMG
-#MAISCLICADAS > .maisclicadas > LI:nth-of-type(4) > .clickbol > IMG
-#MAISCLICADAS > .maisclicadas > LI:nth-of-type(5) > .clickbol > IMG
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_text_02--images-should-have-an-alt-attribute-unless-they-have-an-aria-role-of-presentation for more information.
+Warning: AX_HTML_01 (The web page should have the content's human language indicated in the markup) failed on the following elements (1 - 5 of 7):
+html
+html
+html
+html
+html
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_html_01 for more information.
 
-Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 121):
+Warning: AX_TEXT_02 (Images should have an alt attribute) failed on the following elements (1 - 5 of 11):
+#musicas > .tab1 > .lh > .link > .capa
+ tagName:IMG id:
+#musicas > .tab1 > LI:nth-of-type(3) > .link > .capa
+ tagName:IMG id:
+#musicas > .tab1 > LI:nth-of-type(5) > .link > .capa
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_02 for more information.
+
+Warning: AX_TEXT_04 (The purpose of each link should be clear from the link text) failed on the following elements (1 - 5 of 88):
+body > .home > .cabecalho > .barra-login.full.left.mT > FORM > FIELDSET > A:nth-of-type(2)
+#ROTATIVO_PAINEL > .rotativo-painel > .pub.hide > A
+#MODELO_10 > UL > .destaque > .image.clickbol
+#MODELO_20 > UL > .destaque > .image.clickbol
+#MODELO_30 > UL > .destaque > .image.clickbol
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_04 for more information.
+
+Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 122):
 #barrabol > .container > .tempo.dropdown-toggle.cidadesel > .wrap > A > .max
 #barrabol > .container > .tempo.dropdown-toggle.cidadesel > .dropdown.transition-hover-this > LI > .max
 #barrabol > .container > .tempo.dropdown-toggle.cidadesel > .dropdown.transition-hover-this > LI:nth-of-type(2) > .max
 #barrabol > .container > .tempo.dropdown-toggle.cidadesel > .dropdown.transition-hover-this > LI:nth-of-type(3) > .max
 #barrabol > .container > .tempo.dropdown-toggle.cidadesel > .dropdown.transition-hover-this > LI:nth-of-type(4) > .max
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_color_01--text-elements-should-have-a-reasonable-contrast-ratio for more information.
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_color_01 for more information.
 
-Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 5 of 34):
-#barrabol > .container > .tempo.dropdown-toggle.cidadesel > .wrap > A > .sprite.clima.clima1.clima-nb
+Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 5 of 35):
+#barrabol > .container > .tempo.dropdown-toggle.cidadesel > .wrap > A > .sprite.clima.clima1.clima-ch
 #barrabol > .container > .tempo.dropdown-toggle.cidadesel > .dropdown.transition-hover-this > LI > .sprite.clima1.clima-pn
 #barrabol > .container > .tempo.dropdown-toggle.cidadesel > .dropdown.transition-hover-this > LI:nth-of-type(2) > .sprite.clima1.clima-pc
-#barrabol > .container > .tempo.dropdown-toggle.cidadesel > .dropdown.transition-hover-this > LI:nth-of-type(3) > .sprite.clima1.clima-pi
+#barrabol > .container > .tempo.dropdown-toggle.cidadesel > .dropdown.transition-hover-this > LI:nth-of-type(3) > .sprite.clima1.clima-pn
 #barrabol > .container > .tempo.dropdown-toggle.cidadesel > .dropdown.transition-hover-this > LI:nth-of-type(4) > .sprite.clima1.clima-pn
-See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#-ax_image_01--meaningful-images-should-not-be-used-in-element-backgrounds for more information.
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_image_01 for more information.
+
+Warning: AX_TITLE_01 (The web page should have a title that describes topic or purpose) failed on the following element:
+html
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_title_01 for more information.
 
 
 *** End accessibility audit results ***

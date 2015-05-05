@@ -1,0 +1,87 @@
+*** Begin accessibility audit results ***
+An accessibility audit found 
+Errors:
+Error: AX_TEXT_01 (Controls and media elements should have labels) failed on the following elements (1 - 5 of 10):
+#cr-aniversario > .form-cr-aniversario.app-cr.cr-ready > .container-msg > .ipt-aniversario
+#cr-aniversario > .form-cr-aniversario.app-cr.cr-ready > .container-msg > INPUT:nth-of-type(2)
+#header > .content-header > .header-control > .h-search > .ginput > .frm-search > .input-search
+#chkIdaVolta
+#chkSomenteIda
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_01 for more information.
+
+Error: AX_HTML_02 (An element's ID must be unique in the DOM) failed on the following elements (1 - 5 of 16):
+#populares_divall
+#populares_divcarouseltitle
+#populares_hidelink
+#populares_divcarousel
+#populares_btn_prv
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_html_02 for more information.
+
+
+Warnings:
+Warning: AX_FOCUS_01 (These elements are focusable but either invisible or obscured by another element) failed on the following elements (1 - 5 of 49):
+#header > .top-header > .box-tabs > UL > .tab-sub-viagens > A
+#header > .top-header > .menu-top-header > .mth-item.televendas > .popAjax
+#header > .content-header > .header-control > .spt-logo.h-logo
+#user-not-logged > .list-user-actions > .it-action > .lnk
+#user-not-logged > .list-user-actions > LI:nth-of-type(2) > .lnk
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_focus_01 for more information.
+
+Warning: AX_HTML_01 (The web page should have the content's human language indicated in the markup) failed on the following elements (1 - 5 of 6):
+html
+html
+html
+html
+html
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_html_01 for more information.
+
+Warning: AX_TEXT_02 (Images should have an alt attribute) failed on the following elements (1 - 5 of 37):
+#cr-aniversario > .form-cr-aniversario.app-cr.cr-ready > .container-msg > IMG
+body > .grid-control.grid-fix-m-10.fix-banner > .pure-g > .app-oas.bannerBuild.oas-ready > .pure-g > .pure-u-1-3 > .app-oas.oas-ready.border-style > A > IMG
+body > .grid-control.grid-fix-m-10.fix-banner > .pure-g > .app-oas.bannerBuild.oas-ready > .pure-g > DIV:nth-of-type(2) > .app-oas.oas-ready.border-style > A > IMG
+body > .grid-control.grid-fix-m-10.fix-banner > .pure-g > .app-oas.bannerBuild.oas-ready > .pure-g > DIV:nth-of-type(3) > .app-oas.oas-ready.border-style > A > IMG
+#mais-vendidos_ul > LI:nth-of-type(6) > .neemurc-carousel-item > .neemurc-carousel-item-product > .productImg.neemurc-carousel-item-divimg > .url.neemurc-carousel-item-link > .selo-item > .selo-image
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_02 for more information.
+
+Warning: AX_TEXT_04 (The purpose of each link should be clear from the link text) failed on the following elements (1 - 5 of 334):
+#header > .top-header > .box-tabs > UL > .tab-sub-viagens > A
+#header > .content-header > .header-control > .h-wow > .lnk-wow > .h-wow-wrap > .app-oas.oas-ready > A
+#submenu-hot-hot > .submenu-wrap > .grid-fix-m-10 > .pure-g.row-1 > .pure-u-1-3 > .app-oas.oas-ready.border-style > A
+#submenu-hot-hot > .submenu-wrap > .grid-fix-m-10 > .pure-g.row-1 > DIV:nth-of-type(2) > .app-oas.oas-ready.border-style > A
+#submenu-hot-hot > .submenu-wrap > .grid-fix-m-10 > .pure-g.row-1 > DIV:nth-of-type(3) > .app-oas.oas-ready.border-style > A
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_text_04 for more information.
+
+Warning: AX_COLOR_01 (Text elements should have a reasonable contrast ratio) failed on the following elements (1 - 5 of 728):
+#cr-aniversario > .form-cr-aniversario.app-cr.cr-ready > .container-msg > .lnk-aniversario-politica
+#header > .content-header > .header-control > .spt-logo.h-logo > H1
+#user-not-logged > .welcome
+#user-not-logged > .welcome > .nick
+#user-not-logged > .list-user-actions > .it-action > .lnk
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_color_01 for more information.
+
+Warning: AX_IMAGE_01 (Meaningful images should not be used in element backgrounds) failed on the following elements (1 - 5 of 37):
+#header > .top-header > .box-tabs > UL > .tab-submarino > .spt-i-sub-com
+#header > .top-header > .box-tabs > UL > .tab-submarino > .arrow.spt-i-seta-down
+#header > .top-header > .box-tabs > UL > .tab-sub-viagens > A > .spt-i-viagens
+#header > .top-header > .box-tabs > UL > .tab-sub-viagens > A > .arrow.spt-i-seta-right
+#header > .content-header > .header-control > .h-search > .ginput > .frm-search > .spt-lupa-buscar
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_image_01 for more information.
+
+Warning: AX_TITLE_01 (The web page should have a title that describes topic or purpose) failed on the following elements (1 - 5 of 6):
+html
+html
+html
+html
+html
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_title_01 for more information.
+
+Warning: AX_FOCUS_03 (Avoid positive integer values for tabIndex) failed on the following elements (1 - 5 of 13):
+#chkSomenteIda
+#chkSemParada
+#txtOrigem
+#txtDestino
+#txtDataIda
+See https://github.com/GoogleChrome/accessibility-developer-tools/wiki/Audit-Rules#ax_focus_03 for more information.
+
+
+*** End accessibility audit results ***
